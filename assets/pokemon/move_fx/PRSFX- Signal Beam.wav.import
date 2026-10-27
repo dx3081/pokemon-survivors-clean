@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dko43qkv3apan"
+path="res://.godot/imported/PRSFX- Signal Beam.wav-2852ac3cdf44e450fc51cbf8b794a4d2.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Signal Beam.wav"
+dest_files=["res://.godot/imported/PRSFX- Signal Beam.wav-2852ac3cdf44e450fc51cbf8b794a4d2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

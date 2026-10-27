@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cph2wcg8mvypf"
+path="res://.godot/imported/PRSFX- Rain.wav-5a3cf18090ba6ef89ae7fd17d6513c95.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Rain.wav"
+dest_files=["res://.godot/imported/PRSFX- Rain.wav-5a3cf18090ba6ef89ae7fd17d6513c95.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

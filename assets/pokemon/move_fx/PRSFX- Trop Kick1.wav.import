@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cucvlemx3melc"
+path="res://.godot/imported/PRSFX- Trop Kick1.wav-1b6a62accbd949b31261e4e013b58c62.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Trop Kick1.wav"
+dest_files=["res://.godot/imported/PRSFX- Trop Kick1.wav-1b6a62accbd949b31261e4e013b58c62.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

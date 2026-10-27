@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crc70v1hij6qv"
+path="res://.godot/imported/PRSFX- Slam.wav-04e694493110cd51a2d5bcc2fc068b72.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Slam.wav"
+dest_files=["res://.godot/imported/PRSFX- Slam.wav-04e694493110cd51a2d5bcc2fc068b72.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

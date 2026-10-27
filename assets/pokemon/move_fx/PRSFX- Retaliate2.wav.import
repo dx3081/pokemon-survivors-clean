@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8l8pn41ecfv8"
+path="res://.godot/imported/PRSFX- Retaliate2.wav-6c5b40d97e0087baf9662d81309d8e1c.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Retaliate2.wav"
+dest_files=["res://.godot/imported/PRSFX- Retaliate2.wav-6c5b40d97e0087baf9662d81309d8e1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

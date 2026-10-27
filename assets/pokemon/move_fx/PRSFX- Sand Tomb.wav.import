@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duja3diro57wk"
+path="res://.godot/imported/PRSFX- Sand Tomb.wav-38c95b7413810fc0b16e562d3659c53f.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Sand Tomb.wav"
+dest_files=["res://.godot/imported/PRSFX- Sand Tomb.wav-38c95b7413810fc0b16e562d3659c53f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

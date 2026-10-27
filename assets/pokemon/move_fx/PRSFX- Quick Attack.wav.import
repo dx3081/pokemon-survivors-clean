@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dv8cv88t0kwxt"
+path="res://.godot/imported/PRSFX- Quick Attack.wav-f008b1a0416ee80c949301c698e9b158.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Quick Attack.wav"
+dest_files=["res://.godot/imported/PRSFX- Quick Attack.wav-f008b1a0416ee80c949301c698e9b158.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

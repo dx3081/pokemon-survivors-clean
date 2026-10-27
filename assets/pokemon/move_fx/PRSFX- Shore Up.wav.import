@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://m144bce8x52u"
+path="res://.godot/imported/PRSFX- Shore Up.wav-8112fe6bf239b9fce4c19edd91405155.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Shore Up.wav"
+dest_files=["res://.godot/imported/PRSFX- Shore Up.wav-8112fe6bf239b9fce4c19edd91405155.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

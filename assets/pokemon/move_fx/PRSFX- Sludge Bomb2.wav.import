@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://j870acjgkmnd"
+path="res://.godot/imported/PRSFX- Sludge Bomb2.wav-c6fe8abb11b74c6d543c58a20f9c7dbc.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Sludge Bomb2.wav"
+dest_files=["res://.godot/imported/PRSFX- Sludge Bomb2.wav-c6fe8abb11b74c6d543c58a20f9c7dbc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

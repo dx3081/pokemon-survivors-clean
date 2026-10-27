@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxnladq4nl7ac"
+path="res://.godot/imported/PRSFX- Purify2.wav-16c543a1faee3d89e9b598551b0e811e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Purify2.wav"
+dest_files=["res://.godot/imported/PRSFX- Purify2.wav-16c543a1faee3d89e9b598551b0e811e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

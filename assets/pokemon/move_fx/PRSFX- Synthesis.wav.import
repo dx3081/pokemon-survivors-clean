@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rouo5k882f46"
+path="res://.godot/imported/PRSFX- Synthesis.wav-eeeaad4c96ba9ff580904de7d1a31ac1.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Synthesis.wav"
+dest_files=["res://.godot/imported/PRSFX- Synthesis.wav-eeeaad4c96ba9ff580904de7d1a31ac1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

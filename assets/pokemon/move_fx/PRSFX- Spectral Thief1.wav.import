@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cv0urxx0o7og1"
+path="res://.godot/imported/PRSFX- Spectral Thief1.wav-b058cc17e35aa522725fdd270cc8c630.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Spectral Thief1.wav"
+dest_files=["res://.godot/imported/PRSFX- Spectral Thief1.wav-b058cc17e35aa522725fdd270cc8c630.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

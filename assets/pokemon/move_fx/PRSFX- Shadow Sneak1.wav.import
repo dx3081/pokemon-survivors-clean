@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://f3ondpjchq8v"
+path="res://.godot/imported/PRSFX- Shadow Sneak1.wav-59c238ad80763b126e67e4b162f72d1e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Shadow Sneak1.wav"
+dest_files=["res://.godot/imported/PRSFX- Shadow Sneak1.wav-59c238ad80763b126e67e4b162f72d1e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6egrf7n28h3m"
+path="res://.godot/imported/PRSFX- Seed Flare1.wav-6723216b7b07dca81d6ea5d387f9abe5.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Seed Flare1.wav"
+dest_files=["res://.godot/imported/PRSFX- Seed Flare1.wav-6723216b7b07dca81d6ea5d387f9abe5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

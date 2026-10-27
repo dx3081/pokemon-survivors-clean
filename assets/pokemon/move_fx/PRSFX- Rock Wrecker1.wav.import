@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6xpe3b4q3xde"
+path="res://.godot/imported/PRSFX- Rock Wrecker1.wav-7d1db07861a79fab56aa628110afd376.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Rock Wrecker1.wav"
+dest_files=["res://.godot/imported/PRSFX- Rock Wrecker1.wav-7d1db07861a79fab56aa628110afd376.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

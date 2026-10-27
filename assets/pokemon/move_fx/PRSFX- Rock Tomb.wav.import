@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlpa0ac6l6tbv"
+path="res://.godot/imported/PRSFX- Rock Tomb.wav-0179cd6d54596dd176a1c51c08e6daf6.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Rock Tomb.wav"
+dest_files=["res://.godot/imported/PRSFX- Rock Tomb.wav-0179cd6d54596dd176a1c51c08e6daf6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

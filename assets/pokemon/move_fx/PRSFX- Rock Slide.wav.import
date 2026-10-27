@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6w1tr1ws020u"
+path="res://.godot/imported/PRSFX- Rock Slide.wav-442fe04c2ba41fb51028f3f15cadd1d5.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Rock Slide.wav"
+dest_files=["res://.godot/imported/PRSFX- Rock Slide.wav-442fe04c2ba41fb51028f3f15cadd1d5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

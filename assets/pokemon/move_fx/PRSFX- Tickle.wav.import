@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c30lk133jaxci"
+path="res://.godot/imported/PRSFX- Tickle.wav-f5b34bf323c4dcc6cedf2a2f75e78e13.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Tickle.wav"
+dest_files=["res://.godot/imported/PRSFX- Tickle.wav-f5b34bf323c4dcc6cedf2a2f75e78e13.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

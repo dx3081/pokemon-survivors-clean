@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bgv74uss5a4xq"
+path="res://.godot/imported/PRSFX- Selfedestruct2.wav-c872009ca7541f5129b1bca0355b03cb.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Selfedestruct2.wav"
+dest_files=["res://.godot/imported/PRSFX- Selfedestruct2.wav-c872009ca7541f5129b1bca0355b03cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbgc6v5jliq6u"
+path="res://.godot/imported/PRSFX- Vacuum Wave1.wav-2860160ac9f8f7c9b831ad9c54e5ccc0.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Vacuum Wave1.wav"
+dest_files=["res://.godot/imported/PRSFX- Vacuum Wave1.wav-2860160ac9f8f7c9b831ad9c54e5ccc0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

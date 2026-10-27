@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hhkmb55s1vs3"
+path="res://.godot/imported/PRSFX- Thunder Fang.wav-00d32269f98137cb76c2e16f1bbb2d26.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Thunder Fang.wav"
+dest_files=["res://.godot/imported/PRSFX- Thunder Fang.wav-00d32269f98137cb76c2e16f1bbb2d26.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

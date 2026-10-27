@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wuxms8ioq427"
+path="res://.godot/imported/PRSFX- Spirit Shackle1.wav-83caf311dc25e6ffdb4dffc02399f10e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Spirit Shackle1.wav"
+dest_files=["res://.godot/imported/PRSFX- Spirit Shackle1.wav-83caf311dc25e6ffdb4dffc02399f10e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

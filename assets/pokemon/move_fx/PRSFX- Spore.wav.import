@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cy5cve3750qvc"
+path="res://.godot/imported/PRSFX- Spore.wav-6bb9ff374d57ab149c8a287be4992ebb.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Spore.wav"
+dest_files=["res://.godot/imported/PRSFX- Spore.wav-6bb9ff374d57ab149c8a287be4992ebb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

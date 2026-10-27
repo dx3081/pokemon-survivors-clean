@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgi7i2j3v2h3d"
+path="res://.godot/imported/PRSFX- Revenge1.wav-9e93f6ed0b5b6d02dea0d911340afacf.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Revenge1.wav"
+dest_files=["res://.godot/imported/PRSFX- Revenge1.wav-9e93f6ed0b5b6d02dea0d911340afacf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5wvr8h8qkj0m"
+path="res://.godot/imported/PRSFX- Sky Uppercut1.wav-53c57bba6d8db1f57dd5f71f2316950a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Sky Uppercut1.wav"
+dest_files=["res://.godot/imported/PRSFX- Sky Uppercut1.wav-53c57bba6d8db1f57dd5f71f2316950a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

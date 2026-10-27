@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8p48i2kfcoh1"
+path="res://.godot/imported/PRSFX- Techno Blast 2.wav-197c6c5d9ce87299c503ce0f2a860eb0.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Techno Blast 2.wav"
+dest_files=["res://.godot/imported/PRSFX- Techno Blast 2.wav-197c6c5d9ce87299c503ce0f2a860eb0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

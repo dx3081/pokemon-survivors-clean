@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4gt4d02gcshs"
+path="res://.godot/imported/PRSFX- Storm Throw2.wav-07fbccb1f06d197b6d2c0d388f3b02ee.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Storm Throw2.wav"
+dest_files=["res://.godot/imported/PRSFX- Storm Throw2.wav-07fbccb1f06d197b6d2c0d388f3b02ee.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

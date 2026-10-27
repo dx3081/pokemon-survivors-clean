@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cam7dfvej1jod"
+path="res://.godot/imported/PRSFX- Rock Smash.wav-e6cfa7f1d07f5604f2ed20af2ad1ef35.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Rock Smash.wav"
+dest_files=["res://.godot/imported/PRSFX- Rock Smash.wav-e6cfa7f1d07f5604f2ed20af2ad1ef35.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

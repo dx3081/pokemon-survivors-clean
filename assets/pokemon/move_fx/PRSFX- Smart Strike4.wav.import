@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dlduap2q0o51l"
+path="res://.godot/imported/PRSFX- Smart Strike4.wav-ed7b0e9448a01f6ab18fd1a2db1f5e66.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Smart Strike4.wav"
+dest_files=["res://.godot/imported/PRSFX- Smart Strike4.wav-ed7b0e9448a01f6ab18fd1a2db1f5e66.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

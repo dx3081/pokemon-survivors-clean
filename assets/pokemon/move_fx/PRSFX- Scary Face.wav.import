@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do1i0xhtm31gp"
+path="res://.godot/imported/PRSFX- Scary Face.wav-e7104266a0f2d35397f4f3bc2f320934.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Scary Face.wav"
+dest_files=["res://.godot/imported/PRSFX- Scary Face.wav-e7104266a0f2d35397f4f3bc2f320934.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

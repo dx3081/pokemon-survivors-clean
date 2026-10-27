@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cd5iimt1w5agb"
+path="res://.godot/imported/PRSFX- Sparkling Aria2.wav-3a473ac98e8b715564f23151aa6c7ae7.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Sparkling Aria2.wav"
+dest_files=["res://.godot/imported/PRSFX- Sparkling Aria2.wav-3a473ac98e8b715564f23151aa6c7ae7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

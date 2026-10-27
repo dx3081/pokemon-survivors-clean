@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://34haqk8q5r06"
+path="res://.godot/imported/PRSFX- Sky Attack2.wav-4d17feb1d472ec3735686ed5a34c2b84.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Sky Attack2.wav"
+dest_files=["res://.godot/imported/PRSFX- Sky Attack2.wav-4d17feb1d472ec3735686ed5a34c2b84.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

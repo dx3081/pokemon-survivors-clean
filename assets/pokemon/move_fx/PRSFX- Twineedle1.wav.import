@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwxav4crx5sxf"
+path="res://.godot/imported/PRSFX- Twineedle1.wav-06948c826b62d3fa67a14473aaa2533e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Twineedle1.wav"
+dest_files=["res://.godot/imported/PRSFX- Twineedle1.wav-06948c826b62d3fa67a14473aaa2533e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

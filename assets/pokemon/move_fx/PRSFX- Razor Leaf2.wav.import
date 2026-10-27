@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuifqhoqdcaks"
+path="res://.godot/imported/PRSFX- Razor Leaf2.wav-ff4daa11c0891fb77292e8befe7e2074.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Razor Leaf2.wav"
+dest_files=["res://.godot/imported/PRSFX- Razor Leaf2.wav-ff4daa11c0891fb77292e8befe7e2074.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

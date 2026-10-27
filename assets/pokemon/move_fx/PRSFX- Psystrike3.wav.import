@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7krkbngtcbau"
+path="res://.godot/imported/PRSFX- Psystrike3.wav-e870e3dfc40e42bc956febb98e6b567a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Psystrike3.wav"
+dest_files=["res://.godot/imported/PRSFX- Psystrike3.wav-e870e3dfc40e42bc956febb98e6b567a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bv0se7uwugy4g"
+path="res://.godot/imported/PRSFX- Spit Up.wav-b14f98e7723cd26dd1773a6adf1d7cfe.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Spit Up.wav"
+dest_files=["res://.godot/imported/PRSFX- Spit Up.wav-b14f98e7723cd26dd1773a6adf1d7cfe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

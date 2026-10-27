@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6cmv12jrhm42"
+path="res://.godot/imported/PRSFX- Venoshock2.wav-d3a11eeb56183c5d4efe9a143e1618bb.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Venoshock2.wav"
+dest_files=["res://.godot/imported/PRSFX- Venoshock2.wav-d3a11eeb56183c5d4efe9a143e1618bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
