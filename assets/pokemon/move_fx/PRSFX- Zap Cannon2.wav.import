@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://78ha0lycvebj"
+path="res://.godot/imported/PRSFX- Zap Cannon2.wav-b3a1c15630a6e2cb99a0fc44679a5b19.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Zap Cannon2.wav"
+dest_files=["res://.godot/imported/PRSFX- Zap Cannon2.wav-b3a1c15630a6e2cb99a0fc44679a5b19.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

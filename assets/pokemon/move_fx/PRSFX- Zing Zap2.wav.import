@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duy1jl6u5u4g0"
+path="res://.godot/imported/PRSFX- Zing Zap2.wav-bef15c9a5ce3e88cf5eed1659c89fba5.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Zing Zap2.wav"
+dest_files=["res://.godot/imported/PRSFX- Zing Zap2.wav-bef15c9a5ce3e88cf5eed1659c89fba5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

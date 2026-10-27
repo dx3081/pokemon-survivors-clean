@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jdkf8ypce6jb"
+path="res://.godot/imported/PRSFX- Wild Charge2.wav-f12fbef1205f0a4277a9064c42953686.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Wild Charge2.wav"
+dest_files=["res://.godot/imported/PRSFX- Wild Charge2.wav-f12fbef1205f0a4277a9064c42953686.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
