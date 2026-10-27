@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qoy7lvv731ic"
+path="res://.godot/imported/PRSFX- Ice Burn1.wav-9237f538f204775030a12bf747bbd762.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Ice Burn1.wav"
+dest_files=["res://.godot/imported/PRSFX- Ice Burn1.wav-9237f538f204775030a12bf747bbd762.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

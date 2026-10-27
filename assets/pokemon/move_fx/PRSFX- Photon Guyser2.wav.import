@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr505bs7hpl3n"
+path="res://.godot/imported/PRSFX- Photon Guyser2.wav-2d38df9c01110089ee1003b1d2eff5b2.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Photon Guyser2.wav"
+dest_files=["res://.godot/imported/PRSFX- Photon Guyser2.wav-2d38df9c01110089ee1003b1d2eff5b2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cl66vtvlp3i6b"
+path="res://.godot/imported/PRSFX- Petal Blizzard2.wav-78346b91a1e7fb31d2748d68e0946a6e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Petal Blizzard2.wav"
+dest_files=["res://.godot/imported/PRSFX- Petal Blizzard2.wav-78346b91a1e7fb31d2748d68e0946a6e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

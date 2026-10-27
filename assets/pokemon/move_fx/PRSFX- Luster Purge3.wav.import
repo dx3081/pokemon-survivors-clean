@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://uovu4xx4o3l4"
+path="res://.godot/imported/PRSFX- Luster Purge3.wav-50b3c8015ab6f7665486085893ab7db7.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Luster Purge3.wav"
+dest_files=["res://.godot/imported/PRSFX- Luster Purge3.wav-50b3c8015ab6f7665486085893ab7db7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

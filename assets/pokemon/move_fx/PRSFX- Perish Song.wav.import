@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chck45huh5t0v"
+path="res://.godot/imported/PRSFX- Perish Song.wav-2cc902ae856ad7d99803ccd5bc925a6a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Perish Song.wav"
+dest_files=["res://.godot/imported/PRSFX- Perish Song.wav-2cc902ae856ad7d99803ccd5bc925a6a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

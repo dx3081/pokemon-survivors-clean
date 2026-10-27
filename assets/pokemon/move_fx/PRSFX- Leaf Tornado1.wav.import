@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpihybtfodhju"
+path="res://.godot/imported/PRSFX- Leaf Tornado1.wav-457207f85839eccac91b7b7df9c468e1.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Leaf Tornado1.wav"
+dest_files=["res://.godot/imported/PRSFX- Leaf Tornado1.wav-457207f85839eccac91b7b7df9c468e1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

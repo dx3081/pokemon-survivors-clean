@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0pq72pwa8y6g"
+path="res://.godot/imported/PRSFX- Icicle Spear.wav-26b1a7344d58e0e34960d2bea60b715c.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Icicle Spear.wav"
+dest_files=["res://.godot/imported/PRSFX- Icicle Spear.wav-26b1a7344d58e0e34960d2bea60b715c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

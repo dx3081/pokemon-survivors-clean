@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm4i00u0mhcby"
+path="res://.godot/imported/PRSFX- Phantom Force2.wav-2ad34a6c75f6141cfdb84cee8311ceff.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Phantom Force2.wav"
+dest_files=["res://.godot/imported/PRSFX- Phantom Force2.wav-2ad34a6c75f6141cfdb84cee8311ceff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clbbvpdjulmjx"
+path="res://.godot/imported/PRSFX- Needle Arm2.wav-19a9eec2a486567acf129b9b968a0b30.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Needle Arm2.wav"
+dest_files=["res://.godot/imported/PRSFX- Needle Arm2.wav-19a9eec2a486567acf129b9b968a0b30.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

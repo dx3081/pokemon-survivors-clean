@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ds4c5btd2u5cp"
+path="res://.godot/imported/PRSFX- Magma Storm2.wav-94eb82cda423395d9c1f2cbe452f4f4e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Magma Storm2.wav"
+dest_files=["res://.godot/imported/PRSFX- Magma Storm2.wav-94eb82cda423395d9c1f2cbe452f4f4e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

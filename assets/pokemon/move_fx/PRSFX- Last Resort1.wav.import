@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxr2c6go5jlyy"
+path="res://.godot/imported/PRSFX- Last Resort1.wav-4af01c25d79d5eb1bbc2fe7ac0a74713.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Last Resort1.wav"
+dest_files=["res://.godot/imported/PRSFX- Last Resort1.wav-4af01c25d79d5eb1bbc2fe7ac0a74713.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

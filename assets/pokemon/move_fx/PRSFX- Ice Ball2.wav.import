@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b68s8lm5h7vlk"
+path="res://.godot/imported/PRSFX- Ice Ball2.wav-e9cda585e42ff56f5d134610bc26c776.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Ice Ball2.wav"
+dest_files=["res://.godot/imported/PRSFX- Ice Ball2.wav-e9cda585e42ff56f5d134610bc26c776.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

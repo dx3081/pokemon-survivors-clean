@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4hsyoxegjixx"
+path="res://.godot/imported/PRSFX- Play Rough2.wav-87643522910d4c4787e08c595546963a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Play Rough2.wav"
+dest_files=["res://.godot/imported/PRSFX- Play Rough2.wav-87643522910d4c4787e08c595546963a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

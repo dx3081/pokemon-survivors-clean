@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bd8r7l7tkepdo"
+path="res://.godot/imported/PRSFX- Milk Drink.wav-88a37d68343316756a6a0021929c88ad.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Milk Drink.wav"
+dest_files=["res://.godot/imported/PRSFX- Milk Drink.wav-88a37d68343316756a6a0021929c88ad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

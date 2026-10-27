@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dsj3tp6f87x2h"
+path="res://.godot/imported/PRSFX- Lock On.wav-918e55f140d8a4bfb58bef10ac3293d5.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Lock On.wav"
+dest_files=["res://.godot/imported/PRSFX- Lock On.wav-918e55f140d8a4bfb58bef10ac3293d5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

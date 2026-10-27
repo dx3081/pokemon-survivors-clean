@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxil7s6r8sinp"
+path="res://.godot/imported/PRSFX- Pay Day1.wav-7e5932f3a76e377ca7b8486c4956b449.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Pay Day1.wav"
+dest_files=["res://.godot/imported/PRSFX- Pay Day1.wav-7e5932f3a76e377ca7b8486c4956b449.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

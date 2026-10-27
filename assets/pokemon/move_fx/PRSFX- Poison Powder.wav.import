@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmgf3oj8r6yf0"
+path="res://.godot/imported/PRSFX- Poison Powder.wav-70ec0fe2e38e43f5e92645c0136aa959.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Poison Powder.wav"
+dest_files=["res://.godot/imported/PRSFX- Poison Powder.wav-70ec0fe2e38e43f5e92645c0136aa959.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

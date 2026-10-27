@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://r2veq7qampgq"
+path="res://.godot/imported/PRSFX- Paralysis.wav-4f56c171f988f8f34425f086cefc4442.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Paralysis.wav"
+dest_files=["res://.godot/imported/PRSFX- Paralysis.wav-4f56c171f988f8f34425f086cefc4442.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

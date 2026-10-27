@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5iamr1bdu0ji"
+path="res://.godot/imported/PRSFX- Nuzzle1.wav-cf3346925c6c192b8e8c6fd9a18a6a97.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Nuzzle1.wav"
+dest_files=["res://.godot/imported/PRSFX- Nuzzle1.wav-cf3346925c6c192b8e8c6fd9a18a6a97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

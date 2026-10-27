@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgwokv6m6i8re"
+path="res://.godot/imported/PRSFX- Origin Pulse1.wav-015b1e687cdd819cf38f204b4d07cffb.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Origin Pulse1.wav"
+dest_files=["res://.godot/imported/PRSFX- Origin Pulse1.wav-015b1e687cdd819cf38f204b4d07cffb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

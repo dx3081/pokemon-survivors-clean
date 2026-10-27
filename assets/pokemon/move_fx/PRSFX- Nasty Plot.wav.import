@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnua16dhsicyq"
+path="res://.godot/imported/PRSFX- Nasty Plot.wav-97164300c4416cac2eab17243a482d71.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Nasty Plot.wav"
+dest_files=["res://.godot/imported/PRSFX- Nasty Plot.wav-97164300c4416cac2eab17243a482d71.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

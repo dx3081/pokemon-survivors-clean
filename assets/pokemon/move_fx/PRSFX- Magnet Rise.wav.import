@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://of8wc07l6wvn"
+path="res://.godot/imported/PRSFX- Magnet Rise.wav-55d214f3eb773fc42679b2e90cbc8db0.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Magnet Rise.wav"
+dest_files=["res://.godot/imported/PRSFX- Magnet Rise.wav-55d214f3eb773fc42679b2e90cbc8db0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

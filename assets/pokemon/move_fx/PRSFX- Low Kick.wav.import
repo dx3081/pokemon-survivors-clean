@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chj201q8qk2na"
+path="res://.godot/imported/PRSFX- Low Kick.wav-132c91c547e9073265b62a41121ecd49.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Low Kick.wav"
+dest_files=["res://.godot/imported/PRSFX- Low Kick.wav-132c91c547e9073265b62a41121ecd49.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

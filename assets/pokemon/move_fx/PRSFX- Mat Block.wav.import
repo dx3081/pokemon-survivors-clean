@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ck55ltvy6f5qc"
+path="res://.godot/imported/PRSFX- Mat Block.wav-1811e6a45f8cbf7b48b3263e92e71e2b.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Mat Block.wav"
+dest_files=["res://.godot/imported/PRSFX- Mat Block.wav-1811e6a45f8cbf7b48b3263e92e71e2b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
