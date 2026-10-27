@@ -1,0 +1,44 @@
+*.cmd text eol=crlf
+*.sh text eol=lf
+assets/pokemon/move_fx/*.json -text
+assets/pokemon/metapod/**/*.json -text
+assets/pokemon/butterfree/**/*.json -text
+tools/fixtures/rogue_status_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_status_moves_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_status_common_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_plains_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_plains_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_plains_boss_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_plains_boss_runtime_source.json -text whitespace=cr-at-eol
+assets/pokemon/plains/**/*.json -text
+assets/pokemon/stat_fx/*.json -text
+tools/fixtures/rogue_shop_catalog_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_shop_effects_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_shop_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_shop_potions_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_capture_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_capture_live_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_capture_fx_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_starter_species_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_common_starter_moves_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_starter_selection_source.json -text whitespace=cr-at-eol
+assets/pokemon/capture_fx/*.json -text
+tools/fixtures/rogue_growl_peck_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_quick_attack_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_sand_attack_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_sand_attack_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_defense_curl_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_thunder_shock_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_quick_attack_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_take_down_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_double_edge_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_ember_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_defense_curl_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_absorb_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_lick_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_charge_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_thunder_shock_runtime_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_screech_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_charm_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_sweet_kiss_source.json -text whitespace=cr-at-eol
+tools/fixtures/rogue_recoil_source.json -text whitespace=cr-at-eol

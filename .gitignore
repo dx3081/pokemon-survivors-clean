@@ -1,0 +1,5 @@
+.godot/
+outputs/*
+!outputs/.gdignore
+*.translation
+__pycache__/
