@@ -1,0 +1,6 @@
+gongfa_wuqinxi.png <- icons\I03_passives.png 第2行第2个 裁切(l,t,r,b)=(359, 523, 665, 828) 鹤（五禽之一；原意是仙术类）
+gongfa_guixi.png <- icons\I03_passives.png 第1行第3个 裁切(l,t,r,b)=(688, 174, 995, 479) 莲花加气息线（原意是内功类）
+gongfa_jinzhongzhao.png <- icons\I02_status.png 第2行第2个 裁切(l,t,r,b)=(274, 275, 496, 496) 铜色圆护盾（原意是防御状态；没有钟的图）
+gongfa_tiebushan.png <- icons\I06_armor.png 第1行第1个 裁切(l,t,r,b)=(10, 118, 248, 356) 布衫
+gongfa_caoshangfei.png <- icons\I03_passives.png 第2行第1个 裁切(l,t,r,b)=(30, 523, 336, 828) 羽毛（原意是轻功类）
+gongfa_zhuifengbu.png <- icons\I01_actions.png 第1行第2个 裁切(l,t,r,b)=(265, 118, 506, 359) 带尘土的靴子（原意是移动）
