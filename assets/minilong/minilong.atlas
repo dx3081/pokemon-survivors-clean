@@ -1,0 +1,90 @@
+
+minilong.png
+size: 157,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+daiji
+  rotate: true
+  xy: 125, 62
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 142, 103
+  size: 6, 7
+  orig: 6, 7
+  offset: 0, 0
+  index: -1
+gongji
+  rotate: true
+  xy: 125, 28
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+pingshi
+  rotate: false
+  xy: 54, 53
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+shengli
+  rotate: false
+  xy: 86, 1
+  size: 30, 12
+  orig: 30, 12
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 1, 5
+  size: 51, 89
+  orig: 51, 89
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 1, 96
+  size: 139, 45
+  orig: 139, 45
+  offset: 0, 0
+  index: -1
+shoui
+  rotate: true
+  xy: 142, 112
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1
+y_erduo
+  rotate: false
+  xy: 54, 1
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: true
+  xy: 101, 36
+  size: 58, 22
+  orig: 58, 22
+  offset: 0, 0
+  index: -1
+z_erduo
+  rotate: false
+  xy: 86, 15
+  size: 13, 36
+  orig: 13, 36
+  offset: 0, 0
+  index: -1
+zui
+  rotate: false
+  xy: 118, 4
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1

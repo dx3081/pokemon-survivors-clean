@@ -1,0 +1,906 @@
+{
+  "spec_version": 1,
+  "character_id": "caterpie",
+  "variant_id": "base",
+  "art_style_id": "pokemon-spine36",
+  "source_width": 320,
+  "source_height": 320,
+  "frame_width": 320,
+  "frame_height": 320,
+  "directions": [
+    "east"
+  ],
+  "actions": [
+    {
+      "name": "idle",
+      "source_animation": "standby_loop",
+      "frame_count": 24,
+      "fps": 12.0,
+      "duration": 2.0,
+      "loop": true,
+      "atlas_start": 0
+    },
+    {
+      "name": "move",
+      "source_animation": "run_loop",
+      "frame_count": 24,
+      "fps": 12.0,
+      "duration": 2.0,
+      "loop": true,
+      "atlas_start": 24
+    },
+    {
+      "name": "attack",
+      "source_animation": "attack",
+      "frame_count": 29,
+      "fps": 12.083333333333334,
+      "duration": 2.4,
+      "loop": false,
+      "atlas_start": 48
+    },
+    {
+      "name": "hurt",
+      "source_animation": "hit",
+      "frame_count": 6,
+      "fps": 12.0,
+      "duration": 0.5,
+      "loop": false,
+      "atlas_start": 77
+    }
+  ],
+  "frames": [
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 0,
+      "path": "frames/idle/east/000.png",
+      "sha256": "23dbe3171469877e9d76aafbdfcc8d3cac18ec3cb6d2061f035ca44b346f0d52",
+      "atlas_frame": 0
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 1,
+      "path": "frames/idle/east/001.png",
+      "sha256": "523b9382717b8eececc03fb339d25a5ee07dd7dfbfea29d0b270a17c5d448562",
+      "atlas_frame": 1
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 2,
+      "path": "frames/idle/east/002.png",
+      "sha256": "8eb0285cd53cfacbb9ab536c28a5e98db16aa5f2e9f3b5b921f52277da630b02",
+      "atlas_frame": 2
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 3,
+      "path": "frames/idle/east/003.png",
+      "sha256": "b25472a850cd562154b178d1555d58648fca1ab28b10483ba9df9798de010581",
+      "atlas_frame": 3
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 4,
+      "path": "frames/idle/east/004.png",
+      "sha256": "df2d95f00bdf5c6cf3c59890d0d7f2faff01d6ac8006eccb8aaca3f595875a7c",
+      "atlas_frame": 4
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 5,
+      "path": "frames/idle/east/005.png",
+      "sha256": "30baddbadfc9e59016fcec950f7dd172a5f0ef95d6204acc83ade0afc2b16d6f",
+      "atlas_frame": 5
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 6,
+      "path": "frames/idle/east/006.png",
+      "sha256": "32870765f340abfbb03bd55226d961547a814ebe94fd61b0641b14ae56ccbe53",
+      "atlas_frame": 6
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 7,
+      "path": "frames/idle/east/007.png",
+      "sha256": "c35fe38869fd25bffe974a845068f4bcf34e1450b8a52113d697a459f886e73c",
+      "atlas_frame": 7
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 8,
+      "path": "frames/idle/east/008.png",
+      "sha256": "55e172bc2a61bf62d104b4151ccd507dae834823df353ed86614c511269d01b3",
+      "atlas_frame": 8
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 9,
+      "path": "frames/idle/east/009.png",
+      "sha256": "478f15abadf5aee9b78c6aa3cb6e975f789fd2abaf1b1a93670628bbd7378a2d",
+      "atlas_frame": 9
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 10,
+      "path": "frames/idle/east/010.png",
+      "sha256": "75cbe34eb6d65f72c7f96a64c6f81d383b85100eac937e10537c5a4282e7ef60",
+      "atlas_frame": 10
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 11,
+      "path": "frames/idle/east/011.png",
+      "sha256": "cf262a3b9c9ba0f1c92a36f5e9d91f0456135f3a18f660d06ffd73863a4f49d4",
+      "atlas_frame": 11
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 12,
+      "path": "frames/idle/east/012.png",
+      "sha256": "23dbe3171469877e9d76aafbdfcc8d3cac18ec3cb6d2061f035ca44b346f0d52",
+      "atlas_frame": 12
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 13,
+      "path": "frames/idle/east/013.png",
+      "sha256": "523b9382717b8eececc03fb339d25a5ee07dd7dfbfea29d0b270a17c5d448562",
+      "atlas_frame": 13
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 14,
+      "path": "frames/idle/east/014.png",
+      "sha256": "8eb0285cd53cfacbb9ab536c28a5e98db16aa5f2e9f3b5b921f52277da630b02",
+      "atlas_frame": 14
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 15,
+      "path": "frames/idle/east/015.png",
+      "sha256": "b25472a850cd562154b178d1555d58648fca1ab28b10483ba9df9798de010581",
+      "atlas_frame": 15
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 16,
+      "path": "frames/idle/east/016.png",
+      "sha256": "df2d95f00bdf5c6cf3c59890d0d7f2faff01d6ac8006eccb8aaca3f595875a7c",
+      "atlas_frame": 16
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 17,
+      "path": "frames/idle/east/017.png",
+      "sha256": "30baddbadfc9e59016fcec950f7dd172a5f0ef95d6204acc83ade0afc2b16d6f",
+      "atlas_frame": 17
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 18,
+      "path": "frames/idle/east/018.png",
+      "sha256": "32870765f340abfbb03bd55226d961547a814ebe94fd61b0641b14ae56ccbe53",
+      "atlas_frame": 18
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 19,
+      "path": "frames/idle/east/019.png",
+      "sha256": "c35fe38869fd25bffe974a845068f4bcf34e1450b8a52113d697a459f886e73c",
+      "atlas_frame": 19
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 20,
+      "path": "frames/idle/east/020.png",
+      "sha256": "a7ce6ac0e2e31df402bfbd097ca66d95fc4f04d3eca4d1f6d5b141a97f170796",
+      "atlas_frame": 20
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 21,
+      "path": "frames/idle/east/021.png",
+      "sha256": "478f15abadf5aee9b78c6aa3cb6e975f789fd2abaf1b1a93670628bbd7378a2d",
+      "atlas_frame": 21
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 22,
+      "path": "frames/idle/east/022.png",
+      "sha256": "75cbe34eb6d65f72c7f96a64c6f81d383b85100eac937e10537c5a4282e7ef60",
+      "atlas_frame": 22
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "idle",
+      "direction": "east",
+      "frame": 23,
+      "path": "frames/idle/east/023.png",
+      "sha256": "cf262a3b9c9ba0f1c92a36f5e9d91f0456135f3a18f660d06ffd73863a4f49d4",
+      "atlas_frame": 23
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 0,
+      "path": "frames/move/east/000.png",
+      "sha256": "e390541781cb68194a12a2e12241be5a307d37c123cabeb325c507a18b93b036",
+      "atlas_frame": 24
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 1,
+      "path": "frames/move/east/001.png",
+      "sha256": "556beff92b81afe84a3892f12700c04ca6de05be52f8ffb9f9135c72464b8353",
+      "atlas_frame": 25
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 2,
+      "path": "frames/move/east/002.png",
+      "sha256": "38ff6c8358e92e03ed66869b4008ea073402e0e0fc8936c505846d5d1d21a2d4",
+      "atlas_frame": 26
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 3,
+      "path": "frames/move/east/003.png",
+      "sha256": "3848baa1c0e6766c8c56e5a8f7283bddcdfcef3842a5278268ee132f71a27851",
+      "atlas_frame": 27
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 4,
+      "path": "frames/move/east/004.png",
+      "sha256": "b577b81c8cc47f353ed177fb54167f7dd4c06f9dec056e49eff6827e48814716",
+      "atlas_frame": 28
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 5,
+      "path": "frames/move/east/005.png",
+      "sha256": "58040f0e113a8d970fcf3cfc263153267dd5e04abd79c7ad4104fee2f5bfb177",
+      "atlas_frame": 29
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 6,
+      "path": "frames/move/east/006.png",
+      "sha256": "548e47f6a23ca8b1dd8408390a06b02ea6a10271690c8f99ad8cdbe2f9d2ed17",
+      "atlas_frame": 30
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 7,
+      "path": "frames/move/east/007.png",
+      "sha256": "b22cd616d7b888596793982edfb50a0e10eda4687812c6b1af437c67878919e8",
+      "atlas_frame": 31
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 8,
+      "path": "frames/move/east/008.png",
+      "sha256": "1043315b8aec11acfc3ff37a5fe59363c4a61b1014e192bbb353f67fca38f06e",
+      "atlas_frame": 32
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 9,
+      "path": "frames/move/east/009.png",
+      "sha256": "81af019dc412463ec51d6b69ad8a1c757ddf1ef34fc5f315d9d8aa8bb3d3734a",
+      "atlas_frame": 33
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 10,
+      "path": "frames/move/east/010.png",
+      "sha256": "38ff6c8358e92e03ed66869b4008ea073402e0e0fc8936c505846d5d1d21a2d4",
+      "atlas_frame": 34
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 11,
+      "path": "frames/move/east/011.png",
+      "sha256": "3848baa1c0e6766c8c56e5a8f7283bddcdfcef3842a5278268ee132f71a27851",
+      "atlas_frame": 35
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 12,
+      "path": "frames/move/east/012.png",
+      "sha256": "b577b81c8cc47f353ed177fb54167f7dd4c06f9dec056e49eff6827e48814716",
+      "atlas_frame": 36
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 13,
+      "path": "frames/move/east/013.png",
+      "sha256": "58040f0e113a8d970fcf3cfc263153267dd5e04abd79c7ad4104fee2f5bfb177",
+      "atlas_frame": 37
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 14,
+      "path": "frames/move/east/014.png",
+      "sha256": "548e47f6a23ca8b1dd8408390a06b02ea6a10271690c8f99ad8cdbe2f9d2ed17",
+      "atlas_frame": 38
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 15,
+      "path": "frames/move/east/015.png",
+      "sha256": "b22cd616d7b888596793982edfb50a0e10eda4687812c6b1af437c67878919e8",
+      "atlas_frame": 39
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 16,
+      "path": "frames/move/east/016.png",
+      "sha256": "1f5084f46c49e90dcdc01cbf1409564d3172b71537c07ee98b12f0bbc087cb61",
+      "atlas_frame": 40
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 17,
+      "path": "frames/move/east/017.png",
+      "sha256": "bfb0422b7b821dc1e14f93ffba9c08533f2870db80f704bedc2b46e30d6b9169",
+      "atlas_frame": 41
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 18,
+      "path": "frames/move/east/018.png",
+      "sha256": "38ff6c8358e92e03ed66869b4008ea073402e0e0fc8936c505846d5d1d21a2d4",
+      "atlas_frame": 42
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 19,
+      "path": "frames/move/east/019.png",
+      "sha256": "3848baa1c0e6766c8c56e5a8f7283bddcdfcef3842a5278268ee132f71a27851",
+      "atlas_frame": 43
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 20,
+      "path": "frames/move/east/020.png",
+      "sha256": "b577b81c8cc47f353ed177fb54167f7dd4c06f9dec056e49eff6827e48814716",
+      "atlas_frame": 44
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 21,
+      "path": "frames/move/east/021.png",
+      "sha256": "58040f0e113a8d970fcf3cfc263153267dd5e04abd79c7ad4104fee2f5bfb177",
+      "atlas_frame": 45
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 22,
+      "path": "frames/move/east/022.png",
+      "sha256": "db50769a2781b6b26b744ac9a10d8ff7c988a2f5fe6f26d615e086ed6d3c7c6a",
+      "atlas_frame": 46
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "move",
+      "direction": "east",
+      "frame": 23,
+      "path": "frames/move/east/023.png",
+      "sha256": "0b3c35595c919fba828b2f128dca1826bfcdad857847288e1f14b77451917c07",
+      "atlas_frame": 47
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 0,
+      "path": "frames/attack/east/000.png",
+      "sha256": "e390541781cb68194a12a2e12241be5a307d37c123cabeb325c507a18b93b036",
+      "atlas_frame": 48
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 1,
+      "path": "frames/attack/east/001.png",
+      "sha256": "3c7c09520d241636f2e4fe1be0ef227ad0c1f0701a8931414bcefd3fd48d556a",
+      "atlas_frame": 49
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 2,
+      "path": "frames/attack/east/002.png",
+      "sha256": "97f1afdd9109109b85f88c839750330b9a6211c0aa43d86cf2fdbce93d8a83d6",
+      "atlas_frame": 50
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 3,
+      "path": "frames/attack/east/003.png",
+      "sha256": "d69d58061c9f35923cbfb526be96a7dcb1a00d5da3bf2aa5e5ed7e1fc6c53ae4",
+      "atlas_frame": 51
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 4,
+      "path": "frames/attack/east/004.png",
+      "sha256": "6d49311e6d4be361cb22d55f2d2bce4ff8fa4aae4ac7e76bcf55cc722392ec61",
+      "atlas_frame": 52
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 5,
+      "path": "frames/attack/east/005.png",
+      "sha256": "99b47ed696e59b3612bcb172cd22c0f58da0da17ce32e0eec91b896818793fa3",
+      "atlas_frame": 53
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 6,
+      "path": "frames/attack/east/006.png",
+      "sha256": "aa473107b1ef3fe70f891791376cd6b87de6456457747bd83d2afa79cb352b61",
+      "atlas_frame": 54
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 7,
+      "path": "frames/attack/east/007.png",
+      "sha256": "c7cfc6945eb22ddb681e49ed59bc8834579a082ab324d3fb5390ebe4331415c8",
+      "atlas_frame": 55
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 8,
+      "path": "frames/attack/east/008.png",
+      "sha256": "8b3d8539474ef37bbfb2e6bfcedc5d7f7178be0cffa9729fb079e031f57cab59",
+      "atlas_frame": 56
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 9,
+      "path": "frames/attack/east/009.png",
+      "sha256": "c9078d1018c9f52130831afb3e6da4eeca9d02377ceacbf1d66ed09752176f91",
+      "atlas_frame": 57
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 10,
+      "path": "frames/attack/east/010.png",
+      "sha256": "560e0c839005db77691d6a7c0a950a705edfb951caa5cd83c9238f815aad1050",
+      "atlas_frame": 58
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 11,
+      "path": "frames/attack/east/011.png",
+      "sha256": "2ac5ccdbb7a63a5c6b92e17a2a4350f43dd77a1468371f0f81340817b83249aa",
+      "atlas_frame": 59
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 12,
+      "path": "frames/attack/east/012.png",
+      "sha256": "80cababf951ea8d454c3b55ea1ef274a9e42356591dfdb4231847a428d07318f",
+      "atlas_frame": 60
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 13,
+      "path": "frames/attack/east/013.png",
+      "sha256": "2305bdd2f2596a541aabef39a3871dc3b8669e25819abf531ac5906dad957eb4",
+      "atlas_frame": 61
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 14,
+      "path": "frames/attack/east/014.png",
+      "sha256": "69be4e9f5d207239f4a8f963e989d13e8e5eaafa4c828e33536ac3143d102ea6",
+      "atlas_frame": 62
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 15,
+      "path": "frames/attack/east/015.png",
+      "sha256": "ed5ebc116cd98a232825cadc3212e21761d1757ef952dd799d24db5fd3cbc7a8",
+      "atlas_frame": 63
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 16,
+      "path": "frames/attack/east/016.png",
+      "sha256": "a81a619532d8198fd0fa100adcd8666977f6458824765842ba51a244f7909d6e",
+      "atlas_frame": 64
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 17,
+      "path": "frames/attack/east/017.png",
+      "sha256": "2d4ef565578da1a438a476c37da1050309bac13c7610afb7b7d9f41ec0d4f5e8",
+      "atlas_frame": 65
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 18,
+      "path": "frames/attack/east/018.png",
+      "sha256": "889680570eb10427eb6c137000776094031716626e37f51ef231901b33607f67",
+      "atlas_frame": 66
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 19,
+      "path": "frames/attack/east/019.png",
+      "sha256": "98e42642de7dc1a6c1cfb720066aff7e3a520e0937929644e6a279c0b48157e9",
+      "atlas_frame": 67
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 20,
+      "path": "frames/attack/east/020.png",
+      "sha256": "8322f276ff29e935614150fa4ab48fef090279aaa9921e8b2932a6626a0342fa",
+      "atlas_frame": 68
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 21,
+      "path": "frames/attack/east/021.png",
+      "sha256": "c4ba40d5b69144bf8d8e4e187383d1e237e91d08b7ebe83d98cc4eed9d94ae22",
+      "atlas_frame": 69
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 22,
+      "path": "frames/attack/east/022.png",
+      "sha256": "0e6199e90bcf90928458e122161af13f8db774ce7de216be7a2b7c46cf4e008a",
+      "atlas_frame": 70
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 23,
+      "path": "frames/attack/east/023.png",
+      "sha256": "3fa45e32f7221da3092f95f8caf8334fb7c8c186a17b9b7ae20e0e434e9416b2",
+      "atlas_frame": 71
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 24,
+      "path": "frames/attack/east/024.png",
+      "sha256": "9e04981603fbc66e7dc5f8c26cb695d10443c4a1a066089e05785b785f038309",
+      "atlas_frame": 72
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 25,
+      "path": "frames/attack/east/025.png",
+      "sha256": "fc4fe2b36699d7e630265f3b523b242b331c3bf5ce04a25df4e80309d4853208",
+      "atlas_frame": 73
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 26,
+      "path": "frames/attack/east/026.png",
+      "sha256": "57f2ad885c1f44a541754c14ece56b3022d7c8c4d5115433649579dca04783a5",
+      "atlas_frame": 74
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 27,
+      "path": "frames/attack/east/027.png",
+      "sha256": "180adbc3160b04e87ab0a1fa38d2ccd74e277b20ed5ea81b8797a1f3ca4645bb",
+      "atlas_frame": 75
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "attack",
+      "direction": "east",
+      "frame": 28,
+      "path": "frames/attack/east/028.png",
+      "sha256": "7d7707458d10742e5f20b60c76133e686382bf0939928024068b682b38a8a5b0",
+      "atlas_frame": 76
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 0,
+      "path": "frames/hurt/east/000.png",
+      "sha256": "23dbe3171469877e9d76aafbdfcc8d3cac18ec3cb6d2061f035ca44b346f0d52",
+      "atlas_frame": 77
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 1,
+      "path": "frames/hurt/east/001.png",
+      "sha256": "aa8d96ad3c4e2515ee5ea510b1d74618ff78a2412f4c63911da1c4e19e9af65b",
+      "atlas_frame": 78
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 2,
+      "path": "frames/hurt/east/002.png",
+      "sha256": "9a21145fc7c5c6beaac724a43123b00897e31cbf5264cea94780ddce5bfb2cf8",
+      "atlas_frame": 79
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 3,
+      "path": "frames/hurt/east/003.png",
+      "sha256": "1bdea0853bdb42e4d345ae6acbc3a560c4b293463d8e74d126d45a6dada6c6fc",
+      "atlas_frame": 80
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 4,
+      "path": "frames/hurt/east/004.png",
+      "sha256": "85091840a88d7d99ec608ed26e18124a817cab6acc5165e4df3e6a6da3894c01",
+      "atlas_frame": 81
+    },
+    {
+      "character_id": "caterpie",
+      "variant_id": "base",
+      "action": "hurt",
+      "direction": "east",
+      "frame": 5,
+      "path": "frames/hurt/east/005.png",
+      "sha256": "afd5055cb5294dfa5a26f9332e883aaeca2755ef45a903ab210a59f45cf66d91",
+      "atlas_frame": 82
+    }
+  ],
+  "status": "prototype",
+  "authorization": "User requested integration of this source for movement/animation testing; visual review pending.",
+  "source_skeleton": "assets/lvmaochong/lvmaochong.skel",
+  "source_sha256": "e5a8ec9b1cd10f399926d5ded66d36e599bfd753c016b4b0498fa653de7e9562",
+  "anchor": [
+    160,
+    280
+  ],
+  "pixel_size": 0.0125,
+  "atlas": {
+    "path": "atlas.png",
+    "cols": 8,
+    "rows": 11,
+    "sha256": "0be0e8ca6fbb99a885d57e8e69d2bf0fd3fc3eb3afc7217bc6dd8ecfc08d494d"
+  },
+  "direction_limit": "One source view. West uses explicit horizontal mirroring; vertical motion retains horizontal facing.",
+  "excluded_source_slots": [
+    "yinying"
+  ],
+  "excluded_attachment_paths": [
+    "effect/*"
+  ],
+  "root_motion": "Horizontal lvmoachong translation removed; gameplay owns world movement."
+}
