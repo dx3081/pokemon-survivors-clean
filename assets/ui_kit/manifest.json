@@ -1,0 +1,184 @@
+{
+  "palette": {
+    "ink": "#1A1724",
+    "base": "#2E2A3B",
+    "sunk": "#26222F",
+    "row": "#3B3650",
+    "line": "#57506E",
+    "frame": "#C8463A",
+    "frame_hi": "#E8806A",
+    "gold": "#F2C14E",
+    "gold_hi": "#FFE29A",
+    "gold_lo": "#B8862C",
+    "cream": "#F4F1EA",
+    "text2": "#B8B2C8",
+    "off": "#6E6882",
+    "off_fill": "#2A2735",
+    "off_line": "#46415A",
+    "btn_line": "#8C85A3"
+  },
+  "files": [
+    {
+      "file": "window_main.png",
+      "size": [
+        24,
+        24
+      ],
+      "nine_slice_margin": 8,
+      "note": "最外层窗口（红框）。九宫格四边各 8。"
+    },
+    {
+      "file": "panel_sunk.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 4,
+      "note": "窗口里的分组 / 说明栏。"
+    },
+    {
+      "file": "row.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "列表行（普通）。"
+    },
+    {
+      "file": "row_selected.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "列表行（选中）：白条 + 金边，字用 base 深色。"
+    },
+    {
+      "file": "row_disabled.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "列表行（未开放）。"
+    },
+    {
+      "file": "btn_normal.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "普通按钮，字 cream。"
+    },
+    {
+      "file": "btn_hover.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "普通按钮悬停 / 键盘焦点。"
+    },
+    {
+      "file": "btn_primary.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "主按钮（购买 / 确定 / 开始），字 base 深色。每个界面只放一个。"
+    },
+    {
+      "file": "btn_danger.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "危险按钮（放弃本局），字 frame 红。"
+    },
+    {
+      "file": "btn_disabled.png",
+      "size": [
+        16,
+        16
+      ],
+      "nine_slice_margin": 5,
+      "note": "禁用按钮，字 off。"
+    },
+    {
+      "file": "tab_on.png",
+      "size": [
+        16,
+        14
+      ],
+      "nine_slice_margin": 5,
+      "note": "当前页签，字 base。"
+    },
+    {
+      "file": "tab_off.png",
+      "size": [
+        16,
+        14
+      ],
+      "nine_slice_margin": 5,
+      "note": "其他页签，字 text2。"
+    },
+    {
+      "file": "cursor.png",
+      "size": [
+        7,
+        9
+      ],
+      "nine_slice_margin": 0,
+      "note": "选中行左侧的小三角。"
+    },
+    {
+      "file": "slider_track.png",
+      "size": [
+        12,
+        6
+      ],
+      "nine_slice_margin": 2,
+      "note": "滑块槽（九宫格）。"
+    },
+    {
+      "file": "slider_fill.png",
+      "size": [
+        12,
+        6
+      ],
+      "nine_slice_margin": 2,
+      "note": "滑块已填部分（金）。"
+    },
+    {
+      "file": "slider_knob.png",
+      "size": [
+        6,
+        10
+      ],
+      "nine_slice_margin": 0,
+      "note": "滑块把手。"
+    },
+    {
+      "file": "toggle_off.png",
+      "size": [
+        14,
+        8
+      ],
+      "nine_slice_margin": 0,
+      "note": "开关（关）。"
+    },
+    {
+      "file": "toggle_on.png",
+      "size": [
+        14,
+        8
+      ],
+      "nine_slice_margin": 0,
+      "note": "开关（开）。"
+    }
+  ]
+}
