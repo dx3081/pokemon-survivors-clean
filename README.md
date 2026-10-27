@@ -4,6 +4,12 @@
 
 俯视角自动战斗，你负责走位、抓宠和养成。支持中文 / English。
 
+## 下载最终版
+
+- [Windows 下载](https://github.com/dx3081/pokemon-survivors-clean/releases/download/v1.0.0/PokemonSurvivors-Windows.zip)：解压后运行 `PokemonSurvivors.exe`，EXE 和 PCK 保持在同一目录。
+- [macOS 下载](https://github.com/dx3081/pokemon-survivors-clean/releases/download/v1.0.0/PokemonSurvivors-macOS.zip)：解压后打开 `Pokemon Survivors.app`。
+- [查看 Release 页面](https://github.com/dx3081/pokemon-survivors-clean/releases/latest)。
+
 ## 从源码运行
 
 使用 Godot 4.7.2 打开 `project.godot`，等待资源导入后运行 `main.tscn`。项目包含 Windows Desktop 和 macOS 导出预设；导出时需安装对应版本的 Godot 导出模板。
