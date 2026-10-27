@@ -1,0 +1,741 @@
+{
+ "source": "public/images/ui（不含 legacy）+ types / statuses / categories + inputs + fonts",
+ "files": {
+  "ui/prompt.png": {
+   "sha256": "a2de3d7bcde27a5803a213f7bb4f40efce75497fc9361776eb2793eaea961238",
+   "bytes": 157
+  },
+  "ui/party_slot_hp_bar.png": {
+   "sha256": "400b3060358514c4aeb7527b9973b813d2dd3b698c0c46e6748ccafec1b2e7e4",
+   "bytes": 227
+  },
+  "ui/egg_list_bg.png": {
+   "sha256": "bc8ec75809edd0b6b43cf8070f7e565b69c79675b23c6d8d7c483e23232c3c20",
+   "bytes": 1800
+  },
+  "ui/summary_profile_prompt_z.png": {
+   "sha256": "bee77585d9471df00a9a266ece085c18f4b5264c3cec267a49900b1e0c41ffa3",
+   "bytes": 191
+  },
+  "ui/icon_spliced.png": {
+   "sha256": "3675d099951626a30e064e7c51e5dcf4e8a9867204830c2f85907a03ddc3d2d2",
+   "bytes": 225
+  },
+  "ui/namebox.png": {
+   "sha256": "4af825c73648df63d9e061ca0a16c357f2e9f161c4cd0bc1327d642d06e24636",
+   "bytes": 397
+  },
+  "ui/dusk_icon_bg.png": {
+   "sha256": "d21c8f9c271c9eb945a3b750f7c7a03071b3c5e064e7d881724bd36e2dc2d77c",
+   "bytes": 186
+  },
+  "ui/shiny_small_2.png": {
+   "sha256": "5fcd10ccaa03c63b6fb3ae69d5b160e3f5c606a0de8586b5c6892b2a8f56b5e1",
+   "bytes": 82
+  },
+  "ui/achv_bar.png": {
+   "sha256": "30e4a9dde6384b75c290b2221b7ac93b65756275240152036f273e3aaca04d60",
+   "bytes": 414
+  },
+  "ui/day_icon_mg.png": {
+   "sha256": "d4cb3790773f69dc663bdc87246741110d33d67a355d6a22b6bea19963691c5b",
+   "bytes": 245
+  },
+  "ui/starter_select_bg.png": {
+   "sha256": "014c1853783d99fab99dda14880a1bfbdf2b04a42b1f55275ec578f19966060b",
+   "bytes": 3265
+  },
+  "ui/summary_moves_overlay_pp.png": {
+   "sha256": "dc951f21973c0a63ec061f20daba24dc3d552bf713adf873a72c63fc0c319485",
+   "bytes": 156
+  },
+  "ui/overlay_exp.png": {
+   "sha256": "06a8d801f5e2f0c4d825bedcd79404794ae2056f5d9355ac029446932e525da4",
+   "bytes": 485
+  },
+  "ui/party_slot_hp_overlay.png": {
+   "sha256": "414a76b7ef49bd59625f3682eb075b4418b614a98994652ce0f8a39724696dc4",
+   "bytes": 137
+  },
+  "ui/pbinfo_player_mini_stats.png": {
+   "sha256": "d99a36f5392d235272e50f86bc9d6087293b388d5d0a76903287e8327e7973ff",
+   "bytes": 648
+  },
+  "ui/overlay_hp_boss.png": {
+   "sha256": "ec5ba6cb8d346ece9f5728b1ed59807487c1a539b98956bf1d95fa7b47fc3fec",
+   "bytes": 149
+  },
+  "ui/bmenu_sel.png": {
+   "sha256": "bdd0ac9689406391afb5e79a61efd898967b0f9c06dc98991a7fa060461682ca",
+   "bytes": 2810
+  },
+  "ui/pbinfo_enemy_type.json": {
+   "sha256": "829c46fe99e0f75edceb6ec8cd02318c55f37434fe6536d2de1fccc549d52c96",
+   "bytes": 6729
+  },
+  "ui/select_cursor_pokerus.png": {
+   "sha256": "7495e6445248ac456a3a92e1ac67d5e3f8d88a1f8fabdc93e9b3c05b3eaf4ebe",
+   "bytes": 204
+  },
+  "ui/summary_tabs_3.png": {
+   "sha256": "46da850b07e7817646c157faccdf1f7b7612d102382e49b4eb0613d476d8f543",
+   "bytes": 313
+  },
+  "ui/party_slot_main.json": {
+   "sha256": "09cfc204cfbca9bc92b545427446ebd77c17e68ed41353615f12e1d0729e9e58",
+   "bytes": 2410
+  },
+  "ui/summary_moves_overlay_row.png": {
+   "sha256": "ce813bacdbcfad2f26ae86f1696ed87e90cd2ec8d36ece737d354187050ff3b1",
+   "bytes": 128
+  },
+  "ui/icon_owned.png": {
+   "sha256": "dc77a1928ea06badb5c87a873cb4e1e6ddd697e6916dde77e3b457c80ae2119a",
+   "bytes": 553
+  },
+  "ui/party_bg.png": {
+   "sha256": "026e9a5f5dddd4bbdccd01c5d4eaa3fe473f42b60b284816c12bfe7161902e52",
+   "bytes": 2293
+  },
+  "ui/summary_profile.png": {
+   "sha256": "ef104278080c0e6c7e4d72efa689963ad726cb1e872639f1616a2cd6a94883cf",
+   "bytes": 1673
+  },
+  "ui/pbinfo_stat_numbers.png": {
+   "sha256": "2e736b7217733064ff1ce5c9b09f4ac2bf82bdc057903df95d8302b36b99f678",
+   "bytes": 499
+  },
+  "ui/saving_icon.png": {
+   "sha256": "8c1dd9166a86f0456cddff302fbdbcf37af1519095e5f21d80cb5c588c73f074",
+   "bytes": 293
+  },
+  "ui/bgm_bar.png": {
+   "sha256": "18951af7d55ba3308ac175649288f371bbddd7fa0f8944c8bc4d8a2d2717a1e2",
+   "bytes": 233
+  },
+  "ui/summary_profile_passive.png": {
+   "sha256": "0db3bb41686a241cbaec75e98cd9c94a17a13fea01b3d91b3746c765312f7a10",
+   "bytes": 310
+  },
+  "ui/pbinfo_enemy_mini.png": {
+   "sha256": "24f8b4490dc4c04c23159c852f511b32d233d9c5e8cf9e52de3ace07cf039fdb",
+   "bytes": 851
+  },
+  "ui/select_gen_cursor_highlight.png": {
+   "sha256": "e119eba9a76f256393d6cc05afb2ac21eec9ac218dbd950414ef44708de507d3",
+   "bytes": 181
+  },
+  "ui/passive_bg.png": {
+   "sha256": "cf119b8703dc620264a0fe82916fcdcfb8a3721099b1b6e5924becb57126b298",
+   "bytes": 159
+  },
+  "ui/pbinfo_player_type2.json": {
+   "sha256": "dbed7995eef683250e5b0b6c43cfe55ce293b4c852172a11f2cf285096a22b0b",
+   "bytes": 6726
+  },
+  "ui/cursor_reverse.png": {
+   "sha256": "5c53398c444f9a1b7808ccc6fac635bed0feed6082476054638670becde7586f",
+   "bytes": 139
+  },
+  "ui/party_bg_double.png": {
+   "sha256": "bf0f0635db38f4ba735ab423cd00737cf256911af3511d6def723091baef5ab5",
+   "bytes": 1950
+  },
+  "ui/select_gen_cursor.png": {
+   "sha256": "9b4983550a2fa60bba20f73ebc23c4839289f03f0ab1f0e80b1496179591a842",
+   "bytes": 182
+  },
+  "ui/dusk_icon_fg.png": {
+   "sha256": "2a4a992fbe969031a0cabf79c4cd17d9384a6df72bd8b62edbb01a6057ec6dde",
+   "bytes": 388
+  },
+  "ui/pb_tray_overlay_player.png": {
+   "sha256": "cff79099c8d4967b4fca9577822e9c276888c08aced59ceaa64e8f4e7161e0ab",
+   "bytes": 156
+  },
+  "ui/summary_stats.png": {
+   "sha256": "cd4425b8986c573eba28d77a4452f476b3f9cc333a2b90e5bcb8782ea543199a",
+   "bytes": 2179
+  },
+  "ui/achv_bar_5.png": {
+   "sha256": "ca96896b023c865f1b9a63aea26cffe1456755d483e2f79a3da298b2113493ed",
+   "bytes": 458
+  },
+  "ui/pbinfo_enemy_type2.png": {
+   "sha256": "6aec0256e40d88907e2b0b3a39ad6ca18a2e66bfda6d3a8c75c816f2f8af7e5f",
+   "bytes": 3197
+  },
+  "ui/party_cancel.json": {
+   "sha256": "34ef22e7a5f35ba615c9d4cd51c6d6cbd1f37b7de8b5cb1f02251356e1bd6a1a",
+   "bytes": 1048
+  },
+  "ui/night_icon_fg.png": {
+   "sha256": "975b8238681b898d566fd0fd581c1ecba8344bbbcb2307fc65b7deb0218bd44e",
+   "bytes": 440
+  },
+  "ui/dawn_icon_bg.png": {
+   "sha256": "99eebbacc1c602df1147255346000f04d27dbf9e0e32cf95c3eb517fb9a18937",
+   "bytes": 186
+  },
+  "ui/summary_moves_cursor.json": {
+   "sha256": "1fc2e408670771f1bb797a663b98546edca570f733b54e5ab622c461ec9b269b",
+   "bytes": 1050
+  },
+  "ui/summary_status.png": {
+   "sha256": "9d7f4d25142ce0f4217209d3ea1e85228fba2d67d121b4528e7b3d4e59d4a40d",
+   "bytes": 159
+  },
+  "ui/namebox.json": {
+   "sha256": "05e8b01469d9f47de3f778581c6be655ecc1e1d80527979d7c6563328f30a8fd",
+   "bytes": 1954
+  },
+  "ui/egg_summary_bg_blank.png": {
+   "sha256": "454a8ea2b0b355ee51d5faac2d12fe3dbd3370f8cfc74702cf36882dda09aa90",
+   "bytes": 1628
+  },
+  "ui/pbinfo_player_type1.png": {
+   "sha256": "6aec0256e40d88907e2b0b3a39ad6ca18a2e66bfda6d3a8c75c816f2f8af7e5f",
+   "bytes": 3197
+  },
+  "ui/achv_bar_3.png": {
+   "sha256": "2e1cf385fa36a00b2efa6bacb71836acab48e91313c6bfeaee41797f20eb4917",
+   "bytes": 461
+  },
+  "ui/numbers.json": {
+   "sha256": "f59b6eb1188ba9db926a4c07216a6942e4797b5ecedd9e35e777f6addca77d2f",
+   "bytes": 3757
+  },
+  "ui/party_slot_overlay_hp.png": {
+   "sha256": "414a76b7ef49bd59625f3682eb075b4418b614a98994652ce0f8a39724696dc4",
+   "bytes": 137
+  },
+  "ui/type_tera.png": {
+   "sha256": "6d358649d3558b35093f2fe36532803fc0070950582f947fc60aa407b328bec0",
+   "bytes": 234
+  },
+  "ui/scroll_bar_handle.png": {
+   "sha256": "fc1cbf77242f822dc97e34c48168808945b3c94aaa40d92b62db263a8f6e4b46",
+   "bytes": 108
+  },
+  "ui/achv_bar_2.png": {
+   "sha256": "e67cc3275c17587fba2ef18772bb56b5a18b71aceae3276ef9ccf8e2f2f7a511",
+   "bytes": 463
+  },
+  "ui/pbinfo_enemy_type2.json": {
+   "sha256": "cc3181360522fd24a8538cb8543e8ba1727ca9044fc293daaf0b05f086580ad7",
+   "bytes": 6725
+  },
+  "ui/party_slot_hp_overlay.json": {
+   "sha256": "14df9d3d661e73f24ded491135184db0508e161e5d0e5dba293da637c2cf5064",
+   "bytes": 1341
+  },
+  "ui/day_icon_bg.png": {
+   "sha256": "dc6ad3eb28c86ee8a920962505fd1aee8d729fb003bea6ec1137768eecb8a74a",
+   "bytes": 186
+  },
+  "ui/candy_overlay.png": {
+   "sha256": "a511a7ab9bbf3b53f7f70611de4e909d0dbbb22fdf0195090c20cdc11734b9bd",
+   "bytes": 211
+  },
+  "ui/overlay_message.png": {
+   "sha256": "4468a44f471fe6ccc6584d113bf099834d0692914d29b12f2cd3623687adfd0a",
+   "bytes": 490
+  },
+  "ui/pbinfo_enemy_boss.png": {
+   "sha256": "e5bbc356fae9cefa27440c241ea8f7b7351c2eff731531dfaf813a3947152773",
+   "bytes": 526
+  },
+  "ui/summary_moves_effect.png": {
+   "sha256": "5e31f13ae15e69cf9d6dea566ba875a079702ed9417064342861b44a2edf093d",
+   "bytes": 973
+  },
+  "ui/hall_of_fame_red.png": {
+   "sha256": "0544bd946f49877207ec958fd4f3c85022e5ce5f6b928f1971fc109d26e44e44",
+   "bytes": 1531
+  },
+  "ui/summary_profile_ability.png": {
+   "sha256": "477f27b4a973d12f1bbaa9d4e1b04ffbd81fd9d55f0897a49e9685f6d1173732",
+   "bytes": 295
+  },
+  "ui/ha_capsule.png": {
+   "sha256": "55d415302e5500f4ee2ff42bb848642ed537ea9fe78a29c58029777c0f5babb4",
+   "bytes": 297
+  },
+  "ui/summary_overlay_shiny.png": {
+   "sha256": "48b736691604075b79e92280d63204b92d1f81f531942f4d649731d12ad8d110",
+   "bytes": 228
+  },
+  "ui/icon_egg_move.png": {
+   "sha256": "6c3a8c27c39b96f7c4b09e6bece83b7d536f206c04fe2eb6fa9a36245feca39f",
+   "bytes": 179
+  },
+  "ui/dawn_icon_mg.png": {
+   "sha256": "3f6427408aebdf216c6e01a513281b55f745440cdba86d31a3cd2807a275efac",
+   "bytes": 273
+  },
+  "ui/pbinfo_player.png": {
+   "sha256": "54cb2e0f9fe7088ea60666ecd4ce2b42bdf28afa37dda347759e52d3cd52f3fd",
+   "bytes": 619
+  },
+  "ui/shiny_1.png": {
+   "sha256": "e13025675b2ff527866f230a1f1977ca576fd9eea5a0d7d7333840a8e7a69a98",
+   "bytes": 154
+  },
+  "ui/select_cursor_highlight.png": {
+   "sha256": "7ee13f177e435c3f8d24aaa50b85d0bff9092f9eea1dbf818fbc0de61739d15e",
+   "bytes": 179
+  },
+  "ui/shiny_small_1.png": {
+   "sha256": "a7db288d14c83486b73585c2bc7fa09cc65cbadd5d9ee61e7e14e31eff31005f",
+   "bytes": 113
+  },
+  "ui/night_icon_mg.png": {
+   "sha256": "caee8c718ecbed2b59c6d684d61b413ace18fb6ceb16c509f5ecc4b6ffba3101",
+   "bytes": 271
+  },
+  "ui/pbinfo_player_mini.png": {
+   "sha256": "a53a0281e47dde2cb85395203a1801cbd075e5e63429cbdd0f0457538bd1c88c",
+   "bytes": 860
+  },
+  "ui/pbinfo_enemy_boss_stats.png": {
+   "sha256": "7b17b43fa4899c509c07b0de5bd57b142dfa74a045e598e9ce769beea3d0d331",
+   "bytes": 257
+  },
+  "ui/shiny.png": {
+   "sha256": "9a489222ec970712811a1c6363e8e76d13240a63197a42cc7b3f53a2b9635927",
+   "bytes": 202
+  },
+  "ui/hall_of_fame_blue.png": {
+   "sha256": "3fd173d3440ba0cda51fdabb535aabc5b70d68d490c9ee49b2c538983f162970",
+   "bytes": 1531
+  },
+  "ui/egg_summary_bg.png": {
+   "sha256": "f2e2023207f9ac1e567261552aeb721fab1019cabeed765aa977aafc8bda6c8c",
+   "bytes": 2247
+  },
+  "ui/type_bgs.json": {
+   "sha256": "6859b0e15c6ca15ae3a4cbe31bdd05cafef575ed08c7a55a4fe6e1e1528a7ffd",
+   "bytes": 6418
+  },
+  "ui/party_slot.json": {
+   "sha256": "7488e8ef6feed0d2bb65b8008605bbafbfbfd181a915c27d93a7cddb0e26135e",
+   "bytes": 2373
+  },
+  "ui/select_cursor_highlight_thick.png": {
+   "sha256": "89fc1c95e5f43b140277bdd6f3871767f84ff7ecfe72007b08d5e47b90857b9a",
+   "bytes": 191
+  },
+  "ui/scroll_bar.png": {
+   "sha256": "e14be7dd2979723f60de0dd4d5ec0838a6856719f8e41dbbd8bb7dddac2db8d1",
+   "bytes": 143
+  },
+  "ui/overlay_hp.png": {
+   "sha256": "338bde8097dc757ce0d6e2d36a2c11f706c22dad23281ad5dff3ab72cabe323c",
+   "bytes": 129
+  },
+  "ui/achv_bar_4.png": {
+   "sha256": "b4ddb7d289de67476ab94493ddac5232b4bcb7bffc8af4385caddd5c3f66ea50",
+   "bytes": 318
+  },
+  "ui/pbinfo_player_type.json": {
+   "sha256": "ebc21dffc4b770ea60de0a97087d9088bddf040d45f4a99028d9a2e663d63dbf",
+   "bytes": 6730
+  },
+  "ui/night_icon_bg.png": {
+   "sha256": "7b1126fdaa2cbbe24680a4913d3f256080d75190375a60a8ff1dd1f853efe5d9",
+   "bytes": 186
+  },
+  "ui/pbinfo_enemy_type.png": {
+   "sha256": "2367c89dd0ec95cc25630cffbafb2524b1eef6bc37c0455d4ee27c8c8e680717",
+   "bytes": 3599
+  },
+  "ui/dusk_icon_mg.png": {
+   "sha256": "9489451283971f174520b4e34fc40d46b012764227f3008c15bb03a3f126042d",
+   "bytes": 235
+  },
+  "ui/settings_icon.png": {
+   "sha256": "8bfb2f526314f13fd7c39ab24f583695e9f7f54e0b9c291b775a069921d16161",
+   "bytes": 261
+  },
+  "ui/party_pb.png": {
+   "sha256": "276e43734073b4a314f506af584080baafb8299b340eb728ef5234eb98356006",
+   "bytes": 96
+  },
+  "ui/discord.png": {
+   "sha256": "85529f1d1dcd24a94603d555358717abcfe1591a8b81d02ee0cfb69982cb7cc6",
+   "bytes": 5682
+  },
+  "ui/bg.png": {
+   "sha256": "57fa464db2bc2656915ea7ff34e8f822fc8a46244a70b3184964850bce9a48e6",
+   "bytes": 1382
+  },
+  "ui/pbinfo_player_type1.json": {
+   "sha256": "bb55fbd36f7fc105be32dca0d0bfa6fca62ab436421f612de930b459d10995ba",
+   "bytes": 6726
+  },
+  "ui/summary_tabs_1.png": {
+   "sha256": "213d8c62c9efeadb87da739b2f1dfdc8fa3419a1d0547b6dc5c708ad7fff8b76",
+   "bytes": 289
+  },
+  "ui/party_slot_main.png": {
+   "sha256": "df2bc4c103aeba16637e88c146a69e0c1ded1cd749d476e4d4a3197664079cbe",
+   "bytes": 2592
+  },
+  "ui/cursor.png": {
+   "sha256": "5149cf2bd847374655ce54a3db3a3fad6a855fbd988492d440abd6714c7e4d6c",
+   "bytes": 522
+  },
+  "ui/pb_tray_ball.json": {
+   "sha256": "50e495f7ac4ba51fbc74f4d06aa65a0a71b5f70e3cf72893ee2d5a0c0e3c4aa0",
+   "bytes": 1636
+  },
+  "ui/pbinfo_enemy_type1.json": {
+   "sha256": "988139aaa20d3cdda350ce4e21f3adc21b138bd718dd761b42a7839d751a3bae",
+   "bytes": 6725
+  },
+  "ui/champion_ribbon.png": {
+   "sha256": "6147d9d4971db88ea945a7b1d5ecd57e4f920765c5d2c65949d9e6c8983129ec",
+   "bytes": 285
+  },
+  "ui/numbers_red.png": {
+   "sha256": "2da9206ebfef77b59310ce0bcee69732e97cc2d8048bc0474fa938bce1a84d5a",
+   "bytes": 478
+  },
+  "ui/pbinfo_player_type2.png": {
+   "sha256": "49045639716112ccdce29d02620361298760195f2d0e4f5fc0f65d99a486d6e9",
+   "bytes": 3305
+  },
+  "ui/type_bgs.png": {
+   "sha256": "ff4509385f88ffc56e306ce69af5319407ca979e53eeb7f7cf46b406d4611aca",
+   "bytes": 1124
+  },
+  "ui/pbinfo_player_stats.png": {
+   "sha256": "499d936559a7ba892e3e5697550514ac785517f4a5344d27e71b702c8dbf78bb",
+   "bytes": 312
+  },
+  "ui/party_exp_bar.png": {
+   "sha256": "88fef1464cf342513c2f8fe5ec0d100ee5e7ddfe5f81290ce078a4c6c3b0620a",
+   "bytes": 221
+  },
+  "ui/shiny_icons.png": {
+   "sha256": "3cd9b4bb542b8f7d740593024823b6e129344f5c6e9855af105bfeaacacd6320",
+   "bytes": 296
+  },
+  "ui/bg.json": {
+   "sha256": "e2daf41338b8ff00aee0458290350874b1fa9d8db997c60e059dbf422adfa0d5",
+   "bytes": 1967
+  },
+  "ui/day_icon_fg.png": {
+   "sha256": "d24cb023359755ebe8cd7393607cdd3bab756f7aa109c31e2fbb7d04f7a43240",
+   "bytes": 398
+  },
+  "ui/ability_bar_left.png": {
+   "sha256": "18951af7d55ba3308ac175649288f371bbddd7fa0f8944c8bc4d8a2d2717a1e2",
+   "bytes": 233
+  },
+  "ui/party_slot.png": {
+   "sha256": "e3f8b0c5311ae082c247801cffdc6b24f25e527b58ad7cd4b792f82527006b30",
+   "bytes": 1930
+  },
+  "ui/icon_tera.png": {
+   "sha256": "3302e3d6e06d782c8b6b6ee1d1ea4eebb4ec3c2c5ec4310b69adc22324655c6d",
+   "bytes": 231
+  },
+  "ui/pbinfo_enemy_mini_stats.png": {
+   "sha256": "85e2954405095b0f1da82ed0c98d8215a552c89c7a936ce0c3afe2d0d6da76df",
+   "bytes": 642
+  },
+  "ui/summary_tabs_2.png": {
+   "sha256": "e8f2b472fb8041f2b2836bcdcec13d23ba6d62666ce8536bd3b4103f856848fe",
+   "bytes": 287
+  },
+  "ui/party_cancel.png": {
+   "sha256": "d2cd3c312315a17adc7040f258190e663fafb143bd0eabc70cde9f24e7a608dd",
+   "bytes": 552
+  },
+  "ui/pbinfo_stat_numbers.json": {
+   "sha256": "0d92eb7210b21e2aa479ad77f66c217245033deacc7211744c5fbc84a9c133d9",
+   "bytes": 4704
+  },
+  "ui/pbinfo_stat.png": {
+   "sha256": "8ba93c44db79f8becae877358422dd07332e3fbbf3eca743c05692e00bf498e9",
+   "bytes": 496
+  },
+  "ui/dawn_icon_fg.png": {
+   "sha256": "161b849babbf2c959d23f8615221d6e96242ea36a79effd9671260e5c72e6614",
+   "bytes": 347
+  },
+  "ui/boolean_sel.png": {
+   "sha256": "7c7b49fc8a8f635350e53a89df53a91f41fbb996875ce1f872d684023c97f2e3",
+   "bytes": 2799
+  },
+  "ui/mmenu_sel.png": {
+   "sha256": "23d48d15abb0d9fe06024c089643b899e7dba8513c2789908ea97068fa37534c",
+   "bytes": 2820
+  },
+  "ui/summary_moves_cursor.png": {
+   "sha256": "30863f75bfeea1837f5f681f65e18a9b50591254d6e33b423223e8ebbf1fcc91",
+   "bytes": 293
+  },
+  "ui/overlay_hp_boss.json": {
+   "sha256": "936cb0fc93492623ec8faa771387daf9ca60af215b41cee27b485ca549ac5237",
+   "bytes": 1336
+  },
+  "ui/shiny_2.png": {
+   "sha256": "e0fff4134881dc0210c39e5928a43da3ebe191ba2bae5b6dc2915b8f41fbf458",
+   "bytes": 95
+  },
+  "ui/favorite.png": {
+   "sha256": "28afb51372adc597e11f0f462b6aa48ac098d02301894e7bb6a52f44c7df783d",
+   "bytes": 226
+  },
+  "ui/party_pb.json": {
+   "sha256": "4ea4473508a7e290ff3466291652a17a70b0ada00d09577fff1e08040119d53b",
+   "bytes": 1035
+  },
+  "ui/pb_tray_overlay_enemy.png": {
+   "sha256": "08647c9ad98b1499e57d6206f9d88d9a62a97c6769885089f90ef09f0bd867a1",
+   "bytes": 189
+  },
+  "ui/numbers_red.json": {
+   "sha256": "b10f4a2b7663746818acb12ad6f3d46f49c52ce5731a6a7b225ddfe75addcd11",
+   "bytes": 3761
+  },
+  "ui/summary_moves.png": {
+   "sha256": "b7c97ca2714895b4a005f3304a0aeb6481aa36227d6ac0d5c9e3d5e90501f46d",
+   "bytes": 1321
+  },
+  "ui/shiny_small.png": {
+   "sha256": "4509b84eb247359c2532c3270da0b5a882d106535677ff544068e72e984dc5dd",
+   "bytes": 161
+  },
+  "ui/google.png": {
+   "sha256": "741276d94ce1e4bb090332dfb1f71ecc0352e611cacf701c4805460525edbe52",
+   "bytes": 569
+  },
+  "ui/pbinfo_player_type.png": {
+   "sha256": "137a1f12ad13f9dfbcbc9f0fb7d1ae1bcb2700a434de1aca3b93e16ab7586b22",
+   "bytes": 3664
+  },
+  "ui/numbers.png": {
+   "sha256": "4aa5fe99d41216f94cce5bdcf0917043cde05c691f3798fbad07b1889685f9ba",
+   "bytes": 424
+  },
+  "ui/summary_stats_overlay_exp.png": {
+   "sha256": "1db3eb374dbc9d110122f744b0c7c5516a0d3690ac91a0483f401bfdc546d494",
+   "bytes": 124
+  },
+  "ui/overlay_hp.json": {
+   "sha256": "da76d91991a255034d824a19d7903bda8c1f0e1a59b9031178799fb47ec05e76",
+   "bytes": 1330
+  },
+  "ui/select_cursor.png": {
+   "sha256": "e8cef93f7aa43e5cb775559920fa7cf6dd33f5df51f3beb5b00face15450d571",
+   "bytes": 180
+  },
+  "ui/overlay_lv.png": {
+   "sha256": "42d16cb93155d56c88ef582b4d1c0d34f9ffb45817901c447138cf0dd970ec4d",
+   "bytes": 573
+  },
+  "ui/candy.png": {
+   "sha256": "080aca3e147e460484b6d44231685d867efaa375542ad3b2ede261f57644a537",
+   "bytes": 415
+  },
+  "ui/icon_lock.png": {
+   "sha256": "822f8ce8144360c7e129a8263d5b1e79504106ce4f7b4de8aad91629b6147abf",
+   "bytes": 172
+  },
+  "ui/ability_bar_right.png": {
+   "sha256": "0557bf59d6dc727eb2db7e7c22c246543a811072d83440d7b12dd4af4d9a5a53",
+   "bytes": 228
+  },
+  "ui/party_slot_overlay_lv.png": {
+   "sha256": "5cb369d1f4b58e36fcb1668c69b76d5f46a721208c150d092496cf4df535d7a1",
+   "bytes": 158
+  },
+  "ui/summary_profile_prompt_a.png": {
+   "sha256": "df5eba75675a4f73457f18109d3877328ec6568d096ca35f830eb7d2964b3570",
+   "bytes": 182
+  },
+  "ui/pbinfo_stat.json": {
+   "sha256": "0d3b0dd1383b2a74cb0b627ac365ddae7d5042066daaaf81bb78a2cf56018a96",
+   "bytes": 3194
+  },
+  "ui/icon_stop.png": {
+   "sha256": "214a2b3134f9d85e43aea9e2692c7ad29e2db549d45282e69fe5c74b26fa1cf6",
+   "bytes": 205
+  },
+  "ui/pbinfo_enemy_type1.png": {
+   "sha256": "49045639716112ccdce29d02620361298760195f2d0e4f5fc0f65d99a486d6e9",
+   "bytes": 3305
+  },
+  "ui/prompt.json": {
+   "sha256": "66031409f6beafac837819a1e4014c2c4548720c21ef49eeca2ddc82c8077ee5",
+   "bytes": 1611
+  },
+  "ui/shiny_icons.json": {
+   "sha256": "68e9aa89031283e2886b7ccef59788b69f291dd3c764c9b2c6e032610093f045",
+   "bytes": 1475
+  },
+  "ui/summary_bg.png": {
+   "sha256": "70be5c3b3ca6c54d6181018501baada053ba0b792a184df4d0aead53a909fa6d",
+   "bytes": 2126
+  },
+  "ui/pb_tray_ball.png": {
+   "sha256": "061703e6277c031da95e5d6474240e4695ed89b00fc88abb1b4b7eb967349d57",
+   "bytes": 307
+  },
+  "ui/starter_container_bg.png": {
+   "sha256": "594b3d36092da9cc57ebcb8bdd60efdb04dff17da54524b8cd8da9070a986871",
+   "bytes": 2179
+  },
+  "ui/windows/window_3_xthin.png": {
+   "sha256": "6cf91d96155881a3a83535181c0f9d7fe01b85b597428adb2f857be962602c5e",
+   "bytes": 636
+  },
+  "ui/windows/window_5_xthin.png": {
+   "sha256": "e067cdd106ce2142fb4540d5092b09bc97a931ff1b2f23335ad4e74fdfee91d6",
+   "bytes": 625
+  },
+  "ui/windows/window_3_thin.png": {
+   "sha256": "6345bd73eb90595e32504cca4cda6a6f24ff26cdba8f50db9ff0e02f22f5eef8",
+   "bytes": 635
+  },
+  "ui/windows/window_2_xthin.png": {
+   "sha256": "7aa4b4c65e62ee2b64b4a5214a4577451b5ef00d761d9c9a22bb68dce1d4d706",
+   "bytes": 636
+  },
+  "ui/windows/window_1_xthin.png": {
+   "sha256": "d53cdf29d7cea0c749d61af5f9614ee03754a525bea8ea6fff04c01d99847ae1",
+   "bytes": 632
+  },
+  "ui/windows/window_2.png": {
+   "sha256": "42bcc146affcfce67a97230a4ae39375da41b5bb9ff1a6a8492c2dcfebdcc762",
+   "bytes": 657
+  },
+  "ui/windows/window_5_thin.png": {
+   "sha256": "599a8e2371e54744ce7f7aa0f8db7a4fb476966999f2097783435417626d1f67",
+   "bytes": 629
+  },
+  "ui/windows/window_3.png": {
+   "sha256": "2131655395900e7839d5a96fc04198d0b1cb952a5439e0d90977cd1c5d526c0d",
+   "bytes": 671
+  },
+  "ui/windows/window_5.png": {
+   "sha256": "599a8e2371e54744ce7f7aa0f8db7a4fb476966999f2097783435417626d1f67",
+   "bytes": 629
+  },
+  "ui/windows/trim.ps1": {
+   "sha256": "f24389b95e63d79cd8062d21df7ad9aabf4c7bfd9d01584a704e7d050dd94fbe",
+   "bytes": 98
+  },
+  "ui/windows/window_4_thin.png": {
+   "sha256": "d406ffe1402e55b6f8b7661bd4042c17a147848d32cbd4e648b85e8bfd3ee575",
+   "bytes": 645
+  },
+  "ui/windows/window_4.png": {
+   "sha256": "4d6b358971007be3f581e0fd1792f0afdac06a018548d3b14f957bacde37fd3b",
+   "bytes": 659
+  },
+  "ui/windows/window_2_thin.png": {
+   "sha256": "434a6e3f34837d9632ea369ee3ea32026deff569d420b04bc65509434dcbe4ae",
+   "bytes": 632
+  },
+  "ui/windows/window_1.png": {
+   "sha256": "7e46be9b0f4a907f636ac98aeb9e7828fe83b407577f5d5221107a642eef16d6",
+   "bytes": 640
+  },
+  "ui/windows/window_4_xthin.png": {
+   "sha256": "3c934233d64e60f1e4eedaaa418be930a5876f8472156e48a6f31be1e1f371ed",
+   "bytes": 641
+  },
+  "ui/windows/window_1_thin.png": {
+   "sha256": "9b4796bdce876b3d0f308bc084b83f3f47d996d9333b24b128bcaf4fa35a6575",
+   "bytes": 643
+  },
+  "types_zh-CN.png": {
+   "sha256": "fa06fd84912959f25495932c7c2033d57b59428440560307f09a0b546e676404",
+   "bytes": 4412
+  },
+  "types_zh-CN.json": {
+   "sha256": "38b02ef80362acd5c7675f03611ec93e519d9edf67dec2ddf08c985c12bdb3a0",
+   "bytes": 6740
+  },
+  "types.png": {
+   "sha256": "a139af7cc48b1775d421dd24d629b936d6e9eac85024176a6854929c554c0f5a",
+   "bytes": 4467
+  },
+  "types.json": {
+   "sha256": "594509b43c6a023eb61e1d6924f199d6183e0a7e0059231867b55fa500a7da1e",
+   "bytes": 6734
+  },
+  "statuses.png": {
+   "sha256": "1bdb20bf97312b8bfe9c27298edc27148cf2cd8fbf0f87429ba8eef72479db06",
+   "bytes": 441
+  },
+  "statuses.json": {
+   "sha256": "064d57a44e244871991e1cd5eaff5f2003f02a2dfbd8536de7b3a9203ca8d996",
+   "bytes": 2904
+  },
+  "categories.png": {
+   "sha256": "d1d5a3072c998fc777c123693cf80da0655b64d297c05f7e2ef06c6d85559b12",
+   "bytes": 691
+  },
+  "categories.json": {
+   "sha256": "da25901f8fbf554a6d942bb03e24e20ac4bbffaaf25af408f4b6237bebd7fc8d",
+   "bytes": 1350
+  },
+  "inputs/xbox.png": {
+   "sha256": "9a68fea63dbd220764aa80503916b2918b9b6cdfc525fdf68021e1239388321c",
+   "bytes": 1318
+  },
+  "inputs/dualshock.png": {
+   "sha256": "e8942268fd75e0fb9b0aa160866a29fb687eb437f152a224d7c27df85aaaef4f",
+   "bytes": 1085
+  },
+  "inputs/xbox.json": {
+   "sha256": "c0e7814d0248b5bbe4a316fa1f6fa952d9db87bc700049c03cfe049cf95f3ac0",
+   "bytes": 3418
+  },
+  "inputs/keyboard.json": {
+   "sha256": "a3dfe42e57788a93f3f840e3b60f71b5f473d9dd2c3473c2b5cf3013f65f69ce",
+   "bytes": 16955
+  },
+  "inputs/keyboard.png": {
+   "sha256": "343bb29d197a5fdc7249536868b2515ab17dcc3b6912ef403d9cd4ee665f0bda",
+   "bytes": 1282
+  },
+  "inputs/dualshock.json": {
+   "sha256": "81ff289ce31ab3b0230499a686612317317d778ed14ae3cff6e8430fda4da3a7",
+   "bytes": 3557
+  },
+  "fonts/pkmnems.ttf": {
+   "sha256": "eb72ae83c0d0d8d248833c5240db466234627c2d154320eea46a74a4dca712ec",
+   "bytes": 18932
+  },
+  "fonts/pokemon-emerald-pro.ttf": {
+   "sha256": "649c6372320f0d6d5acca87be669d61d522d9989368f73d941e3d47bf2f0678e",
+   "bytes": 132104
+  },
+  "fonts/Galmuri9.subset.woff2": {
+   "sha256": "230210fe42dbdc40ff6049ef06958f2c1bb505f313b4c49b3231f9ac81e96bc2",
+   "bytes": 214072
+  },
+  "fonts/Galmuri11.subset.woff2": {
+   "sha256": "97dbf8edd53e2323e47dbee5e971ccaccd1832c4f3acbc6edc00920f1f66dbbd",
+   "bytes": 275512
+  },
+  "fonts/unifont-15.1.05.subset.woff2": {
+   "sha256": "d6fd3dd8af4338ceecb4cb7b3088925bfb2bbdd96aca56a389589a8c6fe7d43b",
+   "bytes": 609096
+  },
+  "fonts/item-count.png": {
+   "sha256": "c604356aa8ba0b9bc1c46b19c8695ae3373aa1c67f06fe39a112c64cb28240a1",
+   "bytes": 607
+  },
+  "fonts/item-count.xml": {
+   "sha256": "dc4176d8fc236be505d7f9f3992653f020417bff29078816a3301902880ad104",
+   "bytes": 1621
+  }
+ }
+}

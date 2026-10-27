@@ -1,0 +1,6352 @@
+{
+"1": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 2,
+"to_name": "IVYSAUR"
+}
+],
+"name": "BULBASAUR"
+},
+"10": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 7,
+"to": 11,
+"to_name": "METAPOD"
+}
+],
+"name": "CATERPIE"
+},
+"100": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 101,
+"to_name": "ELECTRODE"
+}
+],
+"name": "VOLTORB"
+},
+"1011": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "dragon_cheer",
+"to": 1019,
+"to_name": "HYDRAPPLE"
+}
+],
+"name": "DIPPLIN"
+},
+"1012": {
+"evolutions": [
+{
+"form": true,
+"item": "UNREMARKABLE_TEACUP",
+"kind": "item",
+"level": 1,
+"to": 1013,
+"to_name": "SINISTCHA"
+},
+{
+"form": true,
+"item": "MASTERPIECE_TEACUP",
+"kind": "item",
+"level": 1,
+"to": 1013,
+"to_name": "SINISTCHA"
+}
+],
+"name": "POLTCHAGEIST"
+},
+"102": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.ISLAND || p.scene.arena.biomeType === Biome.BEACH),",
+"to": 2103,
+"to_name": "ALOLA_EXEGGUTOR"
+},
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 103,
+"to_name": "EXEGGUTOR"
+}
+],
+"name": "EXEGGCUTE"
+},
+"104": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 28,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.ISLAND || p.scene.arena.biomeType === Biome.BEACH), SpeciesWildEvolutionDelay.MEDIUM",
+"to": 2105,
+"to_name": "ALOLA_MAROWAK"
+},
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 105,
+"to_name": "MAROWAK"
+}
+],
+"name": "CUBONE"
+},
+"108": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 32,
+"move": "rollout",
+"to": 463,
+"to_name": "LICKILICKY"
+}
+],
+"name": "LICKITUNG"
+},
+"109": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 35,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.METROPOLIS || p.scene.arena.biomeType === Biome.SLUM), SpeciesWildEvolutionDelay.MEDIUM",
+"to": 4110,
+"to_name": "GALAR_WEEZING"
+},
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 110,
+"to_name": "WEEZING"
+}
+],
+"name": "KOFFING"
+},
+"11": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 12,
+"to_name": "BUTTERFREE"
+}
+],
+"name": "METAPOD"
+},
+"111": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 112,
+"to_name": "RHYDON"
+}
+],
+"name": "RHYHORN"
+},
+"112": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Protector */), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 464,
+"to_name": "RHYPERIOR"
+}
+],
+"name": "RHYDON"
+},
+"113": {
+"evolutions": [
+{
+"form": false,
+"friendship": 200,
+"kind": "friendship",
+"level": 1,
+"to": 242,
+"to_name": "BLISSEY"
+}
+],
+"name": "CHANSEY"
+},
+"114": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 34,
+"move": "ancient_power",
+"to": 465,
+"to_name": "TANGROWTH"
+}
+],
+"name": "TANGELA"
+},
+"116": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 117,
+"to_name": "SEADRA"
+}
+],
+"name": "HORSEA"
+},
+"117": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Dragon scale*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 230,
+"to_name": "KINGDRA"
+}
+],
+"name": "SEADRA"
+},
+"118": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"to": 119,
+"to_name": "SEAKING"
+}
+],
+"name": "GOLDEEN"
+},
+"120": {
+"evolutions": [
+{
+"form": false,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 121,
+"to_name": "STARMIE"
+}
+],
+"name": "STARYU"
+},
+"123": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition( p => p.moveset.filter(m => m?.getMove().type === Type.STEEL).length > 0), SpeciesWildEvol",
+"to": 212,
+"to_name": "SCIZOR"
+},
+{
+"form": false,
+"item": "BLACK_AUGURITE",
+"kind": "item",
+"level": 1,
+"to": 900,
+"to_name": "KLEAVOR"
+}
+],
+"name": "SCYTHER"
+},
+"125": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Electirizer*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 466,
+"to_name": "ELECTIVIRE"
+}
+],
+"name": "ELECTABUZZ"
+},
+"126": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Magmarizer*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 467,
+"to_name": "MAGMORTAR"
+}
+],
+"name": "MAGMAR"
+},
+"129": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 130,
+"to_name": "GYARADOS"
+}
+],
+"name": "MAGIKARP"
+},
+"13": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 7,
+"to": 14,
+"to_name": "KAKUNA"
+}
+],
+"name": "WEEDLE"
+},
+"133": {
+"evolutions": [
+{
+"form": true,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"needs_type": "妖精",
+"to": 700,
+"to_name": "SYLVEON"
+},
+{
+"form": true,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"time": "day",
+"to": 196,
+"to_name": "ESPEON"
+},
+{
+"form": true,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"time": "night",
+"to": 197,
+"to_name": "UMBREON"
+},
+{
+"form": true,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 134,
+"to_name": "VAPOREON"
+},
+{
+"form": true,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 135,
+"to_name": "JOLTEON"
+},
+{
+"form": true,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 136,
+"to_name": "FLAREON"
+},
+{
+"form": true,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 470,
+"to_name": "LEAFEON"
+},
+{
+"form": true,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 471,
+"to_name": "GLACEON"
+}
+],
+"name": "EEVEE"
+},
+"137": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /*Upgrade*/), SpeciesWildEvolutionDelay.LONG",
+"to": 233,
+"to_name": "PORYGON2"
+}
+],
+"name": "PORYGON"
+},
+"138": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 139,
+"to_name": "OMASTAR"
+}
+],
+"name": "OMANYTE"
+},
+"14": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 15,
+"to_name": "BEEDRILL"
+}
+],
+"name": "KAKUNA"
+},
+"140": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 141,
+"to_name": "KABUTOPS"
+}
+],
+"name": "KABUTO"
+},
+"147": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 148,
+"to_name": "DRAGONAIR"
+}
+],
+"name": "DRATINI"
+},
+"148": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 55,
+"to": 149,
+"to_name": "DRAGONITE"
+}
+],
+"name": "DRAGONAIR"
+},
+"152": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 153,
+"to_name": "BAYLEEF"
+}
+],
+"name": "CHIKORITA"
+},
+"153": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 154,
+"to_name": "MEGANIUM"
+}
+],
+"name": "BAYLEEF"
+},
+"155": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 156,
+"to_name": "QUILAVA"
+}
+],
+"name": "CYNDAQUIL"
+},
+"156": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6157,
+"to_name": "HISUI_TYPHLOSION"
+},
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 157,
+"to_name": "TYPHLOSION"
+}
+],
+"name": "QUILAVA"
+},
+"158": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 159,
+"to_name": "CROCONAW"
+}
+],
+"name": "TOTODILE"
+},
+"159": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 160,
+"to_name": "FERALIGATR"
+}
+],
+"name": "CROCONAW"
+},
+"16": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 17,
+"to_name": "PIDGEOTTO"
+}
+],
+"name": "PIDGEY"
+},
+"161": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 162,
+"to_name": "FURRET"
+}
+],
+"name": "SENTRET"
+},
+"163": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 164,
+"to_name": "NOCTOWL"
+}
+],
+"name": "HOOTHOOT"
+},
+"165": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 166,
+"to_name": "LEDIAN"
+}
+],
+"name": "LEDYBA"
+},
+"167": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 168,
+"to_name": "ARIADOS"
+}
+],
+"name": "SPINARAK"
+},
+"17": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 18,
+"to_name": "PIDGEOT"
+}
+],
+"name": "PIDGEOTTO"
+},
+"170": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 27,
+"to": 171,
+"to_name": "LANTURN"
+}
+],
+"name": "CHINCHOU"
+},
+"172": {
+"evolutions": [
+{
+"form": true,
+"friendship": 90,
+"kind": "friendship",
+"level": 1,
+"to": 25,
+"to_name": "PIKACHU"
+}
+],
+"name": "PICHU"
+},
+"173": {
+"evolutions": [
+{
+"form": false,
+"friendship": 160,
+"kind": "friendship",
+"level": 1,
+"to": 35,
+"to_name": "CLEFAIRY"
+}
+],
+"name": "CLEFFA"
+},
+"174": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 39,
+"to_name": "JIGGLYPUFF"
+}
+],
+"name": "IGGLYBUFF"
+},
+"175": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 176,
+"to_name": "TOGETIC"
+}
+],
+"name": "TOGEPI"
+},
+"176": {
+"evolutions": [
+{
+"form": false,
+"item": "SHINY_STONE",
+"kind": "item",
+"level": 1,
+"to": 468,
+"to_name": "TOGEKISS"
+}
+],
+"name": "TOGETIC"
+},
+"177": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 178,
+"to_name": "XATU"
+}
+],
+"name": "NATU"
+},
+"179": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 180,
+"to_name": "FLAAFFY"
+}
+],
+"name": "MAREEP"
+},
+"180": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 181,
+"to_name": "AMPHAROS"
+}
+],
+"name": "FLAAFFY"
+},
+"183": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 184,
+"to_name": "AZUMARILL"
+}
+],
+"name": "MARILL"
+},
+"187": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 188,
+"to_name": "SKIPLOOM"
+}
+],
+"name": "HOPPIP"
+},
+"188": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 27,
+"to": 189,
+"to_name": "JUMPLUFF"
+}
+],
+"name": "SKIPLOOM"
+},
+"19": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 20,
+"to_name": "RATICATE"
+}
+],
+"name": "RATTATA"
+},
+"190": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 32,
+"move": "double_hit",
+"to": 424,
+"to_name": "AMBIPOM"
+}
+],
+"name": "AIPOM"
+},
+"191": {
+"evolutions": [
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item",
+"level": 1,
+"to": 192,
+"to_name": "SUNFLORA"
+}
+],
+"name": "SUNKERN"
+},
+"193": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 33,
+"move": "ancient_power",
+"to": 469,
+"to_name": "YANMEGA"
+}
+],
+"name": "YANMA"
+},
+"194": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 195,
+"to_name": "QUAGSIRE"
+}
+],
+"name": "WOOPER"
+},
+"198": {
+"evolutions": [
+{
+"form": false,
+"item": "DUSK_STONE",
+"kind": "item",
+"level": 1,
+"to": 430,
+"to_name": "HONCHKROW"
+}
+],
+"name": "MURKROW"
+},
+"2": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 3,
+"to_name": "VENUSAUR"
+}
+],
+"name": "IVYSAUR"
+},
+"200": {
+"evolutions": [
+{
+"form": false,
+"item": "DUSK_STONE",
+"kind": "item",
+"level": 1,
+"to": 429,
+"to_name": "MISMAGIUS"
+}
+],
+"name": "MISDREAVUS"
+},
+"2019": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT)",
+"to": 2020,
+"to_name": "ALOLA_RATICATE"
+}
+],
+"name": "ALOLA_RATTATA"
+},
+"2027": {
+"evolutions": [
+{
+"form": false,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 2028,
+"to_name": "ALOLA_SANDSLASH"
+}
+],
+"name": "ALOLA_SANDSHREW"
+},
+"203": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 32,
+"move": "twin_beam",
+"to": 981,
+"to_name": "FARIGIRAF"
+}
+],
+"name": "GIRAFARIG"
+},
+"2037": {
+"evolutions": [
+{
+"form": false,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 2038,
+"to_name": "ALOLA_NINETALES"
+}
+],
+"name": "ALOLA_VULPIX"
+},
+"204": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 31,
+"to": 205,
+"to_name": "FORRETRESS"
+}
+],
+"name": "PINECO"
+},
+"2050": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 2051,
+"to_name": "ALOLA_DUGTRIO"
+}
+],
+"name": "ALOLA_DIGLETT"
+},
+"2052": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 2053,
+"to_name": "ALOLA_PERSIAN"
+}
+],
+"name": "ALOLA_MEOWTH"
+},
+"206": {
+"evolutions": [
+{
+"form": true,
+"kind": "move",
+"level": 32,
+"move": "hyper_drill",
+"to": 982,
+"to_name": "DUDUNSPARCE"
+},
+{
+"form": false,
+"kind": "move",
+"level": 32,
+"move": "hyper_drill",
+"to": 982,
+"to_name": "DUDUNSPARCE"
+}
+],
+"name": "DUNSPARCE"
+},
+"207": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 1,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT /* Razor fang at night*/), SpeciesWi",
+"to": 472,
+"to_name": "GLISCOR"
+}
+],
+"name": "GLIGAR"
+},
+"2074": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 2075,
+"to_name": "ALOLA_GRAVELER"
+}
+],
+"name": "ALOLA_GEODUDE"
+},
+"2075": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 2076,
+"to_name": "ALOLA_GOLEM"
+}
+],
+"name": "ALOLA_GRAVELER"
+},
+"2088": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 2089,
+"to_name": "ALOLA_MUK"
+}
+],
+"name": "ALOLA_GRIMER"
+},
+"209": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 23,
+"to": 210,
+"to_name": "GRANBULL"
+}
+],
+"name": "SNUBBULL"
+},
+"21": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 22,
+"to_name": "FEAROW"
+}
+],
+"name": "SPEAROW"
+},
+"215": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 1,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT /* Razor claw at night*/), SpeciesWi",
+"to": 461,
+"to_name": "WEAVILE"
+}
+],
+"name": "SNEASEL"
+},
+"216": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 217,
+"to_name": "URSARING"
+}
+],
+"name": "TEDDIURSA"
+},
+"217": {
+"evolutions": [
+{
+"kind": "other",
+"raw": "new SpeciesEvolution(Species.URSALUNA, 1, EvolutionItem.PEAT_BLOCK, null, SpeciesWildEvolutionDelay.VERY_LONG) //Ursaring does not evolve into Bloodmoon Ursaluna",
+"to": 0
+}
+],
+"name": "URSARING"
+},
+"218": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 219,
+"to_name": "MAGCARGO"
+}
+],
+"name": "SLUGMA"
+},
+"220": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"to": 221,
+"to_name": "PILOSWINE"
+}
+],
+"name": "SWINUB"
+},
+"221": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "ancient_power",
+"to": 473,
+"to_name": "MAMOSWINE"
+}
+],
+"name": "PILOSWINE"
+},
+"223": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 224,
+"to_name": "OCTILLERY"
+}
+],
+"name": "REMORAID"
+},
+"228": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 229,
+"to_name": "HOUNDOOM"
+}
+],
+"name": "HOUNDOUR"
+},
+"23": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 24,
+"to_name": "ARBOK"
+}
+],
+"name": "EKANS"
+},
+"231": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 232,
+"to_name": "DONPHAN"
+}
+],
+"name": "PHANPY"
+},
+"233": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Dubious disc*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 474,
+"to_name": "PORYGON_Z"
+}
+],
+"name": "PORYGON2"
+},
+"234": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 25,
+"move": "psyshield_bash",
+"to": 899,
+"to_name": "WYRDEER"
+}
+],
+"name": "STANTLER"
+},
+"236": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 20,
+"raw": "new SpeciesEvolutionCondition(p => p.stats[Stat.ATK] > p.stats[Stat.DEF])",
+"to": 106,
+"to_name": "HITMONLEE"
+},
+{
+"form": false,
+"kind": "other",
+"level": 20,
+"raw": "new SpeciesEvolutionCondition(p => p.stats[Stat.ATK] < p.stats[Stat.DEF])",
+"to": 107,
+"to_name": "HITMONCHAN"
+},
+{
+"form": false,
+"kind": "other",
+"level": 20,
+"raw": "new SpeciesEvolutionCondition(p => p.stats[Stat.ATK] === p.stats[Stat.DEF])",
+"to": 237,
+"to_name": "HITMONTOP"
+}
+],
+"name": "TYROGUE"
+},
+"238": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 124,
+"to_name": "JYNX"
+}
+],
+"name": "SMOOCHUM"
+},
+"239": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 125,
+"to_name": "ELECTABUZZ"
+}
+],
+"name": "ELEKID"
+},
+"240": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 126,
+"to_name": "MAGMAR"
+}
+],
+"name": "MAGBY"
+},
+"246": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 247,
+"to_name": "PUPITAR"
+}
+],
+"name": "LARVITAR"
+},
+"247": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 55,
+"to": 248,
+"to_name": "TYRANITAR"
+}
+],
+"name": "PUPITAR"
+},
+"25": {
+"evolutions": [
+{
+"form": true,
+"item": "THUNDER_STONE",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.ISLAND || p.scene.arena.biomeType === Biome.BEACH),",
+"to": 2026,
+"to_name": "ALOLA_RAICHU"
+},
+{
+"form": true,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 26,
+"to_name": "RAICHU"
+}
+],
+"name": "PIKACHU"
+},
+"252": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 253,
+"to_name": "GROVYLE"
+}
+],
+"name": "TREECKO"
+},
+"253": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 254,
+"to_name": "SCEPTILE"
+}
+],
+"name": "GROVYLE"
+},
+"255": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 256,
+"to_name": "COMBUSKEN"
+}
+],
+"name": "TORCHIC"
+},
+"256": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 257,
+"to_name": "BLAZIKEN"
+}
+],
+"name": "COMBUSKEN"
+},
+"258": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 259,
+"to_name": "MARSHTOMP"
+}
+],
+"name": "MUDKIP"
+},
+"259": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 260,
+"to_name": "SWAMPERT"
+}
+],
+"name": "MARSHTOMP"
+},
+"261": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 262,
+"to_name": "MIGHTYENA"
+}
+],
+"name": "POOCHYENA"
+},
+"263": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 264,
+"to_name": "LINOONE"
+}
+],
+"name": "ZIGZAGOON"
+},
+"265": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 7,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 266,
+"to_name": "SILCOON"
+},
+{
+"form": false,
+"kind": "level",
+"level": 7,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 268,
+"to_name": "CASCOON"
+}
+],
+"name": "WURMPLE"
+},
+"266": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 267,
+"to_name": "BEAUTIFLY"
+}
+],
+"name": "SILCOON"
+},
+"268": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 269,
+"to_name": "DUSTOX"
+}
+],
+"name": "CASCOON"
+},
+"27": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 28,
+"to_name": "SANDSLASH"
+}
+],
+"name": "SANDSHREW"
+},
+"270": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 271,
+"to_name": "LOMBRE"
+}
+],
+"name": "LOTAD"
+},
+"271": {
+"evolutions": [
+{
+"form": false,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 272,
+"to_name": "LUDICOLO"
+}
+],
+"name": "LOMBRE"
+},
+"273": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 274,
+"to_name": "NUZLEAF"
+}
+],
+"name": "SEEDOT"
+},
+"274": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 275,
+"to_name": "SHIFTRY"
+}
+],
+"name": "NUZLEAF"
+},
+"276": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 277,
+"to_name": "SWELLOW"
+}
+],
+"name": "TAILLOW"
+},
+"278": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 279,
+"to_name": "PELIPPER"
+}
+],
+"name": "WINGULL"
+},
+"280": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 281,
+"to_name": "KIRLIA"
+}
+],
+"name": "RALTS"
+},
+"281": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 282,
+"to_name": "GARDEVOIR"
+},
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE)",
+"to": 475,
+"to_name": "GALLADE"
+}
+],
+"name": "KIRLIA"
+},
+"283": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 284,
+"to_name": "MASQUERAIN"
+}
+],
+"name": "SURSKIT"
+},
+"285": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 23,
+"to": 286,
+"to_name": "BRELOOM"
+}
+],
+"name": "SHROOMISH"
+},
+"287": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 288,
+"to_name": "VIGOROTH"
+}
+],
+"name": "SLAKOTH"
+},
+"288": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 289,
+"to_name": "SLAKING"
+}
+],
+"name": "VIGOROTH"
+},
+"29": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 30,
+"to_name": "NIDORINA"
+}
+],
+"name": "NIDORAN_F"
+},
+"290": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 291,
+"to_name": "NINJASK"
+},
+{
+"form": false,
+"kind": "other",
+"level": 20,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.getParty().length < 6 && p.scene.pokeballCounts[PokeballType.POKEBALL] > 0)",
+"to": 292,
+"to_name": "SHEDINJA"
+}
+],
+"name": "NINCADA"
+},
+"293": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 294,
+"to_name": "LOUDRED"
+}
+],
+"name": "WHISMUR"
+},
+"294": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 295,
+"to_name": "EXPLOUD"
+}
+],
+"name": "LOUDRED"
+},
+"296": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 297,
+"to_name": "HARIYAMA"
+}
+],
+"name": "MAKUHITA"
+},
+"298": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 183,
+"to_name": "MARILL"
+}
+],
+"name": "AZURILL"
+},
+"299": {
+"evolutions": [
+{
+"form": false,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 476,
+"to_name": "PROBOPASS"
+}
+],
+"name": "NOSEPASS"
+},
+"30": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 31,
+"to_name": "NIDOQUEEN"
+}
+],
+"name": "NIDORINA"
+},
+"300": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 301,
+"to_name": "DELCATTY"
+}
+],
+"name": "SKITTY"
+},
+"304": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 305,
+"to_name": "LAIRON"
+}
+],
+"name": "ARON"
+},
+"305": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 306,
+"to_name": "AGGRON"
+}
+],
+"name": "LAIRON"
+},
+"307": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 308,
+"to_name": "MEDICHAM"
+}
+],
+"name": "MEDITITE"
+},
+"309": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 310,
+"to_name": "MANECTRIC"
+}
+],
+"name": "ELECTRIKE"
+},
+"315": {
+"evolutions": [
+{
+"form": false,
+"item": "SHINY_STONE",
+"kind": "item",
+"level": 1,
+"to": 407,
+"to_name": "ROSERADE"
+}
+],
+"name": "ROSELIA"
+},
+"316": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 317,
+"to_name": "SWALOT"
+}
+],
+"name": "GULPIN"
+},
+"318": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 319,
+"to_name": "SHARPEDO"
+}
+],
+"name": "CARVANHA"
+},
+"32": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 33,
+"to_name": "NIDORINO"
+}
+],
+"name": "NIDORAN_M"
+},
+"320": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 321,
+"to_name": "WAILORD"
+}
+],
+"name": "WAILMER"
+},
+"322": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"to": 323,
+"to_name": "CAMERUPT"
+}
+],
+"name": "NUMEL"
+},
+"325": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 326,
+"to_name": "GRUMPIG"
+}
+],
+"name": "SPOINK"
+},
+"328": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 329,
+"to_name": "VIBRAVA"
+}
+],
+"name": "TRAPINCH"
+},
+"329": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 45,
+"to": 330,
+"to_name": "FLYGON"
+}
+],
+"name": "VIBRAVA"
+},
+"33": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 34,
+"to_name": "NIDOKING"
+}
+],
+"name": "NIDORINO"
+},
+"331": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 332,
+"to_name": "CACTURNE"
+}
+],
+"name": "CACNEA"
+},
+"333": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 334,
+"to_name": "ALTARIA"
+}
+],
+"name": "SWABLU"
+},
+"339": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 340,
+"to_name": "WHISCASH"
+}
+],
+"name": "BARBOACH"
+},
+"341": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 342,
+"to_name": "CRAWDAUNT"
+}
+],
+"name": "CORPHISH"
+},
+"343": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 344,
+"to_name": "CLAYDOL"
+}
+],
+"name": "BALTOY"
+},
+"345": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 346,
+"to_name": "CRADILY"
+}
+],
+"name": "LILEEP"
+},
+"347": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 348,
+"to_name": "ARMALDO"
+}
+],
+"name": "ANORITH"
+},
+"349": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Prism scale*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 350,
+"to_name": "MILOTIC"
+}
+],
+"name": "FEEBAS"
+},
+"35": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 36,
+"to_name": "CLEFABLE"
+}
+],
+"name": "CLEFAIRY"
+},
+"353": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 354,
+"to_name": "BANETTE"
+}
+],
+"name": "SHUPPET"
+},
+"355": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 356,
+"to_name": "DUSCLOPS"
+}
+],
+"name": "DUSKULL"
+},
+"356": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* Reaper cloth*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 477,
+"to_name": "DUSKNOIR"
+}
+],
+"name": "DUSCLOPS"
+},
+"360": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 202,
+"to_name": "WOBBUFFET"
+}
+],
+"name": "WYNAUT"
+},
+"361": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE)",
+"to": 362,
+"to_name": "GLALIE"
+},
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 478,
+"to_name": "FROSLASS"
+}
+],
+"name": "SNORUNT"
+},
+"363": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 364,
+"to_name": "SEALEO"
+}
+],
+"name": "SPHEAL"
+},
+"364": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 44,
+"to": 365,
+"to_name": "WALREIN"
+}
+],
+"name": "SEALEO"
+},
+"366": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE /* Deep Sea Tooth */), SpeciesW",
+"to": 367,
+"to_name": "HUNTAIL"
+},
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE /* Deep Sea Scale */), Spec",
+"to": 368,
+"to_name": "GOREBYSS"
+}
+],
+"name": "CLAMPERL"
+},
+"37": {
+"evolutions": [
+{
+"form": false,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 38,
+"to_name": "NINETALES"
+}
+],
+"name": "VULPIX"
+},
+"371": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 372,
+"to_name": "SHELGON"
+}
+],
+"name": "BAGON"
+},
+"372": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 50,
+"to": 373,
+"to_name": "SALAMENCE"
+}
+],
+"name": "SHELGON"
+},
+"374": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 375,
+"to_name": "METANG"
+}
+],
+"name": "BELDUM"
+},
+"375": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 45,
+"to": 376,
+"to_name": "METAGROSS"
+}
+],
+"name": "METANG"
+},
+"387": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 388,
+"to_name": "GROTLE"
+}
+],
+"name": "TURTWIG"
+},
+"388": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 389,
+"to_name": "TORTERRA"
+}
+],
+"name": "GROTLE"
+},
+"39": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 40,
+"to_name": "WIGGLYTUFF"
+}
+],
+"name": "JIGGLYPUFF"
+},
+"390": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 391,
+"to_name": "MONFERNO"
+}
+],
+"name": "CHIMCHAR"
+},
+"391": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 392,
+"to_name": "INFERNAPE"
+}
+],
+"name": "MONFERNO"
+},
+"393": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 394,
+"to_name": "PRINPLUP"
+}
+],
+"name": "PIPLUP"
+},
+"394": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 395,
+"to_name": "EMPOLEON"
+}
+],
+"name": "PRINPLUP"
+},
+"396": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 397,
+"to_name": "STARAVIA"
+}
+],
+"name": "STARLY"
+},
+"397": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 398,
+"to_name": "STARAPTOR"
+}
+],
+"name": "STARAVIA"
+},
+"399": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 400,
+"to_name": "BIBAREL"
+}
+],
+"name": "BIDOOF"
+},
+"4": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 5,
+"to_name": "CHARMELEON"
+}
+],
+"name": "CHARMANDER"
+},
+"401": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 402,
+"to_name": "KRICKETUNE"
+}
+],
+"name": "KRICKETOT"
+},
+"403": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 404,
+"to_name": "LUXIO"
+}
+],
+"name": "SHINX"
+},
+"404": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 405,
+"to_name": "LUXRAY"
+}
+],
+"name": "LUXIO"
+},
+"4052": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 863,
+"to_name": "PERRSERKER"
+}
+],
+"name": "GALAR_MEOWTH"
+},
+"406": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"time": "day",
+"to": 315,
+"to_name": "ROSELIA"
+}
+],
+"name": "BUDEW"
+},
+"4077": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 4078,
+"to_name": "GALAR_RAPIDASH"
+}
+],
+"name": "GALAR_PONYTA"
+},
+"4079": {
+"evolutions": [
+{
+"form": false,
+"item": "GALARICA_CUFF",
+"kind": "item",
+"level": 1,
+"to": 4080,
+"to_name": "GALAR_SLOWBRO"
+},
+{
+"form": false,
+"item": "GALARICA_WREATH",
+"kind": "item",
+"level": 1,
+"to": 4199,
+"to_name": "GALAR_SLOWKING"
+}
+],
+"name": "GALAR_SLOWPOKE"
+},
+"408": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 409,
+"to_name": "RAMPARDOS"
+}
+],
+"name": "CRANIDOS"
+},
+"4083": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 865,
+"to_name": "SIRFETCHD"
+}
+],
+"name": "GALAR_FARFETCHD"
+},
+"41": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 42,
+"to_name": "GOLBAT"
+}
+],
+"name": "ZUBAT"
+},
+"410": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 411,
+"to_name": "BASTIODON"
+}
+],
+"name": "SHIELDON"
+},
+"412": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE)",
+"to": 414,
+"to_name": "MOTHIM"
+},
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 413,
+"to_name": "WORMADAM"
+}
+],
+"name": "BURMY"
+},
+"4122": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 866,
+"to_name": "MR_RIME"
+}
+],
+"name": "GALAR_MR_MIME"
+},
+"415": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 21,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 416,
+"to_name": "VESPIQUEN"
+}
+],
+"name": "COMBEE"
+},
+"418": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 419,
+"to_name": "FLOATZEL"
+}
+],
+"name": "BUIZEL"
+},
+"42": {
+"evolutions": [
+{
+"form": false,
+"friendship": 110,
+"kind": "friendship",
+"level": 1,
+"to": 169,
+"to_name": "CROBAT"
+}
+],
+"name": "GOLBAT"
+},
+"420": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 421,
+"to_name": "CHERRIM"
+}
+],
+"name": "CHERUBI"
+},
+"422": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 423,
+"to_name": "GASTRODON"
+}
+],
+"name": "SHELLOS"
+},
+"4222": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 864,
+"to_name": "CURSOLA"
+}
+],
+"name": "GALAR_CORSOLA"
+},
+"425": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 426,
+"to_name": "DRIFBLIM"
+}
+],
+"name": "DRIFLOON"
+},
+"4263": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 4264,
+"to_name": "GALAR_LINOONE"
+}
+],
+"name": "GALAR_ZIGZAGOON"
+},
+"4264": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT)",
+"to": 862,
+"to_name": "OBSTAGOON"
+}
+],
+"name": "GALAR_LINOONE"
+},
+"427": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 428,
+"to_name": "LOPUNNY"
+}
+],
+"name": "BUNEARY"
+},
+"43": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 21,
+"to": 44,
+"to_name": "GLOOM"
+}
+],
+"name": "ODDISH"
+},
+"431": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 432,
+"to_name": "PURUGLY"
+}
+],
+"name": "GLAMEOW"
+},
+"433": {
+"evolutions": [
+{
+"form": false,
+"friendship": 90,
+"kind": "friendship",
+"level": 1,
+"time": "night",
+"to": 358,
+"to_name": "CHIMECHO"
+}
+],
+"name": "CHINGLING"
+},
+"434": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 435,
+"to_name": "SKUNTANK"
+}
+],
+"name": "STUNKY"
+},
+"436": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"to": 437,
+"to_name": "BRONZONG"
+}
+],
+"name": "BRONZOR"
+},
+"438": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "mimic",
+"to": 185,
+"to_name": "SUDOWOODO"
+}
+],
+"name": "BONSLY"
+},
+"439": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "mimic",
+"to": 4122,
+"to_name": "GALAR_MR_MIME"
+},
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "mimic",
+"to": 122,
+"to_name": "MR_MIME"
+}
+],
+"name": "MIME_JR"
+},
+"44": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 45,
+"to_name": "VILEPLUME"
+},
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item",
+"level": 1,
+"to": 182,
+"to_name": "BELLOSSOM"
+}
+],
+"name": "GLOOM"
+},
+"440": {
+"evolutions": [
+{
+"form": false,
+"friendship": 160,
+"kind": "friendship",
+"level": 1,
+"to": 113,
+"to_name": "CHANSEY"
+}
+],
+"name": "HAPPINY"
+},
+"443": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 444,
+"to_name": "GABITE"
+}
+],
+"name": "GIBLE"
+},
+"444": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 48,
+"to": 445,
+"to_name": "GARCHOMP"
+}
+],
+"name": "GABITE"
+},
+"446": {
+"evolutions": [
+{
+"form": false,
+"friendship": 90,
+"kind": "friendship",
+"level": 1,
+"to": 143,
+"to_name": "SNORLAX"
+}
+],
+"name": "MUNCHLAX"
+},
+"447": {
+"evolutions": [
+{
+"form": false,
+"friendship": 90,
+"kind": "friendship",
+"level": 1,
+"time": "day",
+"to": 448,
+"to_name": "LUCARIO"
+}
+],
+"name": "RIOLU"
+},
+"449": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 450,
+"to_name": "HIPPOWDON"
+}
+],
+"name": "HIPPOPOTAS"
+},
+"451": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 452,
+"to_name": "DRAPION"
+}
+],
+"name": "SKORUPI"
+},
+"453": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 454,
+"to_name": "TOXICROAK"
+}
+],
+"name": "CROAGUNK"
+},
+"4554": {
+"evolutions": [
+{
+"form": false,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 4555,
+"to_name": "GALAR_DARMANITAN"
+}
+],
+"name": "GALAR_DARUMAKA"
+},
+"456": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 31,
+"to": 457,
+"to_name": "LUMINEON"
+}
+],
+"name": "FINNEON"
+},
+"4562": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 867,
+"to_name": "RUNERIGUS"
+}
+],
+"name": "GALAR_YAMASK"
+},
+"458": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 32,
+"raw": "new SpeciesEvolutionCondition(p => !!p.scene.gameData.dexData[Species.REMORAID].caughtAttr), SpeciesWildEvolutionDelay.MEDIUM",
+"to": 226,
+"to_name": "MANTINE"
+}
+],
+"name": "MANTYKE"
+},
+"459": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 460,
+"to_name": "ABOMASNOW"
+}
+],
+"name": "SNOVER"
+},
+"46": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 47,
+"to_name": "PARASECT"
+}
+],
+"name": "PARAS"
+},
+"48": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 31,
+"to": 49,
+"to_name": "VENOMOTH"
+}
+],
+"name": "VENONAT"
+},
+"495": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 496,
+"to_name": "SERVINE"
+}
+],
+"name": "SNIVY"
+},
+"496": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 497,
+"to_name": "SERPERIOR"
+}
+],
+"name": "SERVINE"
+},
+"498": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 499,
+"to_name": "PIGNITE"
+}
+],
+"name": "TEPIG"
+},
+"499": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 500,
+"to_name": "EMBOAR"
+}
+],
+"name": "PIGNITE"
+},
+"5": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 6,
+"to_name": "CHARIZARD"
+}
+],
+"name": "CHARMELEON"
+},
+"50": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 51,
+"to_name": "DUGTRIO"
+}
+],
+"name": "DIGLETT"
+},
+"501": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 502,
+"to_name": "DEWOTT"
+}
+],
+"name": "OSHAWOTT"
+},
+"502": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6503,
+"to_name": "HISUI_SAMUROTT"
+},
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 503,
+"to_name": "SAMUROTT"
+}
+],
+"name": "DEWOTT"
+},
+"504": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 505,
+"to_name": "WATCHOG"
+}
+],
+"name": "PATRAT"
+},
+"506": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 507,
+"to_name": "HERDIER"
+}
+],
+"name": "LILLIPUP"
+},
+"507": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 508,
+"to_name": "STOUTLAND"
+}
+],
+"name": "HERDIER"
+},
+"509": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 510,
+"to_name": "LIEPARD"
+}
+],
+"name": "PURRLOIN"
+},
+"511": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 512,
+"to_name": "SIMISAGE"
+}
+],
+"name": "PANSAGE"
+},
+"513": {
+"evolutions": [
+{
+"form": false,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 514,
+"to_name": "SIMISEAR"
+}
+],
+"name": "PANSEAR"
+},
+"515": {
+"evolutions": [
+{
+"form": false,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 516,
+"to_name": "SIMIPOUR"
+}
+],
+"name": "PANPOUR"
+},
+"517": {
+"evolutions": [
+{
+"form": false,
+"item": "MOON_STONE",
+"kind": "item",
+"level": 1,
+"to": 518,
+"to_name": "MUSHARNA"
+}
+],
+"name": "MUNNA"
+},
+"519": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 21,
+"to": 520,
+"to_name": "TRANQUILL"
+}
+],
+"name": "PIDOVE"
+},
+"52": {
+"evolutions": [
+{
+"form": true,
+"kind": "level",
+"level": 28,
+"to": 53,
+"to_name": "PERSIAN"
+}
+],
+"name": "MEOWTH"
+},
+"520": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 521,
+"to_name": "UNFEZANT"
+}
+],
+"name": "TRANQUILL"
+},
+"522": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 27,
+"to": 523,
+"to_name": "ZEBSTRIKA"
+}
+],
+"name": "BLITZLE"
+},
+"524": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 525,
+"to_name": "BOLDORE"
+}
+],
+"name": "ROGGENROLA"
+},
+"525": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 526,
+"to_name": "GIGALITH"
+}
+],
+"name": "BOLDORE"
+},
+"527": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 528,
+"to_name": "SWOOBAT"
+}
+],
+"name": "WOOBAT"
+},
+"529": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 31,
+"to": 530,
+"to_name": "EXCADRILL"
+}
+],
+"name": "DRILBUR"
+},
+"532": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 533,
+"to_name": "GURDURR"
+}
+],
+"name": "TIMBURR"
+},
+"533": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 534,
+"to_name": "CONKELDURR"
+}
+],
+"name": "GURDURR"
+},
+"535": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 536,
+"to_name": "PALPITOAD"
+}
+],
+"name": "TYMPOLE"
+},
+"536": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 537,
+"to_name": "SEISMITOAD"
+}
+],
+"name": "PALPITOAD"
+},
+"54": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"to": 55,
+"to_name": "GOLDUCK"
+}
+],
+"name": "PSYDUCK"
+},
+"540": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 541,
+"to_name": "SWADLOON"
+}
+],
+"name": "SEWADDLE"
+},
+"541": {
+"evolutions": [
+{
+"form": false,
+"friendship": 110,
+"kind": "friendship",
+"level": 1,
+"to": 542,
+"to_name": "LEAVANNY"
+}
+],
+"name": "SWADLOON"
+},
+"543": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 544,
+"to_name": "WHIRLIPEDE"
+}
+],
+"name": "VENIPEDE"
+},
+"544": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 545,
+"to_name": "SCOLIPEDE"
+}
+],
+"name": "WHIRLIPEDE"
+},
+"546": {
+"evolutions": [
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item",
+"level": 1,
+"to": 547,
+"to_name": "WHIMSICOTT"
+}
+],
+"name": "COTTONEE"
+},
+"548": {
+"evolutions": [
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6549,
+"to_name": "HISUI_LILLIGANT"
+},
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 549,
+"to_name": "LILLIGANT"
+}
+],
+"name": "PETILIL"
+},
+"550": {
+"evolutions": [
+{
+"form": true,
+"kind": "level",
+"level": 40,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE), SpeciesWildEvolutionDelay",
+"to": 902,
+"to_name": "BASCULEGION"
+},
+{
+"form": true,
+"kind": "level",
+"level": 40,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE), SpeciesWildEvolutionDelay.VER",
+"to": 902,
+"to_name": "BASCULEGION"
+}
+],
+"name": "BASCULIN"
+},
+"551": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 29,
+"to": 552,
+"to_name": "KROKOROK"
+}
+],
+"name": "SANDILE"
+},
+"552": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 553,
+"to_name": "KROOKODILE"
+}
+],
+"name": "KROKOROK"
+},
+"554": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 555,
+"to_name": "DARMANITAN"
+}
+],
+"name": "DARUMAKA"
+},
+"557": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 558,
+"to_name": "CRUSTLE"
+}
+],
+"name": "DWEBBLE"
+},
+"559": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"to": 560,
+"to_name": "SCRAFTY"
+}
+],
+"name": "SCRAGGY"
+},
+"56": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 57,
+"to_name": "PRIMEAPE"
+}
+],
+"name": "MANKEY"
+},
+"562": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 563,
+"to_name": "COFAGRIGUS"
+}
+],
+"name": "YAMASK"
+},
+"564": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 565,
+"to_name": "CARRACOSTA"
+}
+],
+"name": "TIRTOUGA"
+},
+"566": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 567,
+"to_name": "ARCHEOPS"
+}
+],
+"name": "ARCHEN"
+},
+"568": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 569,
+"to_name": "GARBODOR"
+}
+],
+"name": "TRUBBISH"
+},
+"57": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 35,
+"move": "rage_fist",
+"to": 979,
+"to_name": "ANNIHILAPE"
+}
+],
+"name": "PRIMEAPE"
+},
+"570": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 571,
+"to_name": "ZOROARK"
+}
+],
+"name": "ZORUA"
+},
+"572": {
+"evolutions": [
+{
+"form": false,
+"item": "SHINY_STONE",
+"kind": "item",
+"level": 1,
+"to": 573,
+"to_name": "CINCCINO"
+}
+],
+"name": "MINCCINO"
+},
+"574": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 575,
+"to_name": "GOTHORITA"
+}
+],
+"name": "GOTHITA"
+},
+"575": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 41,
+"to": 576,
+"to_name": "GOTHITELLE"
+}
+],
+"name": "GOTHORITA"
+},
+"577": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 578,
+"to_name": "DUOSION"
+}
+],
+"name": "SOLOSIS"
+},
+"578": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 41,
+"to": 579,
+"to_name": "REUNICLUS"
+}
+],
+"name": "DUOSION"
+},
+"58": {
+"evolutions": [
+{
+"form": false,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 59,
+"to_name": "ARCANINE"
+}
+],
+"name": "GROWLITHE"
+},
+"580": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 581,
+"to_name": "SWANNA"
+}
+],
+"name": "DUCKLETT"
+},
+"582": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 583,
+"to_name": "VANILLISH"
+}
+],
+"name": "VANILLITE"
+},
+"583": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 47,
+"to": 584,
+"to_name": "VANILLUXE"
+}
+],
+"name": "VANILLISH"
+},
+"585": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 586,
+"to_name": "SAWSBUCK"
+}
+],
+"name": "DEERLING"
+},
+"588": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => !!p.scene.gameData.dexData[Species.SHELMET].caughtAttr), SpeciesWildEvolutionDelay.VE",
+"to": 589,
+"to_name": "ESCAVALIER"
+}
+],
+"name": "KARRABLAST"
+},
+"590": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"to": 591,
+"to_name": "AMOONGUSS"
+}
+],
+"name": "FOONGUS"
+},
+"592": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 593,
+"to_name": "JELLICENT"
+}
+],
+"name": "FRILLISH"
+},
+"595": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 596,
+"to_name": "GALVANTULA"
+}
+],
+"name": "JOLTIK"
+},
+"597": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 598,
+"to_name": "FERROTHORN"
+}
+],
+"name": "FERROSEED"
+},
+"599": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 600,
+"to_name": "KLANG"
+}
+],
+"name": "KLINK"
+},
+"60": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 61,
+"to_name": "POLIWHIRL"
+}
+],
+"name": "POLIWAG"
+},
+"600": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 49,
+"to": 601,
+"to_name": "KLINKLANG"
+}
+],
+"name": "KLANG"
+},
+"602": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"to": 603,
+"to_name": "EELEKTRIK"
+}
+],
+"name": "TYNAMO"
+},
+"603": {
+"evolutions": [
+{
+"form": false,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 604,
+"to_name": "EELEKTROSS"
+}
+],
+"name": "EELEKTRIK"
+},
+"605": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 606,
+"to_name": "BEHEEYEM"
+}
+],
+"name": "ELGYEM"
+},
+"6058": {
+"evolutions": [
+{
+"form": false,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 6059,
+"to_name": "HISUI_ARCANINE"
+}
+],
+"name": "HISUI_GROWLITHE"
+},
+"607": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 41,
+"to": 608,
+"to_name": "LAMPENT"
+}
+],
+"name": "LITWICK"
+},
+"608": {
+"evolutions": [
+{
+"form": false,
+"item": "DUSK_STONE",
+"kind": "item",
+"level": 1,
+"to": 609,
+"to_name": "CHANDELURE"
+}
+],
+"name": "LAMPENT"
+},
+"61": {
+"evolutions": [
+{
+"form": false,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 62,
+"to_name": "POLIWRATH"
+},
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* King's Rock */), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 186,
+"to_name": "POLITOED"
+}
+],
+"name": "POLIWHIRL"
+},
+"610": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 611,
+"to_name": "FRAXURE"
+}
+],
+"name": "AXEW"
+},
+"6100": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 6101,
+"to_name": "HISUI_ELECTRODE"
+}
+],
+"name": "HISUI_VOLTORB"
+},
+"611": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 48,
+"to": 612,
+"to_name": "HAXORUS"
+}
+],
+"name": "FRAXURE"
+},
+"613": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 614,
+"to_name": "BEARTIC"
+}
+],
+"name": "CUBCHOO"
+},
+"616": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => !!p.scene.gameData.dexData[Species.KARRABLAST].caughtAttr), SpeciesWildEvolutionDelay",
+"to": 617,
+"to_name": "ACCELGOR"
+}
+],
+"name": "SHELMET"
+},
+"619": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 50,
+"to": 620,
+"to_name": "MIENSHAO"
+}
+],
+"name": "MIENFOO"
+},
+"6211": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 28,
+"move": "barb_barrage",
+"to": 904,
+"to_name": "OVERQWIL"
+}
+],
+"name": "HISUI_QWILFISH"
+},
+"6215": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 1,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAY /* Razor claw at day*/), SpeciesWildEv",
+"to": 903,
+"to_name": "SNEASLER"
+}
+],
+"name": "HISUI_SNEASEL"
+},
+"622": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 43,
+"to": 623,
+"to_name": "GOLURK"
+}
+],
+"name": "GOLETT"
+},
+"624": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 52,
+"to": 625,
+"to_name": "BISHARP"
+}
+],
+"name": "PAWNIARD"
+},
+"625": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 64,
+"to": 983,
+"to_name": "KINGAMBIT"
+}
+],
+"name": "BISHARP"
+},
+"627": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 54,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6628,
+"to_name": "HISUI_BRAVIARY"
+},
+{
+"form": false,
+"kind": "level",
+"level": 54,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 628,
+"to_name": "BRAVIARY"
+}
+],
+"name": "RUFFLET"
+},
+"629": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 54,
+"to": 630,
+"to_name": "MANDIBUZZ"
+}
+],
+"name": "VULLABY"
+},
+"63": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 64,
+"to_name": "KADABRA"
+}
+],
+"name": "ABRA"
+},
+"633": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 50,
+"to": 634,
+"to_name": "ZWEILOUS"
+}
+],
+"name": "DEINO"
+},
+"634": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 64,
+"to": 635,
+"to_name": "HYDREIGON"
+}
+],
+"name": "ZWEILOUS"
+},
+"636": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 59,
+"to": 637,
+"to_name": "VOLCARONA"
+}
+],
+"name": "LARVESTA"
+},
+"64": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 65,
+"to_name": "ALAKAZAM"
+}
+],
+"name": "KADABRA"
+},
+"650": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 651,
+"to_name": "QUILLADIN"
+}
+],
+"name": "CHESPIN"
+},
+"651": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 652,
+"to_name": "CHESNAUGHT"
+}
+],
+"name": "QUILLADIN"
+},
+"653": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 654,
+"to_name": "BRAIXEN"
+}
+],
+"name": "FENNEKIN"
+},
+"654": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 655,
+"to_name": "DELPHOX"
+}
+],
+"name": "BRAIXEN"
+},
+"656": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 657,
+"to_name": "FROGADIER"
+}
+],
+"name": "FROAKIE"
+},
+"657": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 658,
+"to_name": "GRENINJA"
+}
+],
+"name": "FROGADIER"
+},
+"6570": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 6571,
+"to_name": "HISUI_ZOROARK"
+}
+],
+"name": "HISUI_ZORUA"
+},
+"659": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 660,
+"to_name": "DIGGERSBY"
+}
+],
+"name": "BUNNELBY"
+},
+"66": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 67,
+"to_name": "MACHOKE"
+}
+],
+"name": "MACHOP"
+},
+"661": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 662,
+"to_name": "FLETCHINDER"
+}
+],
+"name": "FLETCHLING"
+},
+"662": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 663,
+"to_name": "TALONFLAME"
+}
+],
+"name": "FLETCHINDER"
+},
+"664": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 9,
+"to": 665,
+"to_name": "SPEWPA"
+}
+],
+"name": "SCATTERBUG"
+},
+"665": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 12,
+"to": 666,
+"to_name": "VIVILLON"
+}
+],
+"name": "SPEWPA"
+},
+"667": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 668,
+"to_name": "PYROAR"
+}
+],
+"name": "LITLEO"
+},
+"669": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 19,
+"to": 670,
+"to_name": "FLOETTE"
+}
+],
+"name": "FLABEBE"
+},
+"67": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 68,
+"to_name": "MACHAMP"
+}
+],
+"name": "MACHOKE"
+},
+"670": {
+"evolutions": [
+{
+"form": false,
+"item": "SHINY_STONE",
+"kind": "item",
+"level": 1,
+"to": 671,
+"to_name": "FLORGES"
+}
+],
+"name": "FLOETTE"
+},
+"6705": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 50,
+"raw": "new SpeciesEvolutionCondition(p => [ WeatherType.RAIN, WeatherType.FOG, WeatherType.HEAVY_RAIN ].indexOf(p.scene.arena.weather?.weatherType || WeatherType.NONE)",
+"to": 6706,
+"to_name": "HISUI_GOODRA"
+}
+],
+"name": "HISUI_SLIGGOO"
+},
+"672": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 673,
+"to_name": "GOGOAT"
+}
+],
+"name": "SKIDDO"
+},
+"674": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 32,
+"raw": "new SpeciesEvolutionCondition(p => !!p.scene.getParty().find(p => p.getTypes(false, false, true).indexOf(Type.DARK) > -1)), SpeciesWildEvolutionDelay.MEDIUM",
+"to": 675,
+"to_name": "PANGORO"
+}
+],
+"name": "PANCHAM"
+},
+"677": {
+"evolutions": [
+{
+"form": true,
+"kind": "level",
+"level": 25,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 678,
+"to_name": "MEOWSTIC"
+},
+{
+"form": true,
+"kind": "level",
+"level": 25,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE)",
+"to": 678,
+"to_name": "MEOWSTIC"
+}
+],
+"name": "ESPURR"
+},
+"679": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 680,
+"to_name": "DOUBLADE"
+}
+],
+"name": "HONEDGE"
+},
+"680": {
+"evolutions": [
+{
+"form": false,
+"item": "DUSK_STONE",
+"kind": "item",
+"level": 1,
+"to": 681,
+"to_name": "AEGISLASH"
+}
+],
+"name": "DOUBLADE"
+},
+"682": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /*Sachet*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 683,
+"to_name": "AROMATISSE"
+}
+],
+"name": "SPRITZEE"
+},
+"684": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /*Whipped Dream*/), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 685,
+"to_name": "SLURPUFF"
+}
+],
+"name": "SWIRLIX"
+},
+"686": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 687,
+"to_name": "MALAMAR"
+}
+],
+"name": "INKAY"
+},
+"688": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"to": 689,
+"to_name": "BARBARACLE"
+}
+],
+"name": "BINACLE"
+},
+"69": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 21,
+"to": 70,
+"to_name": "WEEPINBELL"
+}
+],
+"name": "BELLSPROUT"
+},
+"690": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 48,
+"to": 691,
+"to_name": "DRAGALGE"
+}
+],
+"name": "SKRELP"
+},
+"692": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 693,
+"to_name": "CLAWITZER"
+}
+],
+"name": "CLAUNCHER"
+},
+"694": {
+"evolutions": [
+{
+"form": false,
+"item": "SUN_STONE",
+"kind": "item",
+"level": 1,
+"to": 695,
+"to_name": "HELIOLISK"
+}
+],
+"name": "HELIOPTILE"
+},
+"696": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAY)",
+"to": 697,
+"to_name": "TYRANTRUM"
+}
+],
+"name": "TYRUNT"
+},
+"698": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 39,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT)",
+"to": 699,
+"to_name": "AURORUS"
+}
+],
+"name": "AMAURA"
+},
+"7": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 8,
+"to_name": "WARTORTLE"
+}
+],
+"name": "SQUIRTLE"
+},
+"70": {
+"evolutions": [
+{
+"form": false,
+"item": "LEAF_STONE",
+"kind": "item",
+"level": 1,
+"to": 71,
+"to_name": "VICTREEBEL"
+}
+],
+"name": "WEEPINBELL"
+},
+"704": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6705,
+"to_name": "HISUI_SLIGGOO"
+},
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 705,
+"to_name": "SLIGGOO"
+}
+],
+"name": "GOOMY"
+},
+"705": {
+"evolutions": [
+{
+"form": false,
+"kind": "other",
+"level": 50,
+"raw": "new SpeciesEvolutionCondition(p => [ WeatherType.RAIN, WeatherType.FOG, WeatherType.HEAVY_RAIN ].indexOf(p.scene.arena.weather?.weatherType || WeatherType.NONE)",
+"to": 706,
+"to_name": "GOODRA"
+}
+],
+"name": "SLIGGOO"
+},
+"708": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 709,
+"to_name": "TREVENANT"
+}
+],
+"name": "PHANTUMP"
+},
+"710": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 711,
+"to_name": "GOURGEIST"
+}
+],
+"name": "PUMPKABOO"
+},
+"712": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6713,
+"to_name": "HISUI_AVALUGG"
+},
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 713,
+"to_name": "AVALUGG"
+}
+],
+"name": "BERGMITE"
+},
+"714": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 48,
+"to": 715,
+"to_name": "NOIVERN"
+}
+],
+"name": "NOIBAT"
+},
+"72": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 73,
+"to_name": "TENTACRUEL"
+}
+],
+"name": "TENTACOOL"
+},
+"722": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 723,
+"to_name": "DARTRIX"
+}
+],
+"name": "ROWLET"
+},
+"723": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === T",
+"to": 6724,
+"to_name": "HISUI_DECIDUEYE"
+},
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === T",
+"to": 724,
+"to_name": "DECIDUEYE"
+}
+],
+"name": "DARTRIX"
+},
+"725": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 726,
+"to_name": "TORRACAT"
+}
+],
+"name": "LITTEN"
+},
+"726": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 727,
+"to_name": "INCINEROAR"
+}
+],
+"name": "TORRACAT"
+},
+"728": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 17,
+"to": 729,
+"to_name": "BRIONNE"
+}
+],
+"name": "POPPLIO"
+},
+"729": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 730,
+"to_name": "PRIMARINA"
+}
+],
+"name": "BRIONNE"
+},
+"731": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 14,
+"to": 732,
+"to_name": "TRUMBEAK"
+}
+],
+"name": "PIKIPEK"
+},
+"732": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 733,
+"to_name": "TOUCANNON"
+}
+],
+"name": "TRUMBEAK"
+},
+"734": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAY)",
+"to": 735,
+"to_name": "GUMSHOOS"
+}
+],
+"name": "YUNGOOS"
+},
+"736": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 737,
+"to_name": "CHARJABUG"
+}
+],
+"name": "GRUBBIN"
+},
+"737": {
+"evolutions": [
+{
+"form": false,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 738,
+"to_name": "VIKAVOLT"
+}
+],
+"name": "CHARJABUG"
+},
+"739": {
+"evolutions": [
+{
+"form": false,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 740,
+"to_name": "CRABOMINABLE"
+}
+],
+"name": "CRABRAWLER"
+},
+"74": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 75,
+"to_name": "GRAVELER"
+}
+],
+"name": "GEODUDE"
+},
+"742": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 743,
+"to_name": "RIBOMBEE"
+}
+],
+"name": "CUTIEFLY"
+},
+"744": {
+"evolutions": [
+{
+"form": true,
+"kind": "level",
+"level": 25,
+"relaxed": "new SpeciesEvolutionCondition(p => (p.scene.arena.getTimeOfDay() === TimeOfDay.DAWN || p.scene.arena.getTimeOfDay() === ",
+"to": 745,
+"to_name": "LYCANROC"
+},
+{
+"form": true,
+"kind": "level",
+"level": 25,
+"relaxed": "new SpeciesEvolutionCondition(p => p.formIndex === 1)",
+"to": 745,
+"to_name": "LYCANROC"
+},
+{
+"form": true,
+"kind": "level",
+"level": 25,
+"relaxed": "new SpeciesEvolutionCondition(p => (p.scene.arena.getTimeOfDay() === TimeOfDay.DUSK || p.scene.arena.getTimeOfDay() === ",
+"to": 745,
+"to_name": "LYCANROC"
+}
+],
+"name": "ROCKRUFF"
+},
+"747": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 748,
+"to_name": "TOXAPEX"
+}
+],
+"name": "MAREANIE"
+},
+"749": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 750,
+"to_name": "MUDSDALE"
+}
+],
+"name": "MUDBRAY"
+},
+"75": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 76,
+"to_name": "GOLEM"
+}
+],
+"name": "GRAVELER"
+},
+"751": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 752,
+"to_name": "ARAQUANID"
+}
+],
+"name": "DEWPIDER"
+},
+"753": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAY)",
+"to": 754,
+"to_name": "LURANTIS"
+}
+],
+"name": "FOMANTIS"
+},
+"755": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 756,
+"to_name": "SHIINOTIC"
+}
+],
+"name": "MORELULL"
+},
+"757": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 33,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 758,
+"to_name": "SALAZZLE"
+}
+],
+"name": "SALANDIT"
+},
+"759": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 27,
+"to": 760,
+"to_name": "BEWEAR"
+}
+],
+"name": "STUFFUL"
+},
+"761": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 762,
+"to_name": "STEENEE"
+}
+],
+"name": "BOUNSWEET"
+},
+"762": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 28,
+"move": "stomp",
+"to": 763,
+"to_name": "TSAREENA"
+}
+],
+"name": "STEENEE"
+},
+"767": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 768,
+"to_name": "GOLISOPOD"
+}
+],
+"name": "WIMPOD"
+},
+"769": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 770,
+"to_name": "PALOSSAND"
+}
+],
+"name": "SANDYGAST"
+},
+"77": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 78,
+"to_name": "RAPIDASH"
+}
+],
+"name": "PONYTA"
+},
+"772": {
+"evolutions": [
+{
+"form": false,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 773,
+"to_name": "SILVALLY"
+}
+],
+"name": "TYPE_NULL"
+},
+"782": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 783,
+"to_name": "HAKAMO_O"
+}
+],
+"name": "JANGMO_O"
+},
+"783": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 45,
+"to": 784,
+"to_name": "KOMMO_O"
+}
+],
+"name": "HAKAMO_O"
+},
+"789": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 43,
+"to": 790,
+"to_name": "COSMOEM"
+}
+],
+"name": "COSMOG"
+},
+"79": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 37,
+"to": 80,
+"to_name": "SLOWBRO"
+},
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => true /* King's Rock */), SpeciesWildEvolutionDelay.VERY_LONG",
+"to": 199,
+"to_name": "SLOWKING"
+}
+],
+"name": "SLOWPOKE"
+},
+"790": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 53,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.DAY)",
+"to": 791,
+"to_name": "SOLGALEO"
+},
+{
+"form": false,
+"kind": "level",
+"level": 53,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT)",
+"to": 792,
+"to_name": "LUNALA"
+}
+],
+"name": "COSMOEM"
+},
+"8": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 9,
+"to_name": "BLASTOISE"
+}
+],
+"name": "WARTORTLE"
+},
+"803": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 1,
+"move": "dragon_pulse",
+"to": 804,
+"to_name": "NAGANADEL"
+}
+],
+"name": "POIPOLE"
+},
+"808": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 48,
+"to": 809,
+"to_name": "MELMETAL"
+}
+],
+"name": "MELTAN"
+},
+"81": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 82,
+"to_name": "MAGNETON"
+}
+],
+"name": "MAGNEMITE"
+},
+"810": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 811,
+"to_name": "THWACKEY"
+}
+],
+"name": "GROOKEY"
+},
+"811": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 812,
+"to_name": "RILLABOOM"
+}
+],
+"name": "THWACKEY"
+},
+"813": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 814,
+"to_name": "RABOOT"
+}
+],
+"name": "SCORBUNNY"
+},
+"814": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 815,
+"to_name": "CINDERACE"
+}
+],
+"name": "RABOOT"
+},
+"816": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 817,
+"to_name": "DRIZZILE"
+}
+],
+"name": "SOBBLE"
+},
+"817": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 818,
+"to_name": "INTELEON"
+}
+],
+"name": "DRIZZILE"
+},
+"819": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 820,
+"to_name": "GREEDENT"
+}
+],
+"name": "SKWOVET"
+},
+"8194": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 980,
+"to_name": "CLODSIRE"
+}
+],
+"name": "PALDEA_WOOPER"
+},
+"82": {
+"evolutions": [
+{
+"form": false,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 462,
+"to_name": "MAGNEZONE"
+}
+],
+"name": "MAGNETON"
+},
+"821": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 822,
+"to_name": "CORVISQUIRE"
+}
+],
+"name": "ROOKIDEE"
+},
+"822": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 823,
+"to_name": "CORVIKNIGHT"
+}
+],
+"name": "CORVISQUIRE"
+},
+"824": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 10,
+"to": 825,
+"to_name": "DOTTLER"
+}
+],
+"name": "BLIPBUG"
+},
+"825": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 826,
+"to_name": "ORBEETLE"
+}
+],
+"name": "DOTTLER"
+},
+"827": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 828,
+"to_name": "THIEVUL"
+}
+],
+"name": "NICKIT"
+},
+"829": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 20,
+"to": 830,
+"to_name": "ELDEGOSS"
+}
+],
+"name": "GOSSIFLEUR"
+},
+"831": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 832,
+"to_name": "DUBWOOL"
+}
+],
+"name": "WOOLOO"
+},
+"833": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 22,
+"to": 834,
+"to_name": "DREDNAW"
+}
+],
+"name": "CHEWTLE"
+},
+"835": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 836,
+"to_name": "BOLTUND"
+}
+],
+"name": "YAMPER"
+},
+"837": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 838,
+"to_name": "CARKOL"
+}
+],
+"name": "ROLYCOLY"
+},
+"838": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 839,
+"to_name": "COALOSSAL"
+}
+],
+"name": "CARKOL"
+},
+"84": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 31,
+"to": 85,
+"to_name": "DODRIO"
+}
+],
+"name": "DODUO"
+},
+"840": {
+"evolutions": [
+{
+"form": false,
+"item": "SYRUPY_APPLE",
+"kind": "item",
+"level": 1,
+"to": 1011,
+"to_name": "DIPPLIN"
+},
+{
+"form": false,
+"item": "TART_APPLE",
+"kind": "item",
+"level": 1,
+"to": 841,
+"to_name": "FLAPPLE"
+},
+{
+"form": false,
+"item": "SWEET_APPLE",
+"kind": "item",
+"level": 1,
+"to": 842,
+"to_name": "APPLETUN"
+}
+],
+"name": "APPLIN"
+},
+"843": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 844,
+"to_name": "SANDACONDA"
+}
+],
+"name": "SILICOBRA"
+},
+"846": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 847,
+"to_name": "BARRASKEWDA"
+}
+],
+"name": "ARROKUDA"
+},
+"848": {
+"evolutions": [
+{
+"form": true,
+"kind": "other",
+"level": 30,
+"raw": "new SpeciesEvolutionCondition(p => [ Nature.LONELY, Nature.BOLD, Nature.RELAXED, Nature.TIMID, Nature.SERIOUS, Nature.MODEST, Nature.MILD, Nature.QUIET, Nature.",
+"to": 849,
+"to_name": "TOXTRICITY"
+},
+{
+"form": true,
+"kind": "level",
+"level": 30,
+"to": 849,
+"to_name": "TOXTRICITY"
+}
+],
+"name": "TOXEL"
+},
+"850": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 851,
+"to_name": "CENTISKORCH"
+}
+],
+"name": "SIZZLIPEDE"
+},
+"852": {
+"evolutions": [
+{
+"form": false,
+"kind": "move",
+"level": 35,
+"move": "taunt",
+"to": 853,
+"to_name": "GRAPPLOCT"
+}
+],
+"name": "CLOBBOPUS"
+},
+"854": {
+"evolutions": [
+{
+"form": true,
+"item": "CRACKED_POT",
+"kind": "item",
+"level": 1,
+"to": 855,
+"to_name": "POLTEAGEIST"
+},
+{
+"form": true,
+"item": "CHIPPED_POT",
+"kind": "item",
+"level": 1,
+"to": 855,
+"to_name": "POLTEAGEIST"
+}
+],
+"name": "SINISTEA"
+},
+"856": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 857,
+"to_name": "HATTREM"
+}
+],
+"name": "HATENNA"
+},
+"857": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 858,
+"to_name": "HATTERENE"
+}
+],
+"name": "HATTREM"
+},
+"859": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 860,
+"to_name": "MORGREM"
+}
+],
+"name": "IMPIDIMP"
+},
+"86": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 87,
+"to_name": "DEWGONG"
+}
+],
+"name": "SEEL"
+},
+"860": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 42,
+"to": 861,
+"to_name": "GRIMMSNARL"
+}
+],
+"name": "MORGREM"
+},
+"868": {
+"evolutions": [
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.TOWN || p.scene.arena.biomeType === Biome.PLAINS ||",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.BADLANDS || p.scene.arena.biomeType === Biome.VOLCA",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.FOREST || p.scene.arena.biomeType === Biome.SWAMP |",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.SEA || p.scene.arena.biomeType === Biome.BEACH || p",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.DESERT || p.scene.arena.biomeType === Biome.POWER_P",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.MOUNTAIN || p.scene.arena.biomeType === Biome.CAVE ",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.WASTELAND || p.scene.arena.biomeType === Biome.LABO",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.TEMPLE || p.scene.arena.biomeType === Biome.ISLAND)",
+"to": 869,
+"to_name": "ALCREMIE"
+},
+{
+"form": true,
+"item": "STRAWBERRY_SWEET",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition(p => p.scene.arena.biomeType === Biome.ABYSS || p.scene.arena.biomeType === Biome.SPACE ||",
+"to": 869,
+"to_name": "ALCREMIE"
+}
+],
+"name": "MILCERY"
+},
+"872": {
+"evolutions": [
+{
+"form": false,
+"friendship": 90,
+"kind": "friendship",
+"level": 1,
+"time": "night",
+"to": 873,
+"to_name": "FROSMOTH"
+}
+],
+"name": "SNOM"
+},
+"878": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 34,
+"to": 879,
+"to_name": "COPPERAJAH"
+}
+],
+"name": "CUFANT"
+},
+"88": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 89,
+"to_name": "MUK"
+}
+],
+"name": "GRIMER"
+},
+"884": {
+"evolutions": [
+{
+"form": true,
+"item": "METAL_ALLOY",
+"kind": "item",
+"level": 1,
+"to": 1018,
+"to_name": "ARCHALUDON"
+}
+],
+"name": "DURALUDON"
+},
+"885": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 50,
+"to": 886,
+"to_name": "DRAKLOAK"
+}
+],
+"name": "DREEPY"
+},
+"886": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 60,
+"to": 887,
+"to_name": "DRAGAPULT"
+}
+],
+"name": "DRAKLOAK"
+},
+"891": {
+"evolutions": [
+{
+"form": true,
+"item": "SCROLL_OF_DARKNESS",
+"kind": "item",
+"level": 1,
+"to": 892,
+"to_name": "URSHIFU"
+},
+{
+"form": true,
+"item": "SCROLL_OF_WATERS",
+"kind": "item",
+"level": 1,
+"to": 892,
+"to_name": "URSHIFU"
+}
+],
+"name": "KUBFU"
+},
+"90": {
+"evolutions": [
+{
+"form": false,
+"item": "WATER_STONE",
+"kind": "item",
+"level": 1,
+"to": 91,
+"to_name": "CLOYSTER"
+}
+],
+"name": "SHELLDER"
+},
+"906": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 907,
+"to_name": "FLORAGATO"
+}
+],
+"name": "SPRIGATITO"
+},
+"907": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 908,
+"to_name": "MEOWSCARADA"
+}
+],
+"name": "FLORAGATO"
+},
+"909": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 910,
+"to_name": "CROCALOR"
+}
+],
+"name": "FUECOCO"
+},
+"910": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 911,
+"to_name": "SKELEDIRGE"
+}
+],
+"name": "CROCALOR"
+},
+"912": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 16,
+"to": 913,
+"to_name": "QUAXWELL"
+}
+],
+"name": "QUAXLY"
+},
+"913": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 36,
+"to": 914,
+"to_name": "QUAQUAVAL"
+}
+],
+"name": "QUAXWELL"
+},
+"915": {
+"evolutions": [
+{
+"form": true,
+"kind": "level",
+"level": 18,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.FEMALE, p => p.gender = Gender.FEMALE)",
+"to": 916,
+"to_name": "OINKOLOGNE"
+},
+{
+"form": true,
+"kind": "level",
+"level": 18,
+"relaxed": "new SpeciesEvolutionCondition(p => p.gender === Gender.MALE, p => p.gender = Gender.MALE)",
+"to": 916,
+"to_name": "OINKOLOGNE"
+}
+],
+"name": "LECHONK"
+},
+"917": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 15,
+"to": 918,
+"to_name": "SPIDOPS"
+}
+],
+"name": "TAROUNTULA"
+},
+"919": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 920,
+"to_name": "LOKIX"
+}
+],
+"name": "NYMBLE"
+},
+"92": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 93,
+"to_name": "HAUNTER"
+}
+],
+"name": "GASTLY"
+},
+"921": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 18,
+"to": 922,
+"to_name": "PAWMO"
+}
+],
+"name": "PAWMI"
+},
+"922": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 32,
+"to": 923,
+"to_name": "PAWMOT"
+}
+],
+"name": "PAWMO"
+},
+"924": {
+"evolutions": [
+{
+"form": true,
+"kind": "other",
+"level": 25,
+"raw": "new SpeciesEvolutionCondition(p => { let ret = false; p.scene.executeWithSeedOffset(() => ret = !Utils.randSeedInt(4), p.id); return ret; })",
+"to": 925,
+"to_name": "MAUSHOLD"
+},
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 925,
+"to_name": "MAUSHOLD"
+}
+],
+"name": "TANDEMAUS"
+},
+"926": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 927,
+"to_name": "DACHSBUN"
+}
+],
+"name": "FIDOUGH"
+},
+"928": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 929,
+"to_name": "DOLLIV"
+}
+],
+"name": "SMOLIV"
+},
+"929": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 930,
+"to_name": "ARBOLIVA"
+}
+],
+"name": "DOLLIV"
+},
+"93": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item",
+"level": 1,
+"to": 94,
+"to_name": "GENGAR"
+}
+],
+"name": "HAUNTER"
+},
+"932": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 933,
+"to_name": "NACLSTACK"
+}
+],
+"name": "NACLI"
+},
+"933": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 934,
+"to_name": "GARGANACL"
+}
+],
+"name": "NACLSTACK"
+},
+"935": {
+"evolutions": [
+{
+"form": false,
+"item": "AUSPICIOUS_ARMOR",
+"kind": "item",
+"level": 1,
+"to": 936,
+"to_name": "ARMAROUGE"
+},
+{
+"form": false,
+"item": "MALICIOUS_ARMOR",
+"kind": "item",
+"level": 1,
+"to": 937,
+"to_name": "CERULEDGE"
+}
+],
+"name": "CHARCADET"
+},
+"938": {
+"evolutions": [
+{
+"form": false,
+"item": "THUNDER_STONE",
+"kind": "item",
+"level": 1,
+"to": 939,
+"to_name": "BELLIBOLT"
+}
+],
+"name": "TADBULB"
+},
+"940": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 25,
+"to": 941,
+"to_name": "KILOWATTREL"
+}
+],
+"name": "WATTREL"
+},
+"942": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 943,
+"to_name": "MABOSSTIFF"
+}
+],
+"name": "MASCHIFF"
+},
+"944": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 945,
+"to_name": "GRAFAIAI"
+}
+],
+"name": "SHROODLE"
+},
+"946": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 947,
+"to_name": "BRAMBLEGHAST"
+}
+],
+"name": "BRAMBLIN"
+},
+"948": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"to": 949,
+"to_name": "TOEDSCRUEL"
+}
+],
+"name": "TOEDSCOOL"
+},
+"95": {
+"evolutions": [
+{
+"form": false,
+"item": "LINKING_CORD",
+"kind": "item_cond",
+"level": 1,
+"raw": "new SpeciesEvolutionCondition( p => p.moveset.filter(m => m?.getMove().type === Type.STEEL).length > 0), SpeciesWildEvol",
+"to": 208,
+"to_name": "STEELIX"
+}
+],
+"name": "ONIX"
+},
+"951": {
+"evolutions": [
+{
+"form": false,
+"item": "FIRE_STONE",
+"kind": "item",
+"level": 1,
+"to": 952,
+"to_name": "SCOVILLAIN"
+}
+],
+"name": "CAPSAKID"
+},
+"953": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 29,
+"to": 954,
+"to_name": "RABSCA"
+}
+],
+"name": "RELLOR"
+},
+"955": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 956,
+"to_name": "ESPATHRA"
+}
+],
+"name": "FLITTLE"
+},
+"957": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 24,
+"to": 958,
+"to_name": "TINKATUFF"
+}
+],
+"name": "TINKATINK"
+},
+"958": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 959,
+"to_name": "TINKATON"
+}
+],
+"name": "TINKATUFF"
+},
+"96": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 97,
+"to_name": "HYPNO"
+}
+],
+"name": "DROWZEE"
+},
+"960": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 26,
+"to": 961,
+"to_name": "WUGTRIO"
+}
+],
+"name": "WIGLETT"
+},
+"963": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 38,
+"to": 964,
+"to_name": "PALAFIN"
+}
+],
+"name": "FINIZEN"
+},
+"965": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 40,
+"to": 966,
+"to_name": "REVAVROOM"
+}
+],
+"name": "VAROOM"
+},
+"969": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 970,
+"to_name": "GLIMMORA"
+}
+],
+"name": "GLIMMET"
+},
+"971": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 30,
+"relaxed": "new SpeciesEvolutionCondition(p => p.scene.arena.getTimeOfDay() === TimeOfDay.NIGHT)",
+"to": 972,
+"to_name": "HOUNDSTONE"
+}
+],
+"name": "GREAVARD"
+},
+"974": {
+"evolutions": [
+{
+"form": false,
+"item": "ICE_STONE",
+"kind": "item",
+"level": 1,
+"to": 975,
+"to_name": "CETITAN"
+}
+],
+"name": "CETODDLE"
+},
+"98": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 28,
+"to": 99,
+"to_name": "KINGLER"
+}
+],
+"name": "KRABBY"
+},
+"996": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 35,
+"to": 997,
+"to_name": "ARCTIBAX"
+}
+],
+"name": "FRIGIBAX"
+},
+"997": {
+"evolutions": [
+{
+"form": false,
+"kind": "level",
+"level": 54,
+"to": 998,
+"to_name": "BAXCALIBUR"
+}
+],
+"name": "ARCTIBAX"
+},
+"999": {
+"evolutions": [
+{
+"form": true,
+"friendship": 70,
+"kind": "friendship",
+"level": 1,
+"to": 1000,
+"to_name": "GHOLDENGO"
+},
+{
+"kind": "other",
+"raw": "new SpeciesFormEvolution(Species.GHOLDENGO, \"roaming\", \"\", 1, null, new SpeciesFriendshipEvolutionCondition(70), SpeciesWildEvolutionDelay.VERY_LONG)\n  ]\n};\n\ninterface PokemonPrevolutions {\n  [key: st",
+"to": 0
+}
+],
+"name": "GIMMIGHOUL"
+}
+}

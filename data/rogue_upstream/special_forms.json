@@ -1,0 +1,2718 @@
+{
+ "3": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    100,
+    123,
+    122,
+    120,
+    80
+   ],
+   "types": [
+    "草",
+    "毒"
+   ],
+   "abilities": [
+    "THICK_FAT",
+    "THICK_FAT",
+    "THICK_FAT"
+   ],
+   "base_total": 625,
+   "base_exp": 263,
+   "item": "VENUSAURITE",
+   "item_icon": true,
+   "item_zh": "妙蛙花进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    100,
+    90,
+    120,
+    110,
+    130,
+    75
+   ],
+   "types": [
+    "草",
+    "毒"
+   ],
+   "abilities": [
+    "OVERGROW",
+    "NONE",
+    "CHLOROPHYLL"
+   ],
+   "base_total": 625,
+   "base_exp": 263,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "6": [
+  {
+   "form_key": "mega-x",
+   "kind": "mega",
+   "form_name": "Mega X",
+   "sprite_key": "mega-x",
+   "stats": [
+    78,
+    130,
+    111,
+    130,
+    85,
+    100
+   ],
+   "types": [
+    "火",
+    "龙"
+   ],
+   "abilities": [
+    "TOUGH_CLAWS",
+    "NONE",
+    "TOUGH_CLAWS"
+   ],
+   "base_total": 634,
+   "base_exp": 267,
+   "item": "CHARIZARDITE_X",
+   "item_icon": true,
+   "item_zh": "喷火龙进化石Ｘ",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "mega-y",
+   "kind": "mega",
+   "form_name": "Mega Y",
+   "sprite_key": "mega-y",
+   "stats": [
+    78,
+    104,
+    78,
+    159,
+    115,
+    100
+   ],
+   "types": [
+    "火",
+    "飞行"
+   ],
+   "abilities": [
+    "DROUGHT",
+    "NONE",
+    "DROUGHT"
+   ],
+   "base_total": 634,
+   "base_exp": 267,
+   "item": "CHARIZARDITE_Y",
+   "item_icon": true,
+   "item_zh": "喷火龙进化石Ｙ",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    98,
+    100,
+    96,
+    135,
+    110,
+    95
+   ],
+   "types": [
+    "火",
+    "飞行"
+   ],
+   "abilities": [
+    "BLAZE",
+    "NONE",
+    "SOLAR_POWER"
+   ],
+   "base_total": 634,
+   "base_exp": 267,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "9": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    79,
+    103,
+    120,
+    135,
+    115,
+    78
+   ],
+   "types": [
+    "水"
+   ],
+   "abilities": [
+    "MEGA_LAUNCHER",
+    "NONE",
+    "MEGA_LAUNCHER"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "BLASTOISINITE",
+   "item_icon": true,
+   "item_zh": "水箭龟进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    100,
+    95,
+    130,
+    105,
+    125,
+    75
+   ],
+   "types": [
+    "水"
+   ],
+   "abilities": [
+    "TORRENT",
+    "NONE",
+    "RAIN_DISH"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "12": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    75,
+    50,
+    75,
+    120,
+    100,
+    75
+   ],
+   "types": [
+    "虫",
+    "飞行"
+   ],
+   "abilities": [
+    "COMPOUND_EYES",
+    "NONE",
+    "TINTED_LENS"
+   ],
+   "base_total": 495,
+   "base_exp": 198,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "15": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    65,
+    150,
+    40,
+    15,
+    80,
+    145
+   ],
+   "types": [
+    "虫",
+    "毒"
+   ],
+   "abilities": [
+    "ADAPTABILITY",
+    "NONE",
+    "ADAPTABILITY"
+   ],
+   "base_total": 495,
+   "base_exp": 178,
+   "item": "BEEDRILLITE",
+   "item_icon": true,
+   "item_zh": "大针蜂进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "18": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    83,
+    80,
+    80,
+    135,
+    80,
+    121
+   ],
+   "types": [
+    "一般",
+    "飞行"
+   ],
+   "abilities": [
+    "NO_GUARD",
+    "NO_GUARD",
+    "NO_GUARD"
+   ],
+   "base_total": 579,
+   "base_exp": 216,
+   "item": "PIDGEOTITE",
+   "item_icon": true,
+   "item_zh": "大比鸟进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "25": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    45,
+    60,
+    65,
+    100,
+    75,
+    75
+   ],
+   "types": [
+    "电"
+   ],
+   "abilities": [
+    "STATIC",
+    "NONE",
+    "LIGHTNING_ROD"
+   ],
+   "base_total": 420,
+   "base_exp": 112,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "52": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    50,
+    85,
+    60,
+    70,
+    50,
+    75
+   ],
+   "types": [
+    "一般"
+   ],
+   "abilities": [
+    "PICKUP",
+    "TECHNICIAN",
+    "UNNERVE"
+   ],
+   "base_total": 390,
+   "base_exp": 58,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "65": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    55,
+    50,
+    65,
+    175,
+    105,
+    150
+   ],
+   "types": [
+    "超能力"
+   ],
+   "abilities": [
+    "TRACE",
+    "TRACE",
+    "TRACE"
+   ],
+   "base_total": 600,
+   "base_exp": 250,
+   "item": "ALAKAZITE",
+   "item_icon": true,
+   "item_zh": "胡地进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "68": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    113,
+    170,
+    90,
+    70,
+    95,
+    67
+   ],
+   "types": [
+    "格斗"
+   ],
+   "abilities": [
+    "GUTS",
+    "NO_GUARD",
+    "STEADFAST"
+   ],
+   "base_total": 605,
+   "base_exp": 253,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "80": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    95,
+    75,
+    180,
+    130,
+    80,
+    30
+   ],
+   "types": [
+    "水",
+    "超能力"
+   ],
+   "abilities": [
+    "SHELL_ARMOR",
+    "SHELL_ARMOR",
+    "SHELL_ARMOR"
+   ],
+   "base_total": 590,
+   "base_exp": 172,
+   "item": "SLOWBRONITE",
+   "item_icon": true,
+   "item_zh": "呆壳兽进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "94": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    60,
+    65,
+    80,
+    170,
+    95,
+    130
+   ],
+   "types": [
+    "幽灵",
+    "毒"
+   ],
+   "abilities": [
+    "SHADOW_TAG",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 600,
+   "base_exp": 250,
+   "item": "GENGARITE",
+   "item_icon": true,
+   "item_zh": "耿鬼进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    75,
+    95,
+    85,
+    160,
+    95,
+    90
+   ],
+   "types": [
+    "幽灵",
+    "毒"
+   ],
+   "abilities": [
+    "CURSED_BODY",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 600,
+   "base_exp": 250,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "99": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    70,
+    165,
+    145,
+    60,
+    70,
+    65
+   ],
+   "types": [
+    "水"
+   ],
+   "abilities": [
+    "HYPER_CUTTER",
+    "SHELL_ARMOR",
+    "SHEER_FORCE"
+   ],
+   "base_total": 575,
+   "base_exp": 166,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "115": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    105,
+    125,
+    100,
+    60,
+    100,
+    100
+   ],
+   "types": [
+    "一般"
+   ],
+   "abilities": [
+    "PARENTAL_BOND",
+    "PARENTAL_BOND",
+    "PARENTAL_BOND"
+   ],
+   "base_total": 590,
+   "base_exp": 172,
+   "item": "KANGASKHANITE",
+   "item_icon": true,
+   "item_zh": "袋兽进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "127": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    65,
+    155,
+    120,
+    65,
+    90,
+    105
+   ],
+   "types": [
+    "虫",
+    "飞行"
+   ],
+   "abilities": [
+    "AERILATE",
+    "AERILATE",
+    "AERILATE"
+   ],
+   "base_total": 600,
+   "base_exp": 175,
+   "item": "PINSIRITE",
+   "item_icon": true,
+   "item_zh": "凯罗斯进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "130": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    95,
+    155,
+    109,
+    70,
+    130,
+    81
+   ],
+   "types": [
+    "水",
+    "恶"
+   ],
+   "abilities": [
+    "MOLD_BREAKER",
+    "MOLD_BREAKER",
+    "MOLD_BREAKER"
+   ],
+   "base_total": 640,
+   "base_exp": 189,
+   "item": "GYARADOSITE",
+   "item_icon": true,
+   "item_zh": "暴鲤龙进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "131": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    160,
+    95,
+    110,
+    95,
+    125,
+    50
+   ],
+   "types": [
+    "水",
+    "冰"
+   ],
+   "abilities": [
+    "WATER_ABSORB",
+    "SHELL_ARMOR",
+    "HYDRATION"
+   ],
+   "base_total": 635,
+   "base_exp": 187,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "133": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    70,
+    75,
+    80,
+    60,
+    95,
+    45
+   ],
+   "types": [
+    "一般"
+   ],
+   "abilities": [
+    "RUN_AWAY",
+    "ADAPTABILITY",
+    "ANTICIPATION"
+   ],
+   "base_total": 425,
+   "base_exp": 65,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "142": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    135,
+    85,
+    70,
+    95,
+    150
+   ],
+   "types": [
+    "岩石",
+    "飞行"
+   ],
+   "abilities": [
+    "TOUGH_CLAWS",
+    "TOUGH_CLAWS",
+    "TOUGH_CLAWS"
+   ],
+   "base_total": 615,
+   "base_exp": 180,
+   "item": "AERODACTYLITE",
+   "item_icon": true,
+   "item_zh": "化石翼龙进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "143": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    200,
+    130,
+    85,
+    75,
+    130,
+    20
+   ],
+   "types": [
+    "一般"
+   ],
+   "abilities": [
+    "IMMUNITY",
+    "THICK_FAT",
+    "GLUTTONY"
+   ],
+   "base_total": 640,
+   "base_exp": 189,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "150": [
+  {
+   "form_key": "mega-x",
+   "kind": "mega",
+   "form_name": "Mega X",
+   "sprite_key": "mega-x",
+   "stats": [
+    106,
+    190,
+    100,
+    154,
+    100,
+    130
+   ],
+   "types": [
+    "超能力",
+    "格斗"
+   ],
+   "abilities": [
+    "STEADFAST",
+    "NONE",
+    "STEADFAST"
+   ],
+   "base_total": 780,
+   "base_exp": 340,
+   "item": "MEWTWONITE_X",
+   "item_icon": true,
+   "item_zh": "超梦进化石Ｘ",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "mega-y",
+   "kind": "mega",
+   "form_name": "Mega Y",
+   "sprite_key": "mega-y",
+   "stats": [
+    106,
+    150,
+    70,
+    194,
+    120,
+    140
+   ],
+   "types": [
+    "超能力"
+   ],
+   "abilities": [
+    "INSOMNIA",
+    "NONE",
+    "INSOMNIA"
+   ],
+   "base_total": 780,
+   "base_exp": 340,
+   "item": "MEWTWONITE_Y",
+   "item_icon": true,
+   "item_zh": "超梦进化石Ｙ",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "181": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    90,
+    95,
+    105,
+    165,
+    110,
+    45
+   ],
+   "types": [
+    "电",
+    "龙"
+   ],
+   "abilities": [
+    "MOLD_BREAKER",
+    "NONE",
+    "MOLD_BREAKER"
+   ],
+   "base_total": 610,
+   "base_exp": 230,
+   "item": "AMPHAROSITE",
+   "item_icon": true,
+   "item_zh": "电龙进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "208": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    75,
+    125,
+    230,
+    55,
+    95,
+    30
+   ],
+   "types": [
+    "钢",
+    "地面"
+   ],
+   "abilities": [
+    "SAND_FORCE",
+    "SAND_FORCE",
+    "SAND_FORCE"
+   ],
+   "base_total": 610,
+   "base_exp": 179,
+   "item": "STEELIXITE",
+   "item_icon": true,
+   "item_zh": "大钢蛇进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "212": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    150,
+    140,
+    65,
+    100,
+    75
+   ],
+   "types": [
+    "虫",
+    "钢"
+   ],
+   "abilities": [
+    "TECHNICIAN",
+    "TECHNICIAN",
+    "TECHNICIAN"
+   ],
+   "base_total": 600,
+   "base_exp": 175,
+   "item": "SCIZORITE",
+   "item_icon": true,
+   "item_zh": "巨钳螳螂进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "214": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    185,
+    115,
+    40,
+    105,
+    75
+   ],
+   "types": [
+    "虫",
+    "格斗"
+   ],
+   "abilities": [
+    "SKILL_LINK",
+    "SKILL_LINK",
+    "SKILL_LINK"
+   ],
+   "base_total": 600,
+   "base_exp": 175,
+   "item": "HERACRONITE",
+   "item_icon": true,
+   "item_zh": "赫拉克罗斯进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "229": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    75,
+    90,
+    90,
+    140,
+    90,
+    115
+   ],
+   "types": [
+    "恶",
+    "火"
+   ],
+   "abilities": [
+    "SOLAR_POWER",
+    "SOLAR_POWER",
+    "SOLAR_POWER"
+   ],
+   "base_total": 600,
+   "base_exp": 175,
+   "item": "HOUNDOOMINITE",
+   "item_icon": true,
+   "item_zh": "黑鲁加进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "248": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    100,
+    164,
+    150,
+    95,
+    120,
+    71
+   ],
+   "types": [
+    "岩石",
+    "恶"
+   ],
+   "abilities": [
+    "SAND_STREAM",
+    "NONE",
+    "SAND_STREAM"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "TYRANITARITE",
+   "item_icon": true,
+   "item_zh": "班基拉斯进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "254": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    110,
+    75,
+    145,
+    85,
+    145
+   ],
+   "types": [
+    "草",
+    "龙"
+   ],
+   "abilities": [
+    "LIGHTNING_ROD",
+    "NONE",
+    "LIGHTNING_ROD"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "SCEPTILITE",
+   "item_icon": true,
+   "item_zh": "蜥蜴王进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "257": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    160,
+    80,
+    130,
+    80,
+    100
+   ],
+   "types": [
+    "火",
+    "格斗"
+   ],
+   "abilities": [
+    "SPEED_BOOST",
+    "NONE",
+    "SPEED_BOOST"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "BLAZIKENITE",
+   "item_icon": true,
+   "item_zh": "火焰鸡进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "260": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    100,
+    150,
+    110,
+    95,
+    110,
+    70
+   ],
+   "types": [
+    "水",
+    "地面"
+   ],
+   "abilities": [
+    "SWIFT_SWIM",
+    "NONE",
+    "SWIFT_SWIM"
+   ],
+   "base_total": 635,
+   "base_exp": 268,
+   "item": "SWAMPERTITE",
+   "item_icon": true,
+   "item_zh": "巨沼怪进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "282": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    68,
+    85,
+    65,
+    165,
+    135,
+    100
+   ],
+   "types": [
+    "超能力",
+    "妖精"
+   ],
+   "abilities": [
+    "PIXILATE",
+    "PIXILATE",
+    "PIXILATE"
+   ],
+   "base_total": 618,
+   "base_exp": 259,
+   "item": "GARDEVOIRITE",
+   "item_icon": true,
+   "item_zh": "沙奈朵进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "302": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    50,
+    85,
+    125,
+    85,
+    115,
+    20
+   ],
+   "types": [
+    "恶",
+    "幽灵"
+   ],
+   "abilities": [
+    "MAGIC_BOUNCE",
+    "MAGIC_BOUNCE",
+    "MAGIC_BOUNCE"
+   ],
+   "base_total": 480,
+   "base_exp": 133,
+   "item": "SABLENITE",
+   "item_icon": true,
+   "item_zh": "勾魂眼进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "303": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    50,
+    105,
+    125,
+    55,
+    95,
+    50
+   ],
+   "types": [
+    "钢",
+    "妖精"
+   ],
+   "abilities": [
+    "HUGE_POWER",
+    "HUGE_POWER",
+    "HUGE_POWER"
+   ],
+   "base_total": 480,
+   "base_exp": 133,
+   "item": "MAWILITE",
+   "item_icon": true,
+   "item_zh": "大嘴娃进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "306": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    140,
+    230,
+    60,
+    80,
+    50
+   ],
+   "types": [
+    "钢"
+   ],
+   "abilities": [
+    "FILTER",
+    "FILTER",
+    "FILTER"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "AGGRONITE",
+   "item_icon": true,
+   "item_zh": "波士可多拉进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "308": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    60,
+    100,
+    85,
+    80,
+    85,
+    100
+   ],
+   "types": [
+    "格斗",
+    "超能力"
+   ],
+   "abilities": [
+    "PURE_POWER",
+    "NONE",
+    "PURE_POWER"
+   ],
+   "base_total": 510,
+   "base_exp": 144,
+   "item": "MEDICHAMITE",
+   "item_icon": true,
+   "item_zh": "恰雷姆进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "310": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    75,
+    80,
+    135,
+    80,
+    135
+   ],
+   "types": [
+    "电"
+   ],
+   "abilities": [
+    "INTIMIDATE",
+    "INTIMIDATE",
+    "INTIMIDATE"
+   ],
+   "base_total": 575,
+   "base_exp": 166,
+   "item": "MANECTITE",
+   "item_icon": true,
+   "item_zh": "雷电兽进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "319": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    140,
+    70,
+    110,
+    65,
+    105
+   ],
+   "types": [
+    "水",
+    "恶"
+   ],
+   "abilities": [
+    "STRONG_JAW",
+    "NONE",
+    "STRONG_JAW"
+   ],
+   "base_total": 560,
+   "base_exp": 161,
+   "item": "SHARPEDONITE",
+   "item_icon": true,
+   "item_zh": "巨牙鲨进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "323": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    120,
+    100,
+    145,
+    105,
+    20
+   ],
+   "types": [
+    "火",
+    "地面"
+   ],
+   "abilities": [
+    "SHEER_FORCE",
+    "SHEER_FORCE",
+    "SHEER_FORCE"
+   ],
+   "base_total": 560,
+   "base_exp": 161,
+   "item": "CAMERUPTITE",
+   "item_icon": true,
+   "item_zh": "喷火驼进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "334": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    75,
+    110,
+    110,
+    110,
+    105,
+    80
+   ],
+   "types": [
+    "龙",
+    "妖精"
+   ],
+   "abilities": [
+    "PIXILATE",
+    "NONE",
+    "PIXILATE"
+   ],
+   "base_total": 590,
+   "base_exp": 172,
+   "item": "ALTARIANITE",
+   "item_icon": true,
+   "item_zh": "七夕青鸟进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "354": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    64,
+    165,
+    75,
+    93,
+    83,
+    75
+   ],
+   "types": [
+    "幽灵"
+   ],
+   "abilities": [
+    "PRANKSTER",
+    "PRANKSTER",
+    "PRANKSTER"
+   ],
+   "base_total": 555,
+   "base_exp": 159,
+   "item": "BANETTITE",
+   "item_icon": true,
+   "item_zh": "诅咒娃娃进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "359": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    65,
+    150,
+    60,
+    115,
+    60,
+    115
+   ],
+   "types": [
+    "恶"
+   ],
+   "abilities": [
+    "MAGIC_BOUNCE",
+    "MAGIC_BOUNCE",
+    "MAGIC_BOUNCE"
+   ],
+   "base_total": 565,
+   "base_exp": 163,
+   "item": "ABSOLITE",
+   "item_icon": true,
+   "item_zh": "阿勃梭鲁进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "362": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    120,
+    80,
+    120,
+    80,
+    100
+   ],
+   "types": [
+    "冰"
+   ],
+   "abilities": [
+    "REFRIGERATE",
+    "REFRIGERATE",
+    "REFRIGERATE"
+   ],
+   "base_total": 580,
+   "base_exp": 168,
+   "item": "GLALITITE",
+   "item_icon": true,
+   "item_zh": "冰鬼护进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "373": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    95,
+    145,
+    130,
+    120,
+    90,
+    120
+   ],
+   "types": [
+    "龙",
+    "飞行"
+   ],
+   "abilities": [
+    "AERILATE",
+    "NONE",
+    "AERILATE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "SALAMENCITE",
+   "item_icon": true,
+   "item_zh": "暴飞龙进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "376": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    145,
+    150,
+    105,
+    110,
+    110
+   ],
+   "types": [
+    "钢",
+    "超能力"
+   ],
+   "abilities": [
+    "TOUGH_CLAWS",
+    "NONE",
+    "TOUGH_CLAWS"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "METAGROSSITE",
+   "item_icon": true,
+   "item_zh": "巨金怪进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "380": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    100,
+    120,
+    140,
+    150,
+    110
+   ],
+   "types": [
+    "龙",
+    "超能力"
+   ],
+   "abilities": [
+    "LEVITATE",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "LATIASITE",
+   "item_icon": true,
+   "item_zh": "拉帝亚斯进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "381": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    80,
+    130,
+    100,
+    160,
+    120,
+    110
+   ],
+   "types": [
+    "龙",
+    "超能力"
+   ],
+   "abilities": [
+    "LEVITATE",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "LATIOSITE",
+   "item_icon": true,
+   "item_zh": "拉帝欧斯进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "384": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    105,
+    180,
+    100,
+    180,
+    100,
+    115
+   ],
+   "types": [
+    "龙",
+    "飞行"
+   ],
+   "abilities": [
+    "DELTA_STREAM",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 780,
+   "base_exp": 340,
+   "item": "RAYQUAZITE",
+   "item_icon": true,
+   "item_zh": "烈空坐进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "428": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    65,
+    136,
+    94,
+    54,
+    96,
+    135
+   ],
+   "types": [
+    "一般",
+    "格斗"
+   ],
+   "abilities": [
+    "SCRAPPY",
+    "SCRAPPY",
+    "SCRAPPY"
+   ],
+   "base_total": 580,
+   "base_exp": 168,
+   "item": "LOPUNNITE",
+   "item_icon": true,
+   "item_zh": "长耳兔进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "445": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    108,
+    170,
+    115,
+    120,
+    95,
+    92
+   ],
+   "types": [
+    "龙",
+    "地面"
+   ],
+   "abilities": [
+    "SAND_FORCE",
+    "NONE",
+    "SAND_FORCE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "GARCHOMPITE",
+   "item_icon": true,
+   "item_zh": "烈咬陆鲨进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "448": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    70,
+    145,
+    88,
+    140,
+    70,
+    112
+   ],
+   "types": [
+    "格斗",
+    "钢"
+   ],
+   "abilities": [
+    "ADAPTABILITY",
+    "ADAPTABILITY",
+    "ADAPTABILITY"
+   ],
+   "base_total": 625,
+   "base_exp": 184,
+   "item": "LUCARIONITE",
+   "item_icon": true,
+   "item_zh": "路卡利欧进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "460": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    90,
+    132,
+    105,
+    132,
+    105,
+    30
+   ],
+   "types": [
+    "草",
+    "冰"
+   ],
+   "abilities": [
+    "SNOW_WARNING",
+    "NONE",
+    "SNOW_WARNING"
+   ],
+   "base_total": 594,
+   "base_exp": 173,
+   "item": "ABOMASITE",
+   "item_icon": true,
+   "item_zh": "暴雪王进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "475": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    68,
+    165,
+    95,
+    65,
+    115,
+    110
+   ],
+   "types": [
+    "超能力",
+    "格斗"
+   ],
+   "abilities": [
+    "SHARPNESS",
+    "SHARPNESS",
+    "SHARPNESS"
+   ],
+   "base_total": 618,
+   "base_exp": 259,
+   "item": "GALLADITE",
+   "item_icon": true,
+   "item_zh": "艾路雷朵进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "531": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    103,
+    60,
+    126,
+    80,
+    126,
+    50
+   ],
+   "types": [
+    "一般",
+    "妖精"
+   ],
+   "abilities": [
+    "HEALER",
+    "HEALER",
+    "HEALER"
+   ],
+   "base_total": 545,
+   "base_exp": 390,
+   "item": "AUDINITE",
+   "item_icon": true,
+   "item_zh": "差不多娃娃进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "569": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    100,
+    125,
+    102,
+    80,
+    102,
+    65
+   ],
+   "types": [
+    "毒"
+   ],
+   "abilities": [
+    "STENCH",
+    "WEAK_ARMOR",
+    "AFTERMATH"
+   ],
+   "base_total": 574,
+   "base_exp": 166,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "719": [
+  {
+   "form_key": "mega",
+   "kind": "mega",
+   "form_name": "Mega",
+   "sprite_key": "mega",
+   "stats": [
+    50,
+    160,
+    110,
+    160,
+    110,
+    110
+   ],
+   "types": [
+    "岩石",
+    "妖精"
+   ],
+   "abilities": [
+    "MAGIC_BOUNCE",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "DIANCITE",
+   "item_icon": true,
+   "item_zh": "蒂安希进化石",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "809": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    170,
+    165,
+    165,
+    95,
+    75,
+    30
+   ],
+   "types": [
+    "钢"
+   ],
+   "abilities": [
+    "IRON_FIST",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 700,
+   "base_exp": 300,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "812": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    125,
+    150,
+    115,
+    75,
+    90,
+    75
+   ],
+   "types": [
+    "草"
+   ],
+   "abilities": [
+    "OVERGROW",
+    "NONE",
+    "GRASSY_SURGE"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "815": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    100,
+    145,
+    90,
+    75,
+    90,
+    130
+   ],
+   "types": [
+    "火"
+   ],
+   "abilities": [
+    "BLAZE",
+    "NONE",
+    "LIBERO"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "818": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    90,
+    100,
+    90,
+    150,
+    90,
+    110
+   ],
+   "types": [
+    "水"
+   ],
+   "abilities": [
+    "TORRENT",
+    "NONE",
+    "SNIPER"
+   ],
+   "base_total": 630,
+   "base_exp": 265,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "823": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    125,
+    100,
+    135,
+    60,
+    95,
+    80
+   ],
+   "types": [
+    "飞行",
+    "钢"
+   ],
+   "abilities": [
+    "PRESSURE",
+    "UNNERVE",
+    "MIRROR_ARMOR"
+   ],
+   "base_total": 595,
+   "base_exp": 248,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "826": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    75,
+    50,
+    140,
+    90,
+    150,
+    100
+   ],
+   "types": [
+    "虫",
+    "超能力"
+   ],
+   "abilities": [
+    "SWARM",
+    "FRISK",
+    "TELEPATHY"
+   ],
+   "base_total": 605,
+   "base_exp": 253,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "834": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    115,
+    150,
+    110,
+    55,
+    85,
+    70
+   ],
+   "types": [
+    "水",
+    "岩石"
+   ],
+   "abilities": [
+    "STRONG_JAW",
+    "SHELL_ARMOR",
+    "SWIFT_SWIM"
+   ],
+   "base_total": 585,
+   "base_exp": 170,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "839": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    140,
+    95,
+    150,
+    95,
+    105,
+    25
+   ],
+   "types": [
+    "岩石",
+    "火"
+   ],
+   "abilities": [
+    "STEAM_ENGINE",
+    "FLAME_BODY",
+    "FLASH_FIRE"
+   ],
+   "base_total": 610,
+   "base_exp": 255,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "841": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    90,
+    140,
+    90,
+    120,
+    75,
+    70
+   ],
+   "types": [
+    "草",
+    "龙"
+   ],
+   "abilities": [
+    "RIPEN",
+    "GLUTTONY",
+    "HUSTLE"
+   ],
+   "base_total": 585,
+   "base_exp": 170,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "842": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    140,
+    95,
+    95,
+    135,
+    95,
+    25
+   ],
+   "types": [
+    "草",
+    "龙"
+   ],
+   "abilities": [
+    "RIPEN",
+    "GLUTTONY",
+    "THICK_FAT"
+   ],
+   "base_total": 585,
+   "base_exp": 170,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "844": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    90,
+    135,
+    150,
+    75,
+    80,
+    80
+   ],
+   "types": [
+    "地面"
+   ],
+   "abilities": [
+    "SAND_SPIT",
+    "SHED_SKIN",
+    "SAND_VEIL"
+   ],
+   "base_total": 610,
+   "base_exp": 179,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "849": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    95,
+    118,
+    80,
+    144,
+    80,
+    85
+   ],
+   "types": [
+    "电",
+    "毒"
+   ],
+   "abilities": [
+    "PUNK_ROCK",
+    "MINUS",
+    "TECHNICIAN"
+   ],
+   "base_total": 602,
+   "base_exp": 176,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "851": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    125,
+    145,
+    75,
+    105,
+    105,
+    70
+   ],
+   "types": [
+    "火",
+    "虫"
+   ],
+   "abilities": [
+    "FLASH_FIRE",
+    "WHITE_SMOKE",
+    "FLAME_BODY"
+   ],
+   "base_total": 625,
+   "base_exp": 184,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "858": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    70,
+    105,
+    110,
+    160,
+    125,
+    40
+   ],
+   "types": [
+    "超能力",
+    "妖精"
+   ],
+   "abilities": [
+    "HEALER",
+    "ANTICIPATION",
+    "MAGIC_BOUNCE"
+   ],
+   "base_total": 610,
+   "base_exp": 255,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "861": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    120,
+    155,
+    75,
+    110,
+    85,
+    65
+   ],
+   "types": [
+    "恶",
+    "妖精"
+   ],
+   "abilities": [
+    "PRANKSTER",
+    "FRISK",
+    "PICKPOCKET"
+   ],
+   "base_total": 610,
+   "base_exp": 255,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "869": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    80,
+    70,
+    85,
+    140,
+    150,
+    65
+   ],
+   "types": [
+    "妖精"
+   ],
+   "abilities": [
+    "SWEET_VEIL",
+    "NONE",
+    "AROMA_VEIL"
+   ],
+   "base_total": 595,
+   "base_exp": 173,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "879": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    150,
+    160,
+    80,
+    90,
+    80,
+    40
+   ],
+   "types": [
+    "钢"
+   ],
+   "abilities": [
+    "SHEER_FORCE",
+    "NONE",
+    "HEAVY_METAL"
+   ],
+   "base_total": 600,
+   "base_exp": 175,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "884": [
+  {
+   "form_key": "gigantamax",
+   "kind": "gmax",
+   "form_name": "G-Max",
+   "sprite_key": "gigantamax",
+   "stats": [
+    90,
+    110,
+    145,
+    140,
+    60,
+    90
+   ],
+   "types": [
+    "钢",
+    "龙"
+   ],
+   "abilities": [
+    "LIGHT_METAL",
+    "HEAVY_METAL",
+    "STALWART"
+   ],
+   "base_total": 635,
+   "base_exp": 187,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ],
+ "892": [
+  {
+   "form_key": "gigantamax-single",
+   "kind": "gmax",
+   "form_name": "G-Max Single Strike Style",
+   "sprite_key": "gigantamax-single",
+   "stats": [
+    125,
+    160,
+    120,
+    75,
+    70,
+    100
+   ],
+   "types": [
+    "格斗",
+    "恶"
+   ],
+   "abilities": [
+    "UNSEEN_FIST",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 650,
+   "base_exp": 275,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  },
+  {
+   "form_key": "gigantamax-rapid",
+   "kind": "gmax",
+   "form_name": "G-Max Rapid Strike Style",
+   "sprite_key": "gigantamax-rapid",
+   "stats": [
+    125,
+    160,
+    120,
+    75,
+    70,
+    100
+   ],
+   "types": [
+    "格斗",
+    "水"
+   ],
+   "abilities": [
+    "UNSEEN_FIST",
+    "NONE",
+    "NONE"
+   ],
+   "base_total": 650,
+   "base_exp": 275,
+   "item": "MAX_MUSHROOMS",
+   "item_icon": true,
+   "item_zh": "极巨菇菇",
+   "front": true,
+   "back": true,
+   "shiny_front": true,
+   "shiny_back": true
+  }
+ ]
+}

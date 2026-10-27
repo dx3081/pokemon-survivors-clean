@@ -1,0 +1,7576 @@
+{
+ "1": {
+  "name": "BULBASAUR",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CHLOROPHYLL",
+  "passive": "GRASSY_SURGE"
+ },
+ "2": {
+  "name": "IVYSAUR",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CHLOROPHYLL",
+  "passive": "NONE"
+ },
+ "3": {
+  "name": "VENUSAUR",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CHLOROPHYLL",
+  "passive": "NONE"
+ },
+ "4": {
+  "name": "CHARMANDER",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SOLAR_POWER",
+  "passive": "BEAST_BOOST"
+ },
+ "5": {
+  "name": "CHARMELEON",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SOLAR_POWER",
+  "passive": "NONE"
+ },
+ "6": {
+  "name": "CHARIZARD",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SOLAR_POWER",
+  "passive": "NONE"
+ },
+ "7": {
+  "name": "SQUIRTLE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "RAIN_DISH",
+  "passive": "STURDY"
+ },
+ "8": {
+  "name": "WARTORTLE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "RAIN_DISH",
+  "passive": "NONE"
+ },
+ "9": {
+  "name": "BLASTOISE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "RAIN_DISH",
+  "passive": "NONE"
+ },
+ "10": {
+  "name": "CATERPIE",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "MAGICIAN"
+ },
+ "11": {
+  "name": "METAPOD",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "NONE"
+ },
+ "12": {
+  "name": "BUTTERFREE",
+  "a1": "COMPOUND_EYES",
+  "a2": "NONE",
+  "hidden": "TINTED_LENS",
+  "passive": "NONE"
+ },
+ "13": {
+  "name": "WEEDLE",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "TINTED_LENS"
+ },
+ "14": {
+  "name": "KAKUNA",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "NONE"
+ },
+ "15": {
+  "name": "BEEDRILL",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "NONE"
+ },
+ "16": {
+  "name": "PIDGEY",
+  "a1": "KEEN_EYE",
+  "a2": "TANGLED_FEET",
+  "hidden": "BIG_PECKS",
+  "passive": "FLARE_BOOST"
+ },
+ "17": {
+  "name": "PIDGEOTTO",
+  "a1": "KEEN_EYE",
+  "a2": "TANGLED_FEET",
+  "hidden": "BIG_PECKS",
+  "passive": "NONE"
+ },
+ "18": {
+  "name": "PIDGEOT",
+  "a1": "KEEN_EYE",
+  "a2": "TANGLED_FEET",
+  "hidden": "BIG_PECKS",
+  "passive": "NONE"
+ },
+ "19": {
+  "name": "RATTATA",
+  "a1": "RUN_AWAY",
+  "a2": "GUTS",
+  "hidden": "HUSTLE",
+  "passive": "STRONG_JAW"
+ },
+ "20": {
+  "name": "RATICATE",
+  "a1": "RUN_AWAY",
+  "a2": "GUTS",
+  "hidden": "HUSTLE",
+  "passive": "NONE"
+ },
+ "21": {
+  "name": "SPEAROW",
+  "a1": "KEEN_EYE",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "MOXIE"
+ },
+ "22": {
+  "name": "FEAROW",
+  "a1": "KEEN_EYE",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "NONE"
+ },
+ "23": {
+  "name": "EKANS",
+  "a1": "INTIMIDATE",
+  "a2": "SHED_SKIN",
+  "hidden": "UNNERVE",
+  "passive": "REGENERATOR"
+ },
+ "24": {
+  "name": "ARBOK",
+  "a1": "INTIMIDATE",
+  "a2": "SHED_SKIN",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "25": {
+  "name": "PIKACHU",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "NONE"
+ },
+ "26": {
+  "name": "RAICHU",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "NONE"
+ },
+ "27": {
+  "name": "SANDSHREW",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "SAND_RUSH",
+  "passive": "TOUGH_CLAWS"
+ },
+ "28": {
+  "name": "SANDSLASH",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "SAND_RUSH",
+  "passive": "NONE"
+ },
+ "29": {
+  "name": "NIDORAN_F",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "HUSTLE",
+  "passive": "FLARE_BOOST"
+ },
+ "30": {
+  "name": "NIDORINA",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "HUSTLE",
+  "passive": "NONE"
+ },
+ "31": {
+  "name": "NIDOQUEEN",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "32": {
+  "name": "NIDORAN_M",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "HUSTLE",
+  "passive": "GUTS"
+ },
+ "33": {
+  "name": "NIDORINO",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "HUSTLE",
+  "passive": "NONE"
+ },
+ "34": {
+  "name": "NIDOKING",
+  "a1": "POISON_POINT",
+  "a2": "RIVALRY",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "35": {
+  "name": "CLEFAIRY",
+  "a1": "CUTE_CHARM",
+  "a2": "MAGIC_GUARD",
+  "hidden": "FRIEND_GUARD",
+  "passive": "NONE"
+ },
+ "36": {
+  "name": "CLEFABLE",
+  "a1": "CUTE_CHARM",
+  "a2": "MAGIC_GUARD",
+  "hidden": "UNAWARE",
+  "passive": "NONE"
+ },
+ "37": {
+  "name": "VULPIX",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "DROUGHT",
+  "passive": "FUR_COAT"
+ },
+ "38": {
+  "name": "NINETALES",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "DROUGHT",
+  "passive": "NONE"
+ },
+ "39": {
+  "name": "JIGGLYPUFF",
+  "a1": "CUTE_CHARM",
+  "a2": "COMPETITIVE",
+  "hidden": "FRIEND_GUARD",
+  "passive": "NONE"
+ },
+ "40": {
+  "name": "WIGGLYTUFF",
+  "a1": "CUTE_CHARM",
+  "a2": "COMPETITIVE",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "41": {
+  "name": "ZUBAT",
+  "a1": "INNER_FOCUS",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "INTIMIDATE"
+ },
+ "42": {
+  "name": "GOLBAT",
+  "a1": "INNER_FOCUS",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "43": {
+  "name": "ODDISH",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "TRIAGE"
+ },
+ "44": {
+  "name": "GLOOM",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "STENCH",
+  "passive": "NONE"
+ },
+ "45": {
+  "name": "VILEPLUME",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "EFFECT_SPORE",
+  "passive": "NONE"
+ },
+ "46": {
+  "name": "PARAS",
+  "a1": "EFFECT_SPORE",
+  "a2": "DRY_SKIN",
+  "hidden": "DAMP",
+  "passive": "TRIAGE"
+ },
+ "47": {
+  "name": "PARASECT",
+  "a1": "EFFECT_SPORE",
+  "a2": "DRY_SKIN",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "48": {
+  "name": "VENONAT",
+  "a1": "COMPOUND_EYES",
+  "a2": "TINTED_LENS",
+  "hidden": "RUN_AWAY",
+  "passive": "SIMPLE"
+ },
+ "49": {
+  "name": "VENOMOTH",
+  "a1": "SHIELD_DUST",
+  "a2": "TINTED_LENS",
+  "hidden": "WONDER_SKIN",
+  "passive": "NONE"
+ },
+ "50": {
+  "name": "DIGLETT",
+  "a1": "SAND_VEIL",
+  "a2": "ARENA_TRAP",
+  "hidden": "SAND_FORCE",
+  "passive": "STURDY"
+ },
+ "51": {
+  "name": "DUGTRIO",
+  "a1": "SAND_VEIL",
+  "a2": "ARENA_TRAP",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "52": {
+  "name": "MEOWTH",
+  "a1": "PICKUP",
+  "a2": "TECHNICIAN",
+  "hidden": "UNNERVE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "53": {
+  "name": "PERSIAN",
+  "a1": "LIMBER",
+  "a2": "TECHNICIAN",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "54": {
+  "name": "PSYDUCK",
+  "a1": "DAMP",
+  "a2": "CLOUD_NINE",
+  "hidden": "SWIFT_SWIM",
+  "passive": "SIMPLE"
+ },
+ "55": {
+  "name": "GOLDUCK",
+  "a1": "DAMP",
+  "a2": "CLOUD_NINE",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "56": {
+  "name": "MANKEY",
+  "a1": "VITAL_SPIRIT",
+  "a2": "ANGER_POINT",
+  "hidden": "DEFIANT",
+  "passive": "IRON_FIST"
+ },
+ "57": {
+  "name": "PRIMEAPE",
+  "a1": "VITAL_SPIRIT",
+  "a2": "ANGER_POINT",
+  "hidden": "DEFIANT",
+  "passive": "NONE"
+ },
+ "58": {
+  "name": "GROWLITHE",
+  "a1": "INTIMIDATE",
+  "a2": "FLASH_FIRE",
+  "hidden": "JUSTIFIED",
+  "passive": "SPEED_BOOST"
+ },
+ "59": {
+  "name": "ARCANINE",
+  "a1": "INTIMIDATE",
+  "a2": "FLASH_FIRE",
+  "hidden": "JUSTIFIED",
+  "passive": "NONE"
+ },
+ "60": {
+  "name": "POLIWAG",
+  "a1": "WATER_ABSORB",
+  "a2": "DAMP",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NO_GUARD"
+ },
+ "61": {
+  "name": "POLIWHIRL",
+  "a1": "WATER_ABSORB",
+  "a2": "DAMP",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "62": {
+  "name": "POLIWRATH",
+  "a1": "WATER_ABSORB",
+  "a2": "DAMP",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "63": {
+  "name": "ABRA",
+  "a1": "SYNCHRONIZE",
+  "a2": "INNER_FOCUS",
+  "hidden": "MAGIC_GUARD",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "64": {
+  "name": "KADABRA",
+  "a1": "SYNCHRONIZE",
+  "a2": "INNER_FOCUS",
+  "hidden": "MAGIC_GUARD",
+  "passive": "NONE"
+ },
+ "65": {
+  "name": "ALAKAZAM",
+  "a1": "SYNCHRONIZE",
+  "a2": "INNER_FOCUS",
+  "hidden": "MAGIC_GUARD",
+  "passive": "NONE"
+ },
+ "66": {
+  "name": "MACHOP",
+  "a1": "GUTS",
+  "a2": "NO_GUARD",
+  "hidden": "STEADFAST",
+  "passive": "QUICK_FEET"
+ },
+ "67": {
+  "name": "MACHOKE",
+  "a1": "GUTS",
+  "a2": "NO_GUARD",
+  "hidden": "STEADFAST",
+  "passive": "NONE"
+ },
+ "68": {
+  "name": "MACHAMP",
+  "a1": "GUTS",
+  "a2": "NO_GUARD",
+  "hidden": "STEADFAST",
+  "passive": "NONE"
+ },
+ "69": {
+  "name": "BELLSPROUT",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "GLUTTONY",
+  "passive": "PROTOSYNTHESIS"
+ },
+ "70": {
+  "name": "WEEPINBELL",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "71": {
+  "name": "VICTREEBEL",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "72": {
+  "name": "TENTACOOL",
+  "a1": "CLEAR_BODY",
+  "a2": "LIQUID_OOZE",
+  "hidden": "RAIN_DISH",
+  "passive": "TOXIC_CHAIN"
+ },
+ "73": {
+  "name": "TENTACRUEL",
+  "a1": "CLEAR_BODY",
+  "a2": "LIQUID_OOZE",
+  "hidden": "RAIN_DISH",
+  "passive": "NONE"
+ },
+ "74": {
+  "name": "GEODUDE",
+  "a1": "ROCK_HEAD",
+  "a2": "STURDY",
+  "hidden": "SAND_VEIL",
+  "passive": "DRY_SKIN"
+ },
+ "75": {
+  "name": "GRAVELER",
+  "a1": "ROCK_HEAD",
+  "a2": "STURDY",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "76": {
+  "name": "GOLEM",
+  "a1": "ROCK_HEAD",
+  "a2": "STURDY",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "77": {
+  "name": "PONYTA",
+  "a1": "RUN_AWAY",
+  "a2": "FLASH_FIRE",
+  "hidden": "FLAME_BODY",
+  "passive": "MAGIC_GUARD"
+ },
+ "78": {
+  "name": "RAPIDASH",
+  "a1": "RUN_AWAY",
+  "a2": "FLASH_FIRE",
+  "hidden": "FLAME_BODY",
+  "passive": "NONE"
+ },
+ "79": {
+  "name": "SLOWPOKE",
+  "a1": "OBLIVIOUS",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "UNAWARE"
+ },
+ "80": {
+  "name": "SLOWBRO",
+  "a1": "OBLIVIOUS",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "81": {
+  "name": "MAGNEMITE",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "ANALYTIC",
+  "passive": "LEVITATE"
+ },
+ "82": {
+  "name": "MAGNETON",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "83": {
+  "name": "FARFETCHD",
+  "a1": "KEEN_EYE",
+  "a2": "INNER_FOCUS",
+  "hidden": "DEFIANT",
+  "passive": "SNIPER"
+ },
+ "84": {
+  "name": "DODUO",
+  "a1": "RUN_AWAY",
+  "a2": "EARLY_BIRD",
+  "hidden": "TANGLED_FEET",
+  "passive": "PARENTAL_BOND"
+ },
+ "85": {
+  "name": "DODRIO",
+  "a1": "RUN_AWAY",
+  "a2": "EARLY_BIRD",
+  "hidden": "TANGLED_FEET",
+  "passive": "NONE"
+ },
+ "86": {
+  "name": "SEEL",
+  "a1": "THICK_FAT",
+  "a2": "HYDRATION",
+  "hidden": "ICE_BODY",
+  "passive": "WATER_BUBBLE"
+ },
+ "87": {
+  "name": "DEWGONG",
+  "a1": "THICK_FAT",
+  "a2": "HYDRATION",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "88": {
+  "name": "GRIMER",
+  "a1": "STENCH",
+  "a2": "STICKY_HOLD",
+  "hidden": "POISON_TOUCH",
+  "passive": "WATER_ABSORB"
+ },
+ "89": {
+  "name": "MUK",
+  "a1": "STENCH",
+  "a2": "STICKY_HOLD",
+  "hidden": "POISON_TOUCH",
+  "passive": "NONE"
+ },
+ "90": {
+  "name": "SHELLDER",
+  "a1": "SHELL_ARMOR",
+  "a2": "SKILL_LINK",
+  "hidden": "OVERCOAT",
+  "passive": "ICE_SCALES"
+ },
+ "91": {
+  "name": "CLOYSTER",
+  "a1": "SHELL_ARMOR",
+  "a2": "SKILL_LINK",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "92": {
+  "name": "GASTLY",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHADOW_SHIELD"
+ },
+ "93": {
+  "name": "HAUNTER",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "94": {
+  "name": "GENGAR",
+  "a1": "CURSED_BODY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "95": {
+  "name": "ONIX",
+  "a1": "ROCK_HEAD",
+  "a2": "STURDY",
+  "hidden": "WEAK_ARMOR",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "96": {
+  "name": "DROWZEE",
+  "a1": "INSOMNIA",
+  "a2": "FOREWARN",
+  "hidden": "INNER_FOCUS",
+  "passive": "MAGICIAN"
+ },
+ "97": {
+  "name": "HYPNO",
+  "a1": "INSOMNIA",
+  "a2": "FOREWARN",
+  "hidden": "INNER_FOCUS",
+  "passive": "NONE"
+ },
+ "98": {
+  "name": "KRABBY",
+  "a1": "HYPER_CUTTER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "SHEER_FORCE",
+  "passive": "UNBURDEN"
+ },
+ "99": {
+  "name": "KINGLER",
+  "a1": "HYPER_CUTTER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "100": {
+  "name": "VOLTORB",
+  "a1": "SOUNDPROOF",
+  "a2": "STATIC",
+  "hidden": "AFTERMATH",
+  "passive": "TRANSISTOR"
+ },
+ "101": {
+  "name": "ELECTRODE",
+  "a1": "SOUNDPROOF",
+  "a2": "STATIC",
+  "hidden": "AFTERMATH",
+  "passive": "NONE"
+ },
+ "102": {
+  "name": "EXEGGCUTE",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "RIPEN"
+ },
+ "103": {
+  "name": "EXEGGUTOR",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "NONE"
+ },
+ "104": {
+  "name": "CUBONE",
+  "a1": "ROCK_HEAD",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "BATTLE_ARMOR",
+  "passive": "PARENTAL_BOND"
+ },
+ "105": {
+  "name": "MAROWAK",
+  "a1": "ROCK_HEAD",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "BATTLE_ARMOR",
+  "passive": "NONE"
+ },
+ "106": {
+  "name": "HITMONLEE",
+  "a1": "LIMBER",
+  "a2": "RECKLESS",
+  "hidden": "UNBURDEN",
+  "passive": "NONE"
+ },
+ "107": {
+  "name": "HITMONCHAN",
+  "a1": "KEEN_EYE",
+  "a2": "IRON_FIST",
+  "hidden": "INNER_FOCUS",
+  "passive": "NONE"
+ },
+ "108": {
+  "name": "LICKITUNG",
+  "a1": "OWN_TEMPO",
+  "a2": "OBLIVIOUS",
+  "hidden": "CLOUD_NINE",
+  "passive": "THICK_FAT"
+ },
+ "109": {
+  "name": "KOFFING",
+  "a1": "LEVITATE",
+  "a2": "NEUTRALIZING_GAS",
+  "hidden": "STENCH",
+  "passive": "PARENTAL_BOND"
+ },
+ "110": {
+  "name": "WEEZING",
+  "a1": "LEVITATE",
+  "a2": "NEUTRALIZING_GAS",
+  "hidden": "STENCH",
+  "passive": "NONE"
+ },
+ "111": {
+  "name": "RHYHORN",
+  "a1": "LIGHTNING_ROD",
+  "a2": "ROCK_HEAD",
+  "hidden": "RECKLESS",
+  "passive": "FILTER"
+ },
+ "112": {
+  "name": "RHYDON",
+  "a1": "LIGHTNING_ROD",
+  "a2": "ROCK_HEAD",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "113": {
+  "name": "CHANSEY",
+  "a1": "NATURAL_CURE",
+  "a2": "SERENE_GRACE",
+  "hidden": "HEALER",
+  "passive": "NONE"
+ },
+ "114": {
+  "name": "TANGELA",
+  "a1": "CHLOROPHYLL",
+  "a2": "LEAF_GUARD",
+  "hidden": "REGENERATOR",
+  "passive": "SEED_SOWER"
+ },
+ "115": {
+  "name": "KANGASKHAN",
+  "a1": "EARLY_BIRD",
+  "a2": "SCRAPPY",
+  "hidden": "INNER_FOCUS",
+  "passive": "GUTS"
+ },
+ "116": {
+  "name": "HORSEA",
+  "a1": "SWIFT_SWIM",
+  "a2": "SNIPER",
+  "hidden": "DAMP",
+  "passive": "DRAGONS_MAW"
+ },
+ "117": {
+  "name": "SEADRA",
+  "a1": "POISON_POINT",
+  "a2": "SNIPER",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "118": {
+  "name": "GOLDEEN",
+  "a1": "SWIFT_SWIM",
+  "a2": "WATER_VEIL",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "MULTISCALE"
+ },
+ "119": {
+  "name": "SEAKING",
+  "a1": "SWIFT_SWIM",
+  "a2": "WATER_VEIL",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "NONE"
+ },
+ "120": {
+  "name": "STARYU",
+  "a1": "ILLUMINATE",
+  "a2": "NATURAL_CURE",
+  "hidden": "ANALYTIC",
+  "passive": "REGENERATOR"
+ },
+ "121": {
+  "name": "STARMIE",
+  "a1": "ILLUMINATE",
+  "a2": "NATURAL_CURE",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "122": {
+  "name": "MR_MIME",
+  "a1": "SOUNDPROOF",
+  "a2": "FILTER",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "123": {
+  "name": "SCYTHER",
+  "a1": "SWARM",
+  "a2": "TECHNICIAN",
+  "hidden": "STEADFAST",
+  "passive": "TINTED_LENS"
+ },
+ "124": {
+  "name": "JYNX",
+  "a1": "OBLIVIOUS",
+  "a2": "FOREWARN",
+  "hidden": "DRY_SKIN",
+  "passive": "NONE"
+ },
+ "125": {
+  "name": "ELECTABUZZ",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "NONE"
+ },
+ "126": {
+  "name": "MAGMAR",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "NONE"
+ },
+ "127": {
+  "name": "PINSIR",
+  "a1": "HYPER_CUTTER",
+  "a2": "MOLD_BREAKER",
+  "hidden": "MOXIE",
+  "passive": "TINTED_LENS"
+ },
+ "128": {
+  "name": "TAUROS",
+  "a1": "INTIMIDATE",
+  "a2": "ANGER_POINT",
+  "hidden": "SHEER_FORCE",
+  "passive": "SCRAPPY"
+ },
+ "129": {
+  "name": "MAGIKARP",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "RATTLED",
+  "passive": "MULTISCALE"
+ },
+ "130": {
+  "name": "GYARADOS",
+  "a1": "INTIMIDATE",
+  "a2": "NONE",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "131": {
+  "name": "LAPRAS",
+  "a1": "WATER_ABSORB",
+  "a2": "SHELL_ARMOR",
+  "hidden": "HYDRATION",
+  "passive": "LIGHTNING_ROD"
+ },
+ "132": {
+  "name": "DITTO",
+  "a1": "LIMBER",
+  "a2": "NONE",
+  "hidden": "IMPOSTER",
+  "passive": "ADAPTABILITY"
+ },
+ "133": {
+  "name": "EEVEE",
+  "a1": "RUN_AWAY",
+  "a2": "ADAPTABILITY",
+  "hidden": "ANTICIPATION",
+  "passive": "PICKUP"
+ },
+ "134": {
+  "name": "VAPOREON",
+  "a1": "WATER_ABSORB",
+  "a2": "NONE",
+  "hidden": "HYDRATION",
+  "passive": "NONE"
+ },
+ "135": {
+  "name": "JOLTEON",
+  "a1": "VOLT_ABSORB",
+  "a2": "NONE",
+  "hidden": "QUICK_FEET",
+  "passive": "NONE"
+ },
+ "136": {
+  "name": "FLAREON",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "GUTS",
+  "passive": "NONE"
+ },
+ "137": {
+  "name": "PORYGON",
+  "a1": "TRACE",
+  "a2": "DOWNLOAD",
+  "hidden": "ANALYTIC",
+  "passive": "PROTEAN"
+ },
+ "138": {
+  "name": "OMANYTE",
+  "a1": "SWIFT_SWIM",
+  "a2": "SHELL_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "STURDY"
+ },
+ "139": {
+  "name": "OMASTAR",
+  "a1": "SWIFT_SWIM",
+  "a2": "SHELL_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "140": {
+  "name": "KABUTO",
+  "a1": "SWIFT_SWIM",
+  "a2": "BATTLE_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "TOUGH_CLAWS"
+ },
+ "141": {
+  "name": "KABUTOPS",
+  "a1": "SWIFT_SWIM",
+  "a2": "BATTLE_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "142": {
+  "name": "AERODACTYL",
+  "a1": "ROCK_HEAD",
+  "a2": "PRESSURE",
+  "hidden": "UNNERVE",
+  "passive": "ORICHALCUM_PULSE"
+ },
+ "143": {
+  "name": "SNORLAX",
+  "a1": "IMMUNITY",
+  "a2": "THICK_FAT",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "144": {
+  "name": "ARTICUNO",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "SNOW_CLOAK",
+  "passive": "SNOW_WARNING"
+ },
+ "145": {
+  "name": "ZAPDOS",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "STATIC",
+  "passive": "DRIZZLE"
+ },
+ "146": {
+  "name": "MOLTRES",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "FLAME_BODY",
+  "passive": "DROUGHT"
+ },
+ "147": {
+  "name": "DRATINI",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "MARVEL_SCALE",
+  "passive": "AERILATE"
+ },
+ "148": {
+  "name": "DRAGONAIR",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "MARVEL_SCALE",
+  "passive": "NONE"
+ },
+ "149": {
+  "name": "DRAGONITE",
+  "a1": "INNER_FOCUS",
+  "a2": "NONE",
+  "hidden": "MULTISCALE",
+  "passive": "NONE"
+ },
+ "150": {
+  "name": "MEWTWO",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "UNNERVE",
+  "passive": "NEUROFORCE"
+ },
+ "151": {
+  "name": "MEW",
+  "a1": "SYNCHRONIZE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PROTEAN"
+ },
+ "152": {
+  "name": "CHIKORITA",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LEAF_GUARD",
+  "passive": "THICK_FAT"
+ },
+ "153": {
+  "name": "BAYLEEF",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LEAF_GUARD",
+  "passive": "NONE"
+ },
+ "154": {
+  "name": "MEGANIUM",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LEAF_GUARD",
+  "passive": "NONE"
+ },
+ "155": {
+  "name": "CYNDAQUIL",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "FLASH_FIRE",
+  "passive": "DROUGHT"
+ },
+ "156": {
+  "name": "QUILAVA",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "FLASH_FIRE",
+  "passive": "NONE"
+ },
+ "157": {
+  "name": "TYPHLOSION",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "FLASH_FIRE",
+  "passive": "NONE"
+ },
+ "158": {
+  "name": "TOTODILE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "159": {
+  "name": "CROCONAW",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "160": {
+  "name": "FERALIGATR",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "161": {
+  "name": "SENTRET",
+  "a1": "RUN_AWAY",
+  "a2": "KEEN_EYE",
+  "hidden": "FRISK",
+  "passive": "PICKUP"
+ },
+ "162": {
+  "name": "FURRET",
+  "a1": "RUN_AWAY",
+  "a2": "KEEN_EYE",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "163": {
+  "name": "HOOTHOOT",
+  "a1": "INSOMNIA",
+  "a2": "KEEN_EYE",
+  "hidden": "TINTED_LENS",
+  "passive": "AERILATE"
+ },
+ "164": {
+  "name": "NOCTOWL",
+  "a1": "INSOMNIA",
+  "a2": "KEEN_EYE",
+  "hidden": "TINTED_LENS",
+  "passive": "NONE"
+ },
+ "165": {
+  "name": "LEDYBA",
+  "a1": "SWARM",
+  "a2": "EARLY_BIRD",
+  "hidden": "RATTLED",
+  "passive": "PRANKSTER"
+ },
+ "166": {
+  "name": "LEDIAN",
+  "a1": "SWARM",
+  "a2": "EARLY_BIRD",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "167": {
+  "name": "SPINARAK",
+  "a1": "SWARM",
+  "a2": "INSOMNIA",
+  "hidden": "SNIPER",
+  "passive": "PRANKSTER"
+ },
+ "168": {
+  "name": "ARIADOS",
+  "a1": "SWARM",
+  "a2": "INSOMNIA",
+  "hidden": "SNIPER",
+  "passive": "NONE"
+ },
+ "169": {
+  "name": "CROBAT",
+  "a1": "INNER_FOCUS",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "170": {
+  "name": "CHINCHOU",
+  "a1": "VOLT_ABSORB",
+  "a2": "ILLUMINATE",
+  "hidden": "WATER_ABSORB",
+  "passive": "WATER_BUBBLE"
+ },
+ "171": {
+  "name": "LANTURN",
+  "a1": "VOLT_ABSORB",
+  "a2": "ILLUMINATE",
+  "hidden": "WATER_ABSORB",
+  "passive": "NONE"
+ },
+ "172": {
+  "name": "PICHU",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "ELECTRIC_SURGE"
+ },
+ "173": {
+  "name": "CLEFFA",
+  "a1": "CUTE_CHARM",
+  "a2": "MAGIC_GUARD",
+  "hidden": "FRIEND_GUARD",
+  "passive": "ANALYTIC"
+ },
+ "174": {
+  "name": "IGGLYBUFF",
+  "a1": "CUTE_CHARM",
+  "a2": "COMPETITIVE",
+  "hidden": "FRIEND_GUARD",
+  "passive": "HUGE_POWER"
+ },
+ "175": {
+  "name": "TOGEPI",
+  "a1": "HUSTLE",
+  "a2": "SERENE_GRACE",
+  "hidden": "SUPER_LUCK",
+  "passive": "PIXILATE"
+ },
+ "176": {
+  "name": "TOGETIC",
+  "a1": "HUSTLE",
+  "a2": "SERENE_GRACE",
+  "hidden": "SUPER_LUCK",
+  "passive": "NONE"
+ },
+ "177": {
+  "name": "NATU",
+  "a1": "SYNCHRONIZE",
+  "a2": "EARLY_BIRD",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "TINTED_LENS"
+ },
+ "178": {
+  "name": "XATU",
+  "a1": "SYNCHRONIZE",
+  "a2": "EARLY_BIRD",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "NONE"
+ },
+ "179": {
+  "name": "MAREEP",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "PLUS",
+  "passive": "ELECTROMORPHOSIS"
+ },
+ "180": {
+  "name": "FLAAFFY",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "PLUS",
+  "passive": "NONE"
+ },
+ "181": {
+  "name": "AMPHAROS",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "PLUS",
+  "passive": "NONE"
+ },
+ "182": {
+  "name": "BELLOSSOM",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "HEALER",
+  "passive": "NONE"
+ },
+ "183": {
+  "name": "MARILL",
+  "a1": "THICK_FAT",
+  "a2": "HUGE_POWER",
+  "hidden": "SAP_SIPPER",
+  "passive": "NONE"
+ },
+ "184": {
+  "name": "AZUMARILL",
+  "a1": "THICK_FAT",
+  "a2": "HUGE_POWER",
+  "hidden": "SAP_SIPPER",
+  "passive": "NONE"
+ },
+ "185": {
+  "name": "SUDOWOODO",
+  "a1": "STURDY",
+  "a2": "ROCK_HEAD",
+  "hidden": "RATTLED",
+  "passive": "NONE"
+ },
+ "186": {
+  "name": "POLITOED",
+  "a1": "WATER_ABSORB",
+  "a2": "DAMP",
+  "hidden": "DRIZZLE",
+  "passive": "NONE"
+ },
+ "187": {
+  "name": "HOPPIP",
+  "a1": "CHLOROPHYLL",
+  "a2": "LEAF_GUARD",
+  "hidden": "INFILTRATOR",
+  "passive": "FLUFFY"
+ },
+ "188": {
+  "name": "SKIPLOOM",
+  "a1": "CHLOROPHYLL",
+  "a2": "LEAF_GUARD",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "189": {
+  "name": "JUMPLUFF",
+  "a1": "CHLOROPHYLL",
+  "a2": "LEAF_GUARD",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "190": {
+  "name": "AIPOM",
+  "a1": "RUN_AWAY",
+  "a2": "PICKUP",
+  "hidden": "SKILL_LINK",
+  "passive": "SCRAPPY"
+ },
+ "191": {
+  "name": "SUNKERN",
+  "a1": "CHLOROPHYLL",
+  "a2": "SOLAR_POWER",
+  "hidden": "EARLY_BIRD",
+  "passive": "DROUGHT"
+ },
+ "192": {
+  "name": "SUNFLORA",
+  "a1": "CHLOROPHYLL",
+  "a2": "SOLAR_POWER",
+  "hidden": "EARLY_BIRD",
+  "passive": "NONE"
+ },
+ "193": {
+  "name": "YANMA",
+  "a1": "SPEED_BOOST",
+  "a2": "COMPOUND_EYES",
+  "hidden": "FRISK",
+  "passive": "SHEER_FORCE"
+ },
+ "194": {
+  "name": "WOOPER",
+  "a1": "DAMP",
+  "a2": "WATER_ABSORB",
+  "hidden": "UNAWARE",
+  "passive": "COMATOSE"
+ },
+ "195": {
+  "name": "QUAGSIRE",
+  "a1": "DAMP",
+  "a2": "WATER_ABSORB",
+  "hidden": "UNAWARE",
+  "passive": "NONE"
+ },
+ "196": {
+  "name": "ESPEON",
+  "a1": "SYNCHRONIZE",
+  "a2": "NONE",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "NONE"
+ },
+ "197": {
+  "name": "UMBREON",
+  "a1": "SYNCHRONIZE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "NONE"
+ },
+ "198": {
+  "name": "MURKROW",
+  "a1": "INSOMNIA",
+  "a2": "SUPER_LUCK",
+  "hidden": "PRANKSTER",
+  "passive": "DARK_AURA"
+ },
+ "199": {
+  "name": "SLOWKING",
+  "a1": "OBLIVIOUS",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "200": {
+  "name": "MISDREAVUS",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEADS_OF_RUIN"
+ },
+ "201": {
+  "name": "UNOWN",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PICKUP"
+ },
+ "202": {
+  "name": "WOBBUFFET",
+  "a1": "SHADOW_TAG",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "203": {
+  "name": "GIRAFARIG",
+  "a1": "INNER_FOCUS",
+  "a2": "EARLY_BIRD",
+  "hidden": "SAP_SIPPER",
+  "passive": "PARENTAL_BOND"
+ },
+ "204": {
+  "name": "PINECO",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "OVERCOAT",
+  "passive": "IRON_BARBS"
+ },
+ "205": {
+  "name": "FORRETRESS",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "206": {
+  "name": "DUNSPARCE",
+  "a1": "SERENE_GRACE",
+  "a2": "RUN_AWAY",
+  "hidden": "RATTLED",
+  "passive": "UNAWARE"
+ },
+ "207": {
+  "name": "GLIGAR",
+  "a1": "HYPER_CUTTER",
+  "a2": "SAND_VEIL",
+  "hidden": "IMMUNITY",
+  "passive": "TOXIC_BOOST"
+ },
+ "208": {
+  "name": "STEELIX",
+  "a1": "ROCK_HEAD",
+  "a2": "STURDY",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "209": {
+  "name": "SNUBBULL",
+  "a1": "INTIMIDATE",
+  "a2": "RUN_AWAY",
+  "hidden": "RATTLED",
+  "passive": "PIXILATE"
+ },
+ "210": {
+  "name": "GRANBULL",
+  "a1": "INTIMIDATE",
+  "a2": "QUICK_FEET",
+  "hidden": "RATTLED",
+  "passive": "NONE"
+ },
+ "211": {
+  "name": "QWILFISH",
+  "a1": "POISON_POINT",
+  "a2": "SWIFT_SWIM",
+  "hidden": "INTIMIDATE",
+  "passive": "TOXIC_DEBRIS"
+ },
+ "212": {
+  "name": "SCIZOR",
+  "a1": "SWARM",
+  "a2": "TECHNICIAN",
+  "hidden": "LIGHT_METAL",
+  "passive": "NONE"
+ },
+ "213": {
+  "name": "SHUCKLE",
+  "a1": "STURDY",
+  "a2": "GLUTTONY",
+  "hidden": "CONTRARY",
+  "passive": "HARVEST"
+ },
+ "214": {
+  "name": "HERACROSS",
+  "a1": "SWARM",
+  "a2": "GUTS",
+  "hidden": "MOXIE",
+  "passive": "TECHNICIAN"
+ },
+ "215": {
+  "name": "SNEASEL",
+  "a1": "INNER_FOCUS",
+  "a2": "KEEN_EYE",
+  "hidden": "PICKPOCKET",
+  "passive": "TOUGH_CLAWS"
+ },
+ "216": {
+  "name": "TEDDIURSA",
+  "a1": "PICKUP",
+  "a2": "QUICK_FEET",
+  "hidden": "HONEY_GATHER",
+  "passive": "THICK_FAT"
+ },
+ "217": {
+  "name": "URSARING",
+  "a1": "GUTS",
+  "a2": "QUICK_FEET",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "218": {
+  "name": "SLUGMA",
+  "a1": "MAGMA_ARMOR",
+  "a2": "FLAME_BODY",
+  "hidden": "WEAK_ARMOR",
+  "passive": "DESOLATE_LAND"
+ },
+ "219": {
+  "name": "MAGCARGO",
+  "a1": "MAGMA_ARMOR",
+  "a2": "FLAME_BODY",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "220": {
+  "name": "SWINUB",
+  "a1": "OBLIVIOUS",
+  "a2": "SNOW_CLOAK",
+  "hidden": "THICK_FAT",
+  "passive": "SLUSH_RUSH"
+ },
+ "221": {
+  "name": "PILOSWINE",
+  "a1": "OBLIVIOUS",
+  "a2": "SNOW_CLOAK",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "222": {
+  "name": "CORSOLA",
+  "a1": "HUSTLE",
+  "a2": "NATURAL_CURE",
+  "hidden": "REGENERATOR",
+  "passive": "STORM_DRAIN"
+ },
+ "223": {
+  "name": "REMORAID",
+  "a1": "HUSTLE",
+  "a2": "SNIPER",
+  "hidden": "MOODY",
+  "passive": "SIMPLE"
+ },
+ "224": {
+  "name": "OCTILLERY",
+  "a1": "SUCTION_CUPS",
+  "a2": "SNIPER",
+  "hidden": "MOODY",
+  "passive": "NONE"
+ },
+ "225": {
+  "name": "DELIBIRD",
+  "a1": "VITAL_SPIRIT",
+  "a2": "HUSTLE",
+  "hidden": "INSOMNIA",
+  "passive": "HUGE_POWER"
+ },
+ "226": {
+  "name": "MANTINE",
+  "a1": "SWIFT_SWIM",
+  "a2": "WATER_ABSORB",
+  "hidden": "WATER_VEIL",
+  "passive": "NONE"
+ },
+ "227": {
+  "name": "SKARMORY",
+  "a1": "KEEN_EYE",
+  "a2": "STURDY",
+  "hidden": "WEAK_ARMOR",
+  "passive": "LIGHTNING_ROD"
+ },
+ "228": {
+  "name": "HOUNDOUR",
+  "a1": "EARLY_BIRD",
+  "a2": "FLASH_FIRE",
+  "hidden": "UNNERVE",
+  "passive": "DROUGHT"
+ },
+ "229": {
+  "name": "HOUNDOOM",
+  "a1": "EARLY_BIRD",
+  "a2": "FLASH_FIRE",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "230": {
+  "name": "KINGDRA",
+  "a1": "SWIFT_SWIM",
+  "a2": "SNIPER",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "231": {
+  "name": "PHANPY",
+  "a1": "PICKUP",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "SPEED_BOOST"
+ },
+ "232": {
+  "name": "DONPHAN",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "233": {
+  "name": "PORYGON2",
+  "a1": "TRACE",
+  "a2": "DOWNLOAD",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "234": {
+  "name": "STANTLER",
+  "a1": "INTIMIDATE",
+  "a2": "FRISK",
+  "hidden": "SAP_SIPPER",
+  "passive": "ANALYTIC"
+ },
+ "235": {
+  "name": "SMEARGLE",
+  "a1": "OWN_TEMPO",
+  "a2": "TECHNICIAN",
+  "hidden": "MOODY",
+  "passive": "PRANKSTER"
+ },
+ "236": {
+  "name": "TYROGUE",
+  "a1": "GUTS",
+  "a2": "STEADFAST",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "MOXIE"
+ },
+ "237": {
+  "name": "HITMONTOP",
+  "a1": "INTIMIDATE",
+  "a2": "TECHNICIAN",
+  "hidden": "STEADFAST",
+  "passive": "NONE"
+ },
+ "238": {
+  "name": "SMOOCHUM",
+  "a1": "OBLIVIOUS",
+  "a2": "FOREWARN",
+  "hidden": "HYDRATION",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "239": {
+  "name": "ELEKID",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "SHEER_FORCE"
+ },
+ "240": {
+  "name": "MAGBY",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "CONTRARY"
+ },
+ "241": {
+  "name": "MILTANK",
+  "a1": "THICK_FAT",
+  "a2": "SCRAPPY",
+  "hidden": "SAP_SIPPER",
+  "passive": "STAMINA"
+ },
+ "242": {
+  "name": "BLISSEY",
+  "a1": "NATURAL_CURE",
+  "a2": "SERENE_GRACE",
+  "hidden": "HEALER",
+  "passive": "NONE"
+ },
+ "243": {
+  "name": "RAIKOU",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "TRANSISTOR"
+ },
+ "244": {
+  "name": "ENTEI",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "MOXIE"
+ },
+ "245": {
+  "name": "SUICUNE",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "UNAWARE"
+ },
+ "246": {
+  "name": "LARVITAR",
+  "a1": "GUTS",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "SAND_RUSH"
+ },
+ "247": {
+  "name": "PUPITAR",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "NONE"
+ },
+ "248": {
+  "name": "TYRANITAR",
+  "a1": "SAND_STREAM",
+  "a2": "NONE",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "249": {
+  "name": "LUGIA",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "MULTISCALE",
+  "passive": "DELTA_STREAM"
+ },
+ "250": {
+  "name": "HO_OH",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "REGENERATOR",
+  "passive": "MAGIC_GUARD"
+ },
+ "251": {
+  "name": "CELEBI",
+  "a1": "NATURAL_CURE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "GRASSY_SURGE"
+ },
+ "252": {
+  "name": "TREECKO",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "UNBURDEN",
+  "passive": "TINTED_LENS"
+ },
+ "253": {
+  "name": "GROVYLE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "UNBURDEN",
+  "passive": "NONE"
+ },
+ "254": {
+  "name": "SCEPTILE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "UNBURDEN",
+  "passive": "NONE"
+ },
+ "255": {
+  "name": "TORCHIC",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SPEED_BOOST",
+  "passive": "RECKLESS"
+ },
+ "256": {
+  "name": "COMBUSKEN",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "257": {
+  "name": "BLAZIKEN",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "258": {
+  "name": "MUDKIP",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "DAMP",
+  "passive": "DRIZZLE"
+ },
+ "259": {
+  "name": "MARSHTOMP",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "260": {
+  "name": "SWAMPERT",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "261": {
+  "name": "POOCHYENA",
+  "a1": "RUN_AWAY",
+  "a2": "QUICK_FEET",
+  "hidden": "RATTLED",
+  "passive": "TOUGH_CLAWS"
+ },
+ "262": {
+  "name": "MIGHTYENA",
+  "a1": "INTIMIDATE",
+  "a2": "QUICK_FEET",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "263": {
+  "name": "ZIGZAGOON",
+  "a1": "PICKUP",
+  "a2": "GLUTTONY",
+  "hidden": "QUICK_FEET",
+  "passive": "RUN_AWAY"
+ },
+ "264": {
+  "name": "LINOONE",
+  "a1": "PICKUP",
+  "a2": "GLUTTONY",
+  "hidden": "QUICK_FEET",
+  "passive": "NONE"
+ },
+ "265": {
+  "name": "WURMPLE",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "SIMPLE"
+ },
+ "266": {
+  "name": "SILCOON",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "NONE"
+ },
+ "267": {
+  "name": "BEAUTIFLY",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "RIVALRY",
+  "passive": "NONE"
+ },
+ "268": {
+  "name": "CASCOON",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "NONE"
+ },
+ "269": {
+  "name": "DUSTOX",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "COMPOUND_EYES",
+  "passive": "NONE"
+ },
+ "270": {
+  "name": "LOTAD",
+  "a1": "SWIFT_SWIM",
+  "a2": "RAIN_DISH",
+  "hidden": "OWN_TEMPO",
+  "passive": "DRIZZLE"
+ },
+ "271": {
+  "name": "LOMBRE",
+  "a1": "SWIFT_SWIM",
+  "a2": "RAIN_DISH",
+  "hidden": "OWN_TEMPO",
+  "passive": "NONE"
+ },
+ "272": {
+  "name": "LUDICOLO",
+  "a1": "SWIFT_SWIM",
+  "a2": "RAIN_DISH",
+  "hidden": "OWN_TEMPO",
+  "passive": "NONE"
+ },
+ "273": {
+  "name": "SEEDOT",
+  "a1": "CHLOROPHYLL",
+  "a2": "EARLY_BIRD",
+  "hidden": "PICKPOCKET",
+  "passive": "SHARPNESS"
+ },
+ "274": {
+  "name": "NUZLEAF",
+  "a1": "CHLOROPHYLL",
+  "a2": "EARLY_BIRD",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "275": {
+  "name": "SHIFTRY",
+  "a1": "CHLOROPHYLL",
+  "a2": "WIND_RIDER",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "276": {
+  "name": "TAILLOW",
+  "a1": "GUTS",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "AERILATE"
+ },
+ "277": {
+  "name": "SWELLOW",
+  "a1": "GUTS",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "278": {
+  "name": "WINGULL",
+  "a1": "KEEN_EYE",
+  "a2": "HYDRATION",
+  "hidden": "RAIN_DISH",
+  "passive": "SWIFT_SWIM"
+ },
+ "279": {
+  "name": "PELIPPER",
+  "a1": "KEEN_EYE",
+  "a2": "DRIZZLE",
+  "hidden": "RAIN_DISH",
+  "passive": "NONE"
+ },
+ "280": {
+  "name": "RALTS",
+  "a1": "SYNCHRONIZE",
+  "a2": "TRACE",
+  "hidden": "TELEPATHY",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "281": {
+  "name": "KIRLIA",
+  "a1": "SYNCHRONIZE",
+  "a2": "TRACE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "282": {
+  "name": "GARDEVOIR",
+  "a1": "SYNCHRONIZE",
+  "a2": "TRACE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "283": {
+  "name": "SURSKIT",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "RAIN_DISH",
+  "passive": "WATER_BUBBLE"
+ },
+ "284": {
+  "name": "MASQUERAIN",
+  "a1": "INTIMIDATE",
+  "a2": "NONE",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "285": {
+  "name": "SHROOMISH",
+  "a1": "EFFECT_SPORE",
+  "a2": "POISON_HEAL",
+  "hidden": "QUICK_FEET",
+  "passive": "GUTS"
+ },
+ "286": {
+  "name": "BRELOOM",
+  "a1": "EFFECT_SPORE",
+  "a2": "POISON_HEAL",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "287": {
+  "name": "SLAKOTH",
+  "a1": "TRUANT",
+  "a2": "NONE",
+  "hidden": "STALL",
+  "passive": "GUTS"
+ },
+ "288": {
+  "name": "VIGOROTH",
+  "a1": "VITAL_SPIRIT",
+  "a2": "NONE",
+  "hidden": "INSOMNIA",
+  "passive": "NONE"
+ },
+ "289": {
+  "name": "SLAKING",
+  "a1": "TRUANT",
+  "a2": "NONE",
+  "hidden": "STALL",
+  "passive": "NONE"
+ },
+ "290": {
+  "name": "NINCADA",
+  "a1": "COMPOUND_EYES",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "MAGIC_GUARD"
+ },
+ "291": {
+  "name": "NINJASK",
+  "a1": "SPEED_BOOST",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "292": {
+  "name": "SHEDINJA",
+  "a1": "WONDER_GUARD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "293": {
+  "name": "WHISMUR",
+  "a1": "SOUNDPROOF",
+  "a2": "NONE",
+  "hidden": "RATTLED",
+  "passive": "PUNK_ROCK"
+ },
+ "294": {
+  "name": "LOUDRED",
+  "a1": "SOUNDPROOF",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "295": {
+  "name": "EXPLOUD",
+  "a1": "SOUNDPROOF",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "296": {
+  "name": "MAKUHITA",
+  "a1": "THICK_FAT",
+  "a2": "GUTS",
+  "hidden": "SHEER_FORCE",
+  "passive": "STAMINA"
+ },
+ "297": {
+  "name": "HARIYAMA",
+  "a1": "THICK_FAT",
+  "a2": "GUTS",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "298": {
+  "name": "AZURILL",
+  "a1": "THICK_FAT",
+  "a2": "HUGE_POWER",
+  "hidden": "SAP_SIPPER",
+  "passive": "MISTY_SURGE"
+ },
+ "299": {
+  "name": "NOSEPASS",
+  "a1": "STURDY",
+  "a2": "MAGNET_PULL",
+  "hidden": "SAND_FORCE",
+  "passive": "LEVITATE"
+ },
+ "300": {
+  "name": "SKITTY",
+  "a1": "CUTE_CHARM",
+  "a2": "NORMALIZE",
+  "hidden": "WONDER_SKIN",
+  "passive": "SCRAPPY"
+ },
+ "301": {
+  "name": "DELCATTY",
+  "a1": "CUTE_CHARM",
+  "a2": "NORMALIZE",
+  "hidden": "WONDER_SKIN",
+  "passive": "NONE"
+ },
+ "302": {
+  "name": "SABLEYE",
+  "a1": "KEEN_EYE",
+  "a2": "STALL",
+  "hidden": "PRANKSTER",
+  "passive": "UNNERVE"
+ },
+ "303": {
+  "name": "MAWILE",
+  "a1": "HYPER_CUTTER",
+  "a2": "INTIMIDATE",
+  "hidden": "SHEER_FORCE",
+  "passive": "UNNERVE"
+ },
+ "304": {
+  "name": "ARON",
+  "a1": "STURDY",
+  "a2": "ROCK_HEAD",
+  "hidden": "HEAVY_METAL",
+  "passive": "EARTH_EATER"
+ },
+ "305": {
+  "name": "LAIRON",
+  "a1": "STURDY",
+  "a2": "ROCK_HEAD",
+  "hidden": "HEAVY_METAL",
+  "passive": "NONE"
+ },
+ "306": {
+  "name": "AGGRON",
+  "a1": "STURDY",
+  "a2": "ROCK_HEAD",
+  "hidden": "HEAVY_METAL",
+  "passive": "NONE"
+ },
+ "307": {
+  "name": "MEDITITE",
+  "a1": "PURE_POWER",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "MINDS_EYE"
+ },
+ "308": {
+  "name": "MEDICHAM",
+  "a1": "PURE_POWER",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "309": {
+  "name": "ELECTRIKE",
+  "a1": "STATIC",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "MINUS",
+  "passive": "ELECTRIC_SURGE"
+ },
+ "310": {
+  "name": "MANECTRIC",
+  "a1": "STATIC",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "MINUS",
+  "passive": "NONE"
+ },
+ "311": {
+  "name": "PLUSLE",
+  "a1": "PLUS",
+  "a2": "NONE",
+  "hidden": "LIGHTNING_ROD",
+  "passive": "POWER_SPOT"
+ },
+ "312": {
+  "name": "MINUN",
+  "a1": "MINUS",
+  "a2": "NONE",
+  "hidden": "VOLT_ABSORB",
+  "passive": "POWER_SPOT"
+ },
+ "313": {
+  "name": "VOLBEAT",
+  "a1": "ILLUMINATE",
+  "a2": "SWARM",
+  "hidden": "PRANKSTER",
+  "passive": "HONEY_GATHER"
+ },
+ "314": {
+  "name": "ILLUMISE",
+  "a1": "OBLIVIOUS",
+  "a2": "TINTED_LENS",
+  "hidden": "PRANKSTER",
+  "passive": "HONEY_GATHER"
+ },
+ "315": {
+  "name": "ROSELIA",
+  "a1": "NATURAL_CURE",
+  "a2": "POISON_POINT",
+  "hidden": "LEAF_GUARD",
+  "passive": "NONE"
+ },
+ "316": {
+  "name": "GULPIN",
+  "a1": "LIQUID_OOZE",
+  "a2": "STICKY_HOLD",
+  "hidden": "GLUTTONY",
+  "passive": "EARTH_EATER"
+ },
+ "317": {
+  "name": "SWALOT",
+  "a1": "LIQUID_OOZE",
+  "a2": "STICKY_HOLD",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "318": {
+  "name": "CARVANHA",
+  "a1": "ROUGH_SKIN",
+  "a2": "NONE",
+  "hidden": "SPEED_BOOST",
+  "passive": "SHEER_FORCE"
+ },
+ "319": {
+  "name": "SHARPEDO",
+  "a1": "ROUGH_SKIN",
+  "a2": "NONE",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "320": {
+  "name": "WAILMER",
+  "a1": "WATER_VEIL",
+  "a2": "OBLIVIOUS",
+  "hidden": "PRESSURE",
+  "passive": "LEVITATE"
+ },
+ "321": {
+  "name": "WAILORD",
+  "a1": "WATER_VEIL",
+  "a2": "OBLIVIOUS",
+  "hidden": "PRESSURE",
+  "passive": "NONE"
+ },
+ "322": {
+  "name": "NUMEL",
+  "a1": "OBLIVIOUS",
+  "a2": "SIMPLE",
+  "hidden": "OWN_TEMPO",
+  "passive": "FUR_COAT"
+ },
+ "323": {
+  "name": "CAMERUPT",
+  "a1": "MAGMA_ARMOR",
+  "a2": "SOLID_ROCK",
+  "hidden": "ANGER_POINT",
+  "passive": "NONE"
+ },
+ "324": {
+  "name": "TORKOAL",
+  "a1": "WHITE_SMOKE",
+  "a2": "DROUGHT",
+  "hidden": "SHELL_ARMOR",
+  "passive": "ANALYTIC"
+ },
+ "325": {
+  "name": "SPOINK",
+  "a1": "THICK_FAT",
+  "a2": "OWN_TEMPO",
+  "hidden": "GLUTTONY",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "326": {
+  "name": "GRUMPIG",
+  "a1": "THICK_FAT",
+  "a2": "OWN_TEMPO",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "327": {
+  "name": "SPINDA",
+  "a1": "OWN_TEMPO",
+  "a2": "TANGLED_FEET",
+  "hidden": "CONTRARY",
+  "passive": "SIMPLE"
+ },
+ "328": {
+  "name": "TRAPINCH",
+  "a1": "HYPER_CUTTER",
+  "a2": "ARENA_TRAP",
+  "hidden": "SHEER_FORCE",
+  "passive": "ADAPTABILITY"
+ },
+ "329": {
+  "name": "VIBRAVA",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "330": {
+  "name": "FLYGON",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "331": {
+  "name": "CACNEA",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "WATER_ABSORB",
+  "passive": "SAND_RUSH"
+ },
+ "332": {
+  "name": "CACTURNE",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "WATER_ABSORB",
+  "passive": "NONE"
+ },
+ "333": {
+  "name": "SWABLU",
+  "a1": "NATURAL_CURE",
+  "a2": "NONE",
+  "hidden": "CLOUD_NINE",
+  "passive": "ADAPTABILITY"
+ },
+ "334": {
+  "name": "ALTARIA",
+  "a1": "NATURAL_CURE",
+  "a2": "NONE",
+  "hidden": "CLOUD_NINE",
+  "passive": "NONE"
+ },
+ "335": {
+  "name": "ZANGOOSE",
+  "a1": "IMMUNITY",
+  "a2": "NONE",
+  "hidden": "TOXIC_BOOST",
+  "passive": "POISON_HEAL"
+ },
+ "336": {
+  "name": "SEVIPER",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "MULTISCALE"
+ },
+ "337": {
+  "name": "LUNATONE",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHADOW_SHIELD"
+ },
+ "338": {
+  "name": "SOLROCK",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "DROUGHT"
+ },
+ "339": {
+  "name": "BARBOACH",
+  "a1": "OBLIVIOUS",
+  "a2": "ANTICIPATION",
+  "hidden": "HYDRATION",
+  "passive": "SIMPLE"
+ },
+ "340": {
+  "name": "WHISCASH",
+  "a1": "OBLIVIOUS",
+  "a2": "ANTICIPATION",
+  "hidden": "HYDRATION",
+  "passive": "NONE"
+ },
+ "341": {
+  "name": "CORPHISH",
+  "a1": "HYPER_CUTTER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "ADAPTABILITY",
+  "passive": "TOUGH_CLAWS"
+ },
+ "342": {
+  "name": "CRAWDAUNT",
+  "a1": "HYPER_CUTTER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "ADAPTABILITY",
+  "passive": "NONE"
+ },
+ "343": {
+  "name": "BALTOY",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "WELL_BAKED_BODY"
+ },
+ "344": {
+  "name": "CLAYDOL",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "345": {
+  "name": "LILEEP",
+  "a1": "SUCTION_CUPS",
+  "a2": "NONE",
+  "hidden": "STORM_DRAIN",
+  "passive": "SEED_SOWER"
+ },
+ "346": {
+  "name": "CRADILY",
+  "a1": "SUCTION_CUPS",
+  "a2": "NONE",
+  "hidden": "STORM_DRAIN",
+  "passive": "NONE"
+ },
+ "347": {
+  "name": "ANORITH",
+  "a1": "BATTLE_ARMOR",
+  "a2": "NONE",
+  "hidden": "SWIFT_SWIM",
+  "passive": "WATER_ABSORB"
+ },
+ "348": {
+  "name": "ARMALDO",
+  "a1": "BATTLE_ARMOR",
+  "a2": "NONE",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "349": {
+  "name": "FEEBAS",
+  "a1": "SWIFT_SWIM",
+  "a2": "OBLIVIOUS",
+  "hidden": "ADAPTABILITY",
+  "passive": "MAGIC_GUARD"
+ },
+ "350": {
+  "name": "MILOTIC",
+  "a1": "MARVEL_SCALE",
+  "a2": "COMPETITIVE",
+  "hidden": "CUTE_CHARM",
+  "passive": "NONE"
+ },
+ "351": {
+  "name": "CASTFORM",
+  "a1": "FORECAST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "352": {
+  "name": "KECLEON",
+  "a1": "COLOR_CHANGE",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "ADAPTABILITY"
+ },
+ "353": {
+  "name": "SHUPPET",
+  "a1": "INSOMNIA",
+  "a2": "FRISK",
+  "hidden": "CURSED_BODY",
+  "passive": "SHADOW_SHIELD"
+ },
+ "354": {
+  "name": "BANETTE",
+  "a1": "INSOMNIA",
+  "a2": "FRISK",
+  "hidden": "CURSED_BODY",
+  "passive": "NONE"
+ },
+ "355": {
+  "name": "DUSKULL",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "FRISK",
+  "passive": "UNNERVE"
+ },
+ "356": {
+  "name": "DUSCLOPS",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "357": {
+  "name": "TROPIUS",
+  "a1": "CHLOROPHYLL",
+  "a2": "SOLAR_POWER",
+  "hidden": "HARVEST",
+  "passive": "RIPEN"
+ },
+ "358": {
+  "name": "CHIMECHO",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "359": {
+  "name": "ABSOL",
+  "a1": "PRESSURE",
+  "a2": "SUPER_LUCK",
+  "hidden": "JUSTIFIED",
+  "passive": "SHARPNESS"
+ },
+ "360": {
+  "name": "WYNAUT",
+  "a1": "SHADOW_TAG",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "STURDY"
+ },
+ "361": {
+  "name": "SNORUNT",
+  "a1": "INNER_FOCUS",
+  "a2": "ICE_BODY",
+  "hidden": "MOODY",
+  "passive": "SNOW_WARNING"
+ },
+ "362": {
+  "name": "GLALIE",
+  "a1": "INNER_FOCUS",
+  "a2": "ICE_BODY",
+  "hidden": "MOODY",
+  "passive": "NONE"
+ },
+ "363": {
+  "name": "SPHEAL",
+  "a1": "THICK_FAT",
+  "a2": "ICE_BODY",
+  "hidden": "OBLIVIOUS",
+  "passive": "UNAWARE"
+ },
+ "364": {
+  "name": "SEALEO",
+  "a1": "THICK_FAT",
+  "a2": "ICE_BODY",
+  "hidden": "OBLIVIOUS",
+  "passive": "NONE"
+ },
+ "365": {
+  "name": "WALREIN",
+  "a1": "THICK_FAT",
+  "a2": "ICE_BODY",
+  "hidden": "OBLIVIOUS",
+  "passive": "NONE"
+ },
+ "366": {
+  "name": "CLAMPERL",
+  "a1": "SHELL_ARMOR",
+  "a2": "NONE",
+  "hidden": "RATTLED",
+  "passive": "DRIZZLE"
+ },
+ "367": {
+  "name": "HUNTAIL",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "WATER_VEIL",
+  "passive": "NONE"
+ },
+ "368": {
+  "name": "GOREBYSS",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "HYDRATION",
+  "passive": "NONE"
+ },
+ "369": {
+  "name": "RELICANTH",
+  "a1": "SWIFT_SWIM",
+  "a2": "ROCK_HEAD",
+  "hidden": "STURDY",
+  "passive": "PRIMORDIAL_SEA"
+ },
+ "370": {
+  "name": "LUVDISC",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "HYDRATION",
+  "passive": "MULTISCALE"
+ },
+ "371": {
+  "name": "BAGON",
+  "a1": "ROCK_HEAD",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "DRAGONS_MAW"
+ },
+ "372": {
+  "name": "SHELGON",
+  "a1": "ROCK_HEAD",
+  "a2": "NONE",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "373": {
+  "name": "SALAMENCE",
+  "a1": "INTIMIDATE",
+  "a2": "NONE",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "374": {
+  "name": "BELDUM",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "LIGHT_METAL",
+  "passive": "LEVITATE"
+ },
+ "375": {
+  "name": "METANG",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "LIGHT_METAL",
+  "passive": "NONE"
+ },
+ "376": {
+  "name": "METAGROSS",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "LIGHT_METAL",
+  "passive": "NONE"
+ },
+ "377": {
+  "name": "REGIROCK",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "STURDY",
+  "passive": "SAND_STREAM"
+ },
+ "378": {
+  "name": "REGICE",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "ICE_BODY",
+  "passive": "SNOW_WARNING"
+ },
+ "379": {
+  "name": "REGISTEEL",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "LIGHT_METAL",
+  "passive": "FILTER"
+ },
+ "380": {
+  "name": "LATIAS",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PRISM_ARMOR"
+ },
+ "381": {
+  "name": "LATIOS",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TINTED_LENS"
+ },
+ "382": {
+  "name": "KYOGRE",
+  "a1": "DRIZZLE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MOLD_BREAKER"
+ },
+ "383": {
+  "name": "GROUDON",
+  "a1": "DROUGHT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TURBOBLAZE"
+ },
+ "384": {
+  "name": "RAYQUAZA",
+  "a1": "AIR_LOCK",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "UNNERVE"
+ },
+ "385": {
+  "name": "JIRACHI",
+  "a1": "SERENE_GRACE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "COMATOSE"
+ },
+ "386": {
+  "name": "DEOXYS",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PROTEAN"
+ },
+ "387": {
+  "name": "TURTWIG",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "THICK_FAT"
+ },
+ "388": {
+  "name": "GROTLE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "NONE"
+ },
+ "389": {
+  "name": "TORTERRA",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "NONE"
+ },
+ "390": {
+  "name": "CHIMCHAR",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "IRON_FIST",
+  "passive": "BEAST_BOOST"
+ },
+ "391": {
+  "name": "MONFERNO",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "392": {
+  "name": "INFERNAPE",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "393": {
+  "name": "PIPLUP",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "COMPETITIVE",
+  "passive": "DRIZZLE"
+ },
+ "394": {
+  "name": "PRINPLUP",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "COMPETITIVE",
+  "passive": "NONE"
+ },
+ "395": {
+  "name": "EMPOLEON",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "COMPETITIVE",
+  "passive": "NONE"
+ },
+ "396": {
+  "name": "STARLY",
+  "a1": "KEEN_EYE",
+  "a2": "NONE",
+  "hidden": "RECKLESS",
+  "passive": "ROCK_HEAD"
+ },
+ "397": {
+  "name": "STARAVIA",
+  "a1": "INTIMIDATE",
+  "a2": "NONE",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "398": {
+  "name": "STARAPTOR",
+  "a1": "INTIMIDATE",
+  "a2": "NONE",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "399": {
+  "name": "BIDOOF",
+  "a1": "SIMPLE",
+  "a2": "UNAWARE",
+  "hidden": "MOODY",
+  "passive": "SAP_SIPPER"
+ },
+ "400": {
+  "name": "BIBAREL",
+  "a1": "SIMPLE",
+  "a2": "UNAWARE",
+  "hidden": "MOODY",
+  "passive": "NONE"
+ },
+ "401": {
+  "name": "KRICKETOT",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "SHARPNESS"
+ },
+ "402": {
+  "name": "KRICKETUNE",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "403": {
+  "name": "SHINX",
+  "a1": "RIVALRY",
+  "a2": "INTIMIDATE",
+  "hidden": "GUTS",
+  "passive": "SPEED_BOOST"
+ },
+ "404": {
+  "name": "LUXIO",
+  "a1": "RIVALRY",
+  "a2": "INTIMIDATE",
+  "hidden": "GUTS",
+  "passive": "NONE"
+ },
+ "405": {
+  "name": "LUXRAY",
+  "a1": "RIVALRY",
+  "a2": "INTIMIDATE",
+  "hidden": "GUTS",
+  "passive": "NONE"
+ },
+ "406": {
+  "name": "BUDEW",
+  "a1": "NATURAL_CURE",
+  "a2": "POISON_POINT",
+  "hidden": "LEAF_GUARD",
+  "passive": "GRASSY_SURGE"
+ },
+ "407": {
+  "name": "ROSERADE",
+  "a1": "NATURAL_CURE",
+  "a2": "POISON_POINT",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "408": {
+  "name": "CRANIDOS",
+  "a1": "MOLD_BREAKER",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "ROCK_HEAD"
+ },
+ "409": {
+  "name": "RAMPARDOS",
+  "a1": "MOLD_BREAKER",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "410": {
+  "name": "SHIELDON",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "SOUNDPROOF",
+  "passive": "EARTH_EATER"
+ },
+ "411": {
+  "name": "BASTIODON",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "SOUNDPROOF",
+  "passive": "NONE"
+ },
+ "412": {
+  "name": "BURMY",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "OVERCOAT",
+  "passive": "STURDY"
+ },
+ "413": {
+  "name": "WORMADAM",
+  "a1": "ANTICIPATION",
+  "a2": "NONE",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "414": {
+  "name": "MOTHIM",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "TINTED_LENS",
+  "passive": "NONE"
+ },
+ "415": {
+  "name": "COMBEE",
+  "a1": "HONEY_GATHER",
+  "a2": "NONE",
+  "hidden": "HUSTLE",
+  "passive": "INTIMIDATE"
+ },
+ "416": {
+  "name": "VESPIQUEN",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "417": {
+  "name": "PACHIRISU",
+  "a1": "RUN_AWAY",
+  "a2": "PICKUP",
+  "hidden": "VOLT_ABSORB",
+  "passive": "HONEY_GATHER"
+ },
+ "418": {
+  "name": "BUIZEL",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "WATER_VEIL",
+  "passive": "MOXIE"
+ },
+ "419": {
+  "name": "FLOATZEL",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "WATER_VEIL",
+  "passive": "NONE"
+ },
+ "420": {
+  "name": "CHERUBI",
+  "a1": "CHLOROPHYLL",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ORICHALCUM_PULSE"
+ },
+ "421": {
+  "name": "CHERRIM",
+  "a1": "FLOWER_GIFT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "422": {
+  "name": "SHELLOS",
+  "a1": "STICKY_HOLD",
+  "a2": "STORM_DRAIN",
+  "hidden": "SAND_FORCE",
+  "passive": "REGENERATOR"
+ },
+ "423": {
+  "name": "GASTRODON",
+  "a1": "STICKY_HOLD",
+  "a2": "STORM_DRAIN",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "424": {
+  "name": "AMBIPOM",
+  "a1": "TECHNICIAN",
+  "a2": "PICKUP",
+  "hidden": "SKILL_LINK",
+  "passive": "NONE"
+ },
+ "425": {
+  "name": "DRIFLOON",
+  "a1": "AFTERMATH",
+  "a2": "UNBURDEN",
+  "hidden": "FLARE_BOOST",
+  "passive": "MAGIC_GUARD"
+ },
+ "426": {
+  "name": "DRIFBLIM",
+  "a1": "AFTERMATH",
+  "a2": "UNBURDEN",
+  "hidden": "FLARE_BOOST",
+  "passive": "NONE"
+ },
+ "427": {
+  "name": "BUNEARY",
+  "a1": "RUN_AWAY",
+  "a2": "KLUTZ",
+  "hidden": "LIMBER",
+  "passive": "ADAPTABILITY"
+ },
+ "428": {
+  "name": "LOPUNNY",
+  "a1": "CUTE_CHARM",
+  "a2": "KLUTZ",
+  "hidden": "LIMBER",
+  "passive": "NONE"
+ },
+ "429": {
+  "name": "MISMAGIUS",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "430": {
+  "name": "HONCHKROW",
+  "a1": "INSOMNIA",
+  "a2": "SUPER_LUCK",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "431": {
+  "name": "GLAMEOW",
+  "a1": "LIMBER",
+  "a2": "OWN_TEMPO",
+  "hidden": "KEEN_EYE",
+  "passive": "INTIMIDATE"
+ },
+ "432": {
+  "name": "PURUGLY",
+  "a1": "THICK_FAT",
+  "a2": "OWN_TEMPO",
+  "hidden": "DEFIANT",
+  "passive": "NONE"
+ },
+ "433": {
+  "name": "CHINGLING",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PUNK_ROCK"
+ },
+ "434": {
+  "name": "STUNKY",
+  "a1": "STENCH",
+  "a2": "AFTERMATH",
+  "hidden": "KEEN_EYE",
+  "passive": "NEUTRALIZING_GAS"
+ },
+ "435": {
+  "name": "SKUNTANK",
+  "a1": "STENCH",
+  "a2": "AFTERMATH",
+  "hidden": "KEEN_EYE",
+  "passive": "NONE"
+ },
+ "436": {
+  "name": "BRONZOR",
+  "a1": "LEVITATE",
+  "a2": "HEATPROOF",
+  "hidden": "HEAVY_METAL",
+  "passive": "BULLETPROOF"
+ },
+ "437": {
+  "name": "BRONZONG",
+  "a1": "LEVITATE",
+  "a2": "HEATPROOF",
+  "hidden": "HEAVY_METAL",
+  "passive": "NONE"
+ },
+ "438": {
+  "name": "BONSLY",
+  "a1": "STURDY",
+  "a2": "ROCK_HEAD",
+  "hidden": "RATTLED",
+  "passive": "SAP_SIPPER"
+ },
+ "439": {
+  "name": "MIME_JR",
+  "a1": "SOUNDPROOF",
+  "a2": "FILTER",
+  "hidden": "TECHNICIAN",
+  "passive": "OPPORTUNIST"
+ },
+ "440": {
+  "name": "HAPPINY",
+  "a1": "NATURAL_CURE",
+  "a2": "SERENE_GRACE",
+  "hidden": "FRIEND_GUARD",
+  "passive": "FUR_COAT"
+ },
+ "441": {
+  "name": "CHATOT",
+  "a1": "KEEN_EYE",
+  "a2": "TANGLED_FEET",
+  "hidden": "BIG_PECKS",
+  "passive": "PUNK_ROCK"
+ },
+ "442": {
+  "name": "SPIRITOMB",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "VESSEL_OF_RUIN"
+ },
+ "443": {
+  "name": "GIBLE",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "ROUGH_SKIN",
+  "passive": "SAND_STREAM"
+ },
+ "444": {
+  "name": "GABITE",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "ROUGH_SKIN",
+  "passive": "NONE"
+ },
+ "445": {
+  "name": "GARCHOMP",
+  "a1": "SAND_VEIL",
+  "a2": "NONE",
+  "hidden": "ROUGH_SKIN",
+  "passive": "NONE"
+ },
+ "446": {
+  "name": "MUNCHLAX",
+  "a1": "PICKUP",
+  "a2": "THICK_FAT",
+  "hidden": "GLUTTONY",
+  "passive": "RIPEN"
+ },
+ "447": {
+  "name": "RIOLU",
+  "a1": "STEADFAST",
+  "a2": "INNER_FOCUS",
+  "hidden": "PRANKSTER",
+  "passive": "MINDS_EYE"
+ },
+ "448": {
+  "name": "LUCARIO",
+  "a1": "STEADFAST",
+  "a2": "INNER_FOCUS",
+  "hidden": "JUSTIFIED",
+  "passive": "NONE"
+ },
+ "449": {
+  "name": "HIPPOPOTAS",
+  "a1": "SAND_STREAM",
+  "a2": "NONE",
+  "hidden": "SAND_FORCE",
+  "passive": "UNAWARE"
+ },
+ "450": {
+  "name": "HIPPOWDON",
+  "a1": "SAND_STREAM",
+  "a2": "NONE",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "451": {
+  "name": "SKORUPI",
+  "a1": "BATTLE_ARMOR",
+  "a2": "SNIPER",
+  "hidden": "KEEN_EYE",
+  "passive": "SUPER_LUCK"
+ },
+ "452": {
+  "name": "DRAPION",
+  "a1": "BATTLE_ARMOR",
+  "a2": "SNIPER",
+  "hidden": "KEEN_EYE",
+  "passive": "NONE"
+ },
+ "453": {
+  "name": "CROAGUNK",
+  "a1": "ANTICIPATION",
+  "a2": "DRY_SKIN",
+  "hidden": "POISON_TOUCH",
+  "passive": "MOXIE"
+ },
+ "454": {
+  "name": "TOXICROAK",
+  "a1": "ANTICIPATION",
+  "a2": "DRY_SKIN",
+  "hidden": "POISON_TOUCH",
+  "passive": "NONE"
+ },
+ "455": {
+  "name": "CARNIVINE",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ARENA_TRAP"
+ },
+ "456": {
+  "name": "FINNEON",
+  "a1": "SWIFT_SWIM",
+  "a2": "STORM_DRAIN",
+  "hidden": "WATER_VEIL",
+  "passive": "WATER_BUBBLE"
+ },
+ "457": {
+  "name": "LUMINEON",
+  "a1": "SWIFT_SWIM",
+  "a2": "STORM_DRAIN",
+  "hidden": "WATER_VEIL",
+  "passive": "NONE"
+ },
+ "458": {
+  "name": "MANTYKE",
+  "a1": "SWIFT_SWIM",
+  "a2": "WATER_ABSORB",
+  "hidden": "WATER_VEIL",
+  "passive": "UNAWARE"
+ },
+ "459": {
+  "name": "SNOVER",
+  "a1": "SNOW_WARNING",
+  "a2": "NONE",
+  "hidden": "SOUNDPROOF",
+  "passive": "THICK_FAT"
+ },
+ "460": {
+  "name": "ABOMASNOW",
+  "a1": "SNOW_WARNING",
+  "a2": "NONE",
+  "hidden": "SOUNDPROOF",
+  "passive": "NONE"
+ },
+ "461": {
+  "name": "WEAVILE",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "462": {
+  "name": "MAGNEZONE",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "463": {
+  "name": "LICKILICKY",
+  "a1": "OWN_TEMPO",
+  "a2": "OBLIVIOUS",
+  "hidden": "CLOUD_NINE",
+  "passive": "NONE"
+ },
+ "464": {
+  "name": "RHYPERIOR",
+  "a1": "LIGHTNING_ROD",
+  "a2": "SOLID_ROCK",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "465": {
+  "name": "TANGROWTH",
+  "a1": "CHLOROPHYLL",
+  "a2": "LEAF_GUARD",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "466": {
+  "name": "ELECTIVIRE",
+  "a1": "MOTOR_DRIVE",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "NONE"
+ },
+ "467": {
+  "name": "MAGMORTAR",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "VITAL_SPIRIT",
+  "passive": "NONE"
+ },
+ "468": {
+  "name": "TOGEKISS",
+  "a1": "HUSTLE",
+  "a2": "SERENE_GRACE",
+  "hidden": "SUPER_LUCK",
+  "passive": "NONE"
+ },
+ "469": {
+  "name": "YANMEGA",
+  "a1": "SPEED_BOOST",
+  "a2": "TINTED_LENS",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "470": {
+  "name": "LEAFEON",
+  "a1": "LEAF_GUARD",
+  "a2": "NONE",
+  "hidden": "CHLOROPHYLL",
+  "passive": "NONE"
+ },
+ "471": {
+  "name": "GLACEON",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "472": {
+  "name": "GLISCOR",
+  "a1": "HYPER_CUTTER",
+  "a2": "SAND_VEIL",
+  "hidden": "POISON_HEAL",
+  "passive": "NONE"
+ },
+ "473": {
+  "name": "MAMOSWINE",
+  "a1": "OBLIVIOUS",
+  "a2": "SNOW_CLOAK",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "474": {
+  "name": "PORYGON_Z",
+  "a1": "ADAPTABILITY",
+  "a2": "DOWNLOAD",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "475": {
+  "name": "GALLADE",
+  "a1": "STEADFAST",
+  "a2": "SHARPNESS",
+  "hidden": "JUSTIFIED",
+  "passive": "NONE"
+ },
+ "476": {
+  "name": "PROBOPASS",
+  "a1": "STURDY",
+  "a2": "MAGNET_PULL",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "477": {
+  "name": "DUSKNOIR",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "478": {
+  "name": "FROSLASS",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "CURSED_BODY",
+  "passive": "NONE"
+ },
+ "479": {
+  "name": "ROTOM",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HADRON_ENGINE"
+ },
+ "480": {
+  "name": "UXIE",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "UNAWARE"
+ },
+ "481": {
+  "name": "MESPRIT",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MOODY"
+ },
+ "482": {
+  "name": "AZELF",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NEUROFORCE"
+ },
+ "483": {
+  "name": "DIALGA",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "LEVITATE"
+ },
+ "484": {
+  "name": "PALKIA",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "SPEED_BOOST"
+ },
+ "485": {
+  "name": "HEATRAN",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "FLAME_BODY",
+  "passive": "EARTH_EATER"
+ },
+ "486": {
+  "name": "REGIGIGAS",
+  "a1": "SLOW_START",
+  "a2": "NONE",
+  "hidden": "NORMALIZE",
+  "passive": "MINDS_EYE"
+ },
+ "487": {
+  "name": "GIRATINA",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "SHADOW_SHIELD"
+ },
+ "488": {
+  "name": "CRESSELIA",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHADOW_SHIELD"
+ },
+ "489": {
+  "name": "PHIONE",
+  "a1": "HYDRATION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SIMPLE"
+ },
+ "490": {
+  "name": "MANAPHY",
+  "a1": "HYDRATION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PRIMORDIAL_SEA"
+ },
+ "491": {
+  "name": "DARKRAI",
+  "a1": "BAD_DREAMS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "UNNERVE"
+ },
+ "492": {
+  "name": "SHAYMIN",
+  "a1": "NATURAL_CURE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "WIND_RIDER"
+ },
+ "493": {
+  "name": "ARCEUS",
+  "a1": "MULTITYPE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "494": {
+  "name": "VICTINI",
+  "a1": "VICTORY_STAR",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHEER_FORCE"
+ },
+ "495": {
+  "name": "SNIVY",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "MULTISCALE"
+ },
+ "496": {
+  "name": "SERVINE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "NONE"
+ },
+ "497": {
+  "name": "SERPERIOR",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "NONE"
+ },
+ "498": {
+  "name": "TEPIG",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "THICK_FAT",
+  "passive": "ROCK_HEAD"
+ },
+ "499": {
+  "name": "PIGNITE",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "500": {
+  "name": "EMBOAR",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "501": {
+  "name": "OSHAWOTT",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "INTREPID_SWORD"
+ },
+ "502": {
+  "name": "DEWOTT",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "NONE"
+ },
+ "503": {
+  "name": "SAMUROTT",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHELL_ARMOR",
+  "passive": "NONE"
+ },
+ "504": {
+  "name": "PATRAT",
+  "a1": "RUN_AWAY",
+  "a2": "KEEN_EYE",
+  "hidden": "ANALYTIC",
+  "passive": "NO_GUARD"
+ },
+ "505": {
+  "name": "WATCHOG",
+  "a1": "ILLUMINATE",
+  "a2": "KEEN_EYE",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "506": {
+  "name": "LILLIPUP",
+  "a1": "VITAL_SPIRIT",
+  "a2": "PICKUP",
+  "hidden": "RUN_AWAY",
+  "passive": "FUR_COAT"
+ },
+ "507": {
+  "name": "HERDIER",
+  "a1": "INTIMIDATE",
+  "a2": "SAND_RUSH",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "508": {
+  "name": "STOUTLAND",
+  "a1": "INTIMIDATE",
+  "a2": "SAND_RUSH",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "509": {
+  "name": "PURRLOIN",
+  "a1": "LIMBER",
+  "a2": "UNBURDEN",
+  "hidden": "PRANKSTER",
+  "passive": "PICKUP"
+ },
+ "510": {
+  "name": "LIEPARD",
+  "a1": "LIMBER",
+  "a2": "UNBURDEN",
+  "hidden": "PRANKSTER",
+  "passive": "NONE"
+ },
+ "511": {
+  "name": "PANSAGE",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "OVERGROW",
+  "passive": "WELL_BAKED_BODY"
+ },
+ "512": {
+  "name": "SIMISAGE",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "OVERGROW",
+  "passive": "NONE"
+ },
+ "513": {
+  "name": "PANSEAR",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "BLAZE",
+  "passive": "WATER_ABSORB"
+ },
+ "514": {
+  "name": "SIMISEAR",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "BLAZE",
+  "passive": "NONE"
+ },
+ "515": {
+  "name": "PANPOUR",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "TORRENT",
+  "passive": "SAP_SIPPER"
+ },
+ "516": {
+  "name": "SIMIPOUR",
+  "a1": "GLUTTONY",
+  "a2": "NONE",
+  "hidden": "TORRENT",
+  "passive": "NONE"
+ },
+ "517": {
+  "name": "MUNNA",
+  "a1": "FOREWARN",
+  "a2": "SYNCHRONIZE",
+  "hidden": "TELEPATHY",
+  "passive": "NEUTRALIZING_GAS"
+ },
+ "518": {
+  "name": "MUSHARNA",
+  "a1": "FOREWARN",
+  "a2": "SYNCHRONIZE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "519": {
+  "name": "PIDOVE",
+  "a1": "BIG_PECKS",
+  "a2": "SUPER_LUCK",
+  "hidden": "RIVALRY",
+  "passive": "SNIPER"
+ },
+ "520": {
+  "name": "TRANQUILL",
+  "a1": "BIG_PECKS",
+  "a2": "SUPER_LUCK",
+  "hidden": "RIVALRY",
+  "passive": "NONE"
+ },
+ "521": {
+  "name": "UNFEZANT",
+  "a1": "BIG_PECKS",
+  "a2": "SUPER_LUCK",
+  "hidden": "RIVALRY",
+  "passive": "NONE"
+ },
+ "522": {
+  "name": "BLITZLE",
+  "a1": "LIGHTNING_ROD",
+  "a2": "MOTOR_DRIVE",
+  "hidden": "SAP_SIPPER",
+  "passive": "RECKLESS"
+ },
+ "523": {
+  "name": "ZEBSTRIKA",
+  "a1": "LIGHTNING_ROD",
+  "a2": "MOTOR_DRIVE",
+  "hidden": "SAP_SIPPER",
+  "passive": "NONE"
+ },
+ "524": {
+  "name": "ROGGENROLA",
+  "a1": "STURDY",
+  "a2": "WEAK_ARMOR",
+  "hidden": "SAND_FORCE",
+  "passive": "SOLID_ROCK"
+ },
+ "525": {
+  "name": "BOLDORE",
+  "a1": "STURDY",
+  "a2": "WEAK_ARMOR",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "526": {
+  "name": "GIGALITH",
+  "a1": "STURDY",
+  "a2": "SAND_STREAM",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "527": {
+  "name": "WOOBAT",
+  "a1": "UNAWARE",
+  "a2": "KLUTZ",
+  "hidden": "SIMPLE",
+  "passive": "OPPORTUNIST"
+ },
+ "528": {
+  "name": "SWOOBAT",
+  "a1": "UNAWARE",
+  "a2": "KLUTZ",
+  "hidden": "SIMPLE",
+  "passive": "NONE"
+ },
+ "529": {
+  "name": "DRILBUR",
+  "a1": "SAND_RUSH",
+  "a2": "SAND_FORCE",
+  "hidden": "MOLD_BREAKER",
+  "passive": "SAND_STREAM"
+ },
+ "530": {
+  "name": "EXCADRILL",
+  "a1": "SAND_RUSH",
+  "a2": "SAND_FORCE",
+  "hidden": "MOLD_BREAKER",
+  "passive": "NONE"
+ },
+ "531": {
+  "name": "AUDINO",
+  "a1": "HEALER",
+  "a2": "REGENERATOR",
+  "hidden": "KLUTZ",
+  "passive": "FRIEND_GUARD"
+ },
+ "532": {
+  "name": "TIMBURR",
+  "a1": "GUTS",
+  "a2": "SHEER_FORCE",
+  "hidden": "IRON_FIST",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "533": {
+  "name": "GURDURR",
+  "a1": "GUTS",
+  "a2": "SHEER_FORCE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "534": {
+  "name": "CONKELDURR",
+  "a1": "GUTS",
+  "a2": "SHEER_FORCE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "535": {
+  "name": "TYMPOLE",
+  "a1": "SWIFT_SWIM",
+  "a2": "HYDRATION",
+  "hidden": "WATER_ABSORB",
+  "passive": "POISON_HEAL"
+ },
+ "536": {
+  "name": "PALPITOAD",
+  "a1": "SWIFT_SWIM",
+  "a2": "HYDRATION",
+  "hidden": "WATER_ABSORB",
+  "passive": "NONE"
+ },
+ "537": {
+  "name": "SEISMITOAD",
+  "a1": "SWIFT_SWIM",
+  "a2": "POISON_TOUCH",
+  "hidden": "WATER_ABSORB",
+  "passive": "NONE"
+ },
+ "538": {
+  "name": "THROH",
+  "a1": "GUTS",
+  "a2": "INNER_FOCUS",
+  "hidden": "MOLD_BREAKER",
+  "passive": "STAMINA"
+ },
+ "539": {
+  "name": "SAWK",
+  "a1": "STURDY",
+  "a2": "INNER_FOCUS",
+  "hidden": "MOLD_BREAKER",
+  "passive": "SCRAPPY"
+ },
+ "540": {
+  "name": "SEWADDLE",
+  "a1": "SWARM",
+  "a2": "CHLOROPHYLL",
+  "hidden": "OVERCOAT",
+  "passive": "SHARPNESS"
+ },
+ "541": {
+  "name": "SWADLOON",
+  "a1": "LEAF_GUARD",
+  "a2": "CHLOROPHYLL",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "542": {
+  "name": "LEAVANNY",
+  "a1": "SWARM",
+  "a2": "CHLOROPHYLL",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "543": {
+  "name": "VENIPEDE",
+  "a1": "POISON_POINT",
+  "a2": "SWARM",
+  "hidden": "SPEED_BOOST",
+  "passive": "STAMINA"
+ },
+ "544": {
+  "name": "WHIRLIPEDE",
+  "a1": "POISON_POINT",
+  "a2": "SWARM",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "545": {
+  "name": "SCOLIPEDE",
+  "a1": "POISON_POINT",
+  "a2": "SWARM",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "546": {
+  "name": "COTTONEE",
+  "a1": "PRANKSTER",
+  "a2": "INFILTRATOR",
+  "hidden": "CHLOROPHYLL",
+  "passive": "FLUFFY"
+ },
+ "547": {
+  "name": "WHIMSICOTT",
+  "a1": "PRANKSTER",
+  "a2": "INFILTRATOR",
+  "hidden": "CHLOROPHYLL",
+  "passive": "NONE"
+ },
+ "548": {
+  "name": "PETILIL",
+  "a1": "CHLOROPHYLL",
+  "a2": "OWN_TEMPO",
+  "hidden": "LEAF_GUARD",
+  "passive": "SIMPLE"
+ },
+ "549": {
+  "name": "LILLIGANT",
+  "a1": "CHLOROPHYLL",
+  "a2": "OWN_TEMPO",
+  "hidden": "LEAF_GUARD",
+  "passive": "NONE"
+ },
+ "550": {
+  "name": "BASCULIN",
+  "a1": "RECKLESS",
+  "a2": "ADAPTABILITY",
+  "hidden": "MOLD_BREAKER",
+  "passive": "SUPREME_OVERLORD"
+ },
+ "551": {
+  "name": "SANDILE",
+  "a1": "INTIMIDATE",
+  "a2": "MOXIE",
+  "hidden": "ANGER_POINT",
+  "passive": "TOUGH_CLAWS"
+ },
+ "552": {
+  "name": "KROKOROK",
+  "a1": "INTIMIDATE",
+  "a2": "MOXIE",
+  "hidden": "ANGER_POINT",
+  "passive": "NONE"
+ },
+ "553": {
+  "name": "KROOKODILE",
+  "a1": "INTIMIDATE",
+  "a2": "MOXIE",
+  "hidden": "ANGER_POINT",
+  "passive": "NONE"
+ },
+ "554": {
+  "name": "DARUMAKA",
+  "a1": "HUSTLE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "GORILLA_TACTICS"
+ },
+ "555": {
+  "name": "DARMANITAN",
+  "a1": "SHEER_FORCE",
+  "a2": "NONE",
+  "hidden": "ZEN_MODE",
+  "passive": "NONE"
+ },
+ "556": {
+  "name": "MARACTUS",
+  "a1": "WATER_ABSORB",
+  "a2": "CHLOROPHYLL",
+  "hidden": "STORM_DRAIN",
+  "passive": "WELL_BAKED_BODY"
+ },
+ "557": {
+  "name": "DWEBBLE",
+  "a1": "STURDY",
+  "a2": "SHELL_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "558": {
+  "name": "CRUSTLE",
+  "a1": "STURDY",
+  "a2": "SHELL_ARMOR",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "559": {
+  "name": "SCRAGGY",
+  "a1": "SHED_SKIN",
+  "a2": "MOXIE",
+  "hidden": "INTIMIDATE",
+  "passive": "PROTEAN"
+ },
+ "560": {
+  "name": "SCRAFTY",
+  "a1": "SHED_SKIN",
+  "a2": "MOXIE",
+  "hidden": "INTIMIDATE",
+  "passive": "NONE"
+ },
+ "561": {
+  "name": "SIGILYPH",
+  "a1": "WONDER_SKIN",
+  "a2": "MAGIC_GUARD",
+  "hidden": "TINTED_LENS",
+  "passive": "FLARE_BOOST"
+ },
+ "562": {
+  "name": "YAMASK",
+  "a1": "MUMMY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PURIFYING_SALT"
+ },
+ "563": {
+  "name": "COFAGRIGUS",
+  "a1": "MUMMY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "564": {
+  "name": "TIRTOUGA",
+  "a1": "SOLID_ROCK",
+  "a2": "STURDY",
+  "hidden": "SWIFT_SWIM",
+  "passive": "WATER_ABSORB"
+ },
+ "565": {
+  "name": "CARRACOSTA",
+  "a1": "SOLID_ROCK",
+  "a2": "STURDY",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "566": {
+  "name": "ARCHEN",
+  "a1": "DEFEATIST",
+  "a2": "NONE",
+  "hidden": "EMERGENCY_EXIT",
+  "passive": "MULTISCALE"
+ },
+ "567": {
+  "name": "ARCHEOPS",
+  "a1": "DEFEATIST",
+  "a2": "NONE",
+  "hidden": "EMERGENCY_EXIT",
+  "passive": "NONE"
+ },
+ "568": {
+  "name": "TRUBBISH",
+  "a1": "STENCH",
+  "a2": "STICKY_HOLD",
+  "hidden": "AFTERMATH",
+  "passive": "NEUTRALIZING_GAS"
+ },
+ "569": {
+  "name": "GARBODOR",
+  "a1": "STENCH",
+  "a2": "WEAK_ARMOR",
+  "hidden": "AFTERMATH",
+  "passive": "NONE"
+ },
+ "570": {
+  "name": "ZORUA",
+  "a1": "ILLUSION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "DARK_AURA"
+ },
+ "571": {
+  "name": "ZOROARK",
+  "a1": "ILLUSION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "572": {
+  "name": "MINCCINO",
+  "a1": "CUTE_CHARM",
+  "a2": "TECHNICIAN",
+  "hidden": "SKILL_LINK",
+  "passive": "FUR_COAT"
+ },
+ "573": {
+  "name": "CINCCINO",
+  "a1": "CUTE_CHARM",
+  "a2": "TECHNICIAN",
+  "hidden": "SKILL_LINK",
+  "passive": "NONE"
+ },
+ "574": {
+  "name": "GOTHITA",
+  "a1": "FRISK",
+  "a2": "COMPETITIVE",
+  "hidden": "SHADOW_TAG",
+  "passive": "UNNERVE"
+ },
+ "575": {
+  "name": "GOTHORITA",
+  "a1": "FRISK",
+  "a2": "COMPETITIVE",
+  "hidden": "SHADOW_TAG",
+  "passive": "NONE"
+ },
+ "576": {
+  "name": "GOTHITELLE",
+  "a1": "FRISK",
+  "a2": "COMPETITIVE",
+  "hidden": "SHADOW_TAG",
+  "passive": "NONE"
+ },
+ "577": {
+  "name": "SOLOSIS",
+  "a1": "OVERCOAT",
+  "a2": "MAGIC_GUARD",
+  "hidden": "REGENERATOR",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "578": {
+  "name": "DUOSION",
+  "a1": "OVERCOAT",
+  "a2": "MAGIC_GUARD",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "579": {
+  "name": "REUNICLUS",
+  "a1": "OVERCOAT",
+  "a2": "MAGIC_GUARD",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "580": {
+  "name": "DUCKLETT",
+  "a1": "KEEN_EYE",
+  "a2": "BIG_PECKS",
+  "hidden": "HYDRATION",
+  "passive": "DRIZZLE"
+ },
+ "581": {
+  "name": "SWANNA",
+  "a1": "KEEN_EYE",
+  "a2": "BIG_PECKS",
+  "hidden": "HYDRATION",
+  "passive": "NONE"
+ },
+ "582": {
+  "name": "VANILLITE",
+  "a1": "ICE_BODY",
+  "a2": "SNOW_CLOAK",
+  "hidden": "WEAK_ARMOR",
+  "passive": "SLUSH_RUSH"
+ },
+ "583": {
+  "name": "VANILLISH",
+  "a1": "ICE_BODY",
+  "a2": "SNOW_CLOAK",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "584": {
+  "name": "VANILLUXE",
+  "a1": "ICE_BODY",
+  "a2": "SNOW_WARNING",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "585": {
+  "name": "DEERLING",
+  "a1": "CHLOROPHYLL",
+  "a2": "SAP_SIPPER",
+  "hidden": "SERENE_GRACE",
+  "passive": "FUR_COAT"
+ },
+ "586": {
+  "name": "SAWSBUCK",
+  "a1": "CHLOROPHYLL",
+  "a2": "SAP_SIPPER",
+  "hidden": "SERENE_GRACE",
+  "passive": "NONE"
+ },
+ "587": {
+  "name": "EMOLGA",
+  "a1": "STATIC",
+  "a2": "NONE",
+  "hidden": "MOTOR_DRIVE",
+  "passive": "TRANSISTOR"
+ },
+ "588": {
+  "name": "KARRABLAST",
+  "a1": "SWARM",
+  "a2": "SHED_SKIN",
+  "hidden": "NO_GUARD",
+  "passive": "QUICK_DRAW"
+ },
+ "589": {
+  "name": "ESCAVALIER",
+  "a1": "SWARM",
+  "a2": "SHELL_ARMOR",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "590": {
+  "name": "FOONGUS",
+  "a1": "EFFECT_SPORE",
+  "a2": "NONE",
+  "hidden": "REGENERATOR",
+  "passive": "THICK_FAT"
+ },
+ "591": {
+  "name": "AMOONGUSS",
+  "a1": "EFFECT_SPORE",
+  "a2": "NONE",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "592": {
+  "name": "FRILLISH",
+  "a1": "WATER_ABSORB",
+  "a2": "CURSED_BODY",
+  "hidden": "DAMP",
+  "passive": "UNAWARE"
+ },
+ "593": {
+  "name": "JELLICENT",
+  "a1": "WATER_ABSORB",
+  "a2": "CURSED_BODY",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "594": {
+  "name": "ALOMOMOLA",
+  "a1": "HEALER",
+  "a2": "HYDRATION",
+  "hidden": "REGENERATOR",
+  "passive": "MULTISCALE"
+ },
+ "595": {
+  "name": "JOLTIK",
+  "a1": "COMPOUND_EYES",
+  "a2": "UNNERVE",
+  "hidden": "SWARM",
+  "passive": "TRANSISTOR"
+ },
+ "596": {
+  "name": "GALVANTULA",
+  "a1": "COMPOUND_EYES",
+  "a2": "UNNERVE",
+  "hidden": "SWARM",
+  "passive": "NONE"
+ },
+ "597": {
+  "name": "FERROSEED",
+  "a1": "IRON_BARBS",
+  "a2": "NONE",
+  "hidden": "IRON_BARBS",
+  "passive": "ROUGH_SKIN"
+ },
+ "598": {
+  "name": "FERROTHORN",
+  "a1": "IRON_BARBS",
+  "a2": "NONE",
+  "hidden": "ANTICIPATION",
+  "passive": "NONE"
+ },
+ "599": {
+  "name": "KLINK",
+  "a1": "PLUS",
+  "a2": "MINUS",
+  "hidden": "CLEAR_BODY",
+  "passive": "STEELY_SPIRIT"
+ },
+ "600": {
+  "name": "KLANG",
+  "a1": "PLUS",
+  "a2": "MINUS",
+  "hidden": "CLEAR_BODY",
+  "passive": "NONE"
+ },
+ "601": {
+  "name": "KLINKLANG",
+  "a1": "PLUS",
+  "a2": "MINUS",
+  "hidden": "CLEAR_BODY",
+  "passive": "NONE"
+ },
+ "602": {
+  "name": "TYNAMO",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "POISON_HEAL"
+ },
+ "603": {
+  "name": "EELEKTRIK",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "604": {
+  "name": "EELEKTROSS",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "605": {
+  "name": "ELGYEM",
+  "a1": "TELEPATHY",
+  "a2": "SYNCHRONIZE",
+  "hidden": "ANALYTIC",
+  "passive": "PRISM_ARMOR"
+ },
+ "606": {
+  "name": "BEHEEYEM",
+  "a1": "TELEPATHY",
+  "a2": "SYNCHRONIZE",
+  "hidden": "ANALYTIC",
+  "passive": "NONE"
+ },
+ "607": {
+  "name": "LITWICK",
+  "a1": "FLASH_FIRE",
+  "a2": "FLAME_BODY",
+  "hidden": "INFILTRATOR",
+  "passive": "SOUL_HEART"
+ },
+ "608": {
+  "name": "LAMPENT",
+  "a1": "FLASH_FIRE",
+  "a2": "FLAME_BODY",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "609": {
+  "name": "CHANDELURE",
+  "a1": "FLASH_FIRE",
+  "a2": "FLAME_BODY",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "610": {
+  "name": "AXEW",
+  "a1": "RIVALRY",
+  "a2": "MOLD_BREAKER",
+  "hidden": "UNNERVE",
+  "passive": "DRAGONS_MAW"
+ },
+ "611": {
+  "name": "FRAXURE",
+  "a1": "RIVALRY",
+  "a2": "MOLD_BREAKER",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "612": {
+  "name": "HAXORUS",
+  "a1": "RIVALRY",
+  "a2": "MOLD_BREAKER",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "613": {
+  "name": "CUBCHOO",
+  "a1": "SNOW_CLOAK",
+  "a2": "SLUSH_RUSH",
+  "hidden": "RATTLED",
+  "passive": "TOUGH_CLAWS"
+ },
+ "614": {
+  "name": "BEARTIC",
+  "a1": "SNOW_CLOAK",
+  "a2": "SLUSH_RUSH",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "615": {
+  "name": "CRYOGONAL",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SNOW_WARNING"
+ },
+ "616": {
+  "name": "SHELMET",
+  "a1": "HYDRATION",
+  "a2": "SHELL_ARMOR",
+  "hidden": "OVERCOAT",
+  "passive": "PROTEAN"
+ },
+ "617": {
+  "name": "ACCELGOR",
+  "a1": "HYDRATION",
+  "a2": "STICKY_HOLD",
+  "hidden": "UNBURDEN",
+  "passive": "NONE"
+ },
+ "618": {
+  "name": "STUNFISK",
+  "a1": "STATIC",
+  "a2": "LIMBER",
+  "hidden": "SAND_VEIL",
+  "passive": "STORM_DRAIN"
+ },
+ "619": {
+  "name": "MIENFOO",
+  "a1": "INNER_FOCUS",
+  "a2": "REGENERATOR",
+  "hidden": "RECKLESS",
+  "passive": "NO_GUARD"
+ },
+ "620": {
+  "name": "MIENSHAO",
+  "a1": "INNER_FOCUS",
+  "a2": "REGENERATOR",
+  "hidden": "RECKLESS",
+  "passive": "NONE"
+ },
+ "621": {
+  "name": "DRUDDIGON",
+  "a1": "ROUGH_SKIN",
+  "a2": "SHEER_FORCE",
+  "hidden": "MOLD_BREAKER",
+  "passive": "INTIMIDATE"
+ },
+ "622": {
+  "name": "GOLETT",
+  "a1": "IRON_FIST",
+  "a2": "KLUTZ",
+  "hidden": "NO_GUARD",
+  "passive": "SHADOW_SHIELD"
+ },
+ "623": {
+  "name": "GOLURK",
+  "a1": "IRON_FIST",
+  "a2": "KLUTZ",
+  "hidden": "NO_GUARD",
+  "passive": "NONE"
+ },
+ "624": {
+  "name": "PAWNIARD",
+  "a1": "DEFIANT",
+  "a2": "INNER_FOCUS",
+  "hidden": "PRESSURE",
+  "passive": "SWORD_OF_RUIN"
+ },
+ "625": {
+  "name": "BISHARP",
+  "a1": "DEFIANT",
+  "a2": "INNER_FOCUS",
+  "hidden": "PRESSURE",
+  "passive": "NONE"
+ },
+ "626": {
+  "name": "BOUFFALANT",
+  "a1": "RECKLESS",
+  "a2": "SAP_SIPPER",
+  "hidden": "SOUNDPROOF",
+  "passive": "ROCK_HEAD"
+ },
+ "627": {
+  "name": "RUFFLET",
+  "a1": "KEEN_EYE",
+  "a2": "SHEER_FORCE",
+  "hidden": "HUSTLE",
+  "passive": "SPEED_BOOST"
+ },
+ "628": {
+  "name": "BRAVIARY",
+  "a1": "KEEN_EYE",
+  "a2": "SHEER_FORCE",
+  "hidden": "DEFIANT",
+  "passive": "NONE"
+ },
+ "629": {
+  "name": "VULLABY",
+  "a1": "BIG_PECKS",
+  "a2": "OVERCOAT",
+  "hidden": "WEAK_ARMOR",
+  "passive": "THICK_FAT"
+ },
+ "630": {
+  "name": "MANDIBUZZ",
+  "a1": "BIG_PECKS",
+  "a2": "OVERCOAT",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "631": {
+  "name": "HEATMOR",
+  "a1": "GLUTTONY",
+  "a2": "FLASH_FIRE",
+  "hidden": "WHITE_SMOKE",
+  "passive": "CONTRARY"
+ },
+ "632": {
+  "name": "DURANT",
+  "a1": "SWARM",
+  "a2": "HUSTLE",
+  "hidden": "TRUANT",
+  "passive": "COMPOUND_EYES"
+ },
+ "633": {
+  "name": "DEINO",
+  "a1": "HUSTLE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PARENTAL_BOND"
+ },
+ "634": {
+  "name": "ZWEILOUS",
+  "a1": "HUSTLE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "635": {
+  "name": "HYDREIGON",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "636": {
+  "name": "LARVESTA",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "SWARM",
+  "passive": "DROUGHT"
+ },
+ "637": {
+  "name": "VOLCARONA",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "SWARM",
+  "passive": "NONE"
+ },
+ "638": {
+  "name": "COBALION",
+  "a1": "JUSTIFIED",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "INTREPID_SWORD"
+ },
+ "639": {
+  "name": "TERRAKION",
+  "a1": "JUSTIFIED",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "640": {
+  "name": "VIRIZION",
+  "a1": "JUSTIFIED",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "641": {
+  "name": "TORNADUS",
+  "a1": "PRANKSTER",
+  "a2": "NONE",
+  "hidden": "DEFIANT",
+  "passive": "DRIZZLE"
+ },
+ "642": {
+  "name": "THUNDURUS",
+  "a1": "PRANKSTER",
+  "a2": "NONE",
+  "hidden": "DEFIANT",
+  "passive": "DRIZZLE"
+ },
+ "643": {
+  "name": "RESHIRAM",
+  "a1": "TURBOBLAZE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ORICHALCUM_PULSE"
+ },
+ "644": {
+  "name": "ZEKROM",
+  "a1": "TERAVOLT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HADRON_ENGINE"
+ },
+ "645": {
+  "name": "LANDORUS",
+  "a1": "SAND_FORCE",
+  "a2": "NONE",
+  "hidden": "SHEER_FORCE",
+  "passive": "STORM_DRAIN"
+ },
+ "646": {
+  "name": "KYUREM",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SNOW_WARNING"
+ },
+ "647": {
+  "name": "KELDEO",
+  "a1": "JUSTIFIED",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "GRIM_NEIGH"
+ },
+ "648": {
+  "name": "MELOETTA",
+  "a1": "SERENE_GRACE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MINDS_EYE"
+ },
+ "649": {
+  "name": "GENESECT",
+  "a1": "DOWNLOAD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PROTEAN"
+ },
+ "650": {
+  "name": "CHESPIN",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "BULLETPROOF",
+  "passive": "DAUNTLESS_SHIELD"
+ },
+ "651": {
+  "name": "QUILLADIN",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "BULLETPROOF",
+  "passive": "NONE"
+ },
+ "652": {
+  "name": "CHESNAUGHT",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "BULLETPROOF",
+  "passive": "NONE"
+ },
+ "653": {
+  "name": "FENNEKIN",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "MAGICIAN",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "654": {
+  "name": "BRAIXEN",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "MAGICIAN",
+  "passive": "NONE"
+ },
+ "655": {
+  "name": "DELPHOX",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "MAGICIAN",
+  "passive": "NONE"
+ },
+ "656": {
+  "name": "FROAKIE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "STAKEOUT"
+ },
+ "657": {
+  "name": "FROGADIER",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "NONE"
+ },
+ "658": {
+  "name": "GRENINJA",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "NONE"
+ },
+ "659": {
+  "name": "BUNNELBY",
+  "a1": "PICKUP",
+  "a2": "CHEEK_POUCH",
+  "hidden": "HUGE_POWER",
+  "passive": "GUTS"
+ },
+ "660": {
+  "name": "DIGGERSBY",
+  "a1": "PICKUP",
+  "a2": "CHEEK_POUCH",
+  "hidden": "HUGE_POWER",
+  "passive": "NONE"
+ },
+ "661": {
+  "name": "FLETCHLING",
+  "a1": "BIG_PECKS",
+  "a2": "NONE",
+  "hidden": "GALE_WINGS",
+  "passive": "MAGIC_GUARD"
+ },
+ "662": {
+  "name": "FLETCHINDER",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "GALE_WINGS",
+  "passive": "NONE"
+ },
+ "663": {
+  "name": "TALONFLAME",
+  "a1": "FLAME_BODY",
+  "a2": "NONE",
+  "hidden": "GALE_WINGS",
+  "passive": "NONE"
+ },
+ "664": {
+  "name": "SCATTERBUG",
+  "a1": "SHIELD_DUST",
+  "a2": "COMPOUND_EYES",
+  "hidden": "FRIEND_GUARD",
+  "passive": "PRANKSTER"
+ },
+ "665": {
+  "name": "SPEWPA",
+  "a1": "SHED_SKIN",
+  "a2": "SHED_SKIN",
+  "hidden": "FRIEND_GUARD",
+  "passive": "NONE"
+ },
+ "666": {
+  "name": "VIVILLON",
+  "a1": "SHIELD_DUST",
+  "a2": "COMPOUND_EYES",
+  "hidden": "FRIEND_GUARD",
+  "passive": "NONE"
+ },
+ "667": {
+  "name": "LITLEO",
+  "a1": "RIVALRY",
+  "a2": "UNNERVE",
+  "hidden": "MOXIE",
+  "passive": "BEAST_BOOST"
+ },
+ "668": {
+  "name": "PYROAR",
+  "a1": "RIVALRY",
+  "a2": "UNNERVE",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "669": {
+  "name": "FLABEBE",
+  "a1": "FLOWER_VEIL",
+  "a2": "NONE",
+  "hidden": "SYMBIOSIS",
+  "passive": "GRASSY_SURGE"
+ },
+ "670": {
+  "name": "FLOETTE",
+  "a1": "FLOWER_VEIL",
+  "a2": "NONE",
+  "hidden": "SYMBIOSIS",
+  "passive": "NONE"
+ },
+ "671": {
+  "name": "FLORGES",
+  "a1": "FLOWER_VEIL",
+  "a2": "NONE",
+  "hidden": "SYMBIOSIS",
+  "passive": "NONE"
+ },
+ "672": {
+  "name": "SKIDDO",
+  "a1": "SAP_SIPPER",
+  "a2": "NONE",
+  "hidden": "GRASS_PELT",
+  "passive": "SEED_SOWER"
+ },
+ "673": {
+  "name": "GOGOAT",
+  "a1": "SAP_SIPPER",
+  "a2": "NONE",
+  "hidden": "GRASS_PELT",
+  "passive": "NONE"
+ },
+ "674": {
+  "name": "PANCHAM",
+  "a1": "IRON_FIST",
+  "a2": "MOLD_BREAKER",
+  "hidden": "SCRAPPY",
+  "passive": "FUR_COAT"
+ },
+ "675": {
+  "name": "PANGORO",
+  "a1": "IRON_FIST",
+  "a2": "MOLD_BREAKER",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "676": {
+  "name": "FURFROU",
+  "a1": "FUR_COAT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "FLUFFY"
+ },
+ "677": {
+  "name": "ESPURR",
+  "a1": "KEEN_EYE",
+  "a2": "INFILTRATOR",
+  "hidden": "OWN_TEMPO",
+  "passive": "FUR_COAT"
+ },
+ "678": {
+  "name": "MEOWSTIC",
+  "a1": "KEEN_EYE",
+  "a2": "INFILTRATOR",
+  "hidden": "PRANKSTER",
+  "passive": "NONE"
+ },
+ "679": {
+  "name": "HONEDGE",
+  "a1": "NO_GUARD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "680": {
+  "name": "DOUBLADE",
+  "a1": "NO_GUARD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "681": {
+  "name": "AEGISLASH",
+  "a1": "STANCE_CHANGE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "682": {
+  "name": "SPRITZEE",
+  "a1": "HEALER",
+  "a2": "NONE",
+  "hidden": "AROMA_VEIL",
+  "passive": "FUR_COAT"
+ },
+ "683": {
+  "name": "AROMATISSE",
+  "a1": "HEALER",
+  "a2": "NONE",
+  "hidden": "AROMA_VEIL",
+  "passive": "NONE"
+ },
+ "684": {
+  "name": "SWIRLIX",
+  "a1": "SWEET_VEIL",
+  "a2": "NONE",
+  "hidden": "UNBURDEN",
+  "passive": "WELL_BAKED_BODY"
+ },
+ "685": {
+  "name": "SLURPUFF",
+  "a1": "SWEET_VEIL",
+  "a2": "NONE",
+  "hidden": "UNBURDEN",
+  "passive": "NONE"
+ },
+ "686": {
+  "name": "INKAY",
+  "a1": "CONTRARY",
+  "a2": "SUCTION_CUPS",
+  "hidden": "INFILTRATOR",
+  "passive": "UNNERVE"
+ },
+ "687": {
+  "name": "MALAMAR",
+  "a1": "CONTRARY",
+  "a2": "SUCTION_CUPS",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "688": {
+  "name": "BINACLE",
+  "a1": "TOUGH_CLAWS",
+  "a2": "SNIPER",
+  "hidden": "PICKPOCKET",
+  "passive": "SAP_SIPPER"
+ },
+ "689": {
+  "name": "BARBARACLE",
+  "a1": "TOUGH_CLAWS",
+  "a2": "SNIPER",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "690": {
+  "name": "SKRELP",
+  "a1": "POISON_POINT",
+  "a2": "POISON_TOUCH",
+  "hidden": "ADAPTABILITY",
+  "passive": "DRAGONS_MAW"
+ },
+ "691": {
+  "name": "DRAGALGE",
+  "a1": "POISON_POINT",
+  "a2": "POISON_TOUCH",
+  "hidden": "ADAPTABILITY",
+  "passive": "NONE"
+ },
+ "692": {
+  "name": "CLAUNCHER",
+  "a1": "MEGA_LAUNCHER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SWIFT_SWIM"
+ },
+ "693": {
+  "name": "CLAWITZER",
+  "a1": "MEGA_LAUNCHER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "694": {
+  "name": "HELIOPTILE",
+  "a1": "DRY_SKIN",
+  "a2": "SAND_VEIL",
+  "hidden": "SOLAR_POWER",
+  "passive": "PROTEAN"
+ },
+ "695": {
+  "name": "HELIOLISK",
+  "a1": "DRY_SKIN",
+  "a2": "SAND_VEIL",
+  "hidden": "SOLAR_POWER",
+  "passive": "NONE"
+ },
+ "696": {
+  "name": "TYRUNT",
+  "a1": "STRONG_JAW",
+  "a2": "NONE",
+  "hidden": "STURDY",
+  "passive": "RECKLESS"
+ },
+ "697": {
+  "name": "TYRANTRUM",
+  "a1": "STRONG_JAW",
+  "a2": "NONE",
+  "hidden": "ROCK_HEAD",
+  "passive": "NONE"
+ },
+ "698": {
+  "name": "AMAURA",
+  "a1": "REFRIGERATE",
+  "a2": "NONE",
+  "hidden": "SNOW_WARNING",
+  "passive": "ICE_SCALES"
+ },
+ "699": {
+  "name": "AURORUS",
+  "a1": "REFRIGERATE",
+  "a2": "NONE",
+  "hidden": "SNOW_WARNING",
+  "passive": "NONE"
+ },
+ "700": {
+  "name": "SYLVEON",
+  "a1": "CUTE_CHARM",
+  "a2": "NONE",
+  "hidden": "PIXILATE",
+  "passive": "NONE"
+ },
+ "701": {
+  "name": "HAWLUCHA",
+  "a1": "LIMBER",
+  "a2": "UNBURDEN",
+  "hidden": "MOLD_BREAKER",
+  "passive": "MOXIE"
+ },
+ "702": {
+  "name": "DEDENNE",
+  "a1": "CHEEK_POUCH",
+  "a2": "PICKUP",
+  "hidden": "PLUS",
+  "passive": "PIXILATE"
+ },
+ "703": {
+  "name": "CARBINK",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "STURDY",
+  "passive": "SOLID_ROCK"
+ },
+ "704": {
+  "name": "GOOMY",
+  "a1": "SAP_SIPPER",
+  "a2": "HYDRATION",
+  "hidden": "GOOEY",
+  "passive": "REGENERATOR"
+ },
+ "705": {
+  "name": "SLIGGOO",
+  "a1": "SAP_SIPPER",
+  "a2": "HYDRATION",
+  "hidden": "GOOEY",
+  "passive": "NONE"
+ },
+ "706": {
+  "name": "GOODRA",
+  "a1": "SAP_SIPPER",
+  "a2": "HYDRATION",
+  "hidden": "GOOEY",
+  "passive": "NONE"
+ },
+ "707": {
+  "name": "KLEFKI",
+  "a1": "PRANKSTER",
+  "a2": "NONE",
+  "hidden": "MAGICIAN",
+  "passive": "LEVITATE"
+ },
+ "708": {
+  "name": "PHANTUMP",
+  "a1": "NATURAL_CURE",
+  "a2": "FRISK",
+  "hidden": "HARVEST",
+  "passive": "SHADOW_TAG"
+ },
+ "709": {
+  "name": "TREVENANT",
+  "a1": "NATURAL_CURE",
+  "a2": "FRISK",
+  "hidden": "HARVEST",
+  "passive": "NONE"
+ },
+ "710": {
+  "name": "PUMPKABOO",
+  "a1": "PICKUP",
+  "a2": "FRISK",
+  "hidden": "INSOMNIA",
+  "passive": "WELL_BAKED_BODY"
+ },
+ "711": {
+  "name": "GOURGEIST",
+  "a1": "PICKUP",
+  "a2": "FRISK",
+  "hidden": "INSOMNIA",
+  "passive": "NONE"
+ },
+ "712": {
+  "name": "BERGMITE",
+  "a1": "OWN_TEMPO",
+  "a2": "ICE_BODY",
+  "hidden": "STURDY",
+  "passive": "ICE_SCALES"
+ },
+ "713": {
+  "name": "AVALUGG",
+  "a1": "OWN_TEMPO",
+  "a2": "ICE_BODY",
+  "hidden": "STURDY",
+  "passive": "NONE"
+ },
+ "714": {
+  "name": "NOIBAT",
+  "a1": "FRISK",
+  "a2": "INFILTRATOR",
+  "hidden": "TELEPATHY",
+  "passive": "PUNK_ROCK"
+ },
+ "715": {
+  "name": "NOIVERN",
+  "a1": "FRISK",
+  "a2": "INFILTRATOR",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "716": {
+  "name": "XERNEAS",
+  "a1": "FAIRY_AURA",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HARVEST"
+ },
+ "717": {
+  "name": "YVELTAL",
+  "a1": "DARK_AURA",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SOUL_HEART"
+ },
+ "718": {
+  "name": "ZYGARDE",
+  "a1": "AURA_BREAK",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HUGE_POWER"
+ },
+ "719": {
+  "name": "DIANCIE",
+  "a1": "CLEAR_BODY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "LEVITATE"
+ },
+ "720": {
+  "name": "HOOPA",
+  "a1": "MAGICIAN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "OPPORTUNIST"
+ },
+ "721": {
+  "name": "VOLCANION",
+  "a1": "WATER_ABSORB",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "FILTER"
+ },
+ "722": {
+  "name": "ROWLET",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LONG_REACH",
+  "passive": "SNIPER"
+ },
+ "723": {
+  "name": "DARTRIX",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LONG_REACH",
+  "passive": "NONE"
+ },
+ "724": {
+  "name": "DECIDUEYE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "LONG_REACH",
+  "passive": "NONE"
+ },
+ "725": {
+  "name": "LITTEN",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "INTIMIDATE",
+  "passive": "FUR_COAT"
+ },
+ "726": {
+  "name": "TORRACAT",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "INTIMIDATE",
+  "passive": "NONE"
+ },
+ "727": {
+  "name": "INCINEROAR",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "INTIMIDATE",
+  "passive": "NONE"
+ },
+ "728": {
+  "name": "POPPLIO",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "LIQUID_VOICE",
+  "passive": "PUNK_ROCK"
+ },
+ "729": {
+  "name": "BRIONNE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "LIQUID_VOICE",
+  "passive": "NONE"
+ },
+ "730": {
+  "name": "PRIMARINA",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "LIQUID_VOICE",
+  "passive": "NONE"
+ },
+ "731": {
+  "name": "PIKIPEK",
+  "a1": "KEEN_EYE",
+  "a2": "SKILL_LINK",
+  "hidden": "PICKUP",
+  "passive": "TECHNICIAN"
+ },
+ "732": {
+  "name": "TRUMBEAK",
+  "a1": "KEEN_EYE",
+  "a2": "SKILL_LINK",
+  "hidden": "PICKUP",
+  "passive": "NONE"
+ },
+ "733": {
+  "name": "TOUCANNON",
+  "a1": "KEEN_EYE",
+  "a2": "SKILL_LINK",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "734": {
+  "name": "YUNGOOS",
+  "a1": "STAKEOUT",
+  "a2": "STRONG_JAW",
+  "hidden": "ADAPTABILITY",
+  "passive": "TOUGH_CLAWS"
+ },
+ "735": {
+  "name": "GUMSHOOS",
+  "a1": "STAKEOUT",
+  "a2": "STRONG_JAW",
+  "hidden": "ADAPTABILITY",
+  "passive": "NONE"
+ },
+ "736": {
+  "name": "GRUBBIN",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SPEED_BOOST"
+ },
+ "737": {
+  "name": "CHARJABUG",
+  "a1": "BATTERY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "738": {
+  "name": "VIKAVOLT",
+  "a1": "LEVITATE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "739": {
+  "name": "CRABRAWLER",
+  "a1": "HYPER_CUTTER",
+  "a2": "IRON_FIST",
+  "hidden": "ANGER_POINT",
+  "passive": "WATER_BUBBLE"
+ },
+ "740": {
+  "name": "CRABOMINABLE",
+  "a1": "HYPER_CUTTER",
+  "a2": "IRON_FIST",
+  "hidden": "ANGER_POINT",
+  "passive": "NONE"
+ },
+ "741": {
+  "name": "ORICORIO",
+  "a1": "DANCER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "742": {
+  "name": "CUTIEFLY",
+  "a1": "HONEY_GATHER",
+  "a2": "SHIELD_DUST",
+  "hidden": "SWEET_VEIL",
+  "passive": "TINTED_LENS"
+ },
+ "743": {
+  "name": "RIBOMBEE",
+  "a1": "HONEY_GATHER",
+  "a2": "SHIELD_DUST",
+  "hidden": "SWEET_VEIL",
+  "passive": "NONE"
+ },
+ "744": {
+  "name": "ROCKRUFF",
+  "a1": "KEEN_EYE",
+  "a2": "VITAL_SPIRIT",
+  "hidden": "STEADFAST",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "745": {
+  "name": "LYCANROC",
+  "a1": "KEEN_EYE",
+  "a2": "SAND_RUSH",
+  "hidden": "STEADFAST",
+  "passive": "NONE"
+ },
+ "746": {
+  "name": "WISHIWASHI",
+  "a1": "SCHOOLING",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "REGENERATOR"
+ },
+ "747": {
+  "name": "MAREANIE",
+  "a1": "MERCILESS",
+  "a2": "LIMBER",
+  "hidden": "REGENERATOR",
+  "passive": "TOXIC_DEBRIS"
+ },
+ "748": {
+  "name": "TOXAPEX",
+  "a1": "MERCILESS",
+  "a2": "LIMBER",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "749": {
+  "name": "MUDBRAY",
+  "a1": "OWN_TEMPO",
+  "a2": "STAMINA",
+  "hidden": "INNER_FOCUS",
+  "passive": "CUD_CHEW"
+ },
+ "750": {
+  "name": "MUDSDALE",
+  "a1": "OWN_TEMPO",
+  "a2": "STAMINA",
+  "hidden": "INNER_FOCUS",
+  "passive": "NONE"
+ },
+ "751": {
+  "name": "DEWPIDER",
+  "a1": "WATER_BUBBLE",
+  "a2": "NONE",
+  "hidden": "WATER_ABSORB",
+  "passive": "TINTED_LENS"
+ },
+ "752": {
+  "name": "ARAQUANID",
+  "a1": "WATER_BUBBLE",
+  "a2": "NONE",
+  "hidden": "WATER_ABSORB",
+  "passive": "NONE"
+ },
+ "753": {
+  "name": "FOMANTIS",
+  "a1": "LEAF_GUARD",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "SHARPNESS"
+ },
+ "754": {
+  "name": "LURANTIS",
+  "a1": "LEAF_GUARD",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "NONE"
+ },
+ "755": {
+  "name": "MORELULL",
+  "a1": "ILLUMINATE",
+  "a2": "EFFECT_SPORE",
+  "hidden": "RAIN_DISH",
+  "passive": "TRIAGE"
+ },
+ "756": {
+  "name": "SHIINOTIC",
+  "a1": "ILLUMINATE",
+  "a2": "EFFECT_SPORE",
+  "hidden": "RAIN_DISH",
+  "passive": "NONE"
+ },
+ "757": {
+  "name": "SALANDIT",
+  "a1": "CORROSION",
+  "a2": "NONE",
+  "hidden": "OBLIVIOUS",
+  "passive": "DRAGONS_MAW"
+ },
+ "758": {
+  "name": "SALAZZLE",
+  "a1": "CORROSION",
+  "a2": "NONE",
+  "hidden": "OBLIVIOUS",
+  "passive": "NONE"
+ },
+ "759": {
+  "name": "STUFFUL",
+  "a1": "FLUFFY",
+  "a2": "KLUTZ",
+  "hidden": "CUTE_CHARM",
+  "passive": "SCRAPPY"
+ },
+ "760": {
+  "name": "BEWEAR",
+  "a1": "FLUFFY",
+  "a2": "KLUTZ",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "761": {
+  "name": "BOUNSWEET",
+  "a1": "LEAF_GUARD",
+  "a2": "OBLIVIOUS",
+  "hidden": "SWEET_VEIL",
+  "passive": "MOXIE"
+ },
+ "762": {
+  "name": "STEENEE",
+  "a1": "LEAF_GUARD",
+  "a2": "OBLIVIOUS",
+  "hidden": "SWEET_VEIL",
+  "passive": "NONE"
+ },
+ "763": {
+  "name": "TSAREENA",
+  "a1": "LEAF_GUARD",
+  "a2": "QUEENLY_MAJESTY",
+  "hidden": "SWEET_VEIL",
+  "passive": "NONE"
+ },
+ "764": {
+  "name": "COMFEY",
+  "a1": "FLOWER_VEIL",
+  "a2": "TRIAGE",
+  "hidden": "NATURAL_CURE",
+  "passive": "FRIEND_GUARD"
+ },
+ "765": {
+  "name": "ORANGURU",
+  "a1": "INNER_FOCUS",
+  "a2": "TELEPATHY",
+  "hidden": "SYMBIOSIS",
+  "passive": "POWER_SPOT"
+ },
+ "766": {
+  "name": "PASSIMIAN",
+  "a1": "RECEIVER",
+  "a2": "NONE",
+  "hidden": "DEFIANT",
+  "passive": "LIBERO"
+ },
+ "767": {
+  "name": "WIMPOD",
+  "a1": "WIMP_OUT",
+  "a2": "NONE",
+  "hidden": "RUN_AWAY",
+  "passive": "REGENERATOR"
+ },
+ "768": {
+  "name": "GOLISOPOD",
+  "a1": "EMERGENCY_EXIT",
+  "a2": "NONE",
+  "hidden": "ANTICIPATION",
+  "passive": "NONE"
+ },
+ "769": {
+  "name": "SANDYGAST",
+  "a1": "WATER_COMPACTION",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "SAND_SPIT"
+ },
+ "770": {
+  "name": "PALOSSAND",
+  "a1": "WATER_COMPACTION",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "771": {
+  "name": "PYUKUMUKU",
+  "a1": "INNARDS_OUT",
+  "a2": "NONE",
+  "hidden": "UNAWARE",
+  "passive": "PURIFYING_SALT"
+ },
+ "772": {
+  "name": "TYPE_NULL",
+  "a1": "BATTLE_ARMOR",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "773": {
+  "name": "SILVALLY",
+  "a1": "RKS_SYSTEM",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "774": {
+  "name": "MINIOR",
+  "a1": "SHIELDS_DOWN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STURDY"
+ },
+ "775": {
+  "name": "KOMALA",
+  "a1": "COMATOSE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "GUTS"
+ },
+ "776": {
+  "name": "TURTONATOR",
+  "a1": "SHELL_ARMOR",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "DAUNTLESS_SHIELD"
+ },
+ "777": {
+  "name": "TOGEDEMARU",
+  "a1": "IRON_BARBS",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "STURDY",
+  "passive": "ROUGH_SKIN"
+ },
+ "778": {
+  "name": "MIMIKYU",
+  "a1": "DISGUISE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "779": {
+  "name": "BRUXISH",
+  "a1": "DAZZLING",
+  "a2": "STRONG_JAW",
+  "hidden": "WONDER_SKIN",
+  "passive": "MULTISCALE"
+ },
+ "780": {
+  "name": "DRAMPA",
+  "a1": "BERSERK",
+  "a2": "SAP_SIPPER",
+  "hidden": "CLOUD_NINE",
+  "passive": "THICK_FAT"
+ },
+ "781": {
+  "name": "DHELMISE",
+  "a1": "STEELWORKER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "WATER_BUBBLE"
+ },
+ "782": {
+  "name": "JANGMO_O",
+  "a1": "BULLETPROOF",
+  "a2": "SOUNDPROOF",
+  "hidden": "OVERCOAT",
+  "passive": "DAUNTLESS_SHIELD"
+ },
+ "783": {
+  "name": "HAKAMO_O",
+  "a1": "BULLETPROOF",
+  "a2": "SOUNDPROOF",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "784": {
+  "name": "KOMMO_O",
+  "a1": "BULLETPROOF",
+  "a2": "SOUNDPROOF",
+  "hidden": "OVERCOAT",
+  "passive": "NONE"
+ },
+ "785": {
+  "name": "TAPU_KOKO",
+  "a1": "ELECTRIC_SURGE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "TRANSISTOR"
+ },
+ "786": {
+  "name": "TAPU_LELE",
+  "a1": "PSYCHIC_SURGE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "SHEER_FORCE"
+ },
+ "787": {
+  "name": "TAPU_BULU",
+  "a1": "GRASSY_SURGE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "TRIAGE"
+ },
+ "788": {
+  "name": "TAPU_FINI",
+  "a1": "MISTY_SURGE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "FAIRY_AURA"
+ },
+ "789": {
+  "name": "COSMOG",
+  "a1": "UNAWARE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEAST_BOOST"
+ },
+ "790": {
+  "name": "COSMOEM",
+  "a1": "STURDY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "791": {
+  "name": "SOLGALEO",
+  "a1": "FULL_METAL_BODY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "792": {
+  "name": "LUNALA",
+  "a1": "SHADOW_SHIELD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "793": {
+  "name": "NIHILEGO",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "LEVITATE"
+ },
+ "794": {
+  "name": "BUZZWOLE",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MOXIE"
+ },
+ "795": {
+  "name": "PHEROMOSA",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TINTED_LENS"
+ },
+ "796": {
+  "name": "XURKITREE",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TRANSISTOR"
+ },
+ "797": {
+  "name": "CELESTEELA",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HEATPROOF"
+ },
+ "798": {
+  "name": "KARTANA",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "799": {
+  "name": "GUZZLORD",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "POISON_HEAL"
+ },
+ "800": {
+  "name": "NECROZMA",
+  "a1": "PRISM_ARMOR",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEAST_BOOST"
+ },
+ "801": {
+  "name": "MAGEARNA",
+  "a1": "SOUL_HEART",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STEELY_SPIRIT"
+ },
+ "802": {
+  "name": "MARSHADOW",
+  "a1": "TECHNICIAN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "IRON_FIST"
+ },
+ "803": {
+  "name": "POIPOLE",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHEER_FORCE"
+ },
+ "804": {
+  "name": "NAGANADEL",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "805": {
+  "name": "STAKATAKA",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SOLID_ROCK"
+ },
+ "806": {
+  "name": "BLACEPHALON",
+  "a1": "BEAST_BOOST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MAGIC_GUARD"
+ },
+ "807": {
+  "name": "ZERAORA",
+  "a1": "VOLT_ABSORB",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "808": {
+  "name": "MELTAN",
+  "a1": "MAGNET_PULL",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STEELY_SPIRIT"
+ },
+ "809": {
+  "name": "MELMETAL",
+  "a1": "IRON_FIST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "810": {
+  "name": "GROOKEY",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "GRASSY_SURGE",
+  "passive": "GRASS_PELT"
+ },
+ "811": {
+  "name": "THWACKEY",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "GRASSY_SURGE",
+  "passive": "NONE"
+ },
+ "812": {
+  "name": "RILLABOOM",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "GRASSY_SURGE",
+  "passive": "NONE"
+ },
+ "813": {
+  "name": "SCORBUNNY",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "LIBERO",
+  "passive": "NO_GUARD"
+ },
+ "814": {
+  "name": "RABOOT",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "LIBERO",
+  "passive": "NONE"
+ },
+ "815": {
+  "name": "CINDERACE",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "LIBERO",
+  "passive": "NONE"
+ },
+ "816": {
+  "name": "SOBBLE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "SUPER_LUCK"
+ },
+ "817": {
+  "name": "DRIZZILE",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "NONE"
+ },
+ "818": {
+  "name": "INTELEON",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SNIPER",
+  "passive": "NONE"
+ },
+ "819": {
+  "name": "SKWOVET",
+  "a1": "CHEEK_POUCH",
+  "a2": "NONE",
+  "hidden": "GLUTTONY",
+  "passive": "HARVEST"
+ },
+ "820": {
+  "name": "GREEDENT",
+  "a1": "CHEEK_POUCH",
+  "a2": "NONE",
+  "hidden": "GLUTTONY",
+  "passive": "NONE"
+ },
+ "821": {
+  "name": "ROOKIDEE",
+  "a1": "KEEN_EYE",
+  "a2": "UNNERVE",
+  "hidden": "BIG_PECKS",
+  "passive": "IRON_BARBS"
+ },
+ "822": {
+  "name": "CORVISQUIRE",
+  "a1": "KEEN_EYE",
+  "a2": "UNNERVE",
+  "hidden": "BIG_PECKS",
+  "passive": "NONE"
+ },
+ "823": {
+  "name": "CORVIKNIGHT",
+  "a1": "PRESSURE",
+  "a2": "UNNERVE",
+  "hidden": "MIRROR_ARMOR",
+  "passive": "NONE"
+ },
+ "824": {
+  "name": "BLIPBUG",
+  "a1": "SWARM",
+  "a2": "COMPOUND_EYES",
+  "hidden": "TELEPATHY",
+  "passive": "PSYCHIC_SURGE"
+ },
+ "825": {
+  "name": "DOTTLER",
+  "a1": "SWARM",
+  "a2": "COMPOUND_EYES",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "826": {
+  "name": "ORBEETLE",
+  "a1": "SWARM",
+  "a2": "FRISK",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "827": {
+  "name": "NICKIT",
+  "a1": "RUN_AWAY",
+  "a2": "UNBURDEN",
+  "hidden": "STAKEOUT",
+  "passive": "MAGICIAN"
+ },
+ "828": {
+  "name": "THIEVUL",
+  "a1": "RUN_AWAY",
+  "a2": "UNBURDEN",
+  "hidden": "STAKEOUT",
+  "passive": "NONE"
+ },
+ "829": {
+  "name": "GOSSIFLEUR",
+  "a1": "COTTON_DOWN",
+  "a2": "REGENERATOR",
+  "hidden": "EFFECT_SPORE",
+  "passive": "GRASSY_SURGE"
+ },
+ "830": {
+  "name": "ELDEGOSS",
+  "a1": "COTTON_DOWN",
+  "a2": "REGENERATOR",
+  "hidden": "EFFECT_SPORE",
+  "passive": "NONE"
+ },
+ "831": {
+  "name": "WOOLOO",
+  "a1": "FLUFFY",
+  "a2": "RUN_AWAY",
+  "hidden": "BULLETPROOF",
+  "passive": "SIMPLE"
+ },
+ "832": {
+  "name": "DUBWOOL",
+  "a1": "FLUFFY",
+  "a2": "STEADFAST",
+  "hidden": "BULLETPROOF",
+  "passive": "NONE"
+ },
+ "833": {
+  "name": "CHEWTLE",
+  "a1": "STRONG_JAW",
+  "a2": "SHELL_ARMOR",
+  "hidden": "SWIFT_SWIM",
+  "passive": "ROCKY_PAYLOAD"
+ },
+ "834": {
+  "name": "DREDNAW",
+  "a1": "STRONG_JAW",
+  "a2": "SHELL_ARMOR",
+  "hidden": "SWIFT_SWIM",
+  "passive": "NONE"
+ },
+ "835": {
+  "name": "YAMPER",
+  "a1": "BALL_FETCH",
+  "a2": "NONE",
+  "hidden": "RATTLED",
+  "passive": "SHEER_FORCE"
+ },
+ "836": {
+  "name": "BOLTUND",
+  "a1": "STRONG_JAW",
+  "a2": "NONE",
+  "hidden": "COMPETITIVE",
+  "passive": "NONE"
+ },
+ "837": {
+  "name": "ROLYCOLY",
+  "a1": "STEAM_ENGINE",
+  "a2": "HEATPROOF",
+  "hidden": "FLASH_FIRE",
+  "passive": "SOLID_ROCK"
+ },
+ "838": {
+  "name": "CARKOL",
+  "a1": "STEAM_ENGINE",
+  "a2": "FLAME_BODY",
+  "hidden": "FLASH_FIRE",
+  "passive": "NONE"
+ },
+ "839": {
+  "name": "COALOSSAL",
+  "a1": "STEAM_ENGINE",
+  "a2": "FLAME_BODY",
+  "hidden": "FLASH_FIRE",
+  "passive": "NONE"
+ },
+ "840": {
+  "name": "APPLIN",
+  "a1": "RIPEN",
+  "a2": "GLUTTONY",
+  "hidden": "BULLETPROOF",
+  "passive": "DRAGONS_MAW"
+ },
+ "841": {
+  "name": "FLAPPLE",
+  "a1": "RIPEN",
+  "a2": "GLUTTONY",
+  "hidden": "HUSTLE",
+  "passive": "NONE"
+ },
+ "842": {
+  "name": "APPLETUN",
+  "a1": "RIPEN",
+  "a2": "GLUTTONY",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "843": {
+  "name": "SILICOBRA",
+  "a1": "SAND_SPIT",
+  "a2": "SHED_SKIN",
+  "hidden": "SAND_VEIL",
+  "passive": "SAND_RUSH"
+ },
+ "844": {
+  "name": "SANDACONDA",
+  "a1": "SAND_SPIT",
+  "a2": "SHED_SKIN",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "845": {
+  "name": "CRAMORANT",
+  "a1": "GULP_MISSILE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "LIGHTNING_ROD"
+ },
+ "846": {
+  "name": "ARROKUDA",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "PROPELLER_TAIL",
+  "passive": "INTIMIDATE"
+ },
+ "847": {
+  "name": "BARRASKEWDA",
+  "a1": "SWIFT_SWIM",
+  "a2": "NONE",
+  "hidden": "PROPELLER_TAIL",
+  "passive": "NONE"
+ },
+ "848": {
+  "name": "TOXEL",
+  "a1": "RATTLED",
+  "a2": "STATIC",
+  "hidden": "KLUTZ",
+  "passive": "ELECTRIC_SURGE"
+ },
+ "849": {
+  "name": "TOXTRICITY",
+  "a1": "PUNK_ROCK",
+  "a2": "PLUS",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "850": {
+  "name": "SIZZLIPEDE",
+  "a1": "FLASH_FIRE",
+  "a2": "WHITE_SMOKE",
+  "hidden": "FLAME_BODY",
+  "passive": "SPEED_BOOST"
+ },
+ "851": {
+  "name": "CENTISKORCH",
+  "a1": "FLASH_FIRE",
+  "a2": "WHITE_SMOKE",
+  "hidden": "FLAME_BODY",
+  "passive": "NONE"
+ },
+ "852": {
+  "name": "CLOBBOPUS",
+  "a1": "LIMBER",
+  "a2": "NONE",
+  "hidden": "TECHNICIAN",
+  "passive": "WATER_BUBBLE"
+ },
+ "853": {
+  "name": "GRAPPLOCT",
+  "a1": "LIMBER",
+  "a2": "NONE",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "854": {
+  "name": "SINISTEA",
+  "a1": "WEAK_ARMOR",
+  "a2": "NONE",
+  "hidden": "CURSED_BODY",
+  "passive": "SHADOW_SHIELD"
+ },
+ "855": {
+  "name": "POLTEAGEIST",
+  "a1": "WEAK_ARMOR",
+  "a2": "NONE",
+  "hidden": "CURSED_BODY",
+  "passive": "NONE"
+ },
+ "856": {
+  "name": "HATENNA",
+  "a1": "HEALER",
+  "a2": "ANTICIPATION",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "FAIRY_AURA"
+ },
+ "857": {
+  "name": "HATTREM",
+  "a1": "HEALER",
+  "a2": "ANTICIPATION",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "NONE"
+ },
+ "858": {
+  "name": "HATTERENE",
+  "a1": "HEALER",
+  "a2": "ANTICIPATION",
+  "hidden": "MAGIC_BOUNCE",
+  "passive": "NONE"
+ },
+ "859": {
+  "name": "IMPIDIMP",
+  "a1": "PRANKSTER",
+  "a2": "FRISK",
+  "hidden": "PICKPOCKET",
+  "passive": "FUR_COAT"
+ },
+ "860": {
+  "name": "MORGREM",
+  "a1": "PRANKSTER",
+  "a2": "FRISK",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "861": {
+  "name": "GRIMMSNARL",
+  "a1": "PRANKSTER",
+  "a2": "FRISK",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "862": {
+  "name": "OBSTAGOON",
+  "a1": "RECKLESS",
+  "a2": "GUTS",
+  "hidden": "DEFIANT",
+  "passive": "NONE"
+ },
+ "863": {
+  "name": "PERRSERKER",
+  "a1": "BATTLE_ARMOR",
+  "a2": "TOUGH_CLAWS",
+  "hidden": "STEELY_SPIRIT",
+  "passive": "NONE"
+ },
+ "864": {
+  "name": "CURSOLA",
+  "a1": "WEAK_ARMOR",
+  "a2": "NONE",
+  "hidden": "PERISH_BODY",
+  "passive": "NONE"
+ },
+ "865": {
+  "name": "SIRFETCHD",
+  "a1": "STEADFAST",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "866": {
+  "name": "MR_RIME",
+  "a1": "TANGLED_FEET",
+  "a2": "SCREEN_CLEANER",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "867": {
+  "name": "RUNERIGUS",
+  "a1": "WANDERING_SPIRIT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "868": {
+  "name": "MILCERY",
+  "a1": "SWEET_VEIL",
+  "a2": "NONE",
+  "hidden": "AROMA_VEIL",
+  "passive": "REGENERATOR"
+ },
+ "869": {
+  "name": "ALCREMIE",
+  "a1": "SWEET_VEIL",
+  "a2": "NONE",
+  "hidden": "AROMA_VEIL",
+  "passive": "NONE"
+ },
+ "870": {
+  "name": "FALINKS",
+  "a1": "BATTLE_ARMOR",
+  "a2": "NONE",
+  "hidden": "DEFIANT",
+  "passive": "PARENTAL_BOND"
+ },
+ "871": {
+  "name": "PINCURCHIN",
+  "a1": "LIGHTNING_ROD",
+  "a2": "NONE",
+  "hidden": "ELECTRIC_SURGE",
+  "passive": "ELECTROMORPHOSIS"
+ },
+ "872": {
+  "name": "SNOM",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "ICE_SCALES",
+  "passive": "SNOW_WARNING"
+ },
+ "873": {
+  "name": "FROSMOTH",
+  "a1": "SHIELD_DUST",
+  "a2": "NONE",
+  "hidden": "ICE_SCALES",
+  "passive": "NONE"
+ },
+ "874": {
+  "name": "STONJOURNER",
+  "a1": "POWER_SPOT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STURDY"
+ },
+ "875": {
+  "name": "EISCUE",
+  "a1": "ICE_FACE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ICE_SCALES"
+ },
+ "876": {
+  "name": "INDEEDEE",
+  "a1": "INNER_FOCUS",
+  "a2": "SYNCHRONIZE",
+  "hidden": "PSYCHIC_SURGE",
+  "passive": "FRIEND_GUARD"
+ },
+ "877": {
+  "name": "MORPEKO",
+  "a1": "HUNGER_SWITCH",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MOODY"
+ },
+ "878": {
+  "name": "CUFANT",
+  "a1": "SHEER_FORCE",
+  "a2": "NONE",
+  "hidden": "HEAVY_METAL",
+  "passive": "EARTH_EATER"
+ },
+ "879": {
+  "name": "COPPERAJAH",
+  "a1": "SHEER_FORCE",
+  "a2": "NONE",
+  "hidden": "HEAVY_METAL",
+  "passive": "NONE"
+ },
+ "880": {
+  "name": "DRACOZOLT",
+  "a1": "VOLT_ABSORB",
+  "a2": "HUSTLE",
+  "hidden": "SAND_RUSH",
+  "passive": "NO_GUARD"
+ },
+ "881": {
+  "name": "ARCTOZOLT",
+  "a1": "VOLT_ABSORB",
+  "a2": "STATIC",
+  "hidden": "SLUSH_RUSH",
+  "passive": "TRANSISTOR"
+ },
+ "882": {
+  "name": "DRACOVISH",
+  "a1": "WATER_ABSORB",
+  "a2": "STRONG_JAW",
+  "hidden": "SAND_RUSH",
+  "passive": "SWIFT_SWIM"
+ },
+ "883": {
+  "name": "ARCTOVISH",
+  "a1": "WATER_ABSORB",
+  "a2": "ICE_BODY",
+  "hidden": "SLUSH_RUSH",
+  "passive": "STRONG_JAW"
+ },
+ "884": {
+  "name": "DURALUDON",
+  "a1": "LIGHT_METAL",
+  "a2": "HEAVY_METAL",
+  "hidden": "STALWART",
+  "passive": "STEELWORKER"
+ },
+ "885": {
+  "name": "DREEPY",
+  "a1": "CLEAR_BODY",
+  "a2": "INFILTRATOR",
+  "hidden": "CURSED_BODY",
+  "passive": "PARENTAL_BOND"
+ },
+ "886": {
+  "name": "DRAKLOAK",
+  "a1": "CLEAR_BODY",
+  "a2": "INFILTRATOR",
+  "hidden": "CURSED_BODY",
+  "passive": "NONE"
+ },
+ "887": {
+  "name": "DRAGAPULT",
+  "a1": "CLEAR_BODY",
+  "a2": "INFILTRATOR",
+  "hidden": "CURSED_BODY",
+  "passive": "NONE"
+ },
+ "888": {
+  "name": "ZACIAN",
+  "a1": "INTREPID_SWORD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "UNNERVE"
+ },
+ "889": {
+  "name": "ZAMAZENTA",
+  "a1": "DAUNTLESS_SHIELD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STAMINA"
+ },
+ "890": {
+  "name": "ETERNATUS",
+  "a1": "PRESSURE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NEUTRALIZING_GAS"
+ },
+ "891": {
+  "name": "KUBFU",
+  "a1": "INNER_FOCUS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "IRON_FIST"
+ },
+ "892": {
+  "name": "URSHIFU",
+  "a1": "UNSEEN_FIST",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "893": {
+  "name": "ZARUDE",
+  "a1": "LEAF_GUARD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "894": {
+  "name": "REGIELEKI",
+  "a1": "TRANSISTOR",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ELECTRIC_SURGE"
+ },
+ "895": {
+  "name": "REGIDRAGO",
+  "a1": "DRAGONS_MAW",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "MULTISCALE"
+ },
+ "896": {
+  "name": "GLASTRIER",
+  "a1": "CHILLING_NEIGH",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "FILTER"
+ },
+ "897": {
+  "name": "SPECTRIER",
+  "a1": "GRIM_NEIGH",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHADOW_SHIELD"
+ },
+ "898": {
+  "name": "CALYREX",
+  "a1": "UNNERVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HARVEST"
+ },
+ "899": {
+  "name": "WYRDEER",
+  "a1": "INTIMIDATE",
+  "a2": "FRISK",
+  "hidden": "SAP_SIPPER",
+  "passive": "NONE"
+ },
+ "900": {
+  "name": "KLEAVOR",
+  "a1": "SWARM",
+  "a2": "SHEER_FORCE",
+  "hidden": "SHARPNESS",
+  "passive": "NONE"
+ },
+ "901": {
+  "name": "URSALUNA",
+  "a1": "GUTS",
+  "a2": "BULLETPROOF",
+  "hidden": "UNNERVE",
+  "passive": "NONE"
+ },
+ "902": {
+  "name": "BASCULEGION",
+  "a1": "SWIFT_SWIM",
+  "a2": "ADAPTABILITY",
+  "hidden": "MOLD_BREAKER",
+  "passive": "NONE"
+ },
+ "903": {
+  "name": "SNEASLER",
+  "a1": "PRESSURE",
+  "a2": "UNBURDEN",
+  "hidden": "POISON_TOUCH",
+  "passive": "NONE"
+ },
+ "904": {
+  "name": "OVERQWIL",
+  "a1": "POISON_POINT",
+  "a2": "SWIFT_SWIM",
+  "hidden": "INTIMIDATE",
+  "passive": "NONE"
+ },
+ "905": {
+  "name": "ENAMORUS",
+  "a1": "CUTE_CHARM",
+  "a2": "NONE",
+  "hidden": "CONTRARY",
+  "passive": "FAIRY_AURA"
+ },
+ "906": {
+  "name": "SPRIGATITO",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "MAGICIAN"
+ },
+ "907": {
+  "name": "FLORAGATO",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "NONE"
+ },
+ "908": {
+  "name": "MEOWSCARADA",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "PROTEAN",
+  "passive": "NONE"
+ },
+ "909": {
+  "name": "FUECOCO",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "UNAWARE",
+  "passive": "PUNK_ROCK"
+ },
+ "910": {
+  "name": "CROCALOR",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "UNAWARE",
+  "passive": "NONE"
+ },
+ "911": {
+  "name": "SKELEDIRGE",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "UNAWARE",
+  "passive": "NONE"
+ },
+ "912": {
+  "name": "QUAXLY",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "MOXIE",
+  "passive": "OPPORTUNIST"
+ },
+ "913": {
+  "name": "QUAXWELL",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "914": {
+  "name": "QUAQUAVAL",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "MOXIE",
+  "passive": "NONE"
+ },
+ "915": {
+  "name": "LECHONK",
+  "a1": "AROMA_VEIL",
+  "a2": "GLUTTONY",
+  "hidden": "THICK_FAT",
+  "passive": "SIMPLE"
+ },
+ "916": {
+  "name": "OINKOLOGNE",
+  "a1": "LINGERING_AROMA",
+  "a2": "GLUTTONY",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "917": {
+  "name": "TAROUNTULA",
+  "a1": "INSOMNIA",
+  "a2": "NONE",
+  "hidden": "STAKEOUT",
+  "passive": "HONEY_GATHER"
+ },
+ "918": {
+  "name": "SPIDOPS",
+  "a1": "INSOMNIA",
+  "a2": "NONE",
+  "hidden": "STAKEOUT",
+  "passive": "NONE"
+ },
+ "919": {
+  "name": "NYMBLE",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "TINTED_LENS",
+  "passive": "GUTS"
+ },
+ "920": {
+  "name": "LOKIX",
+  "a1": "SWARM",
+  "a2": "NONE",
+  "hidden": "TINTED_LENS",
+  "passive": "NONE"
+ },
+ "921": {
+  "name": "PAWMI",
+  "a1": "STATIC",
+  "a2": "NATURAL_CURE",
+  "hidden": "IRON_FIST",
+  "passive": "TRANSISTOR"
+ },
+ "922": {
+  "name": "PAWMO",
+  "a1": "VOLT_ABSORB",
+  "a2": "NATURAL_CURE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "923": {
+  "name": "PAWMOT",
+  "a1": "VOLT_ABSORB",
+  "a2": "NATURAL_CURE",
+  "hidden": "IRON_FIST",
+  "passive": "NONE"
+ },
+ "924": {
+  "name": "TANDEMAUS",
+  "a1": "RUN_AWAY",
+  "a2": "PICKUP",
+  "hidden": "OWN_TEMPO",
+  "passive": "SCRAPPY"
+ },
+ "925": {
+  "name": "MAUSHOLD",
+  "a1": "FRIEND_GUARD",
+  "a2": "CHEEK_POUCH",
+  "hidden": "TECHNICIAN",
+  "passive": "NONE"
+ },
+ "926": {
+  "name": "FIDOUGH",
+  "a1": "OWN_TEMPO",
+  "a2": "NONE",
+  "hidden": "KLUTZ",
+  "passive": "WATER_ABSORB"
+ },
+ "927": {
+  "name": "DACHSBUN",
+  "a1": "WELL_BAKED_BODY",
+  "a2": "NONE",
+  "hidden": "AROMA_VEIL",
+  "passive": "NONE"
+ },
+ "928": {
+  "name": "SMOLIV",
+  "a1": "EARLY_BIRD",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "RIPEN"
+ },
+ "929": {
+  "name": "DOLLIV",
+  "a1": "EARLY_BIRD",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "NONE"
+ },
+ "930": {
+  "name": "ARBOLIVA",
+  "a1": "SEED_SOWER",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "NONE"
+ },
+ "931": {
+  "name": "SQUAWKABILLY",
+  "a1": "INTIMIDATE",
+  "a2": "HUSTLE",
+  "hidden": "GUTS",
+  "passive": "MOXIE"
+ },
+ "932": {
+  "name": "NACLI",
+  "a1": "PURIFYING_SALT",
+  "a2": "STURDY",
+  "hidden": "CLEAR_BODY",
+  "passive": "SOLID_ROCK"
+ },
+ "933": {
+  "name": "NACLSTACK",
+  "a1": "PURIFYING_SALT",
+  "a2": "STURDY",
+  "hidden": "CLEAR_BODY",
+  "passive": "NONE"
+ },
+ "934": {
+  "name": "GARGANACL",
+  "a1": "PURIFYING_SALT",
+  "a2": "STURDY",
+  "hidden": "CLEAR_BODY",
+  "passive": "NONE"
+ },
+ "935": {
+  "name": "CHARCADET",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "FLAME_BODY",
+  "passive": "PRISM_ARMOR"
+ },
+ "936": {
+  "name": "ARMAROUGE",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "937": {
+  "name": "CERULEDGE",
+  "a1": "FLASH_FIRE",
+  "a2": "NONE",
+  "hidden": "WEAK_ARMOR",
+  "passive": "NONE"
+ },
+ "938": {
+  "name": "TADBULB",
+  "a1": "OWN_TEMPO",
+  "a2": "STATIC",
+  "hidden": "DAMP",
+  "passive": "STAMINA"
+ },
+ "939": {
+  "name": "BELLIBOLT",
+  "a1": "ELECTROMORPHOSIS",
+  "a2": "STATIC",
+  "hidden": "DAMP",
+  "passive": "NONE"
+ },
+ "940": {
+  "name": "WATTREL",
+  "a1": "WIND_POWER",
+  "a2": "VOLT_ABSORB",
+  "hidden": "COMPETITIVE",
+  "passive": "SHEER_FORCE"
+ },
+ "941": {
+  "name": "KILOWATTREL",
+  "a1": "WIND_POWER",
+  "a2": "VOLT_ABSORB",
+  "hidden": "COMPETITIVE",
+  "passive": "NONE"
+ },
+ "942": {
+  "name": "MASCHIFF",
+  "a1": "INTIMIDATE",
+  "a2": "RUN_AWAY",
+  "hidden": "STAKEOUT",
+  "passive": "STRONG_JAW"
+ },
+ "943": {
+  "name": "MABOSSTIFF",
+  "a1": "INTIMIDATE",
+  "a2": "GUARD_DOG",
+  "hidden": "STAKEOUT",
+  "passive": "NONE"
+ },
+ "944": {
+  "name": "SHROODLE",
+  "a1": "UNBURDEN",
+  "a2": "PICKPOCKET",
+  "hidden": "PRANKSTER",
+  "passive": "CORROSION"
+ },
+ "945": {
+  "name": "GRAFAIAI",
+  "a1": "UNBURDEN",
+  "a2": "POISON_TOUCH",
+  "hidden": "PRANKSTER",
+  "passive": "NONE"
+ },
+ "946": {
+  "name": "BRAMBLIN",
+  "a1": "WIND_RIDER",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "SHADOW_SHIELD"
+ },
+ "947": {
+  "name": "BRAMBLEGHAST",
+  "a1": "WIND_RIDER",
+  "a2": "NONE",
+  "hidden": "INFILTRATOR",
+  "passive": "NONE"
+ },
+ "948": {
+  "name": "TOEDSCOOL",
+  "a1": "MYCELIUM_MIGHT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "PRANKSTER"
+ },
+ "949": {
+  "name": "TOEDSCRUEL",
+  "a1": "MYCELIUM_MIGHT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "950": {
+  "name": "KLAWF",
+  "a1": "ANGER_SHELL",
+  "a2": "SHELL_ARMOR",
+  "hidden": "REGENERATOR",
+  "passive": "WATER_ABSORB"
+ },
+ "951": {
+  "name": "CAPSAKID",
+  "a1": "CHLOROPHYLL",
+  "a2": "INSOMNIA",
+  "hidden": "KLUTZ",
+  "passive": "PARENTAL_BOND"
+ },
+ "952": {
+  "name": "SCOVILLAIN",
+  "a1": "CHLOROPHYLL",
+  "a2": "INSOMNIA",
+  "hidden": "MOODY",
+  "passive": "NONE"
+ },
+ "953": {
+  "name": "RELLOR",
+  "a1": "COMPOUND_EYES",
+  "a2": "NONE",
+  "hidden": "SHED_SKIN",
+  "passive": "PRANKSTER"
+ },
+ "954": {
+  "name": "RABSCA",
+  "a1": "SYNCHRONIZE",
+  "a2": "NONE",
+  "hidden": "TELEPATHY",
+  "passive": "NONE"
+ },
+ "955": {
+  "name": "FLITTLE",
+  "a1": "ANTICIPATION",
+  "a2": "FRISK",
+  "hidden": "SPEED_BOOST",
+  "passive": "MAGIC_BOUNCE"
+ },
+ "956": {
+  "name": "ESPATHRA",
+  "a1": "OPPORTUNIST",
+  "a2": "FRISK",
+  "hidden": "SPEED_BOOST",
+  "passive": "NONE"
+ },
+ "957": {
+  "name": "TINKATINK",
+  "a1": "MOLD_BREAKER",
+  "a2": "OWN_TEMPO",
+  "hidden": "PICKPOCKET",
+  "passive": "STEELWORKER"
+ },
+ "958": {
+  "name": "TINKATUFF",
+  "a1": "MOLD_BREAKER",
+  "a2": "OWN_TEMPO",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "959": {
+  "name": "TINKATON",
+  "a1": "MOLD_BREAKER",
+  "a2": "OWN_TEMPO",
+  "hidden": "PICKPOCKET",
+  "passive": "NONE"
+ },
+ "960": {
+  "name": "WIGLETT",
+  "a1": "GOOEY",
+  "a2": "RATTLED",
+  "hidden": "SAND_VEIL",
+  "passive": "STURDY"
+ },
+ "961": {
+  "name": "WUGTRIO",
+  "a1": "GOOEY",
+  "a2": "RATTLED",
+  "hidden": "SAND_VEIL",
+  "passive": "NONE"
+ },
+ "962": {
+  "name": "BOMBIRDIER",
+  "a1": "BIG_PECKS",
+  "a2": "KEEN_EYE",
+  "hidden": "ROCKY_PAYLOAD",
+  "passive": "UNBURDEN"
+ },
+ "963": {
+  "name": "FINIZEN",
+  "a1": "WATER_VEIL",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "IRON_FIST"
+ },
+ "964": {
+  "name": "PALAFIN",
+  "a1": "ZERO_TO_HERO",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "965": {
+  "name": "VAROOM",
+  "a1": "OVERCOAT",
+  "a2": "NONE",
+  "hidden": "SLOW_START",
+  "passive": "LEVITATE"
+ },
+ "966": {
+  "name": "REVAVROOM",
+  "a1": "OVERCOAT",
+  "a2": "NONE",
+  "hidden": "FILTER",
+  "passive": "NONE"
+ },
+ "967": {
+  "name": "CYCLIZAR",
+  "a1": "SHED_SKIN",
+  "a2": "NONE",
+  "hidden": "REGENERATOR",
+  "passive": "PROTEAN"
+ },
+ "968": {
+  "name": "ORTHWORM",
+  "a1": "EARTH_EATER",
+  "a2": "NONE",
+  "hidden": "SAND_VEIL",
+  "passive": "REGENERATOR"
+ },
+ "969": {
+  "name": "GLIMMET",
+  "a1": "TOXIC_DEBRIS",
+  "a2": "NONE",
+  "hidden": "CORROSION",
+  "passive": "LEVITATE"
+ },
+ "970": {
+  "name": "GLIMMORA",
+  "a1": "TOXIC_DEBRIS",
+  "a2": "NONE",
+  "hidden": "CORROSION",
+  "passive": "NONE"
+ },
+ "971": {
+  "name": "GREAVARD",
+  "a1": "PICKUP",
+  "a2": "NONE",
+  "hidden": "FLUFFY",
+  "passive": "FUR_COAT"
+ },
+ "972": {
+  "name": "HOUNDSTONE",
+  "a1": "SAND_RUSH",
+  "a2": "NONE",
+  "hidden": "FLUFFY",
+  "passive": "NONE"
+ },
+ "973": {
+  "name": "FLAMIGO",
+  "a1": "SCRAPPY",
+  "a2": "TANGLED_FEET",
+  "hidden": "COSTAR",
+  "passive": "MOXIE"
+ },
+ "974": {
+  "name": "CETODDLE",
+  "a1": "THICK_FAT",
+  "a2": "SNOW_CLOAK",
+  "hidden": "SHEER_FORCE",
+  "passive": "ICE_SCALES"
+ },
+ "975": {
+  "name": "CETITAN",
+  "a1": "THICK_FAT",
+  "a2": "SLUSH_RUSH",
+  "hidden": "SHEER_FORCE",
+  "passive": "NONE"
+ },
+ "976": {
+  "name": "VELUZA",
+  "a1": "MOLD_BREAKER",
+  "a2": "NONE",
+  "hidden": "SHARPNESS",
+  "passive": "SUPER_LUCK"
+ },
+ "977": {
+  "name": "DONDOZO",
+  "a1": "UNAWARE",
+  "a2": "OBLIVIOUS",
+  "hidden": "WATER_VEIL",
+  "passive": "PARENTAL_BOND"
+ },
+ "978": {
+  "name": "TATSUGIRI",
+  "a1": "COMMANDER",
+  "a2": "NONE",
+  "hidden": "STORM_DRAIN",
+  "passive": "ADAPTABILITY"
+ },
+ "979": {
+  "name": "ANNIHILAPE",
+  "a1": "VITAL_SPIRIT",
+  "a2": "INNER_FOCUS",
+  "hidden": "DEFIANT",
+  "passive": "NONE"
+ },
+ "980": {
+  "name": "CLODSIRE",
+  "a1": "POISON_POINT",
+  "a2": "WATER_ABSORB",
+  "hidden": "UNAWARE",
+  "passive": "NONE"
+ },
+ "981": {
+  "name": "FARIGIRAF",
+  "a1": "CUD_CHEW",
+  "a2": "ARMOR_TAIL",
+  "hidden": "SAP_SIPPER",
+  "passive": "NONE"
+ },
+ "982": {
+  "name": "DUDUNSPARCE",
+  "a1": "SERENE_GRACE",
+  "a2": "RUN_AWAY",
+  "hidden": "RATTLED",
+  "passive": "NONE"
+ },
+ "983": {
+  "name": "KINGAMBIT",
+  "a1": "DEFIANT",
+  "a2": "SUPREME_OVERLORD",
+  "hidden": "PRESSURE",
+  "passive": "NONE"
+ },
+ "984": {
+  "name": "GREAT_TUSK",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "INTIMIDATE"
+ },
+ "985": {
+  "name": "SCREAM_TAIL",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "UNAWARE"
+ },
+ "986": {
+  "name": "BRUTE_BONNET",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "CHLOROPHYLL"
+ },
+ "987": {
+  "name": "FLUTTER_MANE",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "DAZZLING"
+ },
+ "988": {
+  "name": "SLITHER_WING",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SCRAPPY"
+ },
+ "989": {
+  "name": "SANDY_SHOCKS",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "EARTH_EATER"
+ },
+ "990": {
+  "name": "IRON_TREADS",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STEELY_SPIRIT"
+ },
+ "991": {
+  "name": "IRON_BUNDLE",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SNOW_WARNING"
+ },
+ "992": {
+  "name": "IRON_HANDS",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "IRON_FIST"
+ },
+ "993": {
+  "name": "IRON_JUGULIS",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "LIGHTNING_ROD"
+ },
+ "994": {
+  "name": "IRON_MOTH",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "LEVITATE"
+ },
+ "995": {
+  "name": "IRON_THORNS",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SAND_STREAM"
+ },
+ "996": {
+  "name": "FRIGIBAX",
+  "a1": "THERMAL_EXCHANGE",
+  "a2": "NONE",
+  "hidden": "ICE_BODY",
+  "passive": "SNOW_WARNING"
+ },
+ "997": {
+  "name": "ARCTIBAX",
+  "a1": "THERMAL_EXCHANGE",
+  "a2": "NONE",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "998": {
+  "name": "BAXCALIBUR",
+  "a1": "THERMAL_EXCHANGE",
+  "a2": "NONE",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "999": {
+  "name": "GIMMIGHOUL",
+  "a1": "RATTLED",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "HONEY_GATHER"
+ },
+ "1000": {
+  "name": "GHOLDENGO",
+  "a1": "GOOD_AS_GOLD",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "1001": {
+  "name": "WO_CHIEN",
+  "a1": "TABLETS_OF_RUIN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "VESSEL_OF_RUIN"
+ },
+ "1002": {
+  "name": "CHIEN_PAO",
+  "a1": "SWORD_OF_RUIN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SNOW_WARNING"
+ },
+ "1003": {
+  "name": "TING_LU",
+  "a1": "VESSEL_OF_RUIN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "STAMINA"
+ },
+ "1004": {
+  "name": "CHI_YU",
+  "a1": "BEADS_OF_RUIN",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BERSERK"
+ },
+ "1005": {
+  "name": "ROARING_MOON",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "1006": {
+  "name": "IRON_VALIANT",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "1007": {
+  "name": "KORAIDON",
+  "a1": "ORICHALCUM_PULSE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "OPPORTUNIST"
+ },
+ "1008": {
+  "name": "MIRAIDON",
+  "a1": "HADRON_ENGINE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "OPPORTUNIST"
+ },
+ "1009": {
+  "name": "WALKING_WAKE",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEAST_BOOST"
+ },
+ "1010": {
+  "name": "IRON_LEAVES",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "1011": {
+  "name": "DIPPLIN",
+  "a1": "SUPERSWEET_SYRUP",
+  "a2": "GLUTTONY",
+  "hidden": "STICKY_HOLD",
+  "passive": "NONE"
+ },
+ "1012": {
+  "name": "POLTCHAGEIST",
+  "a1": "HOSPITALITY",
+  "a2": "NONE",
+  "hidden": "HEATPROOF",
+  "passive": "TRIAGE"
+ },
+ "1013": {
+  "name": "SINISTCHA",
+  "a1": "HOSPITALITY",
+  "a2": "NONE",
+  "hidden": "HEATPROOF",
+  "passive": "NONE"
+ },
+ "1014": {
+  "name": "OKIDOGI",
+  "a1": "TOXIC_CHAIN",
+  "a2": "NONE",
+  "hidden": "GUARD_DOG",
+  "passive": "FUR_COAT"
+ },
+ "1015": {
+  "name": "MUNKIDORI",
+  "a1": "TOXIC_CHAIN",
+  "a2": "NONE",
+  "hidden": "FRISK",
+  "passive": "NEUROFORCE"
+ },
+ "1016": {
+  "name": "FEZANDIPITI",
+  "a1": "TOXIC_CHAIN",
+  "a2": "NONE",
+  "hidden": "TECHNICIAN",
+  "passive": "LEVITATE"
+ },
+ "1017": {
+  "name": "OGERPON",
+  "a1": "DEFIANT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "OPPORTUNIST"
+ },
+ "1018": {
+  "name": "ARCHALUDON",
+  "a1": "STAMINA",
+  "a2": "STURDY",
+  "hidden": "STALWART",
+  "passive": "NONE"
+ },
+ "1019": {
+  "name": "HYDRAPPLE",
+  "a1": "SUPERSWEET_SYRUP",
+  "a2": "REGENERATOR",
+  "hidden": "STICKY_HOLD",
+  "passive": "NONE"
+ },
+ "1020": {
+  "name": "GOUGING_FIRE",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEAST_BOOST"
+ },
+ "1021": {
+  "name": "RAGING_BOLT",
+  "a1": "PROTOSYNTHESIS",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BEAST_BOOST"
+ },
+ "1022": {
+  "name": "IRON_BOULDER",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "1023": {
+  "name": "IRON_CROWN",
+  "a1": "QUARK_DRIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SHARPNESS"
+ },
+ "1024": {
+  "name": "TERAPAGOS",
+  "a1": "TERA_SHIFT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SOUL_HEART"
+ },
+ "1025": {
+  "name": "PECHARUNT",
+  "a1": "POISON_PUPPETEER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOXIC_CHAIN"
+ },
+ "2019": {
+  "name": "ALOLA_RATTATA",
+  "a1": "GLUTTONY",
+  "a2": "HUSTLE",
+  "hidden": "THICK_FAT",
+  "passive": "ADAPTABILITY"
+ },
+ "2020": {
+  "name": "ALOLA_RATICATE",
+  "a1": "GLUTTONY",
+  "a2": "HUSTLE",
+  "hidden": "THICK_FAT",
+  "passive": "NONE"
+ },
+ "2026": {
+  "name": "ALOLA_RAICHU",
+  "a1": "SURGE_SURFER",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "2027": {
+  "name": "ALOLA_SANDSHREW",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "SLUSH_RUSH",
+  "passive": "TOUGH_CLAWS"
+ },
+ "2028": {
+  "name": "ALOLA_SANDSLASH",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "SLUSH_RUSH",
+  "passive": "NONE"
+ },
+ "2037": {
+  "name": "ALOLA_VULPIX",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "SNOW_WARNING",
+  "passive": "SHEER_FORCE"
+ },
+ "2038": {
+  "name": "ALOLA_NINETALES",
+  "a1": "SNOW_CLOAK",
+  "a2": "NONE",
+  "hidden": "SNOW_WARNING",
+  "passive": "NONE"
+ },
+ "2050": {
+  "name": "ALOLA_DIGLETT",
+  "a1": "SAND_VEIL",
+  "a2": "TANGLING_HAIR",
+  "hidden": "SAND_FORCE",
+  "passive": "STURDY"
+ },
+ "2051": {
+  "name": "ALOLA_DUGTRIO",
+  "a1": "SAND_VEIL",
+  "a2": "TANGLING_HAIR",
+  "hidden": "SAND_FORCE",
+  "passive": "NONE"
+ },
+ "2052": {
+  "name": "ALOLA_MEOWTH",
+  "a1": "PICKUP",
+  "a2": "TECHNICIAN",
+  "hidden": "RATTLED",
+  "passive": "DARK_AURA"
+ },
+ "2053": {
+  "name": "ALOLA_PERSIAN",
+  "a1": "FUR_COAT",
+  "a2": "TECHNICIAN",
+  "hidden": "RATTLED",
+  "passive": "NONE"
+ },
+ "2074": {
+  "name": "ALOLA_GEODUDE",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "GALVANIZE",
+  "passive": "DRY_SKIN"
+ },
+ "2075": {
+  "name": "ALOLA_GRAVELER",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "GALVANIZE",
+  "passive": "NONE"
+ },
+ "2076": {
+  "name": "ALOLA_GOLEM",
+  "a1": "MAGNET_PULL",
+  "a2": "STURDY",
+  "hidden": "GALVANIZE",
+  "passive": "NONE"
+ },
+ "2088": {
+  "name": "ALOLA_GRIMER",
+  "a1": "POISON_TOUCH",
+  "a2": "GLUTTONY",
+  "hidden": "POWER_OF_ALCHEMY",
+  "passive": "TOXIC_DEBRIS"
+ },
+ "2089": {
+  "name": "ALOLA_MUK",
+  "a1": "POISON_TOUCH",
+  "a2": "GLUTTONY",
+  "hidden": "POWER_OF_ALCHEMY",
+  "passive": "NONE"
+ },
+ "2103": {
+  "name": "ALOLA_EXEGGUTOR",
+  "a1": "FRISK",
+  "a2": "NONE",
+  "hidden": "HARVEST",
+  "passive": "NONE"
+ },
+ "2105": {
+  "name": "ALOLA_MAROWAK",
+  "a1": "CURSED_BODY",
+  "a2": "LIGHTNING_ROD",
+  "hidden": "ROCK_HEAD",
+  "passive": "NONE"
+ },
+ "2670": {
+  "name": "ETERNAL_FLOETTE",
+  "a1": "FLOWER_VEIL",
+  "a2": "NONE",
+  "hidden": "SYMBIOSIS",
+  "passive": "MAGIC_GUARD"
+ },
+ "4052": {
+  "name": "GALAR_MEOWTH",
+  "a1": "PICKUP",
+  "a2": "TOUGH_CLAWS",
+  "hidden": "UNNERVE",
+  "passive": "STEELWORKER"
+ },
+ "4077": {
+  "name": "GALAR_PONYTA",
+  "a1": "RUN_AWAY",
+  "a2": "PASTEL_VEIL",
+  "hidden": "ANTICIPATION",
+  "passive": "MOXIE"
+ },
+ "4078": {
+  "name": "GALAR_RAPIDASH",
+  "a1": "RUN_AWAY",
+  "a2": "PASTEL_VEIL",
+  "hidden": "ANTICIPATION",
+  "passive": "NONE"
+ },
+ "4079": {
+  "name": "GALAR_SLOWPOKE",
+  "a1": "GLUTTONY",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "UNAWARE"
+ },
+ "4080": {
+  "name": "GALAR_SLOWBRO",
+  "a1": "QUICK_DRAW",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "4083": {
+  "name": "GALAR_FARFETCHD",
+  "a1": "STEADFAST",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "INTREPID_SWORD"
+ },
+ "4110": {
+  "name": "GALAR_WEEZING",
+  "a1": "LEVITATE",
+  "a2": "NEUTRALIZING_GAS",
+  "hidden": "MISTY_SURGE",
+  "passive": "NONE"
+ },
+ "4122": {
+  "name": "GALAR_MR_MIME",
+  "a1": "VITAL_SPIRIT",
+  "a2": "SCREEN_CLEANER",
+  "hidden": "ICE_BODY",
+  "passive": "NONE"
+ },
+ "4144": {
+  "name": "GALAR_ARTICUNO",
+  "a1": "COMPETITIVE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "SERENE_GRACE"
+ },
+ "4145": {
+  "name": "GALAR_ZAPDOS",
+  "a1": "DEFIANT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TOUGH_CLAWS"
+ },
+ "4146": {
+  "name": "GALAR_MOLTRES",
+  "a1": "BERSERK",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "DARK_AURA"
+ },
+ "4199": {
+  "name": "GALAR_SLOWKING",
+  "a1": "CURIOUS_MEDICINE",
+  "a2": "OWN_TEMPO",
+  "hidden": "REGENERATOR",
+  "passive": "NONE"
+ },
+ "4222": {
+  "name": "GALAR_CORSOLA",
+  "a1": "WEAK_ARMOR",
+  "a2": "NONE",
+  "hidden": "CURSED_BODY",
+  "passive": "SHADOW_SHIELD"
+ },
+ "4263": {
+  "name": "GALAR_ZIGZAGOON",
+  "a1": "PICKUP",
+  "a2": "GLUTTONY",
+  "hidden": "QUICK_FEET",
+  "passive": "POISON_HEAL"
+ },
+ "4264": {
+  "name": "GALAR_LINOONE",
+  "a1": "PICKUP",
+  "a2": "GLUTTONY",
+  "hidden": "QUICK_FEET",
+  "passive": "NONE"
+ },
+ "4554": {
+  "name": "GALAR_DARUMAKA",
+  "a1": "HUSTLE",
+  "a2": "NONE",
+  "hidden": "INNER_FOCUS",
+  "passive": "FLASH_FIRE"
+ },
+ "4555": {
+  "name": "GALAR_DARMANITAN",
+  "a1": "GORILLA_TACTICS",
+  "a2": "NONE",
+  "hidden": "ZEN_MODE",
+  "passive": "NONE"
+ },
+ "4562": {
+  "name": "GALAR_YAMASK",
+  "a1": "WANDERING_SPIRIT",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "TABLETS_OF_RUIN"
+ },
+ "4618": {
+  "name": "GALAR_STUNFISK",
+  "a1": "MIMICRY",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ARENA_TRAP"
+ },
+ "6058": {
+  "name": "HISUI_GROWLITHE",
+  "a1": "INTIMIDATE",
+  "a2": "FLASH_FIRE",
+  "hidden": "ROCK_HEAD",
+  "passive": "RECKLESS"
+ },
+ "6059": {
+  "name": "HISUI_ARCANINE",
+  "a1": "INTIMIDATE",
+  "a2": "FLASH_FIRE",
+  "hidden": "ROCK_HEAD",
+  "passive": "NONE"
+ },
+ "6100": {
+  "name": "HISUI_VOLTORB",
+  "a1": "SOUNDPROOF",
+  "a2": "STATIC",
+  "hidden": "AFTERMATH",
+  "passive": "TRANSISTOR"
+ },
+ "6101": {
+  "name": "HISUI_ELECTRODE",
+  "a1": "SOUNDPROOF",
+  "a2": "STATIC",
+  "hidden": "AFTERMATH",
+  "passive": "NONE"
+ },
+ "6157": {
+  "name": "HISUI_TYPHLOSION",
+  "a1": "BLAZE",
+  "a2": "NONE",
+  "hidden": "FRISK",
+  "passive": "NONE"
+ },
+ "6211": {
+  "name": "HISUI_QWILFISH",
+  "a1": "POISON_POINT",
+  "a2": "SWIFT_SWIM",
+  "hidden": "INTIMIDATE",
+  "passive": "MERCILESS"
+ },
+ "6215": {
+  "name": "HISUI_SNEASEL",
+  "a1": "INNER_FOCUS",
+  "a2": "KEEN_EYE",
+  "hidden": "PICKPOCKET",
+  "passive": "SCRAPPY"
+ },
+ "6503": {
+  "name": "HISUI_SAMUROTT",
+  "a1": "TORRENT",
+  "a2": "NONE",
+  "hidden": "SHARPNESS",
+  "passive": "NONE"
+ },
+ "6549": {
+  "name": "HISUI_LILLIGANT",
+  "a1": "CHLOROPHYLL",
+  "a2": "HUSTLE",
+  "hidden": "LEAF_GUARD",
+  "passive": "NONE"
+ },
+ "6570": {
+  "name": "HISUI_ZORUA",
+  "a1": "ILLUSION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "ADAPTABILITY"
+ },
+ "6571": {
+  "name": "HISUI_ZOROARK",
+  "a1": "ILLUSION",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "NONE"
+ },
+ "6628": {
+  "name": "HISUI_BRAVIARY",
+  "a1": "KEEN_EYE",
+  "a2": "SHEER_FORCE",
+  "hidden": "TINTED_LENS",
+  "passive": "NONE"
+ },
+ "6705": {
+  "name": "HISUI_SLIGGOO",
+  "a1": "SAP_SIPPER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "GOOEY",
+  "passive": "NONE"
+ },
+ "6706": {
+  "name": "HISUI_GOODRA",
+  "a1": "SAP_SIPPER",
+  "a2": "SHELL_ARMOR",
+  "hidden": "GOOEY",
+  "passive": "NONE"
+ },
+ "6713": {
+  "name": "HISUI_AVALUGG",
+  "a1": "STRONG_JAW",
+  "a2": "ICE_BODY",
+  "hidden": "STURDY",
+  "passive": "NONE"
+ },
+ "6724": {
+  "name": "HISUI_DECIDUEYE",
+  "a1": "OVERGROW",
+  "a2": "NONE",
+  "hidden": "SCRAPPY",
+  "passive": "NONE"
+ },
+ "8128": {
+  "name": "PALDEA_TAUROS",
+  "a1": "INTIMIDATE",
+  "a2": "ANGER_POINT",
+  "hidden": "CUD_CHEW",
+  "passive": "ADAPTABILITY"
+ },
+ "8194": {
+  "name": "PALDEA_WOOPER",
+  "a1": "POISON_POINT",
+  "a2": "WATER_ABSORB",
+  "hidden": "UNAWARE",
+  "passive": "THICK_FAT"
+ },
+ "8901": {
+  "name": "BLOODMOON_URSALUNA",
+  "a1": "MINDS_EYE",
+  "a2": "NONE",
+  "hidden": "NONE",
+  "passive": "BERSERK"
+ }
+}

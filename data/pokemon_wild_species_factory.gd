@@ -1,0 +1,645 @@
+extends RefCounted
+# 只加新文件、**还没接线**：生产还只读 data/pokemon_wild_species.gd（平原）；等地面素材到了再把这份并进去。
+# 格式同平原那份：SPECIES / ATLAS / PREVOLUTIONS；六项顺序 [HP, ATK, DEF, SPATK, SPDEF, SPD]。
+# 图集在 assets/pokemon/factory/（front / back，帧名已按数值排序重编号成 1..N），来源与哈希见该目录 SOURCES.md。
+
+const SPECIES := {
+	137: {
+		"name": "PORYGON",
+		"display": "多边兽",
+		"stats": [65, 60, 70, 85, 75, 40],
+		"types": ["一般"],
+		"base_exp": 79,
+		"base_total": 395,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	233: {
+		"name": "PORYGON2",
+		"display": "多边兽2型",
+		"stats": [85, 80, 90, 105, 95, 60],
+		"types": ["一般"],
+		"base_exp": 180,
+		"base_total": 515,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	374: {
+		"name": "BELDUM",
+		"display": "铁哑铃",
+		"stats": [40, 55, 80, 35, 60, 30],
+		"types": ["钢", "超能力"],
+		"base_exp": 60,
+		"base_total": 300,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 375, "pre_form_key": "", "evo_form_key": "", "level": 20, "item": 0, "wild_delay": 0},
+		],
+	},
+	375: {
+		"name": "METANG",
+		"display": "金属怪",
+		"stats": [60, 75, 100, 55, 80, 50],
+		"types": ["钢", "超能力"],
+		"base_exp": 147,
+		"base_total": 420,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 376, "pre_form_key": "", "evo_form_key": "", "level": 45, "item": 0, "wild_delay": 0},
+		],
+	},
+	376: {
+		"name": "METAGROSS",
+		"display": "巨金怪",
+		"stats": [80, 135, 130, 95, 90, 70],
+		"types": ["钢", "超能力"],
+		"base_exp": 300,
+		"base_total": 600,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	436: {
+		"name": "BRONZOR",
+		"display": "铜镜怪",
+		"stats": [57, 24, 86, 24, 86, 23],
+		"types": ["钢", "超能力"],
+		"base_exp": 60,
+		"base_total": 300,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 437, "pre_form_key": "", "evo_form_key": "", "level": 33, "item": 0, "wild_delay": 0},
+		],
+	},
+	437: {
+		"name": "BRONZONG",
+		"display": "青铜钟",
+		"stats": [67, 89, 116, 79, 116, 33],
+		"types": ["钢", "超能力"],
+		"base_exp": 175,
+		"base_total": 500,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	532: {
+		"name": "TIMBURR",
+		"display": "搬运小匠",
+		"stats": [75, 80, 55, 25, 35, 35],
+		"types": ["格斗"],
+		"base_exp": 61,
+		"base_total": 305,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 533, "pre_form_key": "", "evo_form_key": "", "level": 25, "item": 0, "wild_delay": 0},
+		],
+	},
+	533: {
+		"name": "GURDURR",
+		"display": "铁骨土人",
+		"stats": [85, 105, 85, 40, 50, 40],
+		"types": ["格斗"],
+		"base_exp": 142,
+		"base_total": 405,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	534: {
+		"name": "CONKELDURR",
+		"display": "修建老匠",
+		"stats": [105, 140, 95, 55, 65, 45],
+		"types": ["格斗"],
+		"base_exp": 253,
+		"base_total": 505,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	599: {
+		"name": "KLINK",
+		"display": "齿轮儿",
+		"stats": [40, 55, 70, 45, 60, 30],
+		"types": ["钢"],
+		"base_exp": 60,
+		"base_total": 300,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 600, "pre_form_key": "", "evo_form_key": "", "level": 38, "item": 0, "wild_delay": 0},
+		],
+	},
+	600: {
+		"name": "KLANG",
+		"display": "齿轮组",
+		"stats": [60, 80, 95, 70, 85, 50],
+		"types": ["钢"],
+		"base_exp": 154,
+		"base_total": 440,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [
+			{"species_id": 601, "pre_form_key": "", "evo_form_key": "", "level": 49, "item": 0, "wild_delay": 0},
+		],
+	},
+	601: {
+		"name": "KLINKLANG",
+		"display": "齿轮怪",
+		"stats": [60, 100, 115, 70, 85, 90],
+		"types": ["钢"],
+		"base_exp": 260,
+		"base_total": 520,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	649: {
+		"name": "GENESECT",
+		"display": "盖诺赛克特",
+		"stats": [71, 120, 95, 120, 95, 99],
+		"types": ["虫", "钢"],
+		"base_exp": 300,
+		"base_total": 600,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": true,
+		"forms": [],
+		"evolutions": [],
+	},
+	707: {
+		"name": "KLEFKI",
+		"display": "钥圈儿",
+		"stats": [57, 80, 91, 80, 87, 75],
+		"types": ["钢", "妖精"],
+		"base_exp": 165,
+		"base_total": 470,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": false,
+		"forms": [],
+		"evolutions": [],
+	},
+	801: {
+		"name": "MAGEARNA",
+		"display": "玛机雅娜",
+		"stats": [80, 95, 115, 130, 115, 65],
+		"types": ["钢", "妖精"],
+		"base_exp": 300,
+		"base_total": 600,
+		"sub_legendary": false,
+		"legendary": false,
+		"mythical": true,
+		"forms": [],
+		"evolutions": [],
+	},
+}
+
+const PREVOLUTIONS := {
+	375: 374,
+	376: 375,
+	437: 436,
+	533: 532,
+	600: 599,
+	601: 600,
+}
+
+const ATLAS := {
+	137: {
+		"": {
+			"front": {"w": 56, "h": 52, "frames": 62},
+			"back": {"w": 62, "h": 47, "frames": 62},
+		},
+	},
+	233: {
+		"": {
+			"front": {"w": 49, "h": 44, "frames": 128},
+			"back": {"w": 58, "h": 51, "frames": 128},
+		},
+	},
+	374: {
+		"": {
+			"front": {"w": 48, "h": 46, "frames": 102},
+			"back": {"w": 45, "h": 44, "frames": 102},
+		},
+	},
+	375: {
+		"": {
+			"front": {"w": 82, "h": 64, "frames": 206},
+			"back": {"w": 75, "h": 59, "frames": 206},
+		},
+	},
+	376: {
+		"": {
+			"front": {"w": 83, "h": 57, "frames": 140},
+			"back": {"w": 82, "h": 55, "frames": 140},
+		},
+	},
+	436: {
+		"": {
+			"front": {"w": 47, "h": 59, "frames": 126},
+			"back": {"w": 48, "h": 60, "frames": 126},
+		},
+	},
+	437: {
+		"": {
+			"front": {"w": 95, "h": 74, "frames": 140},
+			"back": {"w": 95, "h": 74, "frames": 140},
+		},
+	},
+	532: {
+		"": {
+			"front": {"w": 48, "h": 69, "frames": 148},
+			"back": {"w": 71, "h": 82, "frames": 148},
+		},
+	},
+	533: {
+		"": {
+			"front": {"w": 70, "h": 81, "frames": 186},
+			"back": {"w": 73, "h": 73, "frames": 186},
+		},
+	},
+	534: {
+		"": {
+			"front": {"w": 102, "h": 69, "frames": 163},
+			"back": {"w": 81, "h": 58, "frames": 163},
+		},
+	},
+	599: {
+		"": {
+			"front": {"w": 43, "h": 41, "frames": 107},
+			"back": {"w": 43, "h": 41, "frames": 107},
+		},
+	},
+	600: {
+		"": {
+			"front": {"w": 58, "h": 51, "frames": 171},
+			"back": {"w": 54, "h": 56, "frames": 171},
+		},
+	},
+	601: {
+		"": {
+			"front": {"w": 70, "h": 58, "frames": 171},
+			"back": {"w": 69, "h": 61, "frames": 171},
+		},
+	},
+	649: {
+		"": {
+			"front": {"w": 62, "h": 70, "frames": 192},
+			"back": {"w": 68, "h": 70, "frames": 192},
+		},
+	},
+	707: {
+		"": {
+			"front": {"w": 43, "h": 77, "frames": 1},
+			"back": {"w": 43, "h": 77, "frames": 1},
+		},
+	},
+	801: {
+		"": {
+			"front": {"w": 45, "h": 64, "frames": 1},
+			"back": {"w": 41, "h": 64, "frames": 1},
+		},
+	},
+}
+
+# 捕获率（species.json catchRate；接线时并进 data/pokemon_capture_species.gd 的 CATCH_RATES）。
+const CATCH_RATES := {
+	137: 45, # PORYGON
+	233: 45, # PORYGON2
+	374: 3, # BELDUM
+	375: 3, # METANG
+	376: 3, # METAGROSS
+	436: 255, # BRONZOR
+	437: 90, # BRONZONG
+	532: 180, # TIMBURR
+	533: 90, # GURDURR
+	534: 45, # CONKELDURR
+	599: 130, # KLINK
+	600: 60, # KLANG
+	601: 30, # KLINKLANG
+	649: 3, # GENESECT
+	707: 75, # KLEFKI
+	801: 3, # MAGEARNA
+}
+
+# 成长率（原枚举：ERRATIC=0 / FAST=1 / MEDIUM_FAST=2 / MEDIUM_SLOW=3 / SLOW=4 / FLUCTUATING=5；
+# 游戏现在只有 1..4 的经验表，0 / 5 要先补表再接线）。
+const GROWTH_RATES := {
+	137: 2, # MEDIUM_FAST
+	233: 2, # MEDIUM_FAST
+	374: 4, # SLOW
+	375: 4, # SLOW
+	376: 4, # SLOW
+	436: 2, # MEDIUM_FAST
+	437: 2, # MEDIUM_FAST
+	532: 3, # MEDIUM_SLOW
+	533: 3, # MEDIUM_SLOW
+	534: 3, # MEDIUM_SLOW
+	599: 3, # MEDIUM_SLOW
+	600: 3, # MEDIUM_SLOW
+	601: 3, # MEDIUM_SLOW
+	649: 4, # SLOW
+	707: 1, # FAST
+	801: 4, # SLOW
+}
+
+# 原学习表（level_moves.json；[等级, 招式小写 id]）。
+const LEARNSETS := {
+	137: [ # PORYGON
+		[1, "tackle"],
+		[1, "conversion"],
+		[5, "recycle"],
+		[10, "magnet_rise"],
+		[15, "thunder_shock"],
+		[20, "psybeam"],
+		[25, "conversion_2"],
+		[30, "agility"],
+		[35, "recover"],
+		[40, "discharge"],
+		[45, "tri_attack"],
+		[50, "magic_coat"],
+		[55, "lock_on"],
+		[60, "zap_cannon"],
+	],
+	233: [ # PORYGON2
+		[1, "tackle"],
+		[1, "defense_curl"],
+		[1, "conversion"],
+		[1, "recycle"],
+		[1, "magnet_rise"],
+		[15, "thunder_shock"],
+		[20, "psybeam"],
+		[25, "conversion_2"],
+		[30, "agility"],
+		[35, "recover"],
+		[40, "discharge"],
+		[45, "tri_attack"],
+		[50, "lock_on"],
+		[55, "zap_cannon"],
+		[60, "hyper_beam"],
+	],
+	374: [ # BELDUM
+		[1, "tackle"],
+	],
+	375: [ # METANG
+		[0, "confusion"],
+		[0, "metal_claw"],
+		[1, "tackle"],
+		[1, "bullet_punch"],
+		[1, "hone_claws"],
+		[6, "zen_headbutt"],
+		[12, "magnet_rise"],
+		[18, "flash_cannon"],
+		[26, "take_down"],
+		[34, "psychic"],
+		[42, "scary_face"],
+		[50, "meteor_mash"],
+		[58, "iron_defense"],
+		[66, "agility"],
+		[74, "hyper_beam"],
+	],
+	376: [ # METAGROSS
+		[0, "hammer_arm"],
+		[-1, "explosion"],
+		[-1, "hone_claws"],
+		[1, "confusion"],
+		[1, "metal_claw"],
+		[1, "bullet_punch"],
+		[1, "tackle"],
+		[6, "zen_headbutt"],
+		[12, "magnet_rise"],
+		[16, "flash_cannon"],
+		[26, "take_down"],
+		[34, "psychic"],
+		[42, "scary_face"],
+		[52, "meteor_mash"],
+		[62, "iron_defense"],
+		[72, "agility"],
+		[82, "hyper_beam"],
+	],
+	436: [ # BRONZOR
+		[1, "tackle"],
+		[1, "confusion"],
+		[4, "confuse_ray"],
+		[8, "payback"],
+		[12, "imprison"],
+		[16, "gyro_ball"],
+		[20, "hypnosis"],
+		[24, "safeguard"],
+		[28, "extrasensory"],
+		[32, "heavy_slam"],
+		[36, "iron_defense"],
+		[40, "metal_sound"],
+		[44, "future_sight"],
+		[45, "heal_block"],
+	],
+	437: [ # BRONZONG
+		[0, "block"],
+		[1, "tackle"],
+		[1, "confusion"],
+		[1, "confuse_ray"],
+		[1, "sunny_day"],
+		[1, "weather_ball"],
+		[1, "payback"],
+		[12, "imprison"],
+		[16, "gyro_ball"],
+		[20, "hypnosis"],
+		[24, "safeguard"],
+		[28, "extrasensory"],
+		[32, "heavy_slam"],
+		[38, "iron_defense"],
+		[44, "metal_sound"],
+		[50, "future_sight"],
+		[52, "heal_block"],
+		[56, "rain_dance"],
+	],
+	532: [ # TIMBURR
+		[1, "pound"],
+		[1, "leer"],
+		[4, "low_kick"],
+		[8, "rock_throw"],
+		[12, "focus_energy"],
+		[16, "bulk_up"],
+		[20, "rock_slide"],
+		[24, "slam"],
+		[28, "scary_face"],
+		[32, "dynamic_punch"],
+		[36, "hammer_arm"],
+		[40, "stone_edge"],
+		[44, "superpower"],
+		[48, "focus_punch"],
+	],
+	533: [ # GURDURR
+		[1, "pound"],
+		[1, "leer"],
+		[1, "low_kick"],
+		[1, "rock_throw"],
+		[1, "bide"],
+		[12, "focus_energy"],
+		[16, "bulk_up"],
+		[20, "rock_slide"],
+		[24, "slam"],
+		[30, "scary_face"],
+		[36, "dynamic_punch"],
+		[42, "hammer_arm"],
+		[48, "stone_edge"],
+		[54, "superpower"],
+		[60, "focus_punch"],
+	],
+	534: [ # CONKELDURR
+		[1, "pound"],
+		[1, "leer"],
+		[1, "low_kick"],
+		[1, "rock_throw"],
+		[1, "bide"],
+		[12, "focus_energy"],
+		[16, "bulk_up"],
+		[20, "rock_slide"],
+		[24, "slam"],
+		[30, "scary_face"],
+		[36, "dynamic_punch"],
+		[42, "hammer_arm"],
+		[48, "stone_edge"],
+		[54, "superpower"],
+		[60, "focus_punch"],
+	],
+	599: [ # KLINK
+		[1, "vise_grip"],
+		[1, "thunder_shock"],
+		[4, "bind"],
+		[8, "charge"],
+		[12, "charge_beam"],
+		[16, "metal_sound"],
+		[20, "autotomize"],
+		[24, "discharge"],
+		[28, "screech"],
+		[32, "gear_grind"],
+		[36, "lock_on"],
+		[40, "shift_gear"],
+		[44, "zap_cannon"],
+		[48, "hyper_beam"],
+	],
+	600: [ # KLANG
+		[1, "vise_grip"],
+		[1, "bind"],
+		[1, "thunder_shock"],
+		[1, "charge"],
+		[12, "charge_beam"],
+		[16, "metal_sound"],
+		[20, "autotomize"],
+		[24, "discharge"],
+		[28, "screech"],
+		[32, "gear_grind"],
+		[36, "lock_on"],
+		[42, "shift_gear"],
+		[48, "zap_cannon"],
+		[54, "hyper_beam"],
+	],
+	601: [ # KLINKLANG
+		[1, "vise_grip"],
+		[1, "bind"],
+		[1, "thunder_shock"],
+		[1, "charge"],
+		[1, "magnetic_flux"],
+		[1, "gear_up"],
+		[12, "charge_beam"],
+		[16, "metal_sound"],
+		[20, "autotomize"],
+		[24, "discharge"],
+		[28, "screech"],
+		[32, "gear_grind"],
+		[36, "lock_on"],
+		[42, "shift_gear"],
+		[48, "zap_cannon"],
+		[56, "hyper_beam"],
+		[64, "electric_terrain"],
+	],
+	649: [ # GENESECT
+		[1, "quick_attack"],
+		[1, "fury_cutter"],
+		[7, "screech"],
+		[14, "metal_claw"],
+		[21, "fell_stinger"],
+		[28, "flame_charge"],
+		[35, "metal_sound"],
+		[42, "x_scissor"],
+		[49, "magnet_rise"],
+		[56, "bug_buzz"],
+		[63, "simple_beam"],
+		[70, "zap_cannon"],
+		[77, "lock_on"],
+		[84, "techno_blast"],
+		[91, "self_destruct"],
+	],
+	707: [ # KLEFKI
+		[1, "astonish"],
+		[4, "tackle"],
+		[8, "fairy_wind"],
+		[12, "torment"],
+		[16, "fairy_lock"],
+		[20, "metal_sound"],
+		[24, "draining_kiss"],
+		[28, "recycle"],
+		[32, "imprison"],
+		[36, "flash_cannon"],
+		[40, "play_rough"],
+		[44, "magic_room"],
+		[48, "foul_play"],
+		[50, "heal_block"],
+		[52, "last_resort"],
+	],
+	801: [ # MAGEARNA
+		[1, "helping_hand"],
+		[1, "gyro_ball"],
+		[1, "disarming_voice"],
+		[1, "crafty_shield"],
+		[1, "gear_up"],
+		[6, "defense_curl"],
+		[12, "rollout"],
+		[18, "iron_defense"],
+		[24, "magnetic_flux"],
+		[30, "psybeam"],
+		[36, "aurora_beam"],
+		[42, "lock_on"],
+		[48, "shift_gear"],
+		[54, "trick"],
+		[60, "iron_head"],
+		[66, "aura_sphere"],
+		[72, "flash_cannon"],
+		[78, "pain_split"],
+		[84, "zap_cannon"],
+		[90, "fleur_cannon"],
+	],
+}

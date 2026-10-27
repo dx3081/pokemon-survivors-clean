@@ -1,0 +1,5470 @@
+{
+ "NONE": {
+  "id": 0,
+  "key": "none",
+  "name": "",
+  "desc": "",
+  "gen": 3,
+  "attrs": [],
+  "flags": []
+ },
+ "STENCH": {
+  "id": 1,
+  "key": "stench",
+  "name": "恶臭",
+  "desc": "通过释放臭臭的气味，在攻击的时候，有时会使对手畏缩。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostAttackApplyBattlerTagAbAttr",
+    "args": "false, (user, target, move) => !move.hasAttr(FlinchAttr) ? 10 : 0, BattlerTagType.FLINCHED"
+   }
+  ],
+  "flags": []
+ },
+ "DRIZZLE": {
+  "id": 2,
+  "key": "drizzle",
+  "name": "降雨",
+  "desc": "出场时，会将天气变为下雨。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.RAIN"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.RAIN"
+   }
+  ],
+  "flags": []
+ },
+ "SPEED_BOOST": {
+  "id": 3,
+  "key": "speedBoost",
+  "name": "加速",
+  "desc": "每一回合速度会变快。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostTurnStatStageChangeAbAttr",
+    "args": "[ Stat.SPD ], 1"
+   }
+  ],
+  "flags": []
+ },
+ "BATTLE_ARMOR": {
+  "id": 4,
+  "key": "battleArmor",
+  "name": "战斗盔甲",
+  "desc": "被坚硬的甲壳守护着，不会被对手的攻击击中要害。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BlockCritAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "STURDY": {
+  "id": 5,
+  "key": "sturdy",
+  "name": "结实",
+  "desc": "在ＨＰ全满时，即使受到招式攻击，也不会被一击打倒。一击必杀的招式也没有效果。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PreDefendFullHpEndureAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "BlockOneHitKOAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "DAMP": {
+  "id": 6,
+  "key": "damp",
+  "name": "湿气",
+  "desc": "通过把周围都弄湿，使谁都无法使用自爆等爆炸类的招式。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "FieldPreventExplosiveMovesAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "LIMBER": {
+  "id": 7,
+  "key": "limber",
+  "name": "柔软",
+  "desc": "因为身体柔软，不会变为麻痹状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.PARALYSIS"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SAND_VEIL": {
+  "id": 8,
+  "key": "sandVeil",
+  "name": "沙隐",
+  "desc": "在沙暴的时候，闪避率会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.EVA, 1.2"
+   },
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": "WeatherType.SANDSTORM"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "STATIC": {
+  "id": 9,
+  "key": "static",
+  "name": "静电",
+  "desc": "身上带有静电，有时会让接触到的对手麻痹。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendContactApplyStatusEffectAbAttr",
+    "args": "30, StatusEffect.PARALYSIS"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "VOLT_ABSORB": {
+  "id": 10,
+  "key": "voltAbsorb",
+  "name": "蓄电",
+  "desc": "受到电属性的招式攻击时，不会受到伤害，而是会回复。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "TypeImmunityHealAbAttr",
+    "args": "Type.ELECTRIC"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "WATER_ABSORB": {
+  "id": 11,
+  "key": "waterAbsorb",
+  "name": "储水",
+  "desc": "受到水属性的招式攻击时，不会受到伤害，而是会回复。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "TypeImmunityHealAbAttr",
+    "args": "Type.WATER"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "OBLIVIOUS": {
+  "id": 12,
+  "key": "oblivious",
+  "name": "迟钝",
+  "desc": "因为感觉迟钝，不会变为着迷和被挑衅状态。对威吓也毫不动摇。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.INFATUATED"
+   },
+   {
+    "cls": "IntimidateImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "CLOUD_NINE": {
+  "id": 13,
+  "key": "cloudNine",
+  "name": "无关天气",
+  "desc": "任何天气的影响都会消失。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "SuppressWeatherEffectAbAttr",
+    "args": "true"
+   },
+   {
+    "cls": "PostSummonUnnamedMessageAbAttr",
+    "args": "i18next.t(\"abilityTriggers:weatherEffectDisappeared\""
+   },
+   {
+    "cls": "PostSummonWeatherSuppressedFormChangeAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostFaintUnsuppressedWeatherFormChangeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "COMPOUND_EYES": {
+  "id": 14,
+  "key": "compoundEyes",
+  "name": "复眼",
+  "desc": "因为拥有复眼，招式的命中率会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ACC, 1.3"
+   }
+  ],
+  "flags": []
+ },
+ "INSOMNIA": {
+  "id": 15,
+  "key": "insomnia",
+  "name": "不眠",
+  "desc": "因为有着睡不着的体质，所以不会陷入睡眠状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.SLEEP"
+   },
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.DROWSY"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "COLOR_CHANGE": {
+  "id": 16,
+  "key": "colorChange",
+  "name": "变色",
+  "desc": "自己的属性会变为从对手处所受招式的属性。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendTypeChangeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "IMMUNITY": {
+  "id": 17,
+  "key": "immunity",
+  "name": "免疫",
+  "desc": "因为体内拥有免疫能力，不会变为中毒状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.POISON, StatusEffect.TOXIC"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "FLASH_FIRE": {
+  "id": 18,
+  "key": "flashFire",
+  "name": "引火",
+  "desc": "受到火属性的招式攻击时，吸收火焰，自己使出的火属性招式会变强。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "TypeImmunityAddBattlerTagAbAttr",
+    "args": "Type.FIRE, BattlerTagType.FIRE_BOOST, 1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SHIELD_DUST": {
+  "id": 19,
+  "key": "shieldDust",
+  "name": "鳞粉",
+  "desc": "被鳞粉守护着，不会受到招式的追加效果影响。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "IgnoreMoveEffectsAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "OWN_TEMPO": {
+  "id": 20,
+  "key": "ownTempo",
+  "name": "我行我素",
+  "desc": "因为我行我素，不会变为混乱状态。对威吓也毫不动摇。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.CONFUSED"
+   },
+   {
+    "cls": "IntimidateImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SUCTION_CUPS": {
+  "id": 21,
+  "key": "suctionCups",
+  "name": "吸盘",
+  "desc": "用吸盘牢牢贴在地面上，让替换宝可梦的招式和道具无效。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ForceSwitchOutImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "INTIMIDATE": {
+  "id": 22,
+  "key": "intimidate",
+  "name": "威吓",
+  "desc": "出场时威吓对手，让其退缩，降低对手的攻击。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonStatStageChangeAbAttr",
+    "args": "[ Stat.ATK ], -1, false, true"
+   }
+  ],
+  "flags": []
+ },
+ "SHADOW_TAG": {
+  "id": 23,
+  "key": "shadowTag",
+  "name": "踩影",
+  "desc": "踩住对手的影子使其无法逃走或替换。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ArenaTrapAbAttr",
+    "args": "(user, target) => {"
+   }
+  ],
+  "flags": []
+ },
+ "ROUGH_SKIN": {
+  "id": 24,
+  "key": "roughSkin",
+  "name": "粗糙皮肤",
+  "desc": "受到攻击时，用粗糙的皮肤弄伤接触到自己的对手。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendContactDamageAbAttr",
+    "args": "8"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "WONDER_GUARD": {
+  "id": 25,
+  "key": "wonderGuard",
+  "name": "神奇守护",
+  "desc": "不可思议的力量，只有效果绝佳的招式才能击中。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "NonSuperEffectiveImmunityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "LEVITATE": {
+  "id": 26,
+  "key": "levitate",
+  "name": "飘浮",
+  "desc": "从地面浮起，从而不会受到地面属性招式的攻击。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "AttackTypeImmunityAbAttr",
+    "args": "Type.GROUND, (pokemon: Pokemon) => !pokemon.getTag(GroundedTag) && !pokemon.scene.arena.getTag(ArenaTagType.GRAVITY"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "EFFECT_SPORE": {
+  "id": 27,
+  "key": "effectSpore",
+  "name": "孢子",
+  "desc": "受到攻击时，有时会把接触到自己的对手变为中毒、麻痹或睡眠状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "EffectSporeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SYNCHRONIZE": {
+  "id": 28,
+  "key": "synchronize",
+  "name": "同步",
+  "desc": "将自己的中毒、麻痹或灼伤状态传染给对手。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "SyncEncounterNatureAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "CLEAR_BODY": {
+  "id": 29,
+  "key": "clearBody",
+  "name": "恒净之躯",
+  "desc": "不会因为对手的招式或特性而被降低能力。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "NATURAL_CURE": {
+  "id": 30,
+  "key": "naturalCure",
+  "name": "自然回复",
+  "desc": "回到同行队伍后，异常状态就会被治愈。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PreSwitchOutResetStatusAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "LIGHTNING_ROD": {
+  "id": 31,
+  "key": "lightningRod",
+  "name": "避雷针",
+  "desc": "将电属性的招式吸引到自己身上，不会受到伤害，而是会提高特攻。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "RedirectTypeMoveAbAttr",
+    "args": "Type.ELECTRIC"
+   },
+   {
+    "cls": "TypeImmunityStatStageChangeAbAttr",
+    "args": "Type.ELECTRIC, Stat.SPATK, 1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SERENE_GRACE": {
+  "id": 32,
+  "key": "sereneGrace",
+  "name": "天恩",
+  "desc": "托天恩的福，招式的追加效果容易出现。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "MoveEffectChanceMultiplierAbAttr",
+    "args": "2"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "SWIFT_SWIM": {
+  "id": 33,
+  "key": "swiftSwim",
+  "name": "悠游自如",
+  "desc": "下雨天气时，速度会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPD, 2"
+   }
+  ],
+  "flags": []
+ },
+ "CHLOROPHYLL": {
+  "id": 34,
+  "key": "chlorophyll",
+  "name": "叶绿素",
+  "desc": "晴朗天气时，速度会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPD, 2"
+   }
+  ],
+  "flags": []
+ },
+ "ILLUMINATE": {
+  "id": 35,
+  "key": "illuminate",
+  "name": "发光",
+  "desc": "通过让周围变亮来保持命中率不会被降低。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": "Stat.ACC"
+   },
+   {
+    "cls": "DoubleBattleChanceAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "TRACE": {
+  "id": 36,
+  "key": "trace",
+  "name": "复制",
+  "desc": "出场时，复制对手的特性，变为与之相同的特性。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonCopyAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "HUGE_POWER": {
+  "id": 37,
+  "key": "hugePower",
+  "name": "大力士",
+  "desc": "物理攻击的威力会变为２倍。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ATK, 2"
+   }
+  ],
+  "flags": []
+ },
+ "POISON_POINT": {
+  "id": 38,
+  "key": "poisonPoint",
+  "name": "毒刺",
+  "desc": "有时会让接触到自己的对手变为中毒状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendContactApplyStatusEffectAbAttr",
+    "args": "30, StatusEffect.POISON"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "INNER_FOCUS": {
+  "id": 39,
+  "key": "innerFocus",
+  "name": "精神力",
+  "desc": "拥有经过锻炼的精神，而不会因对手的攻击而畏缩。对威吓也毫不动摇。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.FLINCHED"
+   },
+   {
+    "cls": "IntimidateImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MAGMA_ARMOR": {
+  "id": 40,
+  "key": "magmaArmor",
+  "name": "熔岩铠甲",
+  "desc": "将炽热的熔岩覆盖在身上，不会变为冰冻状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.FREEZE"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "WATER_VEIL": {
+  "id": 41,
+  "key": "waterVeil",
+  "name": "水幕",
+  "desc": "将水幕裹在身上，不会变为灼伤状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.BURN"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MAGNET_PULL": {
+  "id": 42,
+  "key": "magnetPull",
+  "name": "磁力",
+  "desc": "用磁力吸住钢属性的宝可梦，使其无法逃走。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ArenaTrapAbAttr",
+    "args": "(user, target) => {"
+   }
+  ],
+  "flags": []
+ },
+ "SOUNDPROOF": {
+  "id": 43,
+  "key": "soundproof",
+  "name": "隔音",
+  "desc": "通过屏蔽声音，不受到声音招式的影响。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "MoveImmunityAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon !== attacker && move.hasFlag(MoveFlags.SOUND_BASED"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "RAIN_DISH": {
+  "id": 44,
+  "key": "rainDish",
+  "name": "雨盘",
+  "desc": "下雨天气时，会缓缓回复ＨＰ。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostWeatherLapseHealAbAttr",
+    "args": "1, WeatherType.RAIN, WeatherType.HEAVY_RAIN"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "SAND_STREAM": {
+  "id": 45,
+  "key": "sandStream",
+  "name": "扬沙",
+  "desc": "出场时，会把天气变为沙暴。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.SANDSTORM"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.SANDSTORM"
+   }
+  ],
+  "flags": []
+ },
+ "PRESSURE": {
+  "id": 46,
+  "key": "pressure",
+  "name": "压迫感",
+  "desc": "给予对手压迫感，大量减少其使用招式的ＰＰ。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "IncreasePpAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonPressure\", { pokemonNameWithAffix: getPokemonNameWithAffix(po"
+   }
+  ],
+  "flags": []
+ },
+ "THICK_FAT": {
+  "id": 47,
+  "key": "thickFat",
+  "name": "厚脂肪",
+  "desc": "因为被厚厚的脂肪保护着，会让火属性和冰属性的招式伤害减半。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.FIRE, 0.5"
+   },
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.ICE, 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "EARLY_BIRD": {
+  "id": 48,
+  "key": "earlyBird",
+  "name": "早起",
+  "desc": "即使变为睡眠状态，也能以２倍的速度提早醒来。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ReduceStatusEffectDurationAbAttr",
+    "args": "StatusEffect.SLEEP"
+   }
+  ],
+  "flags": []
+ },
+ "FLAME_BODY": {
+  "id": 49,
+  "key": "flameBody",
+  "name": "火焰之躯",
+  "desc": "有时会让接触到自己的对手变为灼伤状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendContactApplyStatusEffectAbAttr",
+    "args": "30, StatusEffect.BURN"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "RUN_AWAY": {
+  "id": 50,
+  "key": "runAway",
+  "name": "逃跑",
+  "desc": "一定能从野生宝可梦那儿逃走。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "RunSuccessAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "KEEN_EYE": {
+  "id": 51,
+  "key": "keenEye",
+  "name": "锐利目光",
+  "desc": "多亏了锐利的目光，命中率不会被降低。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": "Stat.ACC"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "HYPER_CUTTER": {
+  "id": 52,
+  "key": "hyperCutter",
+  "name": "怪力钳",
+  "desc": "因为拥有以力量自豪的钳子，不会被对手降低攻击。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": "Stat.ATK"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "PICKUP": {
+  "id": 53,
+  "key": "pickup",
+  "name": "捡拾",
+  "desc": "有时会捡来对手用过的道具，冒险过程中也会捡到。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostBattleLootAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "TRUANT": {
+  "id": 54,
+  "key": "truant",
+  "name": "懒惰",
+  "desc": "如果使出招式，下一回合就会休息。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonAddBattlerTagAbAttr",
+    "args": "BattlerTagType.TRUANT, 1, false"
+   }
+  ],
+  "flags": []
+ },
+ "HUSTLE": {
+  "id": 55,
+  "key": "hustle",
+  "name": "活力",
+  "desc": "自己的攻击变高，但命中率会降低。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ATK, 1.5"
+   },
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ACC, 0.8, (_user, _target, move) => move.category === MoveCategory.PHYSICAL"
+   }
+  ],
+  "flags": []
+ },
+ "CUTE_CHARM": {
+  "id": 56,
+  "key": "cuteCharm",
+  "name": "迷人之躯",
+  "desc": "有时会让接触到自己的对手着迷。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostDefendContactApplyTagChanceAbAttr",
+    "args": "30, BattlerTagType.INFATUATED"
+   }
+  ],
+  "flags": []
+ },
+ "PLUS": {
+  "id": 57,
+  "key": "plus",
+  "name": "正电",
+  "desc": "出场的伙伴之间如果有正电或负电特性的宝可梦，自己的特攻会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "p",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MINUS": {
+  "id": 58,
+  "key": "minus",
+  "name": "负电",
+  "desc": "出场的伙伴之间如果有正电或负电特性的宝可梦，自己的特攻会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "p",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "FORECAST": {
+  "id": 59,
+  "key": "forecast",
+  "name": "阴晴不定",
+  "desc": "受天气的影响，会变为水属性、火属性或冰属性中的某一个。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostSummonFormChangeByWeatherAbAttr",
+    "args": "Abilities.FORECAST"
+   },
+   {
+    "cls": "PostWeatherChangeFormChangeAbAttr",
+    "args": "Abilities.FORECAST, [ WeatherType.NONE, WeatherType.SANDSTORM, WeatherType.STRONG_WINDS, WeatherType.FOG ]"
+   }
+  ],
+  "flags": []
+ },
+ "STICKY_HOLD": {
+  "id": 60,
+  "key": "stickyHold",
+  "name": "黏着",
+  "desc": "因为道具是粘在黏性身体上的，所以不会被对手夺走。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BlockItemTheftAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "bypassFaint"
+  ]
+ },
+ "SHED_SKIN": {
+  "id": 61,
+  "key": "shedSkin",
+  "name": "蜕皮",
+  "desc": "通过蜕去身上的皮，有时会治愈异常状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "GUTS": {
+  "id": 62,
+  "key": "guts",
+  "name": "毅力",
+  "desc": "如果变为异常状态，会拿出毅力，攻击会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BypassBurnDamageReductionAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "MARVEL_SCALE": {
+  "id": 63,
+  "key": "marvelScale",
+  "name": "神奇鳞片",
+  "desc": "如果变为异常状态，神奇鳞片会发生反应，防御会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "LIQUID_OOZE": {
+  "id": 64,
+  "key": "liquidOoze",
+  "name": "污泥浆",
+  "desc": "吸收了污泥浆的对手会因强烈的恶臭而受到伤害，减少ＨＰ。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ReverseDrainAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "OVERGROW": {
+  "id": 65,
+  "key": "overgrow",
+  "name": "茂盛",
+  "desc": "ＨＰ减少的时候，草属性的招式威力会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "LowHpMoveTypePowerBoostAbAttr",
+    "args": "Type.GRASS"
+   }
+  ],
+  "flags": []
+ },
+ "BLAZE": {
+  "id": 66,
+  "key": "blaze",
+  "name": "猛火",
+  "desc": "ＨＰ减少的时候，火属性的招式威力会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "LowHpMoveTypePowerBoostAbAttr",
+    "args": "Type.FIRE"
+   }
+  ],
+  "flags": []
+ },
+ "TORRENT": {
+  "id": 67,
+  "key": "torrent",
+  "name": "激流",
+  "desc": "ＨＰ减少的时候，水属性的招式威力会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "LowHpMoveTypePowerBoostAbAttr",
+    "args": "Type.WATER"
+   }
+  ],
+  "flags": []
+ },
+ "SWARM": {
+  "id": 68,
+  "key": "swarm",
+  "name": "虫之预感",
+  "desc": "ＨＰ减少的时候，虫属性的招式威力会提高。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "LowHpMoveTypePowerBoostAbAttr",
+    "args": "Type.BUG"
+   }
+  ],
+  "flags": []
+ },
+ "ROCK_HEAD": {
+  "id": 69,
+  "key": "rockHead",
+  "name": "坚硬脑袋",
+  "desc": "即使使出会受反作用力伤害的招式，ＨＰ也不会减少。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BlockRecoilDamageAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "DROUGHT": {
+  "id": 70,
+  "key": "drought",
+  "name": "日照",
+  "desc": "出场时，会将天气变为晴朗。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.SUNNY"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.SUNNY"
+   }
+  ],
+  "flags": []
+ },
+ "ARENA_TRAP": {
+  "id": 71,
+  "key": "arenaTrap",
+  "name": "沙穴",
+  "desc": "在战斗中让对手无法逃走。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ArenaTrapAbAttr",
+    "args": "(user, target) => {"
+   },
+   {
+    "cls": "DoubleBattleChanceAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "VITAL_SPIRIT": {
+  "id": 72,
+  "key": "vitalSpirit",
+  "name": "干劲",
+  "desc": "通过激发出干劲，不会变为睡眠状态。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.SLEEP"
+   },
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.DROWSY"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "WHITE_SMOKE": {
+  "id": 73,
+  "key": "whiteSmoke",
+  "name": "白色烟雾",
+  "desc": "被白色烟雾保护着，不会被对手降低能力。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "PURE_POWER": {
+  "id": 74,
+  "key": "purePower",
+  "name": "瑜伽之力",
+  "desc": "因瑜伽的力量，物理攻击的威力会变为２倍。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ATK, 2"
+   }
+  ],
+  "flags": []
+ },
+ "SHELL_ARMOR": {
+  "id": 75,
+  "key": "shellArmor",
+  "name": "硬壳盔甲",
+  "desc": "被坚硬的壳保护着，对手的攻击不会击中要害。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "BlockCritAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "AIR_LOCK": {
+  "id": 76,
+  "key": "airLock",
+  "name": "气闸",
+  "desc": "所有天气的影响都会消失。",
+  "gen": 3,
+  "attrs": [
+   {
+    "cls": "SuppressWeatherEffectAbAttr",
+    "args": "true"
+   },
+   {
+    "cls": "PostSummonUnnamedMessageAbAttr",
+    "args": "i18next.t(\"abilityTriggers:weatherEffectDisappeared\""
+   },
+   {
+    "cls": "PostSummonWeatherSuppressedFormChangeAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostFaintUnsuppressedWeatherFormChangeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "TANGLED_FEET": {
+  "id": 77,
+  "key": "tangledFeet",
+  "name": "蹒跚",
+  "desc": "在混乱状态时，闪避率会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MOTOR_DRIVE": {
+  "id": 78,
+  "key": "motorDrive",
+  "name": "电气引擎",
+  "desc": "受到电属性的招式攻击时，不会受到伤害，而是速度会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "TypeImmunityStatStageChangeAbAttr",
+    "args": "Type.ELECTRIC, Stat.SPD, 1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "RIVALRY": {
+  "id": 79,
+  "key": "rivalry",
+  "name": "斗争心",
+  "desc": "面对性别相同的对手，会燃起斗争心，变得更强。而面对性别不同的，则会变弱。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => user?.gender !== Gender.GENDERLESS && target?.gender !== Gender.GENDERLESS && user?.gender === t"
+   },
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => user?.gender !== Gender.GENDERLESS && target?.gender !== Gender.GENDERLESS && user?.gender !== t"
+   }
+  ],
+  "flags": []
+ },
+ "STEADFAST": {
+  "id": 80,
+  "key": "steadfast",
+  "name": "不屈之心",
+  "desc": "每次畏缩时，不屈之心就会燃起，速度也会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "FlinchStatStageChangeAbAttr",
+    "args": "[ Stat.SPD ], 1"
+   }
+  ],
+  "flags": []
+ },
+ "SNOW_CLOAK": {
+  "id": 81,
+  "key": "snowCloak",
+  "name": "雪隐",
+  "desc": "下雪天气时，闪避率会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.EVA, 1.2"
+   },
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": "WeatherType.HAIL"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "GLUTTONY": {
+  "id": 82,
+  "key": "gluttony",
+  "name": "贪吃鬼",
+  "desc": "原本ＨＰ变得很少时才会吃树果，在ＨＰ还有一半时就会把它吃掉。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ReduceBerryUseThresholdAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "ANGER_POINT": {
+  "id": 83,
+  "key": "angerPoint",
+  "name": "愤怒穴位",
+  "desc": "要害被击中时，会大发雷霆，攻击力变为最大。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostDefendCritStatStageChangeAbAttr",
+    "args": "Stat.ATK, 6"
+   }
+  ],
+  "flags": []
+ },
+ "UNBURDEN": {
+  "id": 84,
+  "key": "unburden",
+  "name": "轻装",
+  "desc": "失去所持有的道具时，速度会提高。",
+  "gen": 4,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "HEATPROOF": {
+  "id": 85,
+  "key": "heatproof",
+  "name": "耐热",
+  "desc": "耐热的体质会让火属性的招式伤害减半。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.FIRE, 0.5"
+   },
+   {
+    "cls": "ReduceBurnDamageAbAttr",
+    "args": "0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SIMPLE": {
+  "id": 86,
+  "key": "simple",
+  "name": "单纯",
+  "desc": "能力变化会变为平时的２倍。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "StatStageChangeMultiplierAbAttr",
+    "args": "2"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "DRY_SKIN": {
+  "id": 87,
+  "key": "drySkin",
+  "name": "干燥皮肤",
+  "desc": "下雨天气时和受到水属性的招式时，ＨＰ会回复。晴朗天气时和受到火属性的招式时，ＨＰ会减少。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostWeatherLapseDamageAbAttr",
+    "args": "2, WeatherType.SUNNY, WeatherType.HARSH_SUN"
+   },
+   {
+    "cls": "PostWeatherLapseHealAbAttr",
+    "args": "2, WeatherType.RAIN, WeatherType.HEAVY_RAIN"
+   },
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.FIRE, 1.25"
+   },
+   {
+    "cls": "TypeImmunityHealAbAttr",
+    "args": "Type.WATER"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "DOWNLOAD": {
+  "id": 88,
+  "key": "download",
+  "name": "下载",
+  "desc": "比较对手的防御和特防，根据较低的那项能力相应地提高自己的攻击或特攻。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "DownloadAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "IRON_FIST": {
+  "id": 89,
+  "key": "ironFist",
+  "name": "铁拳",
+  "desc": "使用拳类招式的威力会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.PUNCHING_MOVE), 1.2"
+   }
+  ],
+  "flags": []
+ },
+ "POISON_HEAL": {
+  "id": 90,
+  "key": "poisonHeal",
+  "name": "毒疗",
+  "desc": "变为中毒状态时，ＨＰ不会减少，反而会增加起来。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostTurnStatusHealAbAttr",
+    "args": "StatusEffect.TOXIC, StatusEffect.POISON"
+   },
+   {
+    "cls": "BlockStatusDamageAbAttr",
+    "args": "StatusEffect.TOXIC, StatusEffect.POISON"
+   }
+  ],
+  "flags": []
+ },
+ "ADAPTABILITY": {
+  "id": 91,
+  "key": "adaptability",
+  "name": "适应力",
+  "desc": "与自身同属性的招式威力会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "StabBoostAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SKILL_LINK": {
+  "id": 92,
+  "key": "skillLink",
+  "name": "连续攻击",
+  "desc": "如果使用连续招式，总是能使出最高次数。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MaxMultiHitAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "HYDRATION": {
+  "id": 93,
+  "key": "hydration",
+  "name": "湿润之躯",
+  "desc": "下雨天气时，异常状态会治愈。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostTurnResetStatusAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SOLAR_POWER": {
+  "id": 94,
+  "key": "solarPower",
+  "name": "太阳之力",
+  "desc": "晴朗天气时，特攻会提高，而每回合ＨＰ会减少。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostWeatherLapseDamageAbAttr",
+    "args": "2, WeatherType.SUNNY, WeatherType.HARSH_SUN"
+   },
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPATK, 1.5"
+   }
+  ],
+  "flags": []
+ },
+ "QUICK_FEET": {
+  "id": 95,
+  "key": "quickFeet",
+  "name": "飞毛腿",
+  "desc": "变为异常状态时，速度会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "NORMALIZE": {
+  "id": 96,
+  "key": "normalize",
+  "name": "一般皮肤",
+  "desc": "无论是什么属性的招式，全部会变为一般属性。威力会少量提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.NORMAL, 1.2, (user, target, move) => {"
+   }
+  ],
+  "flags": []
+ },
+ "SNIPER": {
+  "id": 97,
+  "key": "sniper",
+  "name": "狙击手",
+  "desc": "击中要害时，威力会变得更强。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MultCritAbAttr",
+    "args": "1.5"
+   }
+  ],
+  "flags": []
+ },
+ "MAGIC_GUARD": {
+  "id": 98,
+  "key": "magicGuard",
+  "name": "魔法防守",
+  "desc": "不会受到攻击以外的伤害。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "BlockNonDirectDamageAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "NO_GUARD": {
+  "id": 99,
+  "key": "noGuard",
+  "name": "无防守",
+  "desc": "由于无防守战术，双方使出的招式都必定会击中。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "AlwaysHitAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "DoubleBattleChanceAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "STALL": {
+  "id": 100,
+  "key": "stall",
+  "name": "慢出",
+  "desc": "使出招式的顺序必定会变为最后。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ChangeMovePriorityAbAttr",
+    "args": "(pokemon, move: Move) => true, -0.2"
+   }
+  ],
+  "flags": []
+ },
+ "TECHNICIAN": {
+  "id": 101,
+  "key": "technician",
+  "name": "技术高手",
+  "desc": "攻击时可以将低威力招式的威力提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => {"
+   }
+  ],
+  "flags": []
+ },
+ "LEAF_GUARD": {
+  "id": 102,
+  "key": "leafGuard",
+  "name": "叶子防守",
+  "desc": "晴朗天气时，不会变为异常状态。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "KLUTZ": {
+  "id": 103,
+  "key": "klutz",
+  "name": "笨拙",
+  "desc": "无法使用持有的道具。",
+  "gen": 4,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "MOLD_BREAKER": {
+  "id": 104,
+  "key": "moldBreaker",
+  "name": "破格",
+  "desc": "可以不受对手特性的干扰，向对手使出招式。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonMoldBreaker\", { pokemonNameWithAffix: getPokemonNameWithAffix"
+   },
+   {
+    "cls": "MoveAbilityBypassAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SUPER_LUCK": {
+  "id": 105,
+  "key": "superLuck",
+  "name": "超幸运",
+  "desc": "因为拥有超幸运，攻击容易击中对手的要害。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "BonusCritAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "AFTERMATH": {
+  "id": 106,
+  "key": "aftermath",
+  "name": "引爆",
+  "desc": "变为濒死时，会对接触到自己的对手造成伤害。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostFaintContactDamageAbAttr",
+    "args": "4"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "ANTICIPATION": {
+  "id": 107,
+  "key": "anticipation",
+  "name": "危险预知",
+  "desc": "可以察觉到对手拥有的危险招式。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "getAnticipationCondition",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "FOREWARN": {
+  "id": 108,
+  "key": "forewarn",
+  "name": "预知梦",
+  "desc": "出场时，只读取１个对手拥有的招式。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ForewarnAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "UNAWARE": {
+  "id": 109,
+  "key": "unaware",
+  "name": "纯朴",
+  "desc": "可以无视对手能力的变化，进行攻击。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "IgnoreOpponentStatStagesAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "TINTED_LENS": {
+  "id": 110,
+  "key": "tintedLens",
+  "name": "有色眼镜",
+  "desc": "可以将效果不好的招式以通常的威力使出。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "DamageBoostAbAttr",
+    "args": "2, (user, target, move) => target?.getMoveEffectiveness(user, move) <= 0.5), // TODO: fix TS issues"
+   }
+  ],
+  "flags": []
+ },
+ "FILTER": {
+  "id": 111,
+  "key": "filter",
+  "name": "过滤",
+  "desc": "受到效果绝佳的攻击时，可以减弱其威力。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => target.getMoveEffectiveness(user, move) >= 2, 0.75"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SLOW_START": {
+  "id": 112,
+  "key": "slowStart",
+  "name": "慢启动",
+  "desc": "在５回合内，攻击和速度减半。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostSummonAddBattlerTagAbAttr",
+    "args": "BattlerTagType.SLOW_START, 5"
+   }
+  ],
+  "flags": []
+ },
+ "SCRAPPY": {
+  "id": 113,
+  "key": "scrappy",
+  "name": "胆量",
+  "desc": "一般属性和格斗属性的招式可以击中幽灵属性的宝可梦。对威吓也毫不动摇。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "IgnoreTypeImmunityAbAttr",
+    "args": "Type.GHOST, [Type.NORMAL, Type.FIGHTING]"
+   },
+   {
+    "cls": "IntimidateImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "STORM_DRAIN": {
+  "id": 114,
+  "key": "stormDrain",
+  "name": "引水",
+  "desc": "将水属性的招式引到自己身上，不会受到伤害，而是会提高特攻。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "RedirectTypeMoveAbAttr",
+    "args": "Type.WATER"
+   },
+   {
+    "cls": "TypeImmunityStatStageChangeAbAttr",
+    "args": "Type.WATER, Stat.SPATK, 1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "ICE_BODY": {
+  "id": 115,
+  "key": "iceBody",
+  "name": "冰冻之躯",
+  "desc": "下雪天气时，会缓缓回复ＨＰ。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": "WeatherType.HAIL"
+   },
+   {
+    "cls": "PostWeatherLapseHealAbAttr",
+    "args": "1, WeatherType.HAIL, WeatherType.SNOW"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "SOLID_ROCK": {
+  "id": 116,
+  "key": "solidRock",
+  "name": "坚硬岩石",
+  "desc": "受到效果绝佳的攻击时，可以减弱其威力。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => target.getMoveEffectiveness(user, move) >= 2, 0.75"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SNOW_WARNING": {
+  "id": 117,
+  "key": "snowWarning",
+  "name": "降雪",
+  "desc": "出场时，会将天气变为下雪。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.SNOW"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.SNOW"
+   }
+  ],
+  "flags": []
+ },
+ "HONEY_GATHER": {
+  "id": 118,
+  "key": "honeyGather",
+  "name": "采蜜",
+  "desc": "The Pokémon gathers Honey after a battle. The Honey is then sold for money.",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MoneyAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "FRISK": {
+  "id": 119,
+  "key": "frisk",
+  "name": "察觉",
+  "desc": "出场时，可以察觉对手的特性。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "FriskAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "RECKLESS": {
+  "id": 120,
+  "key": "reckless",
+  "name": "舍身",
+  "desc": "自己会因反作用力受伤的招式，其威力会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.RECKLESS_MOVE), 1.2"
+   }
+  ],
+  "flags": []
+ },
+ "MULTITYPE": {
+  "id": 121,
+  "key": "multitype",
+  "name": "多属性",
+  "desc": "自己的属性会根据持有的石板而改变。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "FLOWER_GIFT": {
+  "id": 122,
+  "key": "flowerGift",
+  "name": "花之礼",
+  "desc": "晴朗天气时，自己与同伴的攻击和特防能力会提高。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "getWeatherCondition",
+    "args": ""
+   },
+   {
+    "cls": "getWeatherCondition",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostSummonFormChangeByWeatherAbAttr",
+    "args": "Abilities.FLOWER_GIFT"
+   },
+   {
+    "cls": "PostWeatherChangeFormChangeAbAttr",
+    "args": "Abilities.FLOWER_GIFT, [ WeatherType.NONE, WeatherType.SANDSTORM, WeatherType.STRONG_WINDS, WeatherType.FOG, WeatherType"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "BAD_DREAMS": {
+  "id": 123,
+  "key": "badDreams",
+  "name": "梦魇",
+  "desc": "给予睡眠状态的对手伤害。",
+  "gen": 4,
+  "attrs": [
+   {
+    "cls": "PostTurnHurtIfSleepingAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "PICKPOCKET": {
+  "id": 124,
+  "key": "pickpocket",
+  "name": "顺手牵羊",
+  "desc": "盗取接触到自己的对手的道具。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendStealHeldItemAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.MAKES_CONTACT"
+   }
+  ],
+  "flags": []
+ },
+ "SHEER_FORCE": {
+  "id": 125,
+  "key": "sheerForce",
+  "name": "强行",
+  "desc": "招式的追加效果消失，但因此能以更高的威力使出招式。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.chance >= 1, 5461/4096"
+   },
+   {
+    "cls": "MoveEffectChanceMultiplierAbAttr",
+    "args": "0"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "CONTRARY": {
+  "id": 126,
+  "key": "contrary",
+  "name": "唱反调",
+  "desc": "能力的变化发生逆转，原本提高时会降低，而原本降低时会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "StatStageChangeMultiplierAbAttr",
+    "args": "-1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "UNNERVE": {
+  "id": 127,
+  "key": "unnerve",
+  "name": "紧张感",
+  "desc": "让对手紧张，使其无法食用树果。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PreventBerryUseAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "DEFIANT": {
+  "id": 128,
+  "key": "defiant",
+  "name": "不服输",
+  "desc": "被对手降低能力时，攻击会大幅提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostStatStageChangeStatStageChangeAbAttr",
+    "args": "(target, statsChanged, stages) => stages < 0, [Stat.ATK], 2"
+   }
+  ],
+  "flags": []
+ },
+ "DEFEATIST": {
+  "id": 129,
+  "key": "defeatist",
+  "name": "软弱",
+  "desc": "ＨＰ减半时，会变得软弱，攻击和特攻会减半。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ATK, 0.5"
+   },
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPATK, 0.5"
+   }
+  ],
+  "flags": []
+ },
+ "CURSED_BODY": {
+  "id": 130,
+  "key": "cursedBody",
+  "name": "诅咒之躯",
+  "desc": "受到攻击时，有时会把对手的招式变为定身法状态。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendMoveDisableAbAttr",
+    "args": "30"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "HEALER": {
+  "id": 131,
+  "key": "healer",
+  "name": "治愈之心",
+  "desc": "有时会治愈异常状态的同伴。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "FRIEND_GUARD": {
+  "id": 132,
+  "key": "friendGuard",
+  "name": "友情防守",
+  "desc": "可以减少我方的伤害。",
+  "gen": 5,
+  "attrs": [],
+  "flags": [
+   "ignorable",
+   "unimplemented"
+  ]
+ },
+ "WEAK_ARMOR": {
+  "id": 133,
+  "key": "weakArmor",
+  "name": "碎裂铠甲",
+  "desc": "受到物理招式的伤害时，防御会降低，速度会大幅提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.PHYSICAL, Stat.DEF, -1"
+   },
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.PHYSICAL, Stat.SPD, 2"
+   }
+  ],
+  "flags": []
+ },
+ "HEAVY_METAL": {
+  "id": 134,
+  "key": "heavyMetal",
+  "name": "重金属",
+  "desc": "自身的重量会变为２倍。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "WeightMultiplierAbAttr",
+    "args": "2"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "LIGHT_METAL": {
+  "id": 135,
+  "key": "lightMetal",
+  "name": "轻金属",
+  "desc": "自身的重量会减半。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "WeightMultiplierAbAttr",
+    "args": "0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MULTISCALE": {
+  "id": 136,
+  "key": "multiscale",
+  "name": "多重鳞片",
+  "desc": "ＨＰ全满时，受到的伤害会变少。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => target.isFullHp(), 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "TOXIC_BOOST": {
+  "id": 137,
+  "key": "toxicBoost",
+  "name": "中毒激升",
+  "desc": "变为中毒状态时，物理招式的威力会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.category === MoveCategory.PHYSICAL && (user?.status?.effect === StatusEffect.POISON || user"
+   }
+  ],
+  "flags": []
+ },
+ "FLARE_BOOST": {
+  "id": 138,
+  "key": "flareBoost",
+  "name": "受热激升",
+  "desc": "变为灼伤状态时，特殊招式的威力会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.category === MoveCategory.SPECIAL && user?.status?.effect === StatusEffect.BURN, 1.5"
+   }
+  ],
+  "flags": []
+ },
+ "HARVEST": {
+  "id": 139,
+  "key": "harvest",
+  "name": "收获",
+  "desc": "可以多次制作出已被使用掉的树果。",
+  "gen": 5,
+  "attrs": [],
+  "flags": [
+   "partial"
+  ]
+ },
+ "TELEPATHY": {
+  "id": 140,
+  "key": "telepathy",
+  "name": "心灵感应",
+  "desc": "读取我方的攻击，并闪避其招式伤害。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MoveImmunityAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon.getAlly() === attacker && move instanceof AttackMove"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MOODY": {
+  "id": 141,
+  "key": "moody",
+  "name": "心情不定",
+  "desc": "每一回合，能力中的某项会大幅提高，而某项会降低。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MoodyAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "OVERCOAT": {
+  "id": 142,
+  "key": "overcoat",
+  "name": "防尘",
+  "desc": "不会受到沙暴的伤害。也不会受到粉末类和孢子类招式的影响。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": ""
+   },
+   {
+    "cls": "MoveImmunityAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon !== attacker && move.hasFlag(MoveFlags.POWDER_MOVE"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "POISON_TOUCH": {
+  "id": 143,
+  "key": "poisonTouch",
+  "name": "毒手",
+  "desc": "只通过接触就有可能让对手变为中毒状态。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostAttackContactApplyStatusEffectAbAttr",
+    "args": "30, StatusEffect.POISON"
+   }
+  ],
+  "flags": []
+ },
+ "REGENERATOR": {
+  "id": 144,
+  "key": "regenerator",
+  "name": "再生力",
+  "desc": "退回同行队伍后，ＨＰ会少量回复。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PreSwitchOutHealAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "BIG_PECKS": {
+  "id": 145,
+  "key": "bigPecks",
+  "name": "健壮胸肌",
+  "desc": "不会受到防御降低的效果。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": "Stat.DEF"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SAND_RUSH": {
+  "id": 146,
+  "key": "sandRush",
+  "name": "拨沙",
+  "desc": "沙暴天气时，速度会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPD, 2"
+   },
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": "WeatherType.SANDSTORM"
+   }
+  ],
+  "flags": []
+ },
+ "WONDER_SKIN": {
+  "id": 147,
+  "key": "wonderSkin",
+  "name": "奇迹皮肤",
+  "desc": "成为不易受到变化招式攻击的身体。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "WonderSkinAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "ANALYTIC": {
+  "id": 148,
+  "key": "analytic",
+  "name": "分析",
+  "desc": "如果在最后使出招式，招式的威力会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => !!target?.getLastXMoves(1).find(m => m.turn === target?.scene.currentBattle.turn) || user.scene."
+   }
+  ],
+  "flags": []
+ },
+ "ILLUSION": {
+  "id": 149,
+  "key": "illusion",
+  "name": "幻觉",
+  "desc": "假扮成同行队伍中的最后一只宝可梦出场，迷惑对手。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "IMPOSTER": {
+  "id": 150,
+  "key": "imposter",
+  "name": "变身者",
+  "desc": "变身为当前面对的宝可梦。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostSummonTransformAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "INFILTRATOR": {
+  "id": 151,
+  "key": "infiltrator",
+  "name": "穿透",
+  "desc": "可以穿透对手的壁障或替身进行攻击。",
+  "gen": 5,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "MUMMY": {
+  "id": 152,
+  "key": "mummy",
+  "name": "木乃伊",
+  "desc": "被对手接触到后，会将对手变为木乃伊。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendAbilityGiveAbAttr",
+    "args": "Abilities.MUMMY"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "MOXIE": {
+  "id": 153,
+  "key": "moxie",
+  "name": "自信过度",
+  "desc": "如果打倒对手，就会充满自信，攻击会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "Stat.ATK, 1"
+   }
+  ],
+  "flags": []
+ },
+ "JUSTIFIED": {
+  "id": 154,
+  "key": "justified",
+  "name": "正义之心",
+  "desc": "受到恶属性的招式攻击时，因为正义感，攻击会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => user.getMoveType(move) === Type.DARK && move.category !== MoveCategory.STATUS, Stat.ATK, 1"
+   }
+  ],
+  "flags": []
+ },
+ "RATTLED": {
+  "id": 155,
+  "key": "rattled",
+  "name": "胆怯",
+  "desc": "受到恶属性、幽灵属性和虫属性的攻击或威吓时，会因胆怯而速度提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => {"
+   },
+   {
+    "cls": "PostIntimidateStatStageChangeAbAttr",
+    "args": "[Stat.SPD], 1"
+   }
+  ],
+  "flags": []
+ },
+ "MAGIC_BOUNCE": {
+  "id": 156,
+  "key": "magicBounce",
+  "name": "魔法镜",
+  "desc": "可以不受到由对手使出的变化招式影响，并将其反弹。",
+  "gen": 5,
+  "attrs": [],
+  "flags": [
+   "ignorable",
+   "unimplemented"
+  ]
+ },
+ "SAP_SIPPER": {
+  "id": 157,
+  "key": "sapSipper",
+  "name": "食草",
+  "desc": "受到草属性的招式攻击时，不会受到伤害，而是攻击会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "TypeImmunityStatStageChangeAbAttr",
+    "args": "Type.GRASS, Stat.ATK, 1"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "PRANKSTER": {
+  "id": 158,
+  "key": "prankster",
+  "name": "恶作剧之心",
+  "desc": "可以率先使出变化招式。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "ChangeMovePriorityAbAttr",
+    "args": "(pokemon, move: Move) => move.category === MoveCategory.STATUS, 1"
+   }
+  ],
+  "flags": []
+ },
+ "SAND_FORCE": {
+  "id": 159,
+  "key": "sandForce",
+  "name": "沙之力",
+  "desc": "沙暴天气时，岩石属性、地面属性和钢属性的招式威力会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.ROCK, 1.3"
+   },
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.GROUND, 1.3"
+   },
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.STEEL, 1.3"
+   },
+   {
+    "cls": "BlockWeatherDamageAttr",
+    "args": "WeatherType.SANDSTORM"
+   }
+  ],
+  "flags": []
+ },
+ "IRON_BARBS": {
+  "id": 160,
+  "key": "ironBarbs",
+  "name": "铁刺",
+  "desc": "用铁刺给予接触到自己的对手伤害。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostDefendContactDamageAbAttr",
+    "args": "8"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "ZEN_MODE": {
+  "id": 161,
+  "key": "zenMode",
+  "name": "达摩模式",
+  "desc": "ＨＰ变为一半以下时，样子会改变。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   },
+   {
+    "cls": "PostSummonFormChangeAbAttr",
+    "args": "p => p.getHpRatio() <= 0.5 ? 1 : 0"
+   },
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.getHpRatio() <= 0.5 ? 1 : 0"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "VICTORY_STAR": {
+  "id": 162,
+  "key": "victoryStar",
+  "name": "胜利之星",
+  "desc": "自己和同伴的命中率会提高。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.ACC, 1.1"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "TURBOBLAZE": {
+  "id": 163,
+  "key": "turboblaze",
+  "name": "涡轮火焰",
+  "desc": "可以不受对手特性的干扰，向对手使出招式。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonTurboblaze\", { pokemonNameWithAffix: getPokemonNameWithAffix("
+   },
+   {
+    "cls": "MoveAbilityBypassAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "TERAVOLT": {
+  "id": 164,
+  "key": "teravolt",
+  "name": "兆级电压",
+  "desc": "可以不受对手特性的干扰，向对手使出招式。",
+  "gen": 5,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonTeravolt\", { pokemonNameWithAffix: getPokemonNameWithAffix(po"
+   },
+   {
+    "cls": "MoveAbilityBypassAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "AROMA_VEIL": {
+  "id": 165,
+  "key": "aromaVeil",
+  "name": "芳香幕",
+  "desc": "可以防住向自己和同伴发出的心灵攻击。",
+  "gen": 6,
+  "attrs": [],
+  "flags": [
+   "ignorable",
+   "unimplemented"
+  ]
+ },
+ "FLOWER_VEIL": {
+  "id": 166,
+  "key": "flowerVeil",
+  "name": "花幕",
+  "desc": "我方的草属性宝可梦能力不会降低，也不会变为异常状态。",
+  "gen": 6,
+  "attrs": [],
+  "flags": [
+   "ignorable",
+   "unimplemented"
+  ]
+ },
+ "CHEEK_POUCH": {
+  "id": 167,
+  "key": "cheekPouch",
+  "name": "颊囊",
+  "desc": "无论是哪种树果，食用后，ＨＰ都会回复。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "HealFromBerryUseAbAttr",
+    "args": "1/3"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "PROTEAN": {
+  "id": 168,
+  "key": "protean",
+  "name": "变幻自如",
+  "desc": "变为与自己使出的招式相同的属性。每次出场战斗仅生效一次。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PokemonTypeChangeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "FUR_COAT": {
+  "id": 169,
+  "key": "furCoat",
+  "name": "毛皮大衣",
+  "desc": "对手给予的物理招式的伤害会减半。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.PHYSICAL, 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "MAGICIAN": {
+  "id": 170,
+  "key": "magician",
+  "name": "魔术师",
+  "desc": "夺走被自己的招式击中的对手的道具。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostAttackStealHeldItemAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "BULLETPROOF": {
+  "id": 171,
+  "key": "bulletproof",
+  "name": "防弹",
+  "desc": "可以防住对手的球和弹类招式。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MoveImmunityAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon !== attacker && move.hasFlag(MoveFlags.BALLBOMB_MOVE"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "COMPETITIVE": {
+  "id": 172,
+  "key": "competitive",
+  "name": "好胜",
+  "desc": "如果被对手降低能力，特攻会大幅提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostStatStageChangeStatStageChangeAbAttr",
+    "args": "(target, statsChanged, stages) => stages < 0, [Stat.SPATK], 2"
+   }
+  ],
+  "flags": []
+ },
+ "STRONG_JAW": {
+  "id": 173,
+  "key": "strongJaw",
+  "name": "强壮之颚",
+  "desc": "因为颚部强壮，啃咬类招式的威力会提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.BITING_MOVE), 1.5"
+   }
+  ],
+  "flags": []
+ },
+ "REFRIGERATE": {
+  "id": 174,
+  "key": "refrigerate",
+  "name": "冰冻皮肤",
+  "desc": "一般属性的招式会变为冰属性。威力会少量提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.ICE, 1.2, (user, target, move) => move.type === Type.NORMAL && !move.hasAttr(VariableMoveTypeAttr"
+   }
+  ],
+  "flags": []
+ },
+ "SWEET_VEIL": {
+  "id": 175,
+  "key": "sweetVeil",
+  "name": "甜幕",
+  "desc": "自己和同伴的宝可梦不会变为睡眠状态。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "UserFieldStatusEffectImmunityAbAttr",
+    "args": "StatusEffect.SLEEP"
+   },
+   {
+    "cls": "UserFieldBattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.DROWSY"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "STANCE_CHANGE": {
+  "id": 176,
+  "key": "stanceChange",
+  "name": "战斗切换",
+  "desc": "如果使出攻击招式，会变为刀剑形态，如果使出招式“王者盾牌”，会变为盾牌形态。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "GALE_WINGS": {
+  "id": 177,
+  "key": "galeWings",
+  "name": "疾风之翼",
+  "desc": "ＨＰ全满时，飞行属性的招式可以率先使出。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "ChangeMovePriorityAbAttr",
+    "args": "(pokemon, move) => pokemon.isFullHp() && pokemon.getMoveType(move) === Type.FLYING, 1"
+   }
+  ],
+  "flags": []
+ },
+ "MEGA_LAUNCHER": {
+  "id": 178,
+  "key": "megaLauncher",
+  "name": "超级发射器",
+  "desc": "波动和波导类招式的威力会提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.PULSE_MOVE), 1.5"
+   }
+  ],
+  "flags": []
+ },
+ "GRASS_PELT": {
+  "id": 179,
+  "key": "grassPelt",
+  "name": "草之毛皮",
+  "desc": "在青草场地时，防御会提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "getTerrainCondition",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SYMBIOSIS": {
+  "id": 180,
+  "key": "symbiosis",
+  "name": "共生",
+  "desc": "同伴使用道具时，会把自己持有的道具传递给同伴。",
+  "gen": 6,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "TOUGH_CLAWS": {
+  "id": 181,
+  "key": "toughClaws",
+  "name": "硬爪",
+  "desc": "接触到对手的招式威力会提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.MAKES_CONTACT), 1.3"
+   }
+  ],
+  "flags": []
+ },
+ "PIXILATE": {
+  "id": 182,
+  "key": "pixilate",
+  "name": "妖精皮肤",
+  "desc": "一般属性的招式会变为妖精属性。威力会少量提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.FAIRY, 1.2, (user, target, move) => move.type === Type.NORMAL && !move.hasAttr(VariableMoveTypeAttr"
+   }
+  ],
+  "flags": []
+ },
+ "GOOEY": {
+  "id": 183,
+  "key": "gooey",
+  "name": "黏滑",
+  "desc": "对于用攻击接触到自己的对手，会降低其速度。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.MAKES_CONTACT), Stat.SPD, -1, false"
+   }
+  ],
+  "flags": []
+ },
+ "AERILATE": {
+  "id": 184,
+  "key": "aerilate",
+  "name": "飞行皮肤",
+  "desc": "一般属性的招式会变为飞行属性。威力会少量提高。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.FLYING, 1.2, (user, target, move) => move.type === Type.NORMAL && !move.hasAttr(VariableMoveTypeAttr"
+   }
+  ],
+  "flags": []
+ },
+ "PARENTAL_BOND": {
+  "id": 185,
+  "key": "parentalBond",
+  "name": "亲子爱",
+  "desc": "亲子俩可以合计攻击２次。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "AddSecondStrikeAbAttr",
+    "args": "0.25"
+   }
+  ],
+  "flags": []
+ },
+ "DARK_AURA": {
+  "id": 186,
+  "key": "darkAura",
+  "name": "暗黑气场",
+  "desc": "全体的恶属性招式变强。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonDarkAura\", { pokemonNameWithAffix: getPokemonNameWithAffix(po"
+   },
+   {
+    "cls": "FieldMoveTypePowerBoostAbAttr",
+    "args": "Type.DARK, 4 / 3"
+   }
+  ],
+  "flags": []
+ },
+ "FAIRY_AURA": {
+  "id": 187,
+  "key": "fairyAura",
+  "name": "妖精气场",
+  "desc": "全体的妖精属性招式变强。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonFairyAura\", { pokemonNameWithAffix: getPokemonNameWithAffix(p"
+   },
+   {
+    "cls": "FieldMoveTypePowerBoostAbAttr",
+    "args": "Type.FAIRY, 4 / 3"
+   }
+  ],
+  "flags": []
+ },
+ "AURA_BREAK": {
+  "id": 188,
+  "key": "auraBreak",
+  "name": "气场破坏",
+  "desc": "让气场的效果发生逆转，降低威力。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "pokemon",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "PRIMORDIAL_SEA": {
+  "id": 189,
+  "key": "primordialSea",
+  "name": "始源之海",
+  "desc": "变为不会受到火属性攻击的天气。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.HEAVY_RAIN"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.HEAVY_RAIN"
+   },
+   {
+    "cls": "PreSwitchOutClearWeatherAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostFaintClearWeatherAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "DESOLATE_LAND": {
+  "id": 190,
+  "key": "desolateLand",
+  "name": "终结之地",
+  "desc": "变为不会受到水属性攻击的天气。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.HARSH_SUN"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.HARSH_SUN"
+   },
+   {
+    "cls": "PreSwitchOutClearWeatherAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostFaintClearWeatherAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "DELTA_STREAM": {
+  "id": 191,
+  "key": "deltaStream",
+  "name": "德尔塔气流",
+  "desc": "变为令飞行属性的弱点消失的天气。",
+  "gen": 6,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.STRONG_WINDS"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.STRONG_WINDS"
+   },
+   {
+    "cls": "PreSwitchOutClearWeatherAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostFaintClearWeatherAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "STAMINA": {
+  "id": 192,
+  "key": "stamina",
+  "name": "持久力",
+  "desc": "受到攻击时，防御会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, Stat.DEF, 1"
+   }
+  ],
+  "flags": []
+ },
+ "WIMP_OUT": {
+  "id": 193,
+  "key": "wimpOut",
+  "name": "跃跃欲逃",
+  "desc": "ＨＰ变为一半时，会慌慌张张逃走，退回同行队伍中。",
+  "gen": 7,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "EMERGENCY_EXIT": {
+  "id": 194,
+  "key": "emergencyExit",
+  "name": "危险回避",
+  "desc": "ＨＰ变为一半时，为了回避危险，会退回到同行队伍中。",
+  "gen": 7,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "WATER_COMPACTION": {
+  "id": 195,
+  "key": "waterCompaction",
+  "name": "遇水凝固",
+  "desc": "受到水属性的招式攻击时，防御会大幅提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => user.getMoveType(move) === Type.WATER && move.category !== MoveCategory.STATUS, Stat.DEF, 2"
+   }
+  ],
+  "flags": []
+ },
+ "MERCILESS": {
+  "id": 196,
+  "key": "merciless",
+  "name": "不仁不义",
+  "desc": "攻击中毒状态的对手时，必定会击中要害。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ConditionalCritAbAttr",
+    "args": "(user, target, move) => target?.status?.effect === StatusEffect.TOXIC || target?.status?.effect === StatusEffect.POISON"
+   }
+  ],
+  "flags": []
+ },
+ "SHIELDS_DOWN": {
+  "id": 197,
+  "key": "shieldsDown",
+  "name": "界限盾壳",
+  "desc": "ＨＰ变为一半时，壳会坏掉，变得有攻击性。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   },
+   {
+    "cls": "PostSummonFormChangeAbAttr",
+    "args": "p => p.formIndex % 7 + (p.getHpRatio() <= 0.5 ? 7 : 0"
+   },
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.formIndex % 7 + (p.getHpRatio() <= 0.5 ? 7 : 0"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial",
+   "bypassFaint"
+  ]
+ },
+ "STAKEOUT": {
+  "id": 198,
+  "key": "stakeout",
+  "name": "蹲守",
+  "desc": "可以对替换出场的对手以２倍的伤害进行攻击。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => user.scene.currentBattle.turnCommands[target.getBattlerIndex()].command === Command.POKEMON, 2),"
+   }
+  ],
+  "flags": []
+ },
+ "WATER_BUBBLE": {
+  "id": 199,
+  "key": "waterBubble",
+  "name": "水泡",
+  "desc": "降低自己受到的火属性招式的威力，不会灼伤。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.FIRE, 0.5"
+   },
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.WATER, 2"
+   },
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.BURN"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "STEELWORKER": {
+  "id": 200,
+  "key": "steelworker",
+  "name": "钢能力者",
+  "desc": "钢属性的招式威力会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.STEEL"
+   }
+  ],
+  "flags": []
+ },
+ "BERSERK": {
+  "id": 201,
+  "key": "berserk",
+  "name": "怒火冲天",
+  "desc": "因对手的攻击ＨＰ变为一半时，特攻会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostDefendHpGatedStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, 0.5, [Stat.SPATK], 1"
+   }
+  ],
+  "flags": []
+ },
+ "SLUSH_RUSH": {
+  "id": 202,
+  "key": "slushRush",
+  "name": "拨雪",
+  "desc": "下雪天气时，速度会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "StatMultiplierAbAttr",
+    "args": "Stat.SPD, 2"
+   }
+  ],
+  "flags": []
+ },
+ "LONG_REACH": {
+  "id": 203,
+  "key": "longReach",
+  "name": "远隔",
+  "desc": "可以不接触对手就使出所有的招式。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "IgnoreContactAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "LIQUID_VOICE": {
+  "id": 204,
+  "key": "liquidVoice",
+  "name": "湿润之声",
+  "desc": "所有的声音招式都变为水属性。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.WATER, 1, (user, target, move) => move.hasFlag(MoveFlags.SOUND_BASED"
+   }
+  ],
+  "flags": []
+ },
+ "TRIAGE": {
+  "id": 205,
+  "key": "triage",
+  "name": "先行治疗",
+  "desc": "可以率先使出回复招式。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ChangeMovePriorityAbAttr",
+    "args": "(pokemon, move) => move.hasFlag(MoveFlags.TRIAGE_MOVE), 3"
+   }
+  ],
+  "flags": []
+ },
+ "GALVANIZE": {
+  "id": 206,
+  "key": "galvanize",
+  "name": "电气皮肤",
+  "desc": "一般属性的招式会变为电属性。威力会少量提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "MoveTypeChangeAbAttr",
+    "args": "Type.ELECTRIC, 1.2, (user, target, move) => move.type === Type.NORMAL && !move.hasAttr(VariableMoveTypeAttr"
+   }
+  ],
+  "flags": []
+ },
+ "SURGE_SURFER": {
+  "id": 207,
+  "key": "surgeSurfer",
+  "name": "冲浪之尾",
+  "desc": "电气场地时，速度会变为２倍。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "getTerrainCondition",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SCHOOLING": {
+  "id": 208,
+  "key": "schooling",
+  "name": "鱼群",
+  "desc": "ＨＰ多的时候会聚起来变强。ＨＰ剩余量变少时，群体会分崩离析。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   },
+   {
+    "cls": "PostSummonFormChangeAbAttr",
+    "args": "p => p.level < 20 || p.getHpRatio() <= 0.25 ? 0 : 1"
+   },
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.level < 20 || p.getHpRatio() <= 0.25 ? 0 : 1"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "DISGUISE": {
+  "id": 209,
+  "key": "disguise",
+  "name": "画皮",
+  "desc": "通过画皮覆盖住身体，可以防住１次攻击。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   },
+   {
+    "cls": "FormBlockDamageAbAttr",
+    "args": "(target, user, move) => !!target.getTag(BattlerTagType.DISGUISE) && target.getMoveEffectiveness(user, move) > 0, 0, Batt"
+   },
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "bypassFaint"
+  ]
+ },
+ "BATTLE_BOND": {
+  "id": 210,
+  "key": "battleBond",
+  "name": "牵绊变身",
+  "desc": "打倒对手时，与训练家的牵绊会增强，自己的攻击、特攻、速度会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostVictoryFormChangeAbAttr",
+    "args": "() => 2"
+   },
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 1"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "POWER_CONSTRUCT": {
+  "id": 211,
+  "key": "powerConstruct",
+  "name": "群聚变形",
+  "desc": "ＨＰ变为一半时，细胞们会赶来支援，变为完全体形态。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 2"
+   },
+   {
+    "cls": "PostSummonFormChangeAbAttr",
+    "args": "p => p.getHpRatio() <= 0.5 || p.getFormKey() === \"complete\" ? 4 : 2"
+   },
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.getHpRatio() <= 0.5 || p.getFormKey() === \"complete\" ? 4 : 2"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial",
+   "bypassFaint"
+  ]
+ },
+ "CORROSION": {
+  "id": 212,
+  "key": "corrosion",
+  "name": "腐蚀",
+  "desc": "可以使钢属性和毒属性的宝可梦也陷入中毒状态。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "IgnoreTypeStatusEffectImmunityAbAttr",
+    "args": "[StatusEffect.POISON, StatusEffect.TOXIC], [Type.STEEL, Type.POISON]"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "COMATOSE": {
+  "id": 213,
+  "key": "comatose",
+  "name": "绝对睡眠",
+  "desc": "总是半梦半醒的状态，绝对不会醒来。可以就这么睡着进行攻击。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "...getNonVolatileStatusEffects("
+   },
+   {
+    "cls": "BattlerTagImmunityAbAttr",
+    "args": "BattlerTagType.DROWSY"
+   }
+  ],
+  "flags": []
+ },
+ "QUEENLY_MAJESTY": {
+  "id": 214,
+  "key": "queenlyMajesty",
+  "name": "女王的威严",
+  "desc": "向对手施加威慑力，使其无法对我方使出先制招式。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "FieldPriorityMoveImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "INNARDS_OUT": {
+  "id": 215,
+  "key": "innardsOut",
+  "name": "飞出的内在物",
+  "desc": "被对手打倒的时候，会给予对手相当于ＨＰ剩余量的伤害。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostFaintHPDamageAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "DANCER": {
+  "id": 216,
+  "key": "dancer",
+  "name": "舞者",
+  "desc": "有谁使出跳舞招式时，自己也能就这么接着使出跳舞招式。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostDancingMoveAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "BATTERY": {
+  "id": 217,
+  "key": "battery",
+  "name": "蓄电池",
+  "desc": "会提高我方的特殊招式的威力。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "AllyMoveCategoryPowerBoostAbAttr",
+    "args": "[MoveCategory.SPECIAL], 1.3"
+   }
+  ],
+  "flags": []
+ },
+ "FLUFFY": {
+  "id": 218,
+  "key": "fluffy",
+  "name": "毛茸茸",
+  "desc": "会将对手所给予的接触类招式的伤害减半，但火属性招式的伤害会变为２倍。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.MAKES_CONTACT), 0.5"
+   },
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => user.getMoveType(move) === Type.FIRE, 2"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "DAZZLING": {
+  "id": 219,
+  "key": "dazzling",
+  "name": "鲜艳之躯",
+  "desc": "让对手吓一跳，使其无法对我方使出先制招式。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "FieldPriorityMoveImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SOUL_HEART": {
+  "id": 220,
+  "key": "soulHeart",
+  "name": "魂心",
+  "desc": "宝可梦每次变为濒死状态时，特攻会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostKnockOutStatStageChangeAbAttr",
+    "args": "Stat.SPATK, 1"
+   }
+  ],
+  "flags": []
+ },
+ "TANGLING_HAIR": {
+  "id": 221,
+  "key": "tanglingHair",
+  "name": "卷发",
+  "desc": "对于用攻击接触到自己的对手，会降低其速度。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.MAKES_CONTACT), Stat.SPD, -1, false"
+   }
+  ],
+  "flags": []
+ },
+ "RECEIVER": {
+  "id": 222,
+  "key": "receiver",
+  "name": "接球手",
+  "desc": "继承被打倒的同伴的特性，变为相同的特性。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "CopyFaintedAllyAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "POWER_OF_ALCHEMY": {
+  "id": 223,
+  "key": "powerOfAlchemy",
+  "name": "化学之力",
+  "desc": "继承被打倒的同伴的特性，变为相同的特性。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "CopyFaintedAllyAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "BEAST_BOOST": {
+  "id": 224,
+  "key": "beastBoost",
+  "name": "异兽提升",
+  "desc": "打倒对手的时候，自己最高的那项能力会提高。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "p => {"
+   }
+  ],
+  "flags": []
+ },
+ "RKS_SYSTEM": {
+  "id": 225,
+  "key": "rksSystem",
+  "name": "ＡＲ系统",
+  "desc": "根据持有的存储碟，自己的属性会改变。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "ELECTRIC_SURGE": {
+  "id": 226,
+  "key": "electricSurge",
+  "name": "电气制造者",
+  "desc": "出场时，会布下电气场地。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostSummonTerrainChangeAbAttr",
+    "args": "TerrainType.ELECTRIC"
+   },
+   {
+    "cls": "PostBiomeChangeTerrainChangeAbAttr",
+    "args": "TerrainType.ELECTRIC"
+   }
+  ],
+  "flags": []
+ },
+ "PSYCHIC_SURGE": {
+  "id": 227,
+  "key": "psychicSurge",
+  "name": "精神制造者",
+  "desc": "出场时，会布下精神场地。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostSummonTerrainChangeAbAttr",
+    "args": "TerrainType.PSYCHIC"
+   },
+   {
+    "cls": "PostBiomeChangeTerrainChangeAbAttr",
+    "args": "TerrainType.PSYCHIC"
+   }
+  ],
+  "flags": []
+ },
+ "MISTY_SURGE": {
+  "id": 228,
+  "key": "mistySurge",
+  "name": "薄雾制造者",
+  "desc": "出场时，会布下薄雾场地。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostSummonTerrainChangeAbAttr",
+    "args": "TerrainType.MISTY"
+   },
+   {
+    "cls": "PostBiomeChangeTerrainChangeAbAttr",
+    "args": "TerrainType.MISTY"
+   }
+  ],
+  "flags": []
+ },
+ "GRASSY_SURGE": {
+  "id": 229,
+  "key": "grassySurge",
+  "name": "青草制造者",
+  "desc": "出场时，会布下青草场地。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "PostSummonTerrainChangeAbAttr",
+    "args": "TerrainType.GRASSY"
+   },
+   {
+    "cls": "PostBiomeChangeTerrainChangeAbAttr",
+    "args": "TerrainType.GRASSY"
+   }
+  ],
+  "flags": []
+ },
+ "FULL_METAL_BODY": {
+  "id": 230,
+  "key": "fullMetalBody",
+  "name": "金属防护",
+  "desc": "不会因为对手的招式或特性而被降低能力。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "SHADOW_SHIELD": {
+  "id": 231,
+  "key": "shadowShield",
+  "name": "幻影防守",
+  "desc": "ＨＰ全满时，受到的伤害会变少。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => target.isFullHp(), 0.5"
+   }
+  ],
+  "flags": []
+ },
+ "PRISM_ARMOR": {
+  "id": 232,
+  "key": "prismArmor",
+  "name": "棱镜装甲",
+  "desc": "受到效果绝佳的攻击时，可以减弱其威力。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => target.getMoveEffectiveness(user, move) >= 2, 0.75"
+   }
+  ],
+  "flags": []
+ },
+ "NEUROFORCE": {
+  "id": 233,
+  "key": "neuroforce",
+  "name": "脑核之力",
+  "desc": "效果绝佳的攻击，威力会变得更强。",
+  "gen": 7,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => target?.getMoveEffectiveness(user, move) >= 2, 1.25), // TODO: fix TS issues"
+   }
+  ],
+  "flags": []
+ },
+ "INTREPID_SWORD": {
+  "id": 234,
+  "key": "intrepidSword",
+  "name": "不挠之剑",
+  "desc": "首次出场时，攻击会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonStatStageChangeAbAttr",
+    "args": "[ Stat.ATK ], 1, true"
+   }
+  ],
+  "flags": []
+ },
+ "DAUNTLESS_SHIELD": {
+  "id": 235,
+  "key": "dauntlessShield",
+  "name": "不屈之盾",
+  "desc": "首次出场时，防御会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonStatStageChangeAbAttr",
+    "args": "[ Stat.DEF ], 1, true"
+   }
+  ],
+  "flags": []
+ },
+ "LIBERO": {
+  "id": 236,
+  "key": "libero",
+  "name": "自由者",
+  "desc": "变为与自己使出的招式相同的属性。每次出场战斗仅生效一次。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PokemonTypeChangeAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "BALL_FETCH": {
+  "id": 237,
+  "key": "ballFetch",
+  "name": "捡球",
+  "desc": "没有携带道具时，会拾取第１个投出后捕捉失败的精灵球。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "FetchBallAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "COTTON_DOWN": {
+  "id": 238,
+  "key": "cottonDown",
+  "name": "棉絮",
+  "desc": "受到攻击后撒下棉絮，降低除自己以外的所有宝可梦的速度。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, Stat.SPD, -1, false, true"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "PROPELLER_TAIL": {
+  "id": 239,
+  "key": "propellerTail",
+  "name": "螺旋尾鳍",
+  "desc": "能无视具有吸引对手招式效果的特性或招式的影响。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "BlockRedirectAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "MIRROR_ARMOR": {
+  "id": 240,
+  "key": "mirrorArmor",
+  "name": "镜甲",
+  "desc": "只反弹自己受到的能力降低效果。",
+  "gen": 8,
+  "attrs": [],
+  "flags": [
+   "ignorable",
+   "unimplemented"
+  ]
+ },
+ "GULP_MISSILE": {
+  "id": 241,
+  "key": "gulpMissile",
+  "name": "一口导弹",
+  "desc": "冲浪或潜水时会叼来猎物。受到伤害时，会吐出猎物进行攻击。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostDefendGulpMissileAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "STALWART": {
+  "id": 242,
+  "key": "stalwart",
+  "name": "坚毅",
+  "desc": "能无视具有吸引对手招式效果的特性或招式的影响。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "BlockRedirectAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "STEAM_ENGINE": {
+  "id": 243,
+  "key": "steamEngine",
+  "name": "蒸汽机",
+  "desc": "受到水属性或火属性的招式攻击时，速度会巨幅提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => {"
+   }
+  ],
+  "flags": []
+ },
+ "PUNK_ROCK": {
+  "id": 244,
+  "key": "punkRock",
+  "name": "庞克摇滚",
+  "desc": "声音招式的威力会提高。受到的声音招式伤害会减半。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.SOUND_BASED), 1.3"
+   },
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.SOUND_BASED), 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SAND_SPIT": {
+  "id": 245,
+  "key": "sandSpit",
+  "name": "吐沙",
+  "desc": "受到攻击时，会刮起沙暴。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostDefendWeatherChangeAbAttr",
+    "args": "WeatherType.SANDSTORM, (target, user, move) => move.category !== MoveCategory.STATUS"
+   }
+  ],
+  "flags": []
+ },
+ "ICE_SCALES": {
+  "id": 246,
+  "key": "iceScales",
+  "name": "冰鳞粉",
+  "desc": "由于有冰鳞粉的守护，受到的特殊攻击伤害会减半。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "ReceivedMoveDamageMultiplierAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.SPECIAL, 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "RIPEN": {
+  "id": 247,
+  "key": "ripen",
+  "name": "熟成",
+  "desc": "使树果成熟，效果变为２倍。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "DoubleBerryEffectAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "ICE_FACE": {
+  "id": 248,
+  "key": "iceFace",
+  "name": "结冻头",
+  "desc": "头部的冰会代替自己承受物理攻击，但是样子会改变。下雪时，冰会恢复原状。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   },
+   {
+    "cls": "getWeatherCondition",
+    "args": ""
+   },
+   {
+    "cls": "PostWeatherChangeAddBattlerTagAttr",
+    "args": "BattlerTagType.ICE_FACE, 0, WeatherType.HAIL, WeatherType.SNOW"
+   },
+   {
+    "cls": "FormBlockDamageAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.PHYSICAL && !!target.getTag(BattlerTagType.ICE_FACE), 0, BattlerT"
+   },
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "bypassFaint"
+  ]
+ },
+ "POWER_SPOT": {
+  "id": 249,
+  "key": "powerSpot",
+  "name": "能量点",
+  "desc": "只要处在相邻位置，招式的威力就会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "AllyMoveCategoryPowerBoostAbAttr",
+    "args": "[MoveCategory.SPECIAL, MoveCategory.PHYSICAL], 1.3"
+   }
+  ],
+  "flags": []
+ },
+ "MIMICRY": {
+  "id": 250,
+  "key": "mimicry",
+  "name": "拟态",
+  "desc": "宝可梦的属性会根据场地的状态而变化。",
+  "gen": 8,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "SCREEN_CLEANER": {
+  "id": 251,
+  "key": "screenCleaner",
+  "name": "除障",
+  "desc": "出场时，敌方和我方的光墙、反射壁和极光幕的效果会消失。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonRemoveArenaTagAbAttr",
+    "args": "[ArenaTagType.AURORA_VEIL, ArenaTagType.LIGHT_SCREEN, ArenaTagType.REFLECT]"
+   }
+  ],
+  "flags": []
+ },
+ "STEELY_SPIRIT": {
+  "id": 252,
+  "key": "steelySpirit",
+  "name": "钢之意志",
+  "desc": "我方的钢属性攻击威力会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "UserFieldMoveTypePowerBoostAbAttr",
+    "args": "Type.STEEL"
+   }
+  ],
+  "flags": []
+ },
+ "PERISH_BODY": {
+  "id": 253,
+  "key": "perishBody",
+  "name": "灭亡之躯",
+  "desc": "受到接触类招式攻击时，双方都会在３回合后变为濒死状态。替换后效果消失。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostDefendPerishSongAbAttr",
+    "args": "4"
+   }
+  ],
+  "flags": []
+ },
+ "WANDERING_SPIRIT": {
+  "id": 254,
+  "key": "wanderingSpirit",
+  "name": "游魂",
+  "desc": "与使用接触类招式攻击自己的宝可梦互换特性。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostDefendAbilitySwapAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial",
+   "bypassFaint"
+  ]
+ },
+ "GORILLA_TACTICS": {
+  "id": 255,
+  "key": "gorillaTactics",
+  "name": "一猩一意",
+  "desc": "虽然攻击会提高，但是只能使出一开始所选的招式。",
+  "gen": 8,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "NEUTRALIZING_GAS": {
+  "id": 256,
+  "key": "neutralizingGas",
+  "name": "化学变化气体",
+  "desc": "特性为化学变化气体的宝可梦在场时，场上所有宝可梦的特性效果都会消失或者无法生效。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "SuppressFieldAbilitiesAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonNeutralizingGas\", { pokemonNameWithAffix: getPokemonNameWithA"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "PASTEL_VEIL": {
+  "id": 257,
+  "key": "pastelVeil",
+  "name": "粉彩护幕",
+  "desc": "自己和同伴都不会陷入中毒的异常状态。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonUserFieldRemoveStatusEffectAbAttr",
+    "args": "StatusEffect.POISON, StatusEffect.TOXIC"
+   },
+   {
+    "cls": "UserFieldStatusEffectImmunityAbAttr",
+    "args": "StatusEffect.POISON, StatusEffect.TOXIC"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "HUNGER_SWITCH": {
+  "id": 258,
+  "key": "hungerSwitch",
+  "name": "饱了又饿",
+  "desc": "每回合结束时会在满腹花纹与空腹花纹之间交替改变样子。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.getFormKey ? 0 : 1) // TODO: fix ts-ignore"
+   },
+   {
+    "cls": "PostTurnFormChangeAbAttr",
+    "args": "p => p.getFormKey ? 1 : 0) // TODO: fix ts-ignore"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "QUICK_DRAW": {
+  "id": 259,
+  "key": "quickDraw",
+  "name": "速击",
+  "desc": "有时能比对手先一步行动。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "BypassSpeedChanceAbAttr",
+    "args": "30"
+   }
+  ],
+  "flags": []
+ },
+ "UNSEEN_FIST": {
+  "id": 260,
+  "key": "unseenFist",
+  "name": "无形拳",
+  "desc": "如果使出的是接触到对手的招式，就可以无视守护效果进行攻击。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "IgnoreProtectOnContactAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "CURIOUS_MEDICINE": {
+  "id": 261,
+  "key": "curiousMedicine",
+  "name": "怪药",
+  "desc": "出场时会从贝壳撒药，将我方的能力变化复原。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonClearAllyStatStagesAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "TRANSISTOR": {
+  "id": 262,
+  "key": "transistor",
+  "name": "电晶体",
+  "desc": "电属性的招式威力会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.ELECTRIC"
+   }
+  ],
+  "flags": []
+ },
+ "DRAGONS_MAW": {
+  "id": 263,
+  "key": "dragonsMaw",
+  "name": "龙颚",
+  "desc": "龙属性的招式威力会提高。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.DRAGON"
+   }
+  ],
+  "flags": []
+ },
+ "CHILLING_NEIGH": {
+  "id": 264,
+  "key": "chillingNeigh",
+  "name": "苍白嘶鸣",
+  "desc": "打倒对手时会用冰冷的声音嘶鸣并提高攻击。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "Stat.ATK, 1"
+   }
+  ],
+  "flags": []
+ },
+ "GRIM_NEIGH": {
+  "id": 265,
+  "key": "grimNeigh",
+  "name": "漆黑嘶鸣",
+  "desc": "打倒对手时会用恐怖的声音嘶鸣并提高特攻。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "Stat.SPATK, 1"
+   }
+  ],
+  "flags": []
+ },
+ "AS_ONE_GLASTRIER": {
+  "id": 266,
+  "key": "asOneGlastrier",
+  "name": "人马一体",
+  "desc": "兼备蕾冠王的紧张感和雪暴马的苍白嘶鸣这两种特性。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonAsOneGlastrier\", { pokemonNameWithAffix: getPokemonNameWithAf"
+   },
+   {
+    "cls": "PreventBerryUseAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "Stat.ATK, 1"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "AS_ONE_SPECTRIER": {
+  "id": 267,
+  "key": "asOneSpectrier",
+  "name": "人马一体",
+  "desc": "兼备蕾冠王的紧张感和灵幽马的漆黑嘶鸣这两种特性。",
+  "gen": 8,
+  "attrs": [
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(pokemon: Pokemon) => i18next.t(\"abilityTriggers:postSummonAsOneSpectrier\", { pokemonNameWithAffix: getPokemonNameWithAf"
+   },
+   {
+    "cls": "PreventBerryUseAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostVictoryStatStageChangeAbAttr",
+    "args": "Stat.SPATK, 1"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "LINGERING_AROMA": {
+  "id": 268,
+  "key": "lingeringAroma",
+  "name": "甩不掉的气味",
+  "desc": "被对手接触到后，甩不掉的气味会沾上对手。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendAbilityGiveAbAttr",
+    "args": "Abilities.LINGERING_AROMA"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "SEED_SOWER": {
+  "id": 269,
+  "key": "seedSower",
+  "name": "掉出种子",
+  "desc": "受到攻击时，会将脚下变成青草场地。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendTerrainChangeAbAttr",
+    "args": "TerrainType.GRASSY"
+   }
+  ],
+  "flags": []
+ },
+ "THERMAL_EXCHANGE": {
+  "id": 270,
+  "key": "thermalExchange",
+  "name": "热交换",
+  "desc": "受到火属性的招式攻击时，攻击会提高，且不会陷入灼伤状态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendStatStageChangeAbAttr",
+    "args": "(target, user, move) => user.getMoveType(move) === Type.FIRE && move.category !== MoveCategory.STATUS, Stat.ATK, 1"
+   },
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": "StatusEffect.BURN"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "ANGER_SHELL": {
+  "id": 271,
+  "key": "angerShell",
+  "name": "愤怒甲壳",
+  "desc": "因被对手攻击而ＨＰ变为一半时，会因愤怒降低防御和特防。但攻击、特攻、速度会提高。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendHpGatedStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, 0.5, [ Stat.ATK, Stat.SPATK, Stat.SPD ], 1"
+   },
+   {
+    "cls": "PostDefendHpGatedStatStageChangeAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, 0.5, [ Stat.DEF, Stat.SPDEF ], -1"
+   }
+  ],
+  "flags": []
+ },
+ "PURIFYING_SALT": {
+  "id": 272,
+  "key": "purifyingSalt",
+  "name": "洁净之盐",
+  "desc": "因洁净的盐而不会陷入异常状态。会让幽灵属性的招式伤害减半。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "StatusEffectImmunityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "ReceivedTypeDamageMultiplierAbAttr",
+    "args": "Type.GHOST, 0.5"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "WELL_BAKED_BODY": {
+  "id": 273,
+  "key": "wellBakedBody",
+  "name": "焦香之躯",
+  "desc": "受到火属性的招式攻击时，不会受到伤害，而是会大幅提高防御。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "TypeImmunityStatStageChangeAbAttr",
+    "args": "Type.FIRE, Stat.DEF, 2"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "WIND_RIDER": {
+  "id": 274,
+  "key": "windRider",
+  "name": "乘风",
+  "desc": "吹起了顺风或受到风的招式攻击时，不会受到伤害，而是会提高攻击。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "MoveImmunityStatStageChangeAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon !== attacker && move.hasFlag(MoveFlags.WIND_MOVE) && move.category !== MoveCategory"
+   },
+   {
+    "cls": "PostSummonStatStageChangeOnArenaAbAttr",
+    "args": "ArenaTagType.TAILWIND"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "GUARD_DOG": {
+  "id": 275,
+  "key": "guardDog",
+  "name": "看门犬",
+  "desc": "受到威吓时，攻击会提高。让替换宝可梦的招式和道具无效。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostIntimidateStatStageChangeAbAttr",
+    "args": "[Stat.ATK], 1, true"
+   },
+   {
+    "cls": "ForceSwitchOutImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "ROCKY_PAYLOAD": {
+  "id": 276,
+  "key": "rockyPayload",
+  "name": "搬岩",
+  "desc": "岩石属性的招式威力会提高。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "MoveTypePowerBoostAbAttr",
+    "args": "Type.ROCK"
+   }
+  ],
+  "flags": []
+ },
+ "WIND_POWER": {
+  "id": 277,
+  "key": "windPower",
+  "name": "风力发电",
+  "desc": "受到风的招式攻击时，会变为充电状态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendApplyBattlerTagAbAttr",
+    "args": "(target, user, move) => move.hasFlag(MoveFlags.WIND_MOVE), BattlerTagType.CHARGED"
+   }
+  ],
+  "flags": []
+ },
+ "ZERO_TO_HERO": {
+  "id": 278,
+  "key": "zeroToHero",
+  "name": "全能变身",
+  "desc": "回到同行队伍后，会变为全能形态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "PostBattleInitFormChangeAbAttr",
+    "args": "() => 0"
+   },
+   {
+    "cls": "PreSwitchOutFormChangeAbAttr",
+    "args": "(pokemon) => !pokemon.isFainted() ? 1 : pokemon.formIndex"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "COMMANDER": {
+  "id": 279,
+  "key": "commander",
+  "name": "发号施令",
+  "desc": "出场时，若我方当中有吃吼霸，就会进入其口中，并从其口中发出指令。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "ELECTROMORPHOSIS": {
+  "id": 280,
+  "key": "electromorphosis",
+  "name": "电力转换",
+  "desc": "受到伤害时，会变为充电状态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendApplyBattlerTagAbAttr",
+    "args": "(target, user, move) => move.category !== MoveCategory.STATUS, BattlerTagType.CHARGED"
+   }
+  ],
+  "flags": []
+ },
+ "PROTOSYNTHESIS": {
+  "id": 281,
+  "key": "protosynthesis",
+  "name": "古代活性",
+  "desc": "携带着驱劲能量或天气为晴朗时，数值最高的能力会提高。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "getWeatherCondition",
+    "args": ""
+   },
+   {
+    "cls": "PostWeatherChangeAddBattlerTagAttr",
+    "args": "BattlerTagType.PROTOSYNTHESIS, 0, WeatherType.SUNNY, WeatherType.HARSH_SUN"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "QUARK_DRIVE": {
+  "id": 282,
+  "key": "quarkDrive",
+  "name": "夸克充能",
+  "desc": "携带着驱劲能量或在电气场地上时，数值最高的能力会提高。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "getTerrainCondition",
+    "args": ""
+   },
+   {
+    "cls": "PostTerrainChangeAddBattlerTagAttr",
+    "args": "BattlerTagType.QUARK_DRIVE, 0, TerrainType.ELECTRIC"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "GOOD_AS_GOLD": {
+  "id": 283,
+  "key": "goodAsGold",
+  "name": "黄金之躯",
+  "desc": "不会氧化的坚固黄金身躯不会受到对手的变化招式的影响。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "MoveImmunityAbAttr",
+    "args": "(pokemon, attacker, move) => pokemon !== attacker && move.category === MoveCategory.STATUS"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "VESSEL_OF_RUIN": {
+  "id": 284,
+  "key": "vesselOfRuin",
+  "name": "灾祸之鼎",
+  "desc": "以能呼唤灾厄的鼎的力量降低除自己以外的宝可梦的特攻。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FieldMultiplyStatAbAttr",
+    "args": "Stat.SPATK, 0.75"
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(user) => i18next.t(\"abilityTriggers:postSummonVesselOfRuin\", { pokemonNameWithAffix: getPokemonNameWithAffix(user), sta"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SWORD_OF_RUIN": {
+  "id": 285,
+  "key": "swordOfRuin",
+  "name": "灾祸之剑",
+  "desc": "以能呼唤灾厄的剑的力量降低除自己以外的宝可梦的防御。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FieldMultiplyStatAbAttr",
+    "args": "Stat.DEF, 0.75"
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(user) => i18next.t(\"abilityTriggers:postSummonSwordOfRuin\", { pokemonNameWithAffix: getPokemonNameWithAffix(user), stat"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "TABLETS_OF_RUIN": {
+  "id": 286,
+  "key": "tabletsOfRuin",
+  "name": "灾祸之简",
+  "desc": "以能呼唤灾厄的简的力量降低除自己以外的宝可梦的攻击。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FieldMultiplyStatAbAttr",
+    "args": "Stat.ATK, 0.75"
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(user) => i18next.t(\"abilityTriggers:postSummonTabletsOfRuin\", { pokemonNameWithAffix: getPokemonNameWithAffix(user), st"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "BEADS_OF_RUIN": {
+  "id": 287,
+  "key": "beadsOfRuin",
+  "name": "灾祸之玉",
+  "desc": "以能呼唤灾厄的勾玉的力量降低除自己以外的宝可梦的特防。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FieldMultiplyStatAbAttr",
+    "args": "Stat.SPDEF, 0.75"
+   },
+   {
+    "cls": "PostSummonMessageAbAttr",
+    "args": "(user) => i18next.t(\"abilityTriggers:postSummonBeadsOfRuin\", { pokemonNameWithAffix: getPokemonNameWithAffix(user), stat"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "ORICHALCUM_PULSE": {
+  "id": 288,
+  "key": "orichalcumPulse",
+  "name": "绯红脉动",
+  "desc": "出场时，会将天气变为晴朗。日照强烈时，会通过古代的脉动升高攻击。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonWeatherChangeAbAttr",
+    "args": "WeatherType.SUNNY"
+   },
+   {
+    "cls": "PostBiomeChangeWeatherChangeAbAttr",
+    "args": "WeatherType.SUNNY"
+   },
+   {
+    "cls": "getWeatherCondition",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "HADRON_ENGINE": {
+  "id": 289,
+  "key": "hadronEngine",
+  "name": "强子引擎",
+  "desc": "出场时，会布下电气场地。处于电气场地时，会通过未来的机关升高特攻。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonTerrainChangeAbAttr",
+    "args": "TerrainType.ELECTRIC"
+   },
+   {
+    "cls": "PostBiomeChangeTerrainChangeAbAttr",
+    "args": "TerrainType.ELECTRIC"
+   },
+   {
+    "cls": "getTerrainCondition",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "OPPORTUNIST": {
+  "id": 290,
+  "key": "opportunist",
+  "name": "跟风",
+  "desc": "对手的能力提高时，自己也会趁机同样地提高能力。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "StatStageChangeCopyAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "CUD_CHEW": {
+  "id": 291,
+  "key": "cudChew",
+  "name": "反刍",
+  "desc": "吃了树果后，会在下一回合结束时从胃反刍出来再吃１次。",
+  "gen": 9,
+  "attrs": [],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "SHARPNESS": {
+  "id": 292,
+  "key": "sharpness",
+  "name": "锋锐",
+  "desc": "提高切割对手的招式的威力。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "MovePowerBoostAbAttr",
+    "args": "(user, target, move) => move.hasFlag(MoveFlags.SLICING_MOVE), 1.5"
+   }
+  ],
+  "flags": []
+ },
+ "SUPREME_OVERLORD": {
+  "id": 293,
+  "key": "supremeOverlord",
+  "name": "大将",
+  "desc": "出场时，攻击和特攻会按照目前被打倒的同伴数量逐渐提升，被打倒越多，提升越多。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "VariableMovePowerBoostAbAttr",
+    "args": "(user, target, move) => 1 + 0.1 * Math.min(user.isPlayer() ? user.scene.currentBattle.playerFaints : user.scene.currentB"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "COSTAR": {
+  "id": 294,
+  "key": "costar",
+  "name": "同台共演",
+  "desc": "出场时，复制同伴的能力变化。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonCopyAllyStatsAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "TOXIC_DEBRIS": {
+  "id": 295,
+  "key": "toxicDebris",
+  "name": "毒满地",
+  "desc": "受到物理招式的伤害时，会在对手脚下散布毒菱。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostDefendApplyArenaTrapTagAbAttr",
+    "args": "(target, user, move) => move.category === MoveCategory.PHYSICAL, ArenaTagType.TOXIC_SPIKES"
+   }
+  ],
+  "flags": [
+   "bypassFaint"
+  ]
+ },
+ "ARMOR_TAIL": {
+  "id": 296,
+  "key": "armorTail",
+  "name": "尾甲",
+  "desc": "包裹头部的神秘尾巴使对手无法对我方使出先制招式。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FieldPriorityMoveImmunityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "EARTH_EATER": {
+  "id": 297,
+  "key": "earthEater",
+  "name": "食土",
+  "desc": "受到地面属性的招式攻击时，不会受到伤害，而是会得到回复。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "TypeImmunityHealAbAttr",
+    "args": "Type.GROUND"
+   }
+  ],
+  "flags": [
+   "ignorable",
+   "partial"
+  ]
+ },
+ "MYCELIUM_MIGHT": {
+  "id": 298,
+  "key": "myceliumMight",
+  "name": "菌丝之力",
+  "desc": "使出变化招式时，虽然行动必定会变慢，但能不受对手的特性妨碍。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "ChangeMovePriorityAbAttr",
+    "args": "(pokemon, move) => move.category === MoveCategory.STATUS, -0.2"
+   },
+   {
+    "cls": "PreventBypassSpeedChanceAbAttr",
+    "args": "(pokemon, move) => move.category === MoveCategory.STATUS"
+   },
+   {
+    "cls": "MoveAbilityBypassAbAttr",
+    "args": "(pokemon, move: Move) => move.category === MoveCategory.STATUS"
+   }
+  ],
+  "flags": []
+ },
+ "MINDS_EYE": {
+  "id": 299,
+  "key": "mindsEye",
+  "name": "心眼",
+  "desc": "一般属性和格斗属性的招式可以击中幽灵属性的宝可梦。无视对手的闪避率的变化，且命中率不会被降低。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "IgnoreTypeImmunityAbAttr",
+    "args": "Type.GHOST, [Type.NORMAL, Type.FIGHTING]"
+   },
+   {
+    "cls": "ProtectStatAbAttr",
+    "args": "Stat.ACC"
+   },
+   {
+    "cls": "IgnoreOpponentStatStagesAbAttr",
+    "args": "[ Stat.EVA ]"
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "SUPERSWEET_SYRUP": {
+  "id": 300,
+  "key": "supersweetSyrup",
+  "name": "甘露之蜜",
+  "desc": "首次出场时，会散发出甜腻的蜜的香味来降低对手的闪避率。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonStatStageChangeAbAttr",
+    "args": "[ Stat.EVA ], -1"
+   }
+  ],
+  "flags": []
+ },
+ "HOSPITALITY": {
+  "id": 301,
+  "key": "hospitality",
+  "name": "款待",
+  "desc": "出场时款待同伴，回复其少量ＨＰ。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonAllyHealAbAttr",
+    "args": "4, true"
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "TOXIC_CHAIN": {
+  "id": 302,
+  "key": "toxicChain",
+  "name": "毒锁链",
+  "desc": "凭借含有毒素的锁链的力量，有时能让被招式击中的对手陷入剧毒状态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostAttackApplyStatusEffectAbAttr",
+    "args": "false, 30, StatusEffect.TOXIC"
+   }
+  ],
+  "flags": []
+ },
+ "EMBODY_ASPECT_TEAL": {
+  "id": 303,
+  "key": "embodyAspectTeal",
+  "name": "面影辉映",
+  "desc": "将回忆映于心中，让碧草面具发出光辉，提高自己的速度。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostBattleInitStatStageChangeAbAttr",
+    "args": "[ Stat.SPD ], 1, true"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "EMBODY_ASPECT_WELLSPRING": {
+  "id": 304,
+  "key": "embodyAspectWellspring",
+  "name": "面影辉映",
+  "desc": "将回忆映于心中，让水井面具发出光辉，提高自己的特防。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostBattleInitStatStageChangeAbAttr",
+    "args": "[ Stat.SPDEF ], 1, true"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "EMBODY_ASPECT_HEARTHFLAME": {
+  "id": 305,
+  "key": "embodyAspectHearthflame",
+  "name": "面影辉映",
+  "desc": "将回忆映于心中，让火灶面具发出光辉，提高自己的攻击。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostBattleInitStatStageChangeAbAttr",
+    "args": "[ Stat.ATK ], 1, true"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "EMBODY_ASPECT_CORNERSTONE": {
+  "id": 306,
+  "key": "embodyAspectCornerstone",
+  "name": "面影辉映",
+  "desc": "将回忆映于心中，让础石面具发出光辉，提高自己的防御。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostBattleInitStatStageChangeAbAttr",
+    "args": "[ Stat.DEF ], 1, true"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "partial"
+  ]
+ },
+ "TERA_SHIFT": {
+  "id": 307,
+  "key": "teraShift",
+  "name": "太晶变形",
+  "desc": "出场时，会吸收周围的能量，变为太晶形态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "PostSummonFormChangeAbAttr",
+    "args": "p => p.getFormKey() ? 0 : 1"
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnsuppressableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoTransformAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "NoFusionAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": []
+ },
+ "TERA_SHELL": {
+  "id": 308,
+  "key": "teraShell",
+  "name": "太晶甲壳",
+  "desc": "甲壳蕴藏着全部属性的力量，会将自己ＨＰ全满时受到的伤害全都变为效果不好。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "FullHpResistTypeAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "ignorable"
+  ]
+ },
+ "TERAFORM_ZERO": {
+  "id": 309,
+  "key": "teraformZero",
+  "name": "归零化境",
+  "desc": "太乐巴戈斯变为星晶形态时，蕴藏在它身上的力量会将天气和场地的影响全部归零。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   }
+  ],
+  "flags": [
+   "unimplemented"
+  ]
+ },
+ "POISON_PUPPETEER": {
+  "id": 310,
+  "key": "poisonPuppeteer",
+  "name": "毒傀儡",
+  "desc": "因桃歹郎的招式而陷入中毒状态的对手同时也会陷入混乱状态。",
+  "gen": 9,
+  "attrs": [
+   {
+    "cls": "UncopiableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "UnswappableAbilityAbAttr",
+    "args": ""
+   },
+   {
+    "cls": "pokemon",
+    "args": ""
+   }
+  ],
+  "flags": []
+ }
+}

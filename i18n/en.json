@@ -1,0 +1,2742 @@
+{
+"exact": {
+" · 可以撤离（X）": " · Can Extract (X)",
+" · 头目在场，打倒或等它走": " · Boss present: defeat it or wait for it to leave",
+" · 招式栏满了：买了先放着，取下一招再带上": " · Move slots full: bought items wait; swap out a move to equip",
+" · 新物种！": " · New species!",
+" · 有空位，买了就带上": " · Free slot; equipped when bought",
+" · 未保存": " · Unsaved",
+"## 伤害招式（来源·招式，从多到少）": "## Damaging moves (source · move, most to least)",
+"## 伤害来源（从多到少）": "## Damage sources (high to low)",
+"A · 图片": "A · Image",
+"B · 基础属性": "B · Base Stats",
+"C · 技能": "C · Skills",
+"D · 图鉴": "D · Pokédex",
+"Mega 进化系统本作未实现。": "Mega Evolution is not implemented in this game.",
+"PP够": "PP OK",
+"PP提升": "PP Up",
+"PP满": "PP Max",
+"Q / E 换": "Q / E Switch",
+"flash：左 主角染红 Color(1, 0.3, 0.25, 0.7)，右 山贼纯白（拉长到 1 秒，截在全亮时）": "flash: left, hero tinted red Color(1, 0.3, 0.25, 0.7); right, bandit pure white (stretched to 1 s, captured at full brightness)",
+"—— 最近孵出 ——": "—— Recently Hatched ——",
+"○ 关": "○ Off",
+"● 开": "● On",
+"★ 神兽": "★ Legendary",
+"★ 稀有": "★ Rare",
+"★ 闪光": "★ Shiny",
+"★★ 蓝闪": "★★ Blue Shiny",
+"★★★ 红闪": "★★★ Red Shiny",
+"♂诱惑♀或♀诱惑♂，从而大幅降低对手的特攻": "♂ charms ♀ or ♀ charms ♂, harshly lowering the target's Sp. Atk",
+"【改版】光环：攻击圈里的怪都被识破（一般 / 格斗招打得到幽灵系，它们的闪避提高也没用）；不用放。": "【Revamped】 Aura: monsters in the attack ring are identified (Normal/Fighting moves can hit Ghost types; their evasion boosts are ignored). No casting needed.",
+"【改版】被动：带着就一直慢慢回血（每 4 秒回最大 HP 的 1/16）；不用放。": "[Revamp] Passive: while held, slowly restores HP (1/16 of max HP every 4 s); no activation needed.",
+"【改版】被动：带着就常驻，会心率 1/24 → 1/2（会心一击伤害 ×1.5）；不用放。": "[Modified] Passive: always on while equipped; crit rate 1/24 → 1/2 (crit damage ×1.5); no need to use.",
+"【改版】被动：开局随机一项能力（攻击 / 防御 / 特攻 / 特防 / 速度 / 命中）+2 级，整局保持；不用放。": "【Revamped】 Passive: a random stat (Attack / Defense / Sp. Atk / Sp. Def / Speed / Accuracy) gets +2 stages at run start, kept all run. No casting.",
+"一个招都没有": "No moves at all",
+"一旦使用此招式，周围就会弄得到处是泥。在５回合内减弱电属性的招式": "Covers the area in mud. Weakens Electric-type moves for 5 turns",
+"一般 · 物理": "Normal · Physical",
+"一边使身体快速旋转，一边踢飞对手进行攻击。有时会使对手畏缩": "Spins rapidly while kicking the foe away. May make the foe flinch",
+"一边可爱地撒娇，一边靠近对手进行攻击": "Approaches the foe while acting cutesy, then attacks",
+"一边旋转，一边将尖喙刺入对手进行攻击": "Spins while driving its beak into the foe",
+"一边覆盖高能量，一边撞向对手进行攻击。根据存储碟不同，属性会改变": "Charges with high energy while ramming the target. Type changes depending on the held Drive",
+"三招释放速度 +10%。": "Triple-move cast speed +10%.",
+"上一页": "Prev",
+"下一球已预约：这只的动画一结束马上扔": "Next ball queued: throws as soon as this one's animation ends",
+"下一页": "Next page",
+"下起了冰雹！": "It started to hail!",
+"下起了雨！": "It started to rain!",
+"下起了雪！": "It started to snow!",
+"下跪让对手大意后发起袭击劈向对手。攻击必定会命中": "Kneels to lull the foe, then strikes. Never misses",
+"下面选一个现在带着的招换掉它。": "Pick a currently equipped move below to replace it.",
+"不能和自己融合，换一只（右键或 Esc 取消）": "Can't fuse with itself; pick another (right-click or Esc to cancel)",
+"不融冰": "No Thaw",
+"不融合了": "Don't fuse",
+"不规则": "Irregular",
+"与丛林融为一体，回复自己和场上同伴的ＨＰ和状态": "Becomes one with the jungle, restoring HP and status of itself and allies",
+"与对手嬉闹并攻击。有时会降低对手的攻击": "Frolics with the foe while attacking. May lower the foe's Attack",
+"世代": "Generation",
+"丛林": "Jungle",
+"丝绸围巾": "Silk Scarf",
+"个体值↑ ": "IVs↑",
+"个体值展示 / 扫描本作未接（当前 IV 固定占位 0）。": "IV display / scanning is not hooked up (IVs currently fixed at placeholder 0).",
+"个体值没变高": "IVs did not increase",
+"中了异常（麻痹 / 中毒 / 睡眠 / 冰冻 / 灼伤 / 混乱）时自动吃掉，当场全部解除，之后 5 秒不会再中异常": "Eaten automatically when afflicted (paralysis / poison / sleep / freeze / burn / confusion); cures all at once, then immune to status for 5 s",
+"中毒": "Poison",
+"中途关闭游戏": "Closed the game mid-run",
+"中途放弃": "Gave up mid-run",
+"为了化解伙伴的悔恨而进行攻击。被打倒的我方宝可梦越多，招式的威力越高": "Attacks to avenge fallen allies. The more allies have fainted, the greater the power",
+"为倒下的同伴报仇。如果上一回合有同伴倒下，威力就会提高": "Avenges a fallen ally. Power rises if an ally fainted last turn",
+"举办一场茶会，场上的所有宝可梦都会吃掉自己携带的树果": "Hosts a tea party; every Pokémon on the field eats its held Berry",
+"乐天": "Naive",
+"也不攻击只是一蹦一蹦地跳，什么都不会发生…": "Just hops around without attacking; nothing happens...",
+"买了出发后马上学；招式满了会问你换掉哪一招。": "Learned right after you start; if moves are full, you choose which to replace.",
+"买了马上生效，也永久留着。双击格子或 Enter 买。": "Takes effect immediately and is kept permanently. Double-click a slot or press Enter to buy.",
+"买过了，免费学": "Already bought; learn for free",
+"亲密度 / 携带道具系统本作未实现。": "Friendship / held item system not implemented in this game.",
+"亲密度越低，威力越大": "The lower the Friendship, the greater the power",
+"亲密度越高，威力越大": "The higher the Friendship, the greater the power",
+"从两眼发射出神奇的光线攻击。连续２次给予伤害": "Fires a mysterious beam from both eyes. Hits twice in a row",
+"从体内产生出波导之力，然后向对手发出。攻击必定会命中": "Generates aura power inside the body and fires it at the foe. Never misses",
+"从体内发出充满恶意的恐怖气场。有时会使对手畏缩": "Emits a terrifying aura full of malice from the body. May make the target flinch",
+"从前额产生灼热的火焰，舍身撞击对手。防御、特防和速度会降低": "Flares up with fire from the forehead and recklessly charges the target. Lowers Defense, Sp. Def, and Speed",
+"从双眼发射精神力量进行攻击。有时会让对手陷入冰冻状态": "Fires psychic power from both eyes. May freeze the foe",
+"从口中喷出特别灼热的火焰进行攻击。降低对手的特攻": "Spits an intensely hot flame from the mouth. Lowers the foe's Sp. Atk",
+"从地面掀起波浪进行攻击。被掀入波浪中的对手，将无法从战斗中逃走": "Whips up a wave from the ground. Targets caught in it can't flee",
+"从大大的口中掀起冲击波攻击对手": "Unleashes a shock wave from its big mouth",
+"从天空中急速下降攻击对手。自己的防御和特防会降低": "Swoops down from the sky at the foe. Lowers the user's Defense and Sp. Def",
+"从对手背后爬近后进行攻击。会降低对手的特攻": "Creeps up behind the foe and attacks. Lowers the foe's Sp. Atk",
+"从对手那里受到特殊攻击的伤害将以２倍返还给同一个对手": "Returns twice the damage from the foe's special attacks to the same foe",
+"从空中俯冲向对手。此招式同时带有格斗属性和飞行属性": "Dives at the foe from the sky. Both Fighting- and Flying-type",
+"从身体放射出怪异电波，让对手沐浴其中，从而大幅降低其特攻": "Bathes the foe in odd electromagnetic waves, harshly lowering its Sp. Atk",
+"从身体里产生冲击波。有时会大幅降低对手的特防": "Generates a shock wave from the body. May harshly lower the foe's Sp. Def",
+"从锁定的对手身上吸取ＨＰ。回复给予对手伤害的一半以上的ＨＰ": "Drains HP from the target. Restores at least half the damage dealt",
+"从高处落下苹果，给予对手伤害。可降低对手的防御": "Drops an apple from a great height. May lower the foe's Defense",
+"代欧奇希斯": "Deoxys",
+"以影子做成的锐爪，劈开对手。容易击中要害": "Slashes the foe with sharp claws made of shadow. High critical-hit ratio",
+"以惊人的气势扑向对手。有时会使对手畏缩": "Charges at the foe with astonishing momentum. May cause flinching",
+"以敏捷的动作戏弄对手后进行切斩。攻击必定会命中": "Toys with the foe using agile moves, then slashes. Never misses",
+"以敏捷的动作瞄准对手的脚进行攻击。会降低对手的速度": "Targets the foe's feet with agile movement. Lowers its Speed",
+"以流星般的气势猛撞对手。可以无视对手的特性进行攻击": "Slams into the target with meteor-like force. Ignores the target's Ability",
+"以潇洒的身手进行攻击。若口中有米立龙，会按其样子提高能力": "Attacks with stylish moves. Boosts stats based on the form of Tatsugiri in the user's mouth",
+"以盈盈欲滴的轻快步伐戏耍对手并给予其伤害。会提高自己的速度": "Dances lightly to toy with and damage the foe. Raises the user's Speed",
+"以破灭之爪进行攻击。有时还会让对手陷入中毒、麻痹、睡眠之中的一种状态": "Attacks with ruinous claws. May poison, paralyze, or put the target to sleep",
+"以胸口的螺帽为中心旋转，并连续２次挥动手臂打击对手。有时会使对手畏缩": "Spins around the bolt on its chest and swings its arms twice. May make the foe flinch",
+"以迅雷不及掩耳之势出拳。必定能够先制攻击": "Punches with lightning speed. Always strikes first",
+"以迅雷不及掩耳之势扑向对手。必定能够先制攻击": "Pounces on the target at lightning speed. Always strikes first",
+"以迅雷不及掩耳之势猛撞向对手进行攻击。必定能够先制攻击": "Slams into the foe with lightning speed. Always strikes first",
+"以雷电般的动作戏耍对手的同时使出脚踢。可降低对手的防御": "Toys with the target with lightning-like movements while kicking. May lower Defense",
+"以默契的跳跃溅起水花击向对手。连续３次给予伤害": "Splashes water at the foe with synchronized leaps. Hits 3 times",
+"伊布越喜欢训练家，冲撞的威力就越强。攻击必定会命中": "The more Eevee likes its Trainer, the stronger the tackle. Never misses",
+"优秀": "Excellent",
+"伙伴们会纷纷赶来集合，以群体行动给予对手攻击。连续命中１～１０次": "Allies gather and attack the foe together. Hits 1 to 10 times in a row",
+"会在对手之后进行攻击。但是自己的攻击必定会命中": "Attacks after the target. The attack never misses",
+"会心等级 +1": "Crit stage +1",
+"传说": "Legendary",
+"伤害": "Damage",
+"伸长影子，从对手的背后进行攻击。必定能够先制攻击": "Extends the shadow to strike from behind the target. Always strikes first",
+"伽勒豆蔻手环": "Galarica Cuff",
+"伽勒豆蔻花冠": "Galarica Wreath",
+"你": "You",
+"你给敌人上异常时无视免疫：毒 / 钢也能中毒、电系也能麻痹、草系也吃粉末招、不眠也能睡着（本作自己加的道具）": "Ignores immunities when you inflict status: Poison/Steel can be poisoned, Electric paralyzed, Grass hit by powder moves, Insomnia put to sleep (custom item for this game)",
+"使出光芒，从而降低对手的命中率。也可在阴暗的洞窟里照亮四周": "Emits a burst of light to lower the foe's accuracy. Also lights up dark caves",
+"使出全身力气绷紧肌肉，从而提高自己的攻击和防御": "Tenses all muscles to raise its own Attack and Defense",
+"使出全身力量，猛攻对手": "Unleashes all its power to attack fiercely",
+"使出全部力量攻击对手。使用之后会因为反作用力，自己的特攻大幅降低": "Attacks with all its power. Sp. Atk harshly falls from the recoil",
+"使出力大无穷的重踢踢飞对手进行攻击": "Kicks the foe away with a mighty heavy kick",
+"使出后对幽灵属性宝可梦没有效果的招式以及闪避率高的对手，变得能够打中": "Makes moves that can't hit Ghost types, or foes with high evasion, able to hit",
+"使出彗星般的拳头攻击对手。有时会提高自己的攻击": "Punches with a comet-like fist. May raise the user's Attack",
+"使出招式前，将最后受到的招式的伤害大力返还给对手": "Returns the last damage taken to the foe with great power",
+"使出招式后，当受到对手攻击陷入昏厥时，对手也会一同昏厥。连续使出则会失败": "If the user faints from a foe's attack after using this, the foe faints too. Fails if used in a row",
+"使出浑身力气出拳进行攻击。必定会使对手混乱": "Punches with all its might. Always confuses the foe",
+"使出浑身力气殴打对手进行攻击": "Pummels the target with all its might",
+"使出混影之拳。攻击必定会命中": "Lashes out with a shadowy fist. Never misses",
+"使出自己浑身力量突击对手。下一回合自己将无法动弹": "Charges the foe with all its power. Can't move next turn",
+"使出高高的腾空踢攻击对手。如果踢偏则自己会受到伤害": "Attacks with a high jump kick. If it misses, the user is hurt",
+"使双方直到一方昏厥为止无法替换宝可梦。其中一方退场则可以解除效果": "Prevents both sides from switching until one faints. Ends if either leaves the field",
+"使对手陷入盐腌状态，每回合给予对手伤害。对手为钢或水属性时会更痛苦": "Salt-cures the foe, damaging it every turn. Even more painful for Steel or Water types",
+"使用从酸苹果中提取出来的酸性液体进行攻击。降低对手的特防": "Attacks with acid extracted from a tart apple. Lowers the foe's Sp. Def",
+"使用坚硬的尾巴摔打对手进行攻击。有时会降低对手的防御": "Slams the target with a hard tail. May lower Defense",
+"使用尖锐的树枝刺向对手进行攻击": "Attacks by stabbing with a sharp branch",
+"使用尾巴等拍打对手进行攻击。连续２次给予伤害": "Slaps the foe with a tail. Hits twice in a row",
+"使用招式２回合后，会用无数道光束攻击对手": "Charges for 2 turns, then attacks with countless beams",
+"使用捕兽夹，在４～５回合内，夹住对手进行攻击": "Traps the foe in a snare trap for 4-5 turns while attacking",
+"使用神奇的力量提高在场的所有草属性宝可梦的防御": "Boosts the Defense of all Grass-type Pokémon on the field with mystical power",
+"使用神奇的力量防住攻击我方的变化招式。但无法防住伤害招式的攻击": "Protects against status moves with mysterious power. Can't block damaging moves",
+"使用糖果": "Use Candy",
+"使用该招式的宝可梦，其属性是幽灵属性或其他属性时，效果会不一样": "Effect differs depending on whether the user is a Ghost type or not",
+"使用长长的尾巴或藤蔓等摔打对手进行攻击": "Slams the target with a long tail or vines",
+"使用长长的身体或藤蔓等，在４～５回合内紧束对手进行攻击": "Binds the foe with a long body or vines for 4-5 turns",
+"使用长长的身体或藤蔓等，在４～５回合内绑紧对手进行攻击": "Binds the foe with a long body or vines for 4-5 turns while attacking",
+"使粘稠的麦芽糖浆爆炸，让对手陷入满身糖状态，在３回合内持续降低其速度": "Explodes sticky candy syrup, coating the foe in syrup and lowering its Speed for 3 turns",
+"倒下": "Fainted",
+"倒下了": "Fainted",
+"倒下了也没关系。": "It's fine if you faint.",
+"倒下时以一半血复活、解除异常；用掉就没了，要再买": "Revives with half HP and cures status on fainting; consumed on use, rebuy needed",
+"借助场地的力量进行攻击。视使出招式时场地状态不同，招式的属性和威力会有所变化": "Attacks using the power of the terrain. The move's type and power change with the terrain",
+"借用月亮的力量攻击对手。有时会降低对手的特攻": "Attacks with the power of the moon. May lower the foe's Sp. Atk",
+"借用永恒之花的力量，发射出强力光线。自己也会受到非常大的伤害": "Fires a powerful beam using the power of the eternal flower. Also deals huge damage to itself",
+"倾听歌声的宝可梦经过３回合陷入昏厥。替换后效果消失": "Pokémon that hear the song faint in 3 turns. Effect ends on switching out",
+"偷懒休息。回复自己最大ＨＰ的一半": "Slacks off and rests. Restores half of max HP",
+"像天使般可爱地亲吻对手，从而使对手混乱": "Kisses the foe angelically, confusing it",
+"像用剑一般操纵叶片切斩对手进行攻击。容易击中要害": "Controls leaves like swords to slash the target. High critical-hit ratio",
+"像钢钻一样，一边旋转身体一边撞击对手。容易击中要害": "Spins like a steel drill and rams the target. High critical-hit ratio",
+"先不出发": "Not yet",
+"先不换了": "Don't swap yet",
+"先加热鸟嘴后再进行攻击。鸟嘴在加热时对手触碰的话，就会使其灼伤": "Heats up its beak, then attacks. Foes that touch the beak while it's heated get burned",
+"先在图鉴里选一只已捕获的宝可梦。": "First pick a caught Pokémon in the Pokédex.",
+"先在图鉴里选一只已捕获的宝可梦，再来买": "First pick a caught Pokémon in the Pokédex, then buy",
+"先在图鉴里选一只已捕获的宝可梦，再来买（现在选中的还没捕获）": "First pick a caught Pokémon in the Pokédex, then buy (current pick not caught yet)",
+"先选宝可梦": "Pick a Pokémon first",
+"先选宠物": "Pick a pet first",
+"光之石": "Shiny Stone",
+"光墙展开了！": "Light Screen went up!",
+"免费": "Free",
+"入场等级": "Entry Level",
+"入场等级:": "Entry Level:",
+"全体加成": "Global Bonus",
+"全体加成对所有宝可梦和新开的局都生效（照原版护符 / 道具）。": "Global bonuses apply to all Pokémon and new runs (as with the original charm / item).",
+"全体治疗加成": "Team healing bonus",
+"全体糖果加成": "All-Candy Bonus",
+"全体经验加成": "Global EXP Bonus",
+"全力猛扑对手进行攻击。从而降低对手的攻击": "Pounces with all its might. Lowers the foe's Attack",
+"全力跳舞进行攻击。此招式的属性将变得和自己的属性相同": "Dances with all its might. This move's type matches the user's type",
+"全屏": "Full screen",
+"全部": "All",
+"全部世代": "All Generations",
+"全部状态": "All statuses",
+"关掉了（这只出发时不带被动）": "Off (this one starts without its Passive)",
+"关闭": "Close",
+"关闭（Esc）": "Close (Esc)",
+"兴起龙卷风，将对手卷入进行攻击。有时会使对手畏缩": "Whips up a tornado to engulf the foe. May make the foe flinch",
+"内力": "Inner Power",
+"内功": "Internal Arts",
+"内敛": "Modest",
+"再待会儿": "Stay a while",
+"再待会儿 Esc": "Stay a while Esc",
+"冰之石": "Ice Stone",
+"冰冻": "Frozen",
+"冰窟": "Ice Cave",
+"冷静": "Quiet",
+"准神兽": "Sub-Legendary",
+"凝视闪烁的光芒，集中自己的精神，从而巨幅提高特攻": "Stares at the twinkling light and focuses, sharply raising Sp. Atk",
+"凡作茶碗": "Unremarkable Teacup",
+"出发": "Go",
+"出发 X": "Depart X",
+"出发!": "Go!",
+"出发: 选地区和入场等级": "Depart: pick region and starting level",
+"出招速度": "Move speed",
+"击杀 0 · 总点数 0 · 本局 0": "Kills 0 · Total pts 0 · This run 0",
+"击杀点数 +20%（每个，最多 5 个）": "Kill Points +20% (each, max 5)",
+"击杀点数 / 金珠 +20%（每层，最多 10 层 = ×3；局里点左上角图标可以少用几层）": "Kill points / Nuggets +20% (per stack, max 10 = ×3; tap the top-left icon in-run to use fewer stacks)",
+"击败头目！": "Boss defeated!",
+"利用冰冷的黑雾结晶进行攻击。使全体宝可梦的能力变回原点": "Uses a freezing black mist to reset all Pokémon's stats to normal",
+"利用地震的冲击，攻击自己周围所有的宝可梦": "Uses the quake's force to hit all Pokémon around the user",
+"利用大浪攻击自己周围所有的宝可梦": "Uses a huge wave to hit all Pokémon around the user",
+"利用对手的力量进行攻击。正和自己战斗的对手，其攻击越高，伤害越大": "Uses the foe's power against it. The higher the foe's Attack, the more damage",
+"利用引力将对手甩飞出去。给予对手和自己等级相同的伤害": "Hurls the foe away using gravity. Deals damage equal to the user's level",
+"利用念力强攻，粉碎对方信心。制造一道能减弱对手特殊攻击的神奇墙壁": "Attacks with psychic force and crushes confidence. Creates a wall that weakens special attacks",
+"利用振动发出音波进行攻击。有时会降低对手的特防": "Attacks with sound waves from vibration. May lower Sp. Def",
+"利用电气产生的磁力浮在空中。在５回合内可以飘浮": "Floats in the air with electromagnetism for 5 turns",
+"利用神奇的墙壁，在５回合内减弱从对手那里受到的物理攻击的伤害": "Raises a mystical wall that weakens physical damage from the foe for 5 turns",
+"利用神奇的墙壁，在５回合内减弱从对手那里受到的特殊攻击的伤害": "Uses a mysterious wall to weaken damage from special attacks for 5 turns",
+"利用精神力量咬住对手进行攻击。还可以破坏光墙和反射壁等": "Bites the target with psychic power. Also breaks Light Screen, Reflect, etc.",
+"利用精神力量攻击对手。在精神场地上威力会有所提高，能对所有对手造成伤害": "Attacks with psychic power. Stronger on Psychic Terrain; hits all foes",
+"利用芬芳刺鼻的龙卷风吞噬对方。能治愈我方宝可梦的异常状态": "Engulfs the foe in a fragrant, pungent whirlwind. Heals the party's status conditions",
+"利用超能力互换自己和对手的攻击以及特攻的能力变化": "Psychic power swaps the user's and foe's Attack and Sp. Atk changes",
+"利用超能力互换自己和对手的特性": "Swaps Abilities with the foe using psychic power",
+"利用超能力互换自己和对手的防御以及特防的能力变化": "Swaps the user's and target's Defense and Sp. Def stat changes with psychic power",
+"利用超能力施以暗示，从而将自己受到的异常状态转移给对手": "Transfers the user's status condition to the foe by suggestion",
+"刮起妖精之风，吹向对手进行攻击": "Blows a fairy wind at the target",
+"刮起猛烈的旋风，在４回合内提高我方全员的速度": "Whips up a violent whirlwind that raises the Speed of the whole party for 4 turns",
+"到顶了": "Maxed out",
+"制造坚固的壁障，从而大幅提高自己的防御": "Builds a sturdy barrier, sharply raising Defense",
+"制造风之刃，于第２回合攻击对手。容易击中要害": "Raises wind blades on turn 2 to hit the foe. High critical-hit ratio",
+"券 / 元进度系统本作没有。": "The coupon / yuan progress system is not in this game.",
+"削减少许自己的ＨＰ，使所有能力都提高": "Cuts a little of its own HP to raise all stats",
+"削减自己的ＨＰ，大幅提高攻击和特攻以及速度": "Cuts own HP to sharply raise Attack, Sp. Atk and Speed",
+"削掉身体上没用的部分。大幅提高自己的速度，同时体重也会变轻": "Sheds unneeded parts of the body. Sharply raises Speed and lowers weight",
+"勇敢": "Brave",
+"勤奋": "Hardy",
+"化悔恨为力量进行攻击。如果上一回合招式没有打中，威力就会翻倍": "Turns regret into power. Power doubles if the last move missed",
+"升级了，选一个": "Level up! Pick one",
+"升起黑雾，将正在场上战斗的全体宝可梦的能力变回原点": "Raises a black fog that resets all stat changes of every Pokémon on the field",
+"单体": "Single",
+"单只培养": "Single Training",
+"卡拉卡拉 / 嘎啦嘎啦专用：攻击 ×2": "Cubone / Marowak only: Attack ×2",
+"即使受到攻击，也至少会留下１ＨＰ。连续使出则容易失败": "Always leaves at least 1 HP, even if hit. May fail if used in succession",
+"厄诡椪": "Ogerpon",
+"原 TM 三档保留；兼容性与真正学招留后项。": "Original TM's three tiers kept; compatibility and actual move-learning deferred.",
+"原 TM 三档（COMMON/GREAT/ULTRA）按原分档保留；只留分档与生成器，兼容性与真正学招留后项。": "Original three TM tiers (COMMON/GREAT/ULTRA) kept as-is; only tiers and generator retained; compatibility and actual move learning come later.",
+"原作 soundBased()（隔音 Soundproof 免疫）：本作没有特性，不臆造": "Original soundBased() (Soundproof immune): this game has no Abilities, nothing invented",
+"原作 windMove() / 对飞翔(FLYING)蓄力状态的加倍交互：本作没有飞翔状态，不把普通飞行属性冒充飞翔状态而翻倍": "Original windMove() / double interaction with the FLYING charge state: this game has no flying state, so plain Flying type is not treated as flying state and not doubled",
+"原作为回合制临时要害等级，本作实时制无对应窗口。": "Original was a turn-based temporary crit stage; no real-time equivalent here.",
+"原作地图 / 路线系统本作未做（当前只有平原）。": "The original's map / route system isn't in this game (only the plains for now).",
+"原作复活队员需要队伍 / 濒死系统，本作不做队伍。": "Reviving party members needs a party / fainting system; this game has no party.",
+"原作是回合制里的临时战斗能力等级；本作实时制没有对应回合窗口。": "In the original this is a temporary battle stat stage in turn-based combat; this real-time game has no matching turn window.",
+"原作用是全队复活；本作不做队伍，无适配系统。": "Originally a full-party revive; this game has no party, no matching system.",
+"原作用是把双打概率减半（value=ceil(value/2)）；本作不做双打，无适配系统。": "The original halves the double-battle chance (value=ceil(value/2)); this game has no double battles, so no adapted system.",
+"原作用：对选中的一只 +1 级（并经 CANDY_JAR 的 LevelIncrementBoosterModifier 加值）；用户要的是局外给该物种开局加等级，等价关系未定，不能自造倍率。": "Original: +1 Lv to one selected Pokémon (plus bonus via CANDY_JAR's LevelIncrementBoosterModifier); the user wants a meta-side starting level bonus per species, equivalence undecided, can't invent a multiplier.",
+"原作种族值（图鉴资料）": "Original base stats (Pokédex data)",
+"原作融合 / 孵蛋系统本作不做；GREAT 与 MASTER 两条出现条件不同，都保留。": "The original's fusion / egg system isn't in this game; GREAT and MASTER have different unlock conditions, both kept.",
+"原作金钱系统本作没有。": "The original's money system isn't in this game.",
+"原作金钱系统本作没有；本作点数不是原 money，不做等价换算。": "The original money system isn't in this game; Points aren't the original money and aren't converted.",
+"原作金钱系统本作没有；点数是本作规则不是原 money。": "The original money system isn't in this game; Points are this game's rule, not original money.",
+"原作：特殊条件（地点 / 随机等）": "Original: special condition (location / random etc.)",
+"去商店买别的": "Buy something else in the Shop",
+"去掉了名字": "Name removed",
+"反伤": "Recoil",
+"反射壁展开了！": "Reflect went up!",
+"发出不由自主想要捂起耳朵的刺耳声，从而大幅降低对手的防御": "Emits a harsh screech that makes you want to cover your ears, sharply lowering the target's Defense",
+"发出战吼威吓对手，从而降低对手的攻击和特攻": "Roars a battle cry to intimidate, lowering the target's Attack and Sp. Atk",
+"发出看不见的神奇力量进行攻击。有时会使对手畏缩": "Attacks with an invisible mysterious force. May make the foe flinch",
+"发出魅惑的叫声，给予对手精神上的伤害。攻击必定会命中": "Lets out a bewitching cry that hurts the target mentally. Never misses",
+"发动猛撞攻击，有时会使对手混乱。是宝可表的秘传招式之一": "Charges in with a heavy tackle. May confuse the foe. One of the Pokémon HMs",
+"发射从自然收集的生命力量。有时会降低对手的特防": "Fires life energy collected from nature. May lower the foe's Sp. Def",
+"发射光线进行攻击。有时其他的头也会合力发射镭射，让招式威力变成２倍": "Fires a beam. Sometimes the other heads join in with lasers, doubling the power",
+"发射大炮一样的电流进行攻击。让对手陷入麻痹状态": "Fires cannon-like electricity. Paralyzes the target",
+"发射如宝石般闪耀的光芒攻击对手": "Fires a gem-like dazzling light at the foe",
+"发射星形的光攻击对手。攻击必定会命中": "Fires star-shaped light at the foe. Never misses",
+"发射神奇的光线进行攻击。有时会使对手混乱": "Fires a mysterious ray. May confuse the target",
+"发射空气旋涡进行攻击。容易击中要害": "Fires a whirlwind of air. High critical-hit ratio",
+"发射经搅拌的茶的大炮，可以回复给予对手伤害的一半ＨＰ，有时会让对手陷入灼伤状态": "Fires a cannon of whisked tea. Restores half the damage dealt; may burn the foe",
+"发射鳞片进行攻击。连续攻击２～５次。速度会提高但防御会降低": "Fires scales at the foe 2-5 times. Raises Speed but lowers Defense",
+"发挥惊人的力量攻击对手。自己的攻击和防御会降低": "Attacks with amazing power. Lowers the user's Attack and Defense",
+"发电厂": "Power Plant",
+"取下": "Remove",
+"取消": "Cancel",
+"取消最爱": "Unfavorite",
+"取消融合": "Cancel Fusion",
+"受伤来源：": "Damage source:",
+"受到攻击后的第一次使用，招式威力变成２倍": "Power doubles on the first use after being hit",
+"受到此招式攻击的对手，会因为地狱般的痛苦，在２回合内，变得无法使出声音类招式": "The foe can't use sound-based moves for 2 turns due to agonizing pain",
+"受到物理攻击后，把最近一次受到的物理伤害以２倍固定伤害返还给打自己的对手": "Returns the last physical damage taken as double fixed damage to the attacker",
+"变为充电状态，提高下次使出的电属性的招式威力。自己的特防也会提高": "Charges up, boosting the power of the next Electric move. Also raises Sp. Def",
+"变化类单体招（麻痹 / 催眠 / 混乱 / 降属性）同时波及更多目标：每级多 1 个，每个目标各自判命中；没有折扣": "Single-target status moves (paralysis / sleep / confusion / stat drops) hit more targets: +1 per level, each target rolls accuracy separately; no penalty",
+"变得泪眼汪汪，让对手丧失斗志。从而降低对手的攻击和特攻": "Becomes teary-eyed so the foe loses its will to fight, lowering its Attack and Sp. Atk",
+"古代遗迹": "Ancient Ruins",
+"只有开放的地区能选中；未开放的地区暂不能进入。": "Only unlocked regions can be selected; locked regions can't be entered yet.",
+"只能在城镇商店里安排开局招。": "Starting-loadout moves can only be arranged in the Town Shop.",
+"只能在局内战斗的商店暂停时买记忆蘑菇；未扣款。": "Memory Mushroom can only be bought while the in-run shop is paused; no charge.",
+"召唤手下疗伤。回复自己最大HP的一半": "Summons allies to heal. Restores half the user's max HP",
+"召唤手下，让其朝对手发起攻击。容易击中要害": "Summons minions to attack the foe. High critical-hit ratio",
+"召唤手下，让其附在自己的身体上。可以提高自己的防御和特防": "Summons minions to cling to the user. Raises its Defense and Sp. Def",
+"可上场": "Available",
+"可以击中浮在空中的宝可梦。空中的对手被击落后，会掉到地面": "Can hit airborne Pokémon. Foes in the air that are hit fall to the ground",
+"可以撤离了：按 X 或点上面的「撤离」，去下一个地区": "You can Extract: press X or click \"Extract\" above to go to the next area",
+"可以撤离了：按 X（或点上面的「撤离」）选下一个地区。等级、宠物、道具都带走；新地区的怪更强，刚进去的 1 分钟会弱一点。": "Ready to Extract: press X (or tap Extract above) to pick the next region. Level, pets and items come with you; the new region's monsters are stronger, but weaker for the first minute.",
+"可以比对手先使出电击进行攻击。对手使出的招式如果不是攻击招式则会失败": "Strikes first with electricity. Fails if the target's move isn't an attack",
+"可以现在结算这一局，也可以继续打无限模式：怪越来越多，倒下时再结算。": "You can settle this run now, or keep going in Endless Mode: more monsters, settle when you fall.",
+"可爱地凝视，诱使对手疏忽大意，从而大幅降低对手的攻击": "Gazes cutely to lure the foe into letting its guard down, sharply lowering its Attack",
+"可用": "Available",
+"可用·已捕获": "Available · Caught",
+"可用·未捕获": "Available · Not Caught",
+"右上角「商店」：局里能买药、精灵球、进化道具（暂停时也能开）。点数靠打怪、捡金珠攒；回到选宠页还能买糖果、携带道具、技能机器。": "Top-right \"Shop\": buy medicine, Poké Balls and evolution items in-run (works while paused). Earn Points from kills and gold orbs; back on the pet screen you can also buy Candy, held items and TMs.",
+"叶之石": "Leaf Stone",
+"吃掉携带的树果，大幅提高防御": "Eats the held Berry to sharply raise Defense",
+"吃掉正在睡觉的对手的梦进行攻击。回复对手所受到伤害的一半ＨＰ": "Eats the dreams of a sleeping foe to attack. Restores half the damage dealt as HP",
+"各地区（抓到 / 这里会出现的）": "Regions (caught / appear here)",
+"同上，PP / 冷却接线留后项。": "Same as above; PP / cooldown wiring deferred.",
+"同上：不做队伍 / 复活队友。": "Same as above: no party / reviving allies.",
+"同上：原作平衡全队经验，本作无队伍、无等价标量，待适配，不自造倍率。": "Same as above: the original balances EXP across the party; this game has no party or equivalent scalar, pending adaptation, no made-up multiplier.",
+"同上：局内只药 / 球。": "Same as above: in-run potions / balls only.",
+"同上：局内只药 / 球，原 PP 全补无货架。": "Same as above: in-run potions / balls only; full PP restore has no shop stock.",
+"名称": "Name",
+"向天许愿，从而在５回合内不会被对手的攻击打中要害": "Wishes upon the sky so the foe can't land critical hits for 5 turns",
+"向对手使出如子弹般快速而坚硬的拳头。必定能够先制攻击": "Throws a bullet-hard fast punch at the foe. Always strikes first",
+"向对手使出强烈的一击。攻击必定会击中要害": "Delivers a powerful blow to the foe. Always a critical hit",
+"向对手使出来自南国的火热脚踢。从而降低对手的攻击": "Delivers a fiery kick from the south at the target, lowering its Attack",
+"向对手使出灌注了全心全力的撞击。自己的防御和特防会降低": "Charges the target with all-out power. Lowers the user's Defense and Sp. Def",
+"向对手劈下暴雷进行攻击。有时会让对手陷入麻痹状态": "Strikes the foe with a thunderbolt. May paralyze the foe",
+"向对手发出强力电击进行攻击。有时会让对手陷入麻痹状态": "Hits the target with a powerful electric shock. May paralyze",
+"向对手发出微弱的电击，从而让对手陷入麻痹状态": "Hits the target with a weak electric shock, paralyzing it",
+"向对手发射冰冻光束进行攻击。有时会让对手陷入冰冻状态": "Fires a freezing beam at the foe. May freeze the foe",
+"向对手发射坚硬的岩石进行攻击。连续攻击２～５次": "Fires hard rocks at the foe 2-5 times",
+"向对手发射小型火焰进行攻击。有时会让对手陷入灼伤状态": "Fires a small flame at the foe. May burn the foe",
+"向对手发射巨大的岩石进行攻击。下一回合自己将无法动弹": "Launches a huge boulder at the foe. The user can't move next turn",
+"向对手发射强光，并给予伤害": "Fires a strong light at the foe, dealing damage",
+"向对手发射强烈的光线进行攻击。下一回合自己将无法动弹": "Fires a powerful beam at the target. The user can't move next turn",
+"向对手发射烈焰进行攻击。有时会让对手陷入灼伤状态": "Fires a blast of fire at the foe. May burn the foe",
+"向对手发射电击光束。由于蓄满电流，有时会提高自己的特攻": "Fires an electric beam. The charge may raise its own Sp. Atk",
+"向对手发射神奇的光线进行攻击。有时会使对手混乱": "Fires a mysterious beam at the foe. May confuse the foe",
+"向对手发射神奇的念波进行攻击。每次使用，伤害都会改变": "Fires a strange wave of psychic power. Damage varies each use",
+"向对手发射虹色光束进行攻击。有时会降低对手的攻击": "Fires a rainbow-colored beam at the foe. May lower its Attack",
+"向对手发射锋利的冰柱进行攻击。连续攻击２～５次": "Fires sharp icicles at the foe. Hits 2-5 times",
+"向对手发射锐针进行攻击。连续攻击２～５次": "Fires sharp needles at the foe. Hits 2-5 times",
+"向对手发送强大的念力进行攻击。有时会降低对手的特防": "Sends a powerful telekinetic wave at the foe. May lower its Sp. Def",
+"向对手发送谜之念波。接收到念波的对手，其特性会变为单纯": "Sends a mysterious psychic wave at the foe. The foe's Ability becomes Simple",
+"向对手喷出烟或墨汁等，从而降低对手的命中率": "Sprays smoke or ink at the foe, lowering its accuracy",
+"向对手喷射水炮进行攻击。下一回合自己将无法动弹": "Fires a water cannon at the target. The user can't move next turn",
+"向对手喷射浑浊的水进行攻击。有时会降低对手的命中率": "Fires muddy water at the target. May lower accuracy",
+"向对手喷射煮得翻滚的开水进行攻击。有时会让对手陷入灼伤状态": "Shoots boiling hot water at the foe. May burn the foe",
+"向对手喷洒魔法粉，使对手变为超能力属性": "Sprinkles magic powder on the foe, turning it into a Psychic type",
+"向对手快速发出电击。攻击必定会命中": "Shocks the target swiftly. Never misses",
+"向对手投掷圆形物体进行攻击。连续攻击２～５次": "Hurls round objects at the foe 2-5 times",
+"向对手投掷泥块进行攻击。同时降低对手的速度": "Hurls mud at the foe. Also lowers its Speed",
+"向对手投掷特殊的泥块进行攻击。使其能力变回原点": "Hurls special mud at the foe. Resets its stat changes",
+"向对手投掷钢铁齿轮进行攻击。连续２次给予伤害": "Hurls steel gears at the foe. Hits twice in a row",
+"向对手放出光弹。属性会根据自己携带的卡带不同而改变": "Fires an energy orb at the foe. Its type changes with the held cassette",
+"向对手放出无数的光弹。属性会根据自己携带的石板不同而改变": "Releases countless balls of light at the foe. Type changes with the held Plate",
+"向对手施加森林咒术。中了咒术的对手会被追加草属性": "Casts a forest curse on the target. Adds Grass type to the target",
+"向对手猛烈地发射种子进行攻击。连续攻击２～５次": "Fires seeds at the foe in a fury. Hits 2 to 5 times in a row",
+"向对手猛烈地喷射大量水流进行攻击": "Blasts the foe with a huge volume of water",
+"向对手猛烈地喷射水流进行攻击": "Blasts the foe with a torrent of water",
+"向对手猛烈地喷射泡沫进行攻击。有时会降低对手的速度": "Blasts the foe with a flurry of bubbles. May lower the foe's Speed",
+"向对手用力吹起无数泡泡进行攻击。有时会降低对手的速度": "Blows countless bubbles at the foe. May lower the foe's Speed",
+"向对手的脸等喷出墨汁进行攻击。有时会降低对手的命中率": "Squirts ink at the foe's face. May lower its accuracy",
+"向对手的脸等投掷泥块进行攻击。会降低对手的命中率": "Hurls mud at the foe's face. Lowers its accuracy",
+"向对手的身体发出冲击波进行攻击。有时会让对手陷入麻痹状态": "Sends a shock wave through the target's body. May paralyze",
+"向对手的身体投掷小金币进行攻击。战斗后可以拿到钱": "Throws small coins at the foe. Money can be picked up after battle",
+"向对手脚下释放出大地之力。有时会降低对手的特防": "Unleashes the power of the earth beneath the foe. May lower its Sp. Def",
+"向对手释放自然之怒。对手的ＨＰ会减半": "Unleashes nature's fury. Halves the target's HP",
+"向新月献上祈祷，回复自己和场上同伴的ＨＰ和状态": "Prays to the new moon, restoring HP and status of the user and allies",
+"向自己施以自我暗示，将能力变化的状态变得和对手一样": "Hypnotizes itself to copy the foe's stat changes",
+"听到灭亡之歌的宝可梦 3 秒后会倒下！": "Pokémon that hear the Perish Song will faint in 3 seconds!",
+"启动齿轮，提高特性为正电和负电的宝可梦的攻击和特攻": "Spins gears, raising Attack and Sp. Atk of Pokémon with Plus or Minus",
+"启用被动": "Enable Passive",
+"吸取对手的养分进行攻击。可以回复给予对手伤害的一半ＨＰ": "Drains the foe's nutrients to attack. Restores half the damage dealt as HP",
+"吸取经验的范围 +0.6 米。": "EXP pickup range +0.6 m.",
+"吸取血液攻击对手。可以回复给予对手伤害的一半ＨＰ": "Sucks the foe's blood to attack. Restores half the damage dealt as HP",
+"吸附距离": "Pickup range",
+"吹捧对手，使其混乱。同时还会提高对手的特攻": "Flatters the target into confusion while raising its Sp. Atk",
+"吹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束": "Blows the foe away and forces a reserve Pokémon in. If the foe is wild, the battle ends",
+"呼唤雷云引起风暴，用雷与风进行激烈的攻击。有时会让对手陷入麻痹状态": "Summons thunderclouds and a storm, attacking fiercely with thunder and wind. May paralyze",
+"命中": "Accuracy",
+"命中最近的敌人后使其中毒，不造成直接伤害。": "Poisons the nearest enemy on hit; deals no direct damage.",
+"命中最近的敌人后使其混乱，不造成直接伤害。": "Hits the nearest enemy and confuses it; deals no direct damage.",
+"命中最近的敌人后使其睡眠，不造成直接伤害。": "Puts the nearest enemy it hits to sleep; deals no direct damage.",
+"命中最近的敌人后使其麻痹，不造成直接伤害。": "Paralyzes the nearest enemy it hits; deals no direct damage.",
+"和对手和睦相处，使其失去战斗的气力，从而降低对手的攻击": "Gets along with the target and saps its will to fight, lowering its Attack",
+"和对手进行密语，使其失去集中力，从而降低对手的特攻": "Whispers to the foe to break its focus and lower its Sp. Atk",
+"咒术铠甲": "Cursed Armor",
+"商店": "Shop",
+"商店 · 局内": "Shop · In-run",
+"商店 · 局外": "Shop · Meta",
+"喷出烟雾攻击对手。有时会使对手混乱": "Belches smoke at the foe. May confuse the foe",
+"喷出能溶化对手的液体进行攻击。会大幅降低对手的特防": "Sprays a liquid that melts the foe. Sharply lowers the foe's Sp. Def",
+"喷洒出神奇的水，回复自己和场上同伴的ＨＰ": "Sprays mysterious water to restore HP of the user and allies",
+"回到上一步，重新选。": "Go back one step and choose again.",
+"回到选宠页": "Back to pet select",
+"回复": "Heal",
+"回复 20 点，或最大 HP 的 10%，取较高者": "Restores 20 HP or 10% of max HP, whichever is higher",
+"回复 200 点，或最大 HP 的 50%，取较高者": "Restores 200 points or 50% of max HP, whichever is higher",
+"回复 50 点，或最大 HP 的 25%，取较高者": "Restores 50 points or 25% of max HP, whichever is higher",
+"回复体力": "Restore HP",
+"回复全部 HP（最大 HP 的 100%）": "Restores all HP (100% of max HP)",
+"回复全部 HP，并解除主要异常（不影响混乱）": "Restores all HP and cures major status conditions (not confusion)",
+"回复生命": "Heal",
+"回复自己最大ＨＰ的一半": "Restores half the user's max HP",
+"回复自己最大ＨＰ的一半。在沙暴中回复得更多": "Restores half of max HP. Restores more in a sandstorm",
+"回复自己的ＨＰ。根据天气的不同，回复量也会有所变化": "Restores the user's HP. Amount varies with the weather",
+"回复：买了立刻对当前上场的宝可梦使用。（想省点数：买树果更划算，自动吃。）": "Heal: used on the active Pokémon immediately when bought. (To save Points, Berries are better value and are eaten automatically.)",
+"回车 开始": "Enter to Start",
+"固执": "Adamant",
+"图鉴": "Pokédex",
+"圈里没有可以投出的目标": "No throwable target in range",
+"在?[0-9０-９５]+回合(内|之间|中|里)?[，,]?": "在?[0-9０-９５]+回合(内|之间|中|里)?[，,]?",
+"在下一回合回复自己或是替换出场的宝可梦最大ＨＰ的一半": "Next turn, restores half the max HP of the user or the Pokémon switched in",
+"在使用招式２回合后，向对手发送一团念力进行攻击": "Sends a psychic mass at the foe two turns after use",
+"在大地上扎根，每回合回复自己的ＨＰ。因为扎根了，所以不能替换宝可梦": "Roots itself to restore HP each turn. Can't switch out while rooted",
+"在对手周围围上黏黏的网，降低替换出场的对手的速度": "Surrounds the target with sticky webs, lowering the Speed of switched-in opponents",
+"在对手的脚下扔撒菱。对替换出场的对手的宝可梦给予伤害": "Scatters Spikes at the foe's feet. Damages foes that switch in",
+"在对手的脚下撒毒菱。使对手替换出场的宝可梦中毒": "Scatters Toxic Spikes at the foe's feet. Poisons foes that switch in",
+"在攻击之后急速返回，和后备宝可梦进行替换": "Rushes back after attacking to swap with a reserve Pokémon",
+"在短时间内，让身边的对手无法回复HP": "For a short time, nearby foes can't recover HP",
+"在破坏场地的同时攻击对手。如果脚下没有任何场地状态存在，使出此招式时便会失败": "Attacks while destroying terrain. Fails if no terrain exists under the user",
+"在自己睡觉时，发出噪音进行攻击。有时会使对手畏缩": "Makes a racket to attack while the user is asleep. May make the foe flinch",
+"在自己身体的周围覆盖用水制造的幕。每回合回复ＨＰ": "Surrounds itself with a veil of water. Restores HP every turn",
+"在风中掺入鳞粉攻击对手。有时会提高自己的全部能力": "Attacks with wind mixed with scales. May raise all of the user's stats",
+"在１回合内防住击打我方全员的攻击": "Protects the whole party from attacks for 1 turn",
+"在２～３回合内，一边放出火焰，一边疯狂乱打。大闹一番后自己会陷入混乱": "Rampages for 2-3 turns, breathing fire. The user becomes confused afterward",
+"在２～３回合内，乱打一气地攻击对手。大闹一番后自己会陷入混乱": "Rampages at the target for 2-3 turns. The user becomes confused afterward",
+"在２～３回合内，乱打一气地进行攻击。大闹一番后自己会陷入混乱": "Rampages for 2-3 turns. Confuses the user afterwards",
+"在２～３回合内，散落花瓣攻击对手。之后自己会陷入混乱": "Scatters petals at the foe for 2-3 turns. The user then becomes confused",
+"在３回合内大吵大闹攻击对手。在此期间谁都不能入眠": "Makes an uproar for 3 turns. No one can sleep meanwhile",
+"在４～５回合内死缠烂打地进行攻击。在此期间对手将无法逃走": "Attacks relentlessly for 4-5 turns. The foe can't flee meanwhile",
+"在５回合内一直降冰雹，除冰属性的宝可梦以外，给予全体宝可梦伤害": "Hail falls for 5 turns, hurting all but Ice types",
+"在５回合内一直降雨，从而提高水属性的招式威力。火属性的招式威力则降低": "Rain falls for 5 turns, boosting Water moves and weakening Fire moves",
+"在５回合内会下雪。冰属性的防御会提高": "Snow falls for 5 turns. Raises Ice types' Defense",
+"在５回合内减弱物理和特殊的伤害。只有下雪时才能使出": "Weakens physical and special damage for 5 turns. Only usable in snow",
+"在５回合内变成电气场地。地面上的宝可梦将无法入眠。电属性的招式威力还会提高": "Turns the ground into Electric Terrain for 5 turns. Grounded Pokémon can't fall asleep. Boosts Electric moves",
+"在５回合内变成青草场地。地面上的宝可梦每回合都能回复。草属性的招式威力还会提高": "Turns the ground to Grassy Terrain for 5 turns. Grounded Pokémon heal each turn. Boosts Grass moves",
+"在５回合内扬起沙暴，除岩石、地面和钢属性以外的宝可梦，都会受到伤害。岩石属性的特防还会提高": "Sandstorm for 5 turns hurts all but Rock, Ground and Steel types. Raises Rock types' Sp. Def",
+"在５回合内攻击对手。招式每次击中，威力就会提高": "Attacks for 5 turns. Power rises each time the move hits",
+"在５回合内被神奇的力量守护，从而不会陷入异常状态": "Protected by a mystical power for 5 turns; no status conditions",
+"在５回合内让日照变得强烈，从而提高火属性的招式威力。水属性的招式威力则降低": "Harsh sunlight for 5 turns, boosting Fire moves and weakening Water moves",
+"在５回合内连续滚动攻击对手。招式每次击中，威力就会提高": "Rolls into the foe for 5 turns. Power rises with each hit",
+"在５回合内，地面上的宝可梦不会受到先制招式的攻击。超能力属性的招式威力会提高": "For 5 turns, grounded Pokémon can't be hit by priority moves. Psychic moves are boosted",
+"在５回合内，地面上的宝可梦不会陷入异常状态。龙属性招式的伤害也会减半": "For 5 turns, grounded Pokémon can't be afflicted by status. Also halves Dragon-type damage",
+"在５回合内，飘浮特性和飞行属性的宝可梦会被地面属性的招式击中。飞向空中的招式也将无法使用": "For 5 turns, Levitate and Flying-type Pokémon can be hit by Ground-type moves. Moves that fly into the air can't be used",
+"地区起点": "Region start",
+"坦率": "Docile",
+"城镇": "Town",
+"培养": "Train",
+"基拉祈": "Keldeo",
+"墓地": "Graveyard",
+"复合金属": "Metal Alloy",
+"外功": "Outer Skill",
+"多一个招式槽（每个）：1 个带 5 招、2 个带 6 招（本作自己加的道具，用户 2026-10-24）": "One extra move slot (each): 1 = 5 moves, 2 = 6 moves (custom item for this game, user 2026-10-24)",
+"夜晚": "Night",
+"大力挥舞粗壮的茎进行攻击。但同时自己也会被晃晕，下一回合自己将无法动弹": "Swings a thick vine hard to attack. The user gets dizzy and can't move next turn",
+"大声吼叫提高气势，从而提高自己和同伴的攻击": "Roars to raise morale, boosting the Attack of the user and allies",
+"大大地展开美丽的翅膀，将其撞向对手进行攻击": "Spreads its beautiful wings wide and slams into the target",
+"大师": "Master",
+"大胆": "Bold",
+"大葱鸭 / 葱游兵专用：会心等级 +2": "Farfetch'd / Sirfetch'd only: crit stage +2",
+"天真": "Naive",
+"太晶 / 携带道具系统本作未实现。": "Terastallize / held item system not implemented in this game.",
+"太晶系统本作未实现。": "Terastallize system not implemented in this game.",
+"太空": "Space",
+"头目": "Boss",
+"头目来了": "Boss incoming",
+"头目还在！打倒它，或者等它离开，才能撤离": "The boss is still here! Defeat it or wait for it to leave before you can extract",
+"头目还有护体，先继续削弱或换大师球": "Boss still has a shield; keep weakening it or switch to a Master Ball",
+"奇迹种子": "Miracle Seed",
+"奏响吉他和贝斯，释放出发出巨响的剧烈震动攻击对手": "Plays guitar and bass, attacking with deafening, violent vibrations",
+"好感获得 +50%（每个），物种糖果来得更快": "Friendship gain +50% (each); species Candy comes faster",
+"如刀刃般喷射出加压的水切开对手。容易击中要害": "Slices the foe with pressurized water like a blade. High critical-hit ratio",
+"如唱歌一样喷出熊熊燃烧的火焰烧焦对手。会提高自己的特攻": "Spews blazing flames like a song to scorch the foe. Raises the user's Sp. Atk",
+"如惊涛骇浪般挥动大尾巴攻击对手": "Swings its big tail like crashing waves to attack",
+"如果使用此招式打倒对手，攻击会巨幅提高": "Sharply raises Attack if this move KOs the foe",
+"如果受到对手的招式攻击，就能给予对手２倍的伤害": "If hit by the target's move, deals double damage back",
+"如果受到对手的招式攻击，就能给予该对手２倍威力的攻击": "If hit by the target's move, strikes back at that target with 2x power",
+"如果在使出招式后受到攻击的话，会因愤怒的力量而提高攻击": "If hit after using this move, the user's Attack rises from rage",
+"如果给予过伤害的对手已经结束行动，其特性就会被消除": "If the foe that was damaged has already acted, its Ability is nullified",
+"妖精之羽": "Fairy Feather",
+"妖精洞窟": "Fairy Cave",
+"威力很高的招式，但只有在出场战斗时，立刻使出才能成功": "A powerful move, but it only works if used right after entering battle",
+"存档写不进去，没解锁": "Can't write save; not unlocked",
+"学习新招式": "Learn new move",
+"学招计划": "Move Plan",
+"学招计划: 勾最多 4 个想学的招": "Move plan: tick up to 4 moves to learn",
+"学过": "Learned",
+"守护自己和同伴，以防对手的先制攻击": "Protects the user and allies from priority moves",
+"完全抵挡对手的攻击。连续使出则容易失败": "Completely blocks the foe's attack. Likely to fail if used in a row",
+"完全抵挡对手的攻击。连续使出则容易失败。一旦触碰，防御就会大幅降低": "Completely blocks the foe's attack. Likely to fail if used in a row. Contact sharply lowers Defense",
+"完成": "Done",
+"宝可梦图鉴": "Pokédex",
+"实验室": "Lab",
+"宠物详情": "Pet Details",
+"害羞": "Bashful",
+"密勒顿": "Miraidon",
+"对手的ＨＰ至少会留下１ＨＰ，如此般手下留情地攻击": "Attacks with mercy, always leaving the foe at 1 HP or more",
+"对敌人使用是会爆炸的团子。对我方使用则是给予回复的团子": "Dumpling that explodes on enemies. On allies it's a healing dumpling",
+"对自己周围的所有宝可梦进行攻击，但使出后，自己会陷入昏厥。在薄雾场地上，招式威力会提高": "Attacks all Pokémon around the user, but the user faints. Stronger in Misty Terrain",
+"封住对手最近用过的招式，在短时间内无法再使用": "Seals the foe's most recently used move so it can't be used for a short time",
+"将做了手脚的花束扔向对手进行攻击。必定会命中，且会击中要害": "Throws a booby-trapped bouquet at the foe. Never misses and always lands a critical hit",
+"将全身所有的电力放出，给予对手大大的伤害。自己的电属性将会消失": "Releases all its electricity to deal massive damage to the foe. The user loses its Electric type",
+"将冰冷的气息吹向对手进行攻击。必定会击中要害": "Blows a cold breath at the foe. Always lands a critical hit",
+"将冰冷的细雪吹向对手进行攻击。有时会让对手陷入冰冻状态": "Blows fine, cold snow at the foe. May freeze the foe",
+"将冰冻的冷气吹向对手进行攻击。会降低对手的速度": "Blows freezing cold air at the foe. Lowers its Speed",
+"将冰山般巨大的冰块砸向对手进行攻击。有时会使对手畏缩": "Slams the foe with a huge chunk of ice like an iceberg. May make the foe flinch",
+"将凝缩在体内的能量从核心放出进行攻击，对手等级比当前波次的等级上限越高，造成的伤害越高，最多两倍。": "Releases energy condensed in the core to attack; the higher the foe's level above the current wave cap, the more damage, up to double.",
+"将叶片打向对手，进行攻击": "Hits the foe with leaves",
+"将外壳坚硬的大种子，从上方砸下攻击对手": "Drops a big hard-shelled seed on the foe from above",
+"将大地的力量变化为利刃攻击对手": "Turns the earth's power into blades to attack the foe",
+"将大岩石猛烈地撞向对手进行攻击。有时会使对手畏缩": "Slams a huge rock into the target. May cause flinching",
+"将大量的水泼向对手，从而使其变成水属性": "Splashes lots of water on the target, making it Water type",
+"将头伸出，笔直地扑向对手进行攻击。有时会使对手畏缩": "Thrusts its head out and charges straight at the target. May cause flinching",
+"将头脑清空，瞬间忘记某事，从而大幅提高自己的特防": "Empties the mind and forgets in an instant, sharply raising Sp. Def",
+"将对世间的留恋聚集于剑尖，并斩击对手。可以回复给予对手伤害的一半ＨＰ": "Gathers lingering attachment to the world on the sword tip and slashes. Restores half the damage dealt as HP",
+"将对手从两侧夹住，给予伤害": "Squeezes the target from both sides to deal damage",
+"将对手困在激烈的水流旋涡中，在４～５回合内进行攻击": "Traps the foe in a violent whirlpool for 4-5 turns",
+"将对手困在激烈的火焰旋涡中，在４～５回合内进行攻击": "Traps the foe in a fierce vortex of fire for 4-5 turns while attacking",
+"将对手困在熊熊燃烧的火焰中，在４～５回合内进行攻击": "Traps the foe in blazing flames for 4-5 turns",
+"将对手困在电流四溅的囚笼中，在４～５回合内进行攻击": "Traps the target in a cage of sparking electricity and attacks for 4-5 turns",
+"将对手困在铺天盖地的沙暴中，在４～５回合内进行攻击": "Traps the foe in a raging sandstorm for 4-5 turns",
+"将对手强制拖入黑暗的世界，从而让对手陷入睡眠状态": "Drags the foe into a world of darkness, putting it to sleep",
+"将对手连同周围的空间一起撕裂并给予伤害。容易击中要害": "Tears apart the foe along with the space around it. High critical-hit ratio",
+"将对手连同自己一起摔向地面进行攻击。自己也会受到少许伤害": "Slams the foe into the ground along with the user. The user also takes some damage",
+"将带电的脸颊蹭蹭对手进行攻击。让对手陷入麻痹状态": "Rubs its electrified cheeks against the foe. Paralyzes the foe",
+"将强烈的气息吹向对手进行攻击。有时会让对手陷入麻痹状态": "Blows a powerful breath at the foe. May paralyze the foe",
+"将强酸泼向对手进行攻击。有时会降低对手的特防": "Splashes strong acid at the target. May lower Sp. Def",
+"将思念的力量集中在前额进行攻击。有时会使对手畏缩": "Concentrates thought on the forehead and attacks. May cause flinching",
+"将恶之流派修炼至大成的猛烈一击。必定会击中要害": "A fierce blow from a mastered dark style. Always a critical hit",
+"将愤怒化为力量攻击。受到攻击的次数越多，招式的威力越高": "Turns rage into power. The more hits taken, the greater the power",
+"将愤怒转化为火焰般的气场进行攻击。有时会使对手畏缩": "Turns anger into a fiery aura to attack. May make the foe flinch",
+"将手刀猛烈地挥下攻击对手。还可以破坏光墙和反射壁等": "Swings a hand down fiercely. Can also break Light Screen, Reflect and more",
+"将掀起来的榻榻米当作盾牌，防住自己和同伴免受招式伤害。变化招式无法防住": "Uses a flipped tatami mat as a shield to protect itself and allies from damage. Can't block status moves",
+"将撒菱、隐形岩、黏黏网、毒菱、替身全部扫除掉。自己的攻击和速度会提高": "Clears away Spikes, Stealth Rock, Sticky Web, Toxic Spikes and substitutes. Raises own Attack and Speed",
+"将无数岩石悬浮在对手的周围，从而对替换出场的对手的宝可梦给予伤害": "Floats rocks around the foe, damaging Pokémon that switch in",
+"将有毒的针刺入对手进行攻击。有时会让对手陷入中毒状态": "Stabs the target with a poisonous needle. May poison",
+"将棉花般柔软的孢子紧贴对手，从而大幅降低对手的速度": "Sticks cotton-soft spores to the target, sharply lowering its Speed",
+"将毒瓦斯吹到对手的脸上，从而让对手陷入中毒状态": "Blows poison gas in the foe's face to poison it",
+"将混有毒的丝吐向对手。使其中毒，从而降低对手的速度": "Spits poisoned silk at the foe. Poisons it and lowers its Speed",
+"将滚烫的蒸汽喷向对手。有时会让对手灼伤": "Blasts scalding steam at the foe. May burn the foe",
+"将激流覆盖于拳头，以肉眼无法辨识的速度打出拳击。必定能够先制攻击": "Wraps a fist in torrential water and punches at an unseeable speed. Always strikes first",
+"将炎热的气息吹向对手进行攻击。有时会让对手陷入灼伤状态": "Blows scorching breath at the target. May burn",
+"将煮得翻滚的开水猛烈地喷向对手。日照强烈时，招式威力不但不会降低，还会变成１．５倍": "Blasts boiling water at the foe. Not weakened in harsh sunlight; power ×1.5",
+"将爪子磨得更加锋利。提高自己的攻击和命中率": "Sharpens its claws. Raises the user's Attack and accuracy",
+"将特殊的毒液泼向对手。对处于中毒状态的对手，其攻击、特攻和速度都会降低": "Splashes special poison on the target. Lowers Attack, Sp. Atk, and Speed of a poisoned target",
+"将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成２倍": "Splashes special poison on the target. Power doubles if the target is poisoned",
+"将猛烈的暴风雪刮向对手进行攻击。有时会让对手陷入冰冻状态": "Whips up a fierce blizzard at the foe. May freeze it",
+"将皮肤变得坚硬如铁盾，从而大幅提高自己的防御": "Hardens skin like an iron shield, sharply raising Defense",
+"将皮肤变得坚硬如铁，从而大幅提高自己的防御": "Hardens the skin like iron, sharply raising Defense",
+"将神奇的念波实体化攻击对手。给予物理伤害": "Materializes mystical psychic waves to attack. Deals physical damage",
+"将积蓄的力量吞下，从而回复自己的ＨＰ。积蓄得越多，回复越大": "Swallows stockpiled power to restore HP. The more stockpiled, the more restored",
+"将积蓄的力量撞向对手进行攻击。积蓄得越多，威力越大": "Slams the foe with stored-up power. The more stored, the stronger",
+"将结冰的冷气吹向对手进行攻击。会降低对手的速度": "Blows freezing cold air at the target. Lowers Speed",
+"将翅膀撞向对手进行攻击。连续２次给予伤害": "Strikes the target with wings. Hits twice",
+"将肮脏的浓雾吹向对手进行攻击。有时会让对手陷入中毒状态": "Blows foul fog at the foe. May poison the foe",
+"将胃液吐向对手的身体。沾上的胃液会消除对手的特性效果": "Spits gastric fluid at the foe. It erases the foe's Ability effect",
+"将自己全身燃烧起火焰来，给予对手大大的伤害。自己的火属性将会消失": "Engulfs the user in flames to deal heavy damage. The user loses its Fire type",
+"将自己的ＨＰ减少到最大ＨＰ的一半，从而最大限度提高自己的攻击": "Halves the user's HP to maximize its Attack",
+"将自己的ＨＰ和对手的ＨＰ相加，然后自己和对手友好地平分": "Adds the user's HP and the foe's HP, then splits the total evenly between them",
+"将角刺入，吸取对手的养分。可以回复给予对手伤害的一半ＨＰ": "Stabs with a horn to drain the target's nutrients. Restores half the damage dealt as HP",
+"将踢起的脚跟往下劈向对手进行攻击。有时会使对手混乱。如果劈偏则自己会受到伤害": "Brings a raised heel down on the foe. May confuse the foe. If it misses, the user is hurt",
+"将身体当作锤子，向对手发动袭击，给予伤害": "Uses its body like a hammer to slam the foe",
+"将身体的光芒聚集在一点释放出去。有时会降低对手的特防": "Gathers the body's light into one point and releases it. May lower the foe's Sp. Def",
+"将锚缠住对手进行攻击。使对手无法逃走": "Wraps an anchor around the foe to attack. The foe can't flee",
+"将镰刀或爪子像剪刀般地交叉，顺势劈开对手": "Crosses sickles or claws like scissors and slashes the foe",
+"将２根针刺入对手，连续２次给予伤害。有时会让对手陷入中毒状态": "Stabs the foe with 2 needles, hitting twice. May poison the foe",
+"尚未开放": "Not yet available",
+"局内只药 / 球；原 PP 回复消耗品暂无货架。": "In-run: only Potions / Balls; old PP-restore consumables have no shelf yet.",
+"局内消耗品：伤药购买即用；精灵球按份购买、用不完的会带到以后的局；想抓宠物就在左边选球（或按数字键 1–5），选好直接去战场上放圈。": "In-run consumables: Potions are used on purchase; Poké Balls are bought by the pack and leftovers carry over to later runs. To catch a pet, pick a ball on the left (or press 1-5), then go to the field and place the ring.",
+"属性": "Type",
+"属性（按 1 级计算）": "Stats (at Lv. 1)",
+"属性：": "Stats:",
+"山地": "Mountain",
+"岛屿": "Island",
+"工厂": "Factory",
+"工地": "Construction Site",
+"左下是你的招式。按 Esc 暂停后点它们可以开 / 关：抓宠物的时候把攻击招关掉，就不会把目标打死。": "Your moves are at the bottom left. Press Esc to pause, then click them to toggle: turn attack moves off when catching a pet so you don't kill the target.",
+"左下选精灵球 → 点伊布脚下放圈，就扔出去了（这只伊布在教学里打不死，放心扔；被打残了更容易进）。抓到的宝可梦下一局就能当首发。": "Bottom left: pick a Poké Ball → click under Eevee to place a ring and throw (this Eevee can't be KO'd in the tutorial; throw freely, weaker is easier to catch). Caught Pokémon can lead the next run.",
+"左键 +1 层，右键 -1 层": "Left-click +1 stack, right-click -1 stack",
+"巨型绿毛虫": "Giant Caterpie",
+"已带满": "Full",
+"已拥有 · 开局带着": "Owned · equipped at start",
+"已拥有 · 开局没带": "Owned · Not brought",
+"已捕获": "Caught",
+"已捕获优先": "Caught First",
+"已满 252": "Max 252",
+"已满级": "Max Level",
+"已经买了一个，先离开商店进化": "Already bought one; leave the shop to evolve first",
+"已经勾满 4 个了，先取消一个。": "Already ticked 4. Untick one first.",
+"已经解锁过了": "Already unlocked",
+"已达上限": "Maxed",
+"带上": "Equip",
+"带着的技能机器": "Held TMs",
+"常见宝可梦": "Common Pokémon",
+"平原": "Plains",
+"平时一局：活过 5 分钟就能撤离、去新的地区（等级、宠物都带走）；4:30 会来头目。剩下半分钟随便打吧！": "Normal run: survive 5 minutes to extract and move to a new region (level and pets carry over); a boss arrives at 4:30. Fight freely for the last half minute!",
+"幻之": "Mythical",
+"开关": "Toggle",
+"开发者设置 ▸": "Developer Settings ▸",
+"开发者设置 ▾": "Developer Settings ▾",
+"开始": "Start",
+"开始冒险": "Start Adventure",
+"开局带着": "Starts With",
+"开局招": "Starter move",
+"开局招（融合了两只的都算；按顺序填机器剩下的槽，点「留在家里」就跳过它、让后面的上）": "Starting moves (fused counts both; fills remaining machine slots in order; \"Leave at home\" skips it for the next one)",
+"开局等级": "Starting level",
+"开局等级: ": "Starting Level:",
+"异常": "Status",
+"异常状态被治愈了！": "Status condition cured!",
+"异常解除": "Status cured",
+"引发大爆炸，攻击自己周围所有的宝可梦。使用后自己会陷入昏厥": "Causes a huge explosion hitting all Pokémon around the user. The user faints",
+"引发毁灭性的灾厄，使对手的ＨＰ减半": "Brings about devastating calamity, halving the foe's HP",
+"引发爆炸，攻击自己周围所有的宝可梦。使用后陷入昏厥": "Explodes, hitting all Pokémon around the user. The user faints afterward",
+"弯曲的汤匙": "Twisted Spoon",
+"弹跳到高高的空中，第２回合攻击对手。有时会让对手陷入麻痹状态": "Bounces high into the air and attacks on turn 2. May paralyze",
+"弹飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束": "Blows the foe away and forces a reserve Pokémon in. Ends the battle if the foe is wild",
+"当对手替换宝可梦上场时使出此招式的话，能够以２倍的威力进行攻击": "Hits with double power if the foe is switching out",
+"当对手的ＨＰ负伤到一半左右时，招式威力会变成２倍": "Power doubles when the foe's HP is at about half or less",
+"当战斗中已学会的招式全部使用过后，才能开始使出珍藏的招式": "Can only be used after all of the user's other moves have been used in battle",
+"当自己处于中毒、麻痹、灼伤状态时，向对手使出此招式的话，威力会变成２倍": "Power doubles if the user is poisoned, paralyzed, or burned",
+"形态变化道具系统本作未实现（现有进化 / 形态是另一套）。": "The form-change item system is not implemented in this game (existing evolutions / forms are a separate system).",
+"形象": "Appearance",
+"待进化": "Ready to evolve",
+"必中": "Sure Hit",
+"快": "Fast",
+"快到 1 分钟了：之后怪会一下子多起来。血不多就先去商店买药，别站在怪堆里。": "Almost 1 minute: monsters will surge soon. Low on HP? Buy potions at the shop first, and don't stand in the crowd.",
+"念起了幸运咒语！": "Lucky Chant was cast!",
+"怒鹦哥": "Fearow",
+"怕寂寞": "Lonely",
+"急剧冷冻对手，有时会让对手陷入冰冻状态。对于水属性宝可梦也是效果绝佳": "Rapidly freezes the foe, and may freeze it. Super effective on Water types too",
+"急躁": "Hasty",
+"急速旋转尖锐的身体部位贯穿对手。可以无视守住和看穿等招式": "Spins a sharp body part to pierce the foe. Ignores moves like Protect and Detect",
+"性格:": "Nature:",
+"性格效果加强：加的那项多 +10%、减的那项多 -10%（每个）": "Nature effect boosted: the raised stat gets an extra +10%, the lowered stat an extra -10% (each)",
+"恢复 HP": "Restore HP",
+"恶之秘传卷轴": "Scroll of Darkness",
+"恶行恶相地进行攻击。制造一道能减弱对手物理攻击的神奇墙壁": "Attacks with a sinister look. Creates a mystical wall that weakens the foe's physical attacks",
+"悄悄地靠近对手，趁其不备进行殴打。攻击必定会命中": "Sneaks up on the foe and strikes while it's off guard. Never misses",
+"悠闲": "Relaxed",
+"想抓它：按 Esc 暂停 → 左下选精灵球 → 点它脚下放圈就扔出去。先把它打到一半血以下更容易进；怕把它打死，可以在技能栏把攻击招关掉（暂停时点）。抓到的下一局能当首发。": "Want to catch it: press Esc to pause → bottom left Poké Ball → click under it to throw. Weaken it below half HP first. Afraid to KO it? Turn off attack moves in the skill bar (while paused). Caught ones can lead next run.",
+"慎重": "Cautious",
+"慢": "Slow",
+"慢吞吞": "Mild",
+"成长": "Growth",
+"成长速度: ": "Growth rate: ",
+"成长：神奇糖果（开局 +1 级 / 颗）、营养饮料（某一项努力值 +10 / 颗，上限 252），都买给图鉴里选中的那只；进化道具在局内商店买。招式、镜片、携带道具在上面另外几页。": "Growth: Rare Candy (+1 level at start / each) and Vitamins (+10 EV in one stat / each, max 252), both bought for the Pokédex pick; evolution items are bought in the in-run shop. Moves, lenses and held items are on the other pages above.",
+"战斗报告：本局没有受到伤害": "Battle report: no damage taken this run",
+"所有神兽": "All Legendaries",
+"所有能力变化都消失了！": "All stat changes were eliminated!",
+"打个大哈欠引起睡意。在下一回合让对手陷入睡眠状态": "Yawns to induce drowsiness. Puts the target to sleep next turn",
+"打中时 10% 几率让对方畏缩（每个）": "10% chance to make the foe flinch on hit (each)",
+"打出伤害的 1/8 回血（每个）": "Heal 1/8 of damage dealt (each)",
+"打开了": "Opened",
+"打最近的敌人造成特殊伤害，有一成机会使其混乱。": "Hits the nearest enemy for special damage, with a 10% chance to confuse.",
+"打最近的敌人造成特殊伤害，有一成机会使其麻痹。": "Deals special damage to the nearest enemy, with a 10% chance to paralyze it.",
+"打破外壳，降低自己的防御和特防，但大幅提高攻击、特攻和速度": "Breaks its shell, lowering Defense and Sp. Def but sharply raising Attack, Sp. Atk, and Speed",
+"打磨自己的身体，减少空气阻力。可以大幅提高自己的速度": "Polishes the body to reduce air resistance. Sharply raises Speed",
+"扔出大量硬币攻击。自己的特攻会降低，战斗后还可以拿到钱": "Throws a mass of coins. Lowers the user's Sp. Atk; money is earned after battle",
+"扔石头或炮弹，攻击飞行的对手。对手会被击落，掉到地面": "Throws rocks or cannonballs at a flying target. Knocks it to the ground",
+"扔飞对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束": "Throws the foe away and forces a reserve Pokémon in. If the foe is wild, the battle ends",
+"扮演对手，让自己的特性变得和对手相同": "Copies the target to make the user's Ability the same",
+"技能": "Skills",
+"技能机器": "TM",
+"技能机器 ": "TM",
+"把握并映射出对手的本质，让自己和同伴宝可梦的特性变得和对手相同": "Grasps and mirrors the target's nature so the user and allies share its Ability",
+"把生命力转换为力量攻击对手。自己的ＨＰ越少，招式的威力越小": "Converts life force into power. The lower the user's HP, the weaker the move",
+"把身后的最多 10 只宝可梦瞬间传送到面前 5 到 7 米处": "Instantly teleports up to 10 Pokémon behind you to 5-7 m in front of you",
+"把鼠标移到某一招上，可以看到它的威力和用途。": "Hover a move to see its power and use.",
+"把鼠标移到某个招式上看资料；学过的招只能加 PP、不能带。": "Hover a move for info; learned moves can only gain PP, not be equipped.",
+"抓住瞬间的空隙切斩对手。容易击中要害": "Slashes the foe in a split-second opening. High critical-hit ratio",
+"抓到个体值更高的同系宝可梦就会更新": "Updates when you catch a same-line Pokémon with higher IVs",
+"抓狂般乱打进行攻击。自己的ＨＰ越少，招式的威力越大": "Flails wildly. The lower the user's HP, the greater the power",
+"投掷一团黑影进行攻击。有时会降低对手的特防": "Hurls a shadowy blob at the foe. May lower its Sp. Def",
+"投掷岩石进行攻击。封住对手的行动，从而降低速度": "Hurls rocks at the foe, sealing its movement to lower its Speed",
+"投掷水球进行攻击。吸水后能回复等同于造成的伤害的HP": "Throws water balloons. Restores HP equal to the damage dealt",
+"折弯汤匙引开注意，从而降低对手的命中率": "Bends a spoon to distract the foe, lowering its accuracy",
+"抛下狠话威吓对手，降低攻击和特攻后，和后备宝可梦进行替换": "Taunts the target, lowering its Attack and Sp. Atk, then switches with a party Pokémon",
+"抛光自己的身体，向对手释放出闪光之力。有时会降低对手的命中率": "Polishes its body and unleashes a flash of light at the foe. May lower the foe's accuracy",
+"抢在正要出招的对手前面攻击。对手没在出招时会失败": "Strikes before a foe that is about to attack. Fails if the foe isn't attacking",
+"抵抗并攻击对手。会降低对手的特攻": "Fights back and attacks the foe. Lowers its Sp. Atk",
+"拍落对手的持有物，直到战斗结束都不能使用。对手携带道具时会增加伤害": "Knocks off the foe's held item so it can't be used for the rest of the battle. Deals more damage if the foe holds an item",
+"招式": "Moves",
+"招式准备中": "Move charging",
+"招式准备中：可用的初始招里还没有能造成伤害的招式，暂时不能上场。": "Moves in prep: no damaging starting move available yet, can't enter battle for now.",
+"招式加速": "Move speed",
+"招式命中 +5（每个）": "Move accuracy +5 (each)",
+"招式回忆": "Move Reminder",
+"招式槽满了，买的时候要选换掉哪一招": "Move slots full; choose which move to replace when buying",
+"招式的属性会随着使用此招式的宝可梦而改变": "The move's type changes with the Pokémon using it",
+"拼命使出浑身力气，向对手进行头锤攻击。自己也会受到非常大的伤害": "Headbutts the foe with all its might. Also deals huge damage to itself",
+"拼命撞向最近的敌人造成大伤害，自己受到造成伤害约三分之一的反伤。": "Rams the nearest enemy for big damage; the user takes about one third of the damage dealt as recoil.",
+"拿起小岩石，投掷对手进行攻击": "Picks up a small rock and throws it at the target",
+"持续掉血 ": "Bleeding",
+"按 1 / 2 / 3，或用鼠标点": "Press 1 / 2 / 3, or click",
+"按 Esc 暂停，然后：": "Press Esc to pause, then:",
+"按 R 再来一局": "Press R for another run",
+"按 R 重来": "Press R to restart",
+"挡主角就透掉": "Fades out when blocking the hero",
+"挥动手指刺激自己的大脑，从许多的招式中随机使出１个": "Waggles a finger to stimulate the brain, using a random move",
+"挥动拳头，掀起真空波。必定能够先制攻击": "Swings a fist to stir up a vacuum wave. Always strikes first",
+"挥舞强力而沉重的拳头，给予对手伤害。自己的速度会降低": "Swings a powerful, heavy fist to hurt the foe. Lowers the user's Speed",
+"挨致命一击时 10% 几率留 1 血（每个）": "10% chance to survive a fatal hit with 1 HP (each)",
+"捕捉圈大小": "Catch ring size",
+"捕捉镜": "Catch Lens",
+"捕获": "Catch",
+"换性格（N）": "Change Nature (N)",
+"掀起潮水进行攻击。自己的ＨＰ越少，招式的威力越小": "Stirs up a tide to attack. The lower the user's HP, the weaker the move",
+"掀起钻石风暴给予伤害。有时会大幅提高自己的防御": "Whips up a diamond storm. May sharply raise own Defense",
+"排序": "Sort",
+"接二连三地进行攻击。对处于异常状态的对手给予较大的伤害": "Attacks in rapid succession. Deals more damage to a target with a status condition",
+"接连发射出粒子的利刃，连续２次给予伤害。攻击必定会命中": "Fires blades of particles twice in a row. Never misses",
+"提高气势，释放出全部力量。有时会降低对手的特防": "Rouses itself and unleashes all its power. May lower the foe's Sp. Def",
+"提高自己的所有能力，但无法替换或逃走": "Raises all the user's stats, but it can't switch out or flee",
+"搜索编号 / 中文名": "Search No. / name",
+"携带道具": "Held item",
+"携带道具 + 全队濒死系统本作未实现。": "Held items + whole-team fainting system not implemented in this game.",
+"携带道具 + 原金钱系统本作没有。": "Held items + the original money system aren't in this game.",
+"携带道具 / 换人转移系统本作未实现。": "Held items / switch-out transfer system not implemented in this game.",
+"携带道具 / 树果系统未实现（list.md“携带道具·以后再说”）。": "Held items / Berry system not implemented (list.md \"held items: later\").",
+"携带道具 / 转移系统本作未实现。": "The held item / transfer system is not implemented in this game.",
+"携带道具 / 退缩系统本作未实现。": "Held item / flinch system not implemented in this game.",
+"携带道具 / 速度先制系统本作未实现。": "The held item / speed-priority system is not implemented in this game.",
+"携带道具系统本作未实现。": "The held item system is not implemented in this game.",
+"携带道具（照原版；给选中的宠物这一系买，进化前后都带着；每样能叠几个照原版）：": "Held items (as in the original; buy for the selected pet's line, held before and after evolution; stack limits per original):",
+"摇摇晃晃地跳起舞蹈，让自己周围的宝可梦陷入混乱状态": "Wobbles into a dance that confuses all Pokémon around the user",
+"摩擦全身鳞片，发出响亮的声音进行攻击。攻击后自己的防御会降低": "Rubs its scales together with a loud noise to attack. Lowers the user's Defense afterward",
+"撒出羽毛，笼罩在对手的周围。大幅降低对手的攻击": "Scatters feathers around the foe, sharply lowering its Attack",
+"撞击伤害": "Crash Damage",
+"撞击和虫咬伤害 +12%。吐丝不造成伤害。": "Tackle and Bug Bite damage +12%. String Shot deals no damage.",
+"撞向对手，并发出强电，使其感到麻麻刺刺的。有时会使对手畏缩": "Slams into the foe with strong electricity, giving it a tingly shock. May cause flinching",
+"撤离": "Extract",
+"撤离 [X]": "Extract [X]",
+"撤离时能去的地区全部列出来，不用掷（原版地图）": "All regions available on extraction are listed, no roll (original map)",
+"收拢翅膀，通过低空飞行突击对手。自己也会受到不小的伤害": "Folds its wings and charges the foe in low flight. The user also takes considerable damage",
+"收集": "Collection",
+"收集进度": "Collection progress",
+"攻": "Atk",
+"攻击": "Attack",
+"攻击冷却": "Attack Cooldown",
+"攻击对手后，有时会使其陷入灼伤状态。也容易击中要害": "May burn the foe after attacking. High critical-hit ratio",
+"攻击强化": "Attack Boost",
+"攻击的同时盗取对手的道具。": "Attacks and steals the foe's item.",
+"攻击的同时，缝住对手的影子，使其无法逃走": "Attacks and stitches the target's shadow so it can't flee",
+"攻击距离（你和敌人）": "Attack distance (you and the enemy)",
+"放出不可思议的力量攻击。会提高自己的特攻": "Attacks with a mysterious power. Raises the user's Sp. Atk",
+"放出奇怪的光线攻击对手。可以无视对手的特性进行攻击": "Fires a strange ray at the target. Ignores the target's Ability",
+"放出强力光束后，自己的特攻会大幅降低": "Fires a powerful beam. The user's Sp. Atk sharply falls afterward",
+"放出怪异的火焰，从而让对手陷入灼伤状态": "Releases a strange flame, burning the target",
+"放出极为辛辣的精华。对手的攻击会大幅提高，防御会大幅降低": "Releases a very spicy extract. Sharply raises the foe's Attack and sharply lowers its Defense",
+"放出电击攻击对手。让对手陷入麻痹状态": "Shocks the target with electricity, paralyzing it",
+"放出连精神都能影响到的奇妙怪光进行攻击。会大幅降低对方的特防": "Fires an odd ray that affects even the mind. Sharply lowers Sp. Def",
+"放出黑暗的冲击波攻击对手。有时会降低对手的命中率": "Fires a dark shock wave at the foe. May lower its accuracy",
+"放弃": "Give Up",
+"放弃守护，向对手的怀里突击。自己的防御和特防会降低": "Gives up defense and charges the foe. Lowers the user's Defense and Sp. Def",
+"放弃这一局（已保存点数保留）": "Give up this run (saved Points are kept)",
+"放走对手，强制拉后备宝可梦上场。如果对手为野生宝可梦，战斗将直接结束": "Sends the target away and forces a party Pokémon in. Ends the battle if the target is wild",
+"故勒顿": "Koraidon",
+"敌人": "Enemy",
+"敌人从 1 级开始（糖果加的等级不算进敌人等级）": "Enemies start at Lv 1 (Candy levels don't count toward enemy level)",
+"敌人密度": "Enemy Density",
+"教学关（2 分钟）：这是绿毛虫进化到底（巴大蝶）再超极巨化的样子，先感受一下！WASD / 方向键走位，招式会自动放。按 Esc 可以随时暂停。": "Tutorial (2 min): this is Caterpie fully evolved (Butterfree) and Gigantamaxed, so get a feel for it! WASD / arrow keys to move; moves fire automatically. Press Esc to pause anytime.",
+"教学结束": "Tutorial over",
+"散落可以追踪对手的神奇叶片。攻击必定会命中": "Scatters mystical leaves that chase the foe. Never misses",
+"新存档": "New Save",
+"新手提示": "Tips",
+"新招": "New Move",
+"新招式：": "New move:",
+"新登记！": "Newly registered!",
+"新闪光！": "New Shiny!",
+"施以诱导睡意的暗示，让对手陷入睡眠状态": "Hypnotizes the foe into falling asleep",
+"旋转双臂打向对手。无视对手的能力变化，直接给予伤害": "Swings both arms to hit the foe. Ignores the foe's stat changes",
+"无": "None",
+"无极汰那变回原来的样子后，发动的最强攻击。下一回合自己将无法动弹": "The ultimate attack unleashed after Eternatus returns from its Eternamax form. The user can't move next turn",
+"无限模式：撑到倒下为止": "Endless Mode: survive until you fall",
+"日之石": "Sun Stone",
+"日照变强了！": "The sunlight turned harsh!",
+"时拉比": "Celebi",
+"显示个体": "Show IVs",
+"显示奇怪的光，扰乱对手。使对手混乱": "Shows a strange light to confuse the foe",
+"显示恐怖幻影，只给予对手和自己等级相同的伤害": "Shows a terrifying illusion; deals damage equal to the user's level",
+"显示攻击范围": "Show attack range",
+"普通": "Normal",
+"晴": "Sun",
+"暂停": "Pause",
+"暂停中：选球（点按钮或数字键）→ 战场上左键放圈 → 球投出、游戏继续；右上角「商店」买东西": "Paused: pick a ball (button or number key) → left-click the field to place a ring → ball thrown, game resumes; \"Shop\" at top right",
+"暂缓": "Postpone",
+"暗之石": "Dusk Stone",
+"最爱": "Favorite",
+"最终头目来了": "The final boss has arrived",
+"月之石": "Moon Stone",
+"有": "Yes",
+"有伤害的单体招同时打到更多目标：每级多 1 个，但打到的每个目标伤害都降低（1 级 ×0.8 / 2 级 ×0.7 / 3 级 ×0.6）": "Single-target damaging moves hit more targets: +1 per level, but each target takes less damage (Lv. 1 ×0.8 / Lv. 2 ×0.7 / Lv. 3 ×0.6)",
+"有勇无谋的舍身突击。使出招式后，对手的攻击必定会命中，且伤害会变成２倍": "A reckless, all-out charge. After using it, the foe's attacks never miss and deal double damage",
+"有未保存的点数收入，保存成功后才能购买；本次未扣款。": "You have unsaved Point income; purchases are available once saving succeeds; no charge this time.",
+"有空槽，直接学会": "Free slot, learned directly",
+"有糖果加成": "Candy bonus",
+"有节奏地出拳攻击对手。有时会使对手混乱": "Punches the foe in rhythm. May confuse the foe",
+"朝着对手打嗝，并给予伤害。如果不吃树果则无法使出": "Burps at the foe, dealing damage. Fails if the user has no Berry",
+"木炭": "Charcoal",
+"未开放": "Not available",
+"未捕获": "Not Caught",
+"未知": "Unknown",
+"未知来源": "Unknown source",
+"本作 25 性格表已验；薄荷道具入口待接。": "This game's 25-Nature table verified; Mint item entry pending.",
+"本作不做双打。": "Double battles aren't in this game.",
+"本作不做双打，无适配系统。": "Doubles aren't in this game, no matching system.",
+"本作单位表": "This game's unit table",
+"本作已有学招 / 换招流程，但记忆蘑菇道具入口待接。": "This game already has a learn / swap-move flow, but the Memory Mushroom item entry is not hooked up yet.",
+"本作没有原奖励档位生成系统可锁。": "This game has no original reward-tier generation system to lock.",
+"本局招式：": "Moves this run:",
+"杰作茶碗": "Masterpiece Teacup",
+"极巨化系统本作未实现。": "Dynamax system not implemented in this game.",
+"极巨菇": "Max Mushrooms",
+"柔软沙子": "Soft Sand",
+"树果": "Berry",
+"树果 / 携带道具系统本作未实现。": "Berry / held item system not implemented in this game.",
+"树果效果（原作 partial()，本私人版本只有 partial()，无树果 attr）": "Berry effect (original partial(); this private build has only partial(), no Berry attr)",
+"根据使用时的天气，招式属性和威力会改变": "The move's type and power change with the weather when used",
+"桃歹郎": "Pecharunt",
+"梦幻": "Mew",
+"森林": "Forest",
+"植入寄生种子后，将在每回合一点一点吸取对手的ＨＰ，从而用来回复自己的ＨＰ": "Plants Leech Seed, draining the target's HP bit by bit each turn to heal the user",
+"槽满了，这次没带上": "Slots full; not equipped this time",
+"模仿对手刚才使出的招式，并使出相同招式。如果对手还没出招则会失败": "Copies the move the target just used and uses it too. Fails if the target hasn't moved",
+"正在用": "In use",
+"每层 1/3 几率吃树果不消耗（原版树果袋）": "1/3 chance per level that a Berry isn't consumed (original Berry Pouch)",
+"每打死一只怪，所有蛋都 +1；蛋糕局里打怪掉": "Each kill adds +1 to all Eggs; Cake runs drop them from kills",
+"每秒慢慢回血：最大血量的 0.4%（每个）": "Slowly restores HP each second: 0.4% of max HP (each)",
+"每颗神奇糖果多加 1 级（每层；原版糖果罐让神奇糖果多升级）": "Each Rare Candy gives +1 extra level (per level; original Candy Jar)",
+"比克提尼": "Victini",
+"毕业": "Graduate",
+"毕业，结算这一局": "Graduate and settle this run",
+"水之石": "Water Stone",
+"水之秘传卷轴": "Scroll of Waters",
+"汲取宇宙中神秘的力量，从而提高自己的防御和特防": "Draws on mysterious cosmic power to raise Defense and Sp. Def",
+"沙暴刮起来了！": "A sandstorm kicked up!",
+"沙沙沙地撒满具有催眠效果的孢子，从而让对手陷入睡眠状态": "Scatters sleep-inducing spores, putting the foe to sleep",
+"沙漠": "Desert",
+"没完没了地大声斥责，从而降低对手的特攻": "Scolds endlessly, lowering the target's Sp. Atk",
+"没异常时自己中剧毒（配毅力 / 飞毛腿 / 神奇鳞片用）": "When healthy, badly poisons itself (for Guts / Quick Feet / Poison Heal)",
+"没异常时自己灼伤（配毅力 / 飞毛腿 / 受热激升用）": "Burns itself if it has no status (for Guts / Quick Feet / Flare Boost)",
+"没抓过的宝可梦描边": "Outline for uncaught Pokémon",
+"没有": "None",
+"没有可恢复的": "Nothing to restore",
+"没有天气": "No weather",
+"治愈对手的异常状态。治愈后可以回复自己的ＨＰ": "Heals the foe's status condition. If it works, also restores the user's HP",
+"沼泽": "Swamp",
+"波动": "Aura",
+"波次无尽：时间越久怪越强；敌人等级不会低于你等级的 70%": "Endless waves: enemies get stronger over time; enemy level never falls below 70% of yours",
+"泥炭块": "Peat Block",
+"泼洒黏糊糊的沥青，降低对手的速度。火属性会变成对手的弱点": "Pours on sticky tar, lowering the foe's Speed. Fire becomes the foe's weakness",
+"洞窟": "Cave",
+"浮躁": "Rash",
+"海底": "Seabed",
+"海洋": "Ocean",
+"海滩": "Beach",
+"淘气": "Impish",
+"深深地吸口气，集中精神。自己的攻击会变得容易击中要害": "Takes a deep breath and focuses. Raises the user's critical-hit ratio",
+"深渊": "Abyss",
+"混乱": "Confusion",
+"混乱自伤": "Confusion Damage",
+"添加到最爱": "Add to favorites",
+"清空": "Clear",
+"温和": "Gentle",
+"温顺": "Docile",
+"游戏已经帮你暂停了：": "The game is paused for you:",
+"游戏速度": "Game speed",
+"湖泊": "Lake",
+"潜入对手的影子进行攻击。会夺取对手的能力提升": "Slips into the target's shadow to attack. Steals the target's stat boosts",
+"激励自己，从而提高攻击和特攻": "Pumps itself up, raising Attack and Sp. Atk",
+"激怒对手，使其混乱。因为愤怒，对手的攻击会大幅提高": "Enrages the foe into confusion. Its Attack sharply rises from the anger",
+"激烈地挥舞青藤或触手摔打对手进行攻击": "Slams the foe with vines or tentacles",
+"激烈地跳起唤来胜利的舞蹈，提高自己的攻击、防御和速度": "Dances a victory dance fiercely, raising Attack, Defense and Speed",
+"激烈地跳起战舞提高气势。大幅提高自己的攻击": "Dances a fierce war dance to build momentum. Sharply raises Attack",
+"激烈地跳起神秘且强有力的舞蹈。从而提高自己的攻击和速度": "Dances a mystical, powerful dance. Raises Attack and Speed",
+"火之石": "Fire Stone",
+"火山": "Volcano",
+"火的威力减弱了！": "The power of Fire was weakened!",
+"灼伤": "Burn",
+"点数 0": "Points 0",
+"点数保存失败，本局点数暂未保存": "Failed to save Points; this run's Points not yet saved",
+"点数所有宝可梦共用；全体加成对所有宝可梦和新开的局都生效。": "Points are shared by all Pokémon; team bonuses apply to all Pokémon and new runs.",
+"点数未保存：本次进账没有写入磁盘": "Points not saved: this gain wasn't written to disk",
+"点数档损坏已锁定，不能购买；原档已保留。": "Points save is corrupted and locked; purchases disabled; original save kept.",
+"点燃小石子，形成火球攻击对手。有时会使对手陷入灼伤状态": "Ignites pebbles into fireballs to attack the foe. May burn the foe",
+"点球或按数字键 1–5，再在战场上左键放圈，右键 / 取消键退出": "Click a ball or press 1–5, then left-click the field to place a ring; right-click / cancel to exit",
+"照射出结晶的力量来驱逐敌人。太乐巴戈斯在星晶形态下使出时，能对所有对手造成伤害": "Radiates crystal power to repel enemies. When used by Terapagos in Stellar Form, hits all opponents",
+"熊熊燃烧自己的铠甲，将其做成炮弹射出攻击。自己的防御和特防会降低": "Burns its armor ablaze and fires it as a cannonball. Lowers the user's Defense and Sp. Def",
+"爆发怒火攻击对手。自己的ＨＰ越少，招式的威力越小": "Unleashes its fury at the foe. The lower the user's HP, the weaker the move",
+"爽朗": "Jolly",
+"特性": "Ability",
+"特性1": "Ability 1",
+"特性2": "Ability 2",
+"特性: ": "Ability:",
+"特性系统本作未实现（list.md“特性·以后再说”）。": "Ability system not implemented in this game (list.md \"Abilities · later\").",
+"特性：无": "Ability: None",
+"特攻": "Sp. Atk",
+"特防": "Sp. Def",
+"狂怒暴牛的猛烈冲撞。招式的属性随形态改变，光墙和反射壁等招式也能破坏": "A furious charge by Tauros. Type changes with form; also breaks Light Screen and Reflect",
+"猛烈地刮起飞雪般的落花，攻击周围所有的宝可梦，并给予伤害": "Whips up a blizzard of petals, damaging all Pokémon around it",
+"玛纳霏": "Manaphy",
+"玩教学关（2 分钟）": "Play tutorial (2 min)",
+"现在带着": "Currently held",
+"现在没有可恢复的招：到这个等级能学的招都带在身上了。": "No move to restore: you're already carrying every move learnable at this level.",
+"球": "Balls",
+"甜甜苹果": "Sweet Apple",
+"生命": "HP",
+"生命上限 +15，并回复 15 点生命。": "Max HP +15, and restores 15 HP.",
+"生命强化": "HP Boost",
+"用一个吻吸取对手的ＨＰ。回复给予对手伤害的一半以上的ＨＰ": "Drains the foe's HP with a kiss. Restores over half the damage dealt as HP",
+"用丝设置陷阱。防住对方攻击的同时，能够降低所接触到的对手的速度": "Sets a silk trap. Blocks attacks and lowers the Speed of foes that touch it",
+"用两手呈十字劈打对手进行攻击。容易击中要害": "Chops the foe with both hands in a cross. High critical-hit ratio",
+"用交织着爱与恨的烈风席卷对手进行攻击。有时会降低对手的攻击": "Sweeps the foe with a gale of love and hate. May lower the foe's Attack",
+"用从地面升腾而起的电击进行攻击。当对手处于电气场地上时，招式威力会变成２倍": "Attacks with electricity rising from the ground. Power doubles on Electric Terrain",
+"用令人毛骨悚然的怨念进行攻击。会降低对手的攻击": "Attacks with chilling resentment. Lowers the foe's Attack",
+"用储存在颊囊里的能量进行攻击，并提高自己的速度。其属性会随着莫鲁贝可的样子而改变": "Attacks with energy stored in its cheeks and raises Speed. Type changes with Morpeko's form",
+"用充满力量的拳头攻击对手": "Attacks with a power-filled fist",
+"用充满寒气的拳头攻击对手。有时会让对手陷入冰冻状态": "Attacks with a cold-filled fist. May freeze",
+"用充满火焰的拳头攻击对手。有时会让对手陷入灼伤状态": "Punches the foe with a fiery fist. May burn the foe",
+"用充满电流的拳头攻击对手。有时会让对手陷入麻痹状态": "Punches the foe with an electrified fist. May paralyze the foe",
+"用光柱来进行攻击。比较自己的攻击和特攻，用数值相对较高的一项给予对方伤害": "Attacks with a column of light. Uses the higher of its Attack and Sp. Atk",
+"用冲向天空般高高的上勾拳顶起对手进行攻击": "Uppercuts the target high as if reaching for the sky",
+"用利牙咬碎对手进行攻击。有时会降低对手的防御": "Bites the foe with sharp fangs. May lower the foe's Defense",
+"用剑切斩对手进行攻击。无视对手的能力变化，直接给予伤害": "Slashes the foe with a sword. Ignores the foe's stat changes and deals damage directly",
+"用力勒紧对手进行攻击。对手的HP越多，威力越大": "Squeezes the foe tight. The more HP the foe has, the stronger the move",
+"用力撞向最近的敌人造成伤害，自己也会受到造成伤害四分之一的反伤。": "Rams the nearest enemy for damage; the user takes 1/4 of the damage dealt as recoil.",
+"用力踢对手的脚，使其摔倒进行攻击。对手越重，威力越大": "Kicks the target's legs out to trip it. The heavier the target, the greater the power",
+"用力踩踏地面并攻击自己周围所有的宝可梦。会降低对方的速度": "Stomps the ground, hitting all Pokémon around the user. Lowers their Speed",
+"用厉害的爆炸头猛撞向对手进行攻击。自己也会受到少许伤害": "Rams the target with a magnificent pompadour. The user takes some recoil",
+"用原始之力进行攻击。有时会提高自己所有的能力": "Attacks with primal power. May raise all the user's stats",
+"用喙进行攻击。当对手携带树果时，可以食用并获得其效果": "Pecks the foe. If the foe holds a Berry, eats it and gains its effect",
+"用回声攻击对手。如果每回合都有宝可梦接着使用该招式，威力就会提高": "Attacks with an echo. Power rises if Pokémon keep using it each turn",
+"用围绕着雾状羽毛的球进行攻击。有时会降低对手的特攻": "Attacks with a ball wrapped in misty feathers. May lower the foe's Sp. Atk",
+"用圆瞳凝视对手，从而降低其攻击。必定能够先制攻击": "Stares at the foe with round eyes to lower its Attack. Always strikes first",
+"用坚硬且华丽的角狠狠地刺入对手进行攻击": "Gores the foe with a hard, splendid horn",
+"用坚硬的尾巴拍打对手进行攻击。连续攻击２～５次": "Slaps the foe with a hard tail. Hits 2-5 times",
+"用坚硬的翅膀敲打对手进行攻击。有时会提高自己的防御": "Strikes the target with hard wings. May raise own Defense",
+"用坚硬的腮咬住对手。如果比对手先出手攻击，招式的威力会变成２倍": "Bites with hard gills. Power doubles if the user moves before the foe",
+"用坚硬的躯体撞击对手进行攻击。自己也会受到不小的伤害": "Slams into the foe with a hard body. The user also takes considerable damage",
+"用坚硬的锐爪劈开对手进行攻击。有时会降低对手的防御": "Slashes the foe with hard, sharp claws. May lower the foe's Defense",
+"用坚硬的骨头殴打对手进行攻击。连续攻击２～５次": "Clubs the target with a hard bone. Hits 2-5 times",
+"用坚韧的尾巴猛扫对手进行攻击，从而降低对手的攻击": "Sweeps the target with a tough tail, lowering its Attack",
+"用大冰柱激烈地撞向对手进行攻击。有时会使对手畏缩": "Rams the foe with a huge icicle. May make the foe flinch",
+"用大字形状的火焰烧尽对手。有时会让对手陷入灼伤状态": "Burns the foe with a fire shaped like the character 大. May burn the foe",
+"用大树摔打对手进行攻击。下一回合自己将无法动弹": "Slams the foe with a big tree. Can't move next turn",
+"用大脚踩踏对手进行攻击。有时会使对手畏缩": "Stomps the foe with a big foot. May make the foe flinch",
+"用大钳子或剪刀等夹断对手进行攻击。只要命中就会一击昏厥": "Cuts the foe with huge pincers or scissors. One-hit KO if it hits",
+"用大钳子敲打对手进行攻击。容易击中要害": "Hits the foe with big pincers. High critical-hit ratio",
+"用如同鞭子般弯曲而细长的藤蔓摔打对手进行攻击": "Whips the foe with long, slender vines",
+"用实体化的心之利刃劈开对手。容易击中要害": "Slices the foe with a solid blade of heart. High critical-hit ratio",
+"用尖叫声等突然惊吓对手进行攻击。有时会使对手畏缩": "Startles the foe with a sudden scream. May make the foe flinch",
+"用尖尖的叶片向对手卷起风暴。使用之后因为反作用力自己的特攻会大幅降低": "Whips up a storm of sharp leaves at the foe. Sharply lowers the user's Sp. Atk after use",
+"用尖尖的岩石刺入对手进行攻击。容易击中要害": "Stabs the foe with sharp rocks. High critical-hit ratio",
+"用尖尖的角刺入对手进行攻击。攻击必定会命中": "Stabs the foe with a sharp horn. Never misses",
+"用尖锐的巨爪劈开对手进行攻击": "Cleaves the foe with huge sharp claws",
+"用尖锐的牙咬住对手进行攻击。有时会使对手畏缩": "Bites the target with sharp fangs. May cause flinching",
+"用尖锐的角攻击对手": "Attacks the foe with a sharp horn",
+"用尾巴拍打。有时会让对手陷入中毒状态，也容易击中要害": "Slaps with its tail. May poison the foe. High critical-hit ratio",
+"用岩石之斧进行攻击。散落的岩石碎片会飘浮在对手周围": "Attacks with a stone axe. Stray rock fragments float around the foe",
+"用带刺的手臂猛烈地挥舞进行攻击。有时会使对手畏缩": "Swings thorny arms fiercely. May cause flinching",
+"用带毒的触手或手臂刺入对手。有时会让对手陷入中毒状态": "Stabs the target with poisonous tentacles or arms. May poison",
+"用带电的喙啄刺对手。如果比对手先出手攻击，招式的威力会变成２倍": "Pecks the target with an electrified beak. Power doubles if the user moves first",
+"用张开着的双手猛推对手进行攻击。连续攻击２～５次": "Shoves the target with open hands. Hits 2-5 times",
+"用强烈的风席卷对手进行攻击。有时会使对手混乱": "Buffets the foe with a strong wind. May confuse the foe",
+"用强风吹开对手的反射壁或光墙等。也会降低对手的闪避率": "Blows away Reflect, Light Screen, etc. Also lowers the foe's evasion",
+"用心感受对手的行动，下次攻击必定会击中对手": "Senses the target's movement. The next attack always hits",
+"用恐怖的脸强吻对手。让对手陷入睡眠状态": "Forces a kiss with a scary face. Puts the foe to sleep",
+"用恐怖的表情瞪着对手，使其害怕，从而大幅降低对手的速度": "Glares with a terrifying face to frighten the foe, sharply lowering its Speed",
+"用户局外要进化道具；本作现行只有等级进化，道具进化入口待接。": "User's meta needs evolution items; currently only level evolution exists, item evolution entry pending.",
+"用户局外要进化道具；本作现行只有等级进化，道具进化待接。": "Meta needs evolution items; this game currently only has level-based evolution; item evolution not hooked up yet.",
+"用户已定 PP 决定冷却；PP 提升与冷却接线是后续独立任务。": "Cooldown is set by the user's PP; PP Up and cooldown wiring is a separate later task.",
+"用户方向：不做队伍，经验直接提升上场单只；原作按队伍分配，没有等价标量，待适配，不自造倍率。": "Design note: no party; EXP goes straight to the single active Pokémon. The original splits it among the party with no equivalent scalar, so it's pending adaptation and no multiplier is invented.",
+"用户明确删除此项；原池 tier 是 ULTRA(2)，不是 MASTER 金色档，来源如实保留、不可售。": "Removed by the user's explicit request; original pool tier was ULTRA(2), not MASTER gold; source kept as is, not for sale.",
+"用户本作局内商店只上药 / 球；原 PP 回复消耗品暂无货架。": "User's in-run shop only stocks medicine / balls; no PP-restoring consumables on the shelves yet.",
+"用户要的是努力值每颗 +10、单项上限 252、六项都能拉满且没有 510 合计；与原作 +10% 且上限=个体值不同，按用户 EV 方案实现，source 保留。": "The user wants EVs at +10 each, 252 per-stat cap, all six maxable with no 510 total; differs from the original's +10% capped at IV; implemented per the user's EV plan, source kept.",
+"用手中的骨头投掷对手，来回连续２次给予伤害": "Throws a bone at the foe and it returns, hitting twice",
+"用手中的骨头殴打对手进行攻击。有时会使对手畏缩": "Strikes the foe with a held bone. May make the foe flinch",
+"用拳头吸取对手的力量。可以回复给予对手伤害的一半ＨＰ": "Drains the foe's strength with a punch. Restores half the damage dealt as HP",
+"用拳头怒涛般的殴打对手进行攻击。连续攻击２～５次": "Pummels the foe with fists 2-5 times",
+"用拳头进行攻击。有时会降低对手的防御": "Attacks with a punch. May lower the foe's Defense",
+"用整个身体压住对手进行攻击。有时会让对手陷入麻痹状态": "Pins the foe with its whole body. May paralyze the foe",
+"用旋转的角刺入对手进行攻击。只要命中就会一击昏厥": "Pierces the foe with a spinning horn. One-hit KO if it hits",
+"用无形的利刃劈开对手。处于电气场地时，招式威力会变成１．５倍": "Cleaves the foe with an invisible blade. Power is 1.5× on Electric Terrain",
+"用无数的毒针进行攻击。有时还会让对手陷入中毒状态。攻击处于中毒状态的对手时，威力会变成２倍": "Attacks with countless poison needles. May poison. Power doubles against a poisoned target",
+"用无数青白色且闪耀的光线攻击对手": "Attacks the foe with countless bluish-white glowing beams",
+"用有毒的牙齿咬住对手进行攻击。有时会使对手中剧毒": "Bites with poisonous fangs. May badly poison the foe",
+"用棱镜的力量发射强烈光线。下一回合自己将无法动弹": "Fires a powerful beam using prismatic power. The user can't move next turn",
+"用歌声攻击对手。大家一起轮唱便可以接连使出，威力也会提高": "Attacks with song. Stronger when used in a round by multiple singers",
+"用毒刃劈开对手。有时会让对手陷入中毒状态，也容易击中要害": "Slashes the foe with poison blades. May poison the foe; high critical-hit ratio",
+"用水之力量撞向对手进行攻击。有时会降低对手的防御": "Rams the foe with water power. May lower the foe's Defense",
+"用水湿透周围。在５回合内减弱火属性的招式": "Soaks the surroundings with water. Weakens Fire-type moves for 5 turns",
+"用水的震动攻击对手。有时会使对手混乱": "Attacks with vibrating water. May confuse the foe",
+"用污泥投掷对手进行攻击。有时会让对手陷入中毒状态": "Hurls sludge at the foe. May poison the foe",
+"用污泥波攻击自己周围所有的宝可梦。有时会陷入中毒状态": "Attacks all Pokémon around the user with a sludge wave. May poison",
+"用沉重的身体撞向对手进行攻击。自己比对手越重，威力越大": "Slams into the foe with a heavy body. The heavier the user is than the foe, the greater the power",
+"用火焰攻击对手。对手携带树果等时，会烧掉，使其不能使用": "Attacks with fire. Burns up the target's held Berry etc., making it unusable",
+"用灼热的沙子和强烈的风席卷对手进行攻击。有时会让对手陷入灼伤状态": "Whips up scorching sand and wind at the foe. May burn the foe",
+"用烈焰包裹住对手进行攻击。让对手陷入灼伤状态": "Wraps the foe in flames to attack. Burns the foe",
+"用熊熊烈火攻击自己周围所有的宝可梦。有时会陷入灼伤状态": "Burns all Pokémon around the user with raging flames. May burn the user",
+"用燃烧的身体撞向对手进行攻击。自己比对手越重，威力越大": "Rams the foe with a burning body. The heavier the user is compared to the foe, the stronger the move",
+"用燃烧的鞭子抽打对手。受到攻击的对手防御会降低": "Lashes the foe with a burning whip. Lowers the Defense of the foe it hits",
+"用燃起大火的身体猛烈地冲撞对手。让对手陷入灼伤状态": "Charges the target with a blazing body. Burns the target",
+"用爆炸的火焰烧尽对手进行攻击。下一回合自己将无法动弹": "Burns the foe with explosive flames. Can't move next turn",
+"用爪子或镰刀等劈开对手进行攻击。容易击中要害": "Cleaves the foe with claws or scythes. High critical-hit ratio",
+"用爪子或镰刀等抓对手进行攻击。连续攻击２～５次": "Slashes the target with claws or scythes. Hits 2-5 times",
+"用由毒形成的锁链缠住对手注入毒素加以侵蚀。有时会让对手陷入剧毒状态": "Binds the target with chains made of poison and injects toxin. May badly poison",
+"用电气团撞向对手。自己比对手速度越快，威力越大": "Rams the foe with an electric mass. Faster than the foe means more power",
+"用电网捉住对手进行攻击。会降低对手的速度": "Catches the target in an electric net. Lowers its Speed",
+"用白雾覆盖身体。在５回合内不会让对手降低自己的能力": "Covers itself in white mist. Its stats can't be lowered for 5 turns",
+"用神奇电波对周围所有和自己属性相同的宝可梦给予伤害": "Damages all Pokémon around the user that share its type with strange electric waves",
+"用神奇的节奏跳舞。使对手模仿自己的动作，从而将特性变成一样": "Dances to a mystical rhythm. The foe mimics the user's movements, making their Abilities the same",
+"用神秘的火焰烧尽对手进行攻击。有时会让对手陷入灼伤状态": "Burns the foe with mystical fire. May burn the foe",
+"用积蓄在头部的光来斩切对手。可以无视守护进行攻击": "Slashes the foe with light stored in its head. Can hit through protection",
+"用粘液制成的手里剑，连续攻击２～５次。必定能够先制攻击": "Mucus shuriken strike 2-5 times. Always strikes first",
+"用经过气场强化的翅膀撕裂对手。容易击中要害。会提高自己的速度": "Tears at the target with aura-empowered wings. High critical-hit ratio. Raises own Speed",
+"用缠有藤蔓的棍棒殴打。属性会随所戴的面具而改变。容易击中要害": "Clubs the foe with a vine-wrapped stick. Type changes with the mask worn. High critical-hit ratio",
+"用美丽而激烈的青焰包裹住对手进行攻击。有时会让对手陷入灼伤状态": "Engulfs the foe in a beautiful, fierce blue flame. May burn the foe",
+"用耀眼的电击攻击自己周围所有的宝可梦。有时会陷入麻痹状态": "Attacks all Pokémon around the user with dazzling electricity. May paralyze the user",
+"用肮脏的垃圾撞向对手进行攻击。有时会让对手陷入中毒状态": "Rams the foe with filthy garbage. May poison the foe",
+"用能够冻结一切的强烈冷气，在第２回合包裹住对手。有时会让对手陷入灼伤状态": "Wraps the foe in intense cold that freezes anything on turn 2. May burn the foe",
+"用腹部的花纹使对手害怕，从而让其陷入麻痹状态": "Frightens the target with the pattern on its belly, paralyzing it",
+"用自己的身体狂舞挥打，给予对手伤害": "Flails its whole body to damage the foe",
+"用草缠住并绊倒对手。对手越重，威力越大": "Binds and trips the target with grass. The heavier the target, the greater the power",
+"用蓄满电流的牙齿咬住对手。有时会使对手畏缩或陷入麻痹状态": "Bites the target with electrified fangs. May cause flinching or paralysis",
+"用蓄积起来的力量攻击对手。自己的能力提高得越多，威力就越大": "Attacks with stored-up power. The more stat boosts the user has, the greater the power",
+"用藏有冷气的牙齿咬住对手。有时会使对手畏缩或陷入冰冻状态": "Bites with cold-filled fangs. May make the foe flinch or freeze",
+"用覆盖着火焰的牙齿咬住对手。有时会使对手畏缩或陷入灼伤状态": "Bites with flame-cloaked fangs. May make the foe flinch or burn",
+"用覆盖着电流的冰块，在第２回合撞向对手。有时会让对手陷入麻痹状态": "Slams an electrified block of ice into the foe on turn 2. May paralyze the foe",
+"用覆盖着电流的拳头进行攻击。使一般属性的招式变成电属性": "Punches with an electrified fist. Changes Normal-type moves to Electric",
+"用角或喙刺向对手进行攻击。连续攻击２～５次": "Stabs the foe with horns or beak. Hits 2 to 5 times in a row",
+"用触手或青藤等缠绕进行攻击。有时会降低对手的速度": "Wraps the target with tentacles or vines. May lower Speed",
+"用超高温的体毛防住对手攻击的同时，让接触到自己的对手灼伤": "Guards with superheated fur while burning foes that make contact",
+"用足以让对手一蹶不振的气势进行攻击。会降低对手的特攻": "Attacks with enough force to crush the foe's spirit. Lowers the foe's Sp. Atk",
+"用足以让身心都止不住颤抖的冰冷狂风进行攻击。有时会降低对手的速度": "Attacks with an icy gale that chills body and soul. May lower the foe's Speed",
+"用身体坚硬的部分拍打对手进行攻击。连续２次给予伤害": "Slaps the foe with a hard part of its body. Hits twice",
+"用身体撞向对手进行攻击。防御越高，给予的伤害就越高": "Slams the target with its body. The higher the user's Defense, the more damage",
+"用软绵绵的绒毛包裹住自己的身体进行守护。巨幅提高自己的防御": "Guards by wrapping the body in soft fluff. Drastically raises Defense",
+"用连天空也能劈开的空气之刃进行攻击。有时会使对手畏缩": "Attacks with an air blade that can cleave the sky. May cause flinching",
+"用钢铁之爪劈开对手进行攻击。有时会提高自己的攻击": "Slashes the foe with steel claws. May raise the user's Attack",
+"用钢铁般坚硬的头部进行攻击。有时会使对手畏缩": "Attacks with a steel-hard head. May make the foe flinch",
+"用锋利的叶片包裹住对手进行攻击。有时会降低对手的命中率": "Wraps the foe in sharp leaves to attack. May lower its accuracy",
+"用锋利的手刀劈向对手进行攻击。容易击中要害": "Chops the foe with a sharp hand. High critical-hit ratio",
+"用锋利的贝壳切斩对手进行攻击。有时会降低对手的防御": "Slashes the foe with a sharp shell. May lower the foe's Defense",
+"用锋利的门牙牢牢地咬住对手进行攻击。有时会使对手畏缩": "Bites the target firmly with sharp front teeth. May cause flinching",
+"用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半": "Bites the foe hard with sharp front teeth. Halves the foe's HP",
+"用锐利的风切斩对手进行攻击。容易击中要害": "Slashes the foe with sharp wind. High critical-hit ratio",
+"用镰刀或爪子等切斩对手进行攻击": "Slashes the target with scythes or claws",
+"用镰刀或爪子等切斩对手进行攻击。连续击中，威力就会提高": "Slashes with scythes or claws. Power rises with consecutive hits",
+"用长角切斩对手进行攻击。角上拥有的神奇力量将给予物理伤害": "Slashes the foe with its long horn. The mystical power in the horn deals physical damage",
+"用长长的舌头，舔遍对手进行攻击。有时会让对手陷入麻痹状态": "Licks the target all over with a long tongue. May paralyze",
+"用附有灵魂的骨头殴打对手进行攻击。有时会降低对手的防御": "Clubs the foe with a spirit-infused bone. May lower the foe's Defense",
+"用非常坚固且厚实的贝壳，在４～５回合内夹住对手进行攻击": "Clamps the foe in a very hard, thick shell for 4-5 turns while attacking",
+"用非常烦人的，喋喋不休的音波攻击对手。使对手混乱": "Attacks the foe with a very annoying, noisy sound wave. Confuses the foe",
+"用香气大幅降低对手的闪避率": "Sharply lowers the target's evasion with a fragrance",
+"用骇人的力量捏碎对手。对手剩余的ＨＰ越多，威力越大": "Crushes the foe with terrifying power. The more HP the foe has left, the greater the power",
+"用鼓点来控制鼓的根部进行攻击，从而降低对手的速度": "Beats the roots of a drum to attack, lowering the foe's Speed",
+"用２只脚踢飞对手进行攻击。连续２次给予伤害": "Kicks the target away with two feet. Hits twice",
+"用３种光线进行攻击。有时会让对手陷入麻痹、灼伤或冰冻的状态": "Attacks with 3 kinds of beams. May paralyze, burn or freeze the foe",
+"电的威力减弱了！": "Electric power weakened!",
+"留下冷场的冷笑话后，和后备宝可梦进行替换。在５回合内会下雪": "Leaves a chilly joke, then switches with a party Pokémon. It snows for 5 turns",
+"留在家里": "Stay Home",
+"留在家里，开局不带": "Stay home; don't bring at start",
+"白天": "Day",
+"白色香草让能力恢复了！": "White Herb restored its stats!",
+"百变怪·": "Ditto·",
+"百变怪专用：防御 ×2": "Ditto only: Defense ×2",
+"皮卡丘专用：攻击、特攻 ×2": "Pikachu only: Attack, Sp. Atk ×2",
+"皮卡丘越喜欢训练家，电击的威力就越强。攻击必定会命中": "The more Pikachu likes its Trainer, the stronger the shock. Never misses",
+"盘蜷着集中精神。提高自己的攻击、防御和命中率": "Coils up and concentrates. Raises Attack, Defense and accuracy",
+"看准机会稳步攻击。无视对手的能力变化，直接给予伤害": "Waits for an opening and attacks steadily. Ignores the target's stat changes",
+"睡眠": "Asleep",
+"瞬间制作冰块，快速地扔向对手。必定能够先制攻击": "Instantly makes ice and hurls it at the foe. Always strikes first",
+"瞬间移动被你关掉了（暂停时在左下角技能开关里打开）": "Teleport is turned off (turn it on in the bottom-left skill toggles while paused)",
+"瞬间移动！": "Teleport!",
+"瞬间移动：左键点要去的地方，右键 / 取消键退出": "Teleport: left-click a destination, right-click / cancel to exit",
+"破裂的壶": "Cracked Pot",
+"硬功": "Hard Skill",
+"硬石头": "Hard Stone",
+"确定（回车）": "Confirm (Enter)",
+"磁铁": "Magnet",
+"祈愿实现了！": "The wish came true!",
+"神兽": "Legendary",
+"神兽 / 幻之 / 准神兽不能生蛋，换一只（右键或 Esc 取消）": "Legendary / Mythical / Sub-Legendary can't breed. Pick another (right-click or Esc to cancel)",
+"神兽血量": "Legendary HP",
+"神殿": "Temple",
+"神秘水滴": "Mystic Water",
+"祥瑞铠甲": "Armor of Ruin",
+"禁用被动": "Disable Passives",
+"种植心神不宁的种子。使对手不能入眠，并将特性变成不眠": "Plants a restless seed. The foe can't sleep and its Ability becomes Insomnia",
+"积蓄力量，提高自己的防御和特防。最多积蓄３次": "Stockpiles power, raising Defense and Sp. Def. Can stockpile up to 3 times",
+"移动强化": "Movement Boost",
+"移动速度 +6%。": "Move speed +6%.",
+"移速": "Move Speed",
+"稀有": "Rare",
+"究极": "Ultra",
+"突然刮起毛骨悚然的暴风攻击对手。有时会提高自己的全部能力": "A sudden eerie storm hits the foe. May raise all of the user's stats",
+"立即回复 25 点生命。": "Instantly restores 25 HP.",
+"竭尽全力进行攻击。自己的ＨＰ越少，招式的威力越大": "Attacks with everything. The lower the user's HP, the stronger the move",
+"第一次出发": "First departure",
+"第１回合吸收能量，第２回合大幅提高特攻、特防和速度": "Absorbs energy on turn 1, then sharply raises Sp. Atk, Sp. Def and Speed on turn 2",
+"第１回合把头缩进去，从而提高防御。第２回合攻击对手": "Tucks in its head on turn 1 to raise Defense. Attacks the foe on turn 2",
+"第１回合收集满满的日光，第２回合发射光束进行攻击": "Gathers sunlight on turn 1, then fires a beam on turn 2",
+"第１回合收集满满的日光，第２回合将此力量集中在剑上进行攻击": "Gathers sunlight on turn 1, then slashes with it on turn 2",
+"第１回合消失在某处，第２回合攻击对手。可以无视守护进行攻击": "Vanishes somewhere on turn 1, then strikes on turn 2. Can hit through protection",
+"第１回合消失踪影，第２回合攻击对手。即使对手正受保护，也能击中": "Vanishes on turn 1, attacks on turn 2. Hits even a protecting target",
+"第１回合潜入水中，第２回合浮上来进行攻击": "Dives underwater on turn 1, then surfaces to attack on turn 2",
+"第１回合聚集宇宙之力提高特攻，第２回合攻击对手": "Gathers cosmic power on turn 1 to raise Sp. Atk. Attacks the foe on turn 2",
+"第１回合钻入地底，第２回合攻击对手": "Digs underground on turn 1, attacks on turn 2",
+"第１回合飞上天空，第２回合攻击对手": "Flies up on turn 1, attacks on turn 2",
+"第２回合攻击对手。偶尔使对手畏缩。也容易击中要害": "Attacks the foe on turn 2. May cause flinching. High critical-hit ratio",
+"等级 1": "Lv 1",
+"管理招式": "Manage moves",
+"精灵球按份购买、用不完的会带到以后的局；想抓宠物就在左边选球（或按数字键 1–5），选好直接去战场上放圈。": "Poké Balls are bought by the pack and leftovers carry over to later runs. To catch a pet, pick a ball on the left (or press 1-5), then go to the field and place the ring.",
+"精英绿毛虫": "Elite Caterpie",
+"紧紧瞄准对手，下次攻击必定会打中": "Locks on tightly to the foe so the next attack never misses",
+"红": "Red",
+"红闪": "Red Shiny",
+"经验 +100%（每个；和幸运蛋分开乘）": "EXP +100% (each; multiplied separately from Lucky Egg)",
+"经验 +20%（每层；原版学习装置给全队分经验，本作不做队伍，直接加给上场那只）": "EXP +20% (per stack; the original Exp. Share gives EXP to the whole party; this game has no party, so it goes directly to the active Pokémon)",
+"经验 +40%（每个）": "EXP +40% (each)",
+"经验 0 / 1": "EXP 0 / 1",
+"经验加成": "EXP Bonus",
+"经验吸附": "Exp. Share",
+"给予伤害，使对手的ＨＰ变得和自己的ＨＰ一样": "Deals damage that brings the foe's HP down to the user's HP",
+"给予对手又吵又响的巨大震动进行攻击": "Attacks the foe with huge, loud vibrations",
+"给予睡眠状态下的对手较大的伤害。但相反对手会从睡眠中醒过来": "Deals big damage to a sleeping foe, but wakes it up",
+"给周围全体宝可梦造成伤害。可以回复给予伤害的一半HP": "Damages all Pokémon around the user. Restores half the damage dealt as HP",
+"给对手挠痒，使其发笑，从而降低对手的攻击和防御": "Tickles the target into laughing, lowering its Attack and Defense",
+"给自己回复和对手攻击力相同数值的ＨＰ，然后降低对手的攻击": "Restores HP equal to the foe's Attack stat, then lowers the foe's Attack",
+"继续游戏": "Continue",
+"继续（Esc）": "Continue (Esc)",
+"继续：无限模式": "Continue: Endless Mode",
+"绿毛虫头目": "Caterpie Boss",
+"编号": "No.",
+"缩入壳里保护身体，从而提高自己的防御": "Withdraws into its shell, raising Defense",
+"缺图": "Missing art",
+"缺损的壶": "Cracked Pot",
+"群体": "Group",
+"翻耕土地，使草木更容易成长。会提高草属性宝可梦的攻击和特攻": "Tills the soil to help plants grow. Raises Attack and Sp. Atk of Grass-type Pokémon",
+"耀武扬威地攻击对手，自己的能力提高得越多，威力就越大": "Attacks arrogantly. The more stat boosts the user has, the greater the power",
+"联系绳": "Link Cord",
+"聚集大地的力量，将此力量集中攻击对手，并给予伤害": "Gathers the earth's power and focuses it on the target",
+"胆小": "Timid",
+"能力": "Stats",
+"能力 ": "Stats",
+"能力被降低时全部恢复，用掉一个": "Restores all lowered stats; one is consumed",
+"能力（种族值）：": "Stats (base):",
+"能够攻击正在使用守住或看穿等招式的对手。解除其守护效果": "Can hit a foe using Protect or Detect, breaking its protection",
+"能无视具有吸引对手招式效果的特性或招式的影响。可以向选定的对手进行攻击": "Ignores Abilities or moves that draw in attacks. Can hit the chosen target",
+"脚上覆盖薄冰，旋转着撞击对手。通过旋转的动作破坏场地": "Spins into the foe with thin ice on its feet, breaking the terrain",
+"脚下泛起奇异的光！": "A strange light glows underfoot!",
+"脚下流淌着电流！": "Electricity is flowing underfoot!",
+"脚下起了薄雾！": "Mist rose at your feet!",
+"脚下长出了青草！": "Grass sprouted underfoot!",
+"自动冲撞最近的一个敌人，造成伤害。": "Automatically charges the nearest enemy for damage.",
+"自动咬住最近的一个敌人，造成伤害。": "Automatically bites the nearest enemy, dealing damage.",
+"自动啄最近的一个敌人，造成伤害。": "Automatically pecks the nearest enemy, dealing damage.",
+"自动打最近的一个敌人，造成特殊伤害。": "Automatically hits the nearest enemy for special damage.",
+"自动抓最近的一个敌人，造成伤害。": "Automatically scratches the nearest enemy for damage.",
+"自动拍击最近的一个敌人，造成伤害。": "Automatically slaps the nearest enemy for damage.",
+"自动撞击最近的一个敌人，造成伤害。": "Automatically rams the nearest enemy for damage.",
+"自大": "Naughty",
+"自己使用的变化招式：自身防御等级 +1（最高 +6，整场保留），不造成直接伤害。": "Status move used on self: Defense stage +1 (max +6, kept for the whole run); deals no direct damage.",
+"自爆小队来了！看到红圈快跑": "Self-destruct squad incoming! Run when you see red circles",
+"自爆小队（成群冲过来自爆，很折磨）": "Exploder squad (swarm in to self-destruct; very annoying)",
+"自身": "Self",
+"至少要带一个能打人的招出门，这个不能取下。": "Bring at least one attack move; this one can't be removed.",
+"花田": "Flower Field",
+"草地": "Grassland",
+"草莓糖饰品": "Strawberry Sweet",
+"荒地": "Badlands",
+"荒野": "Wilderness",
+"营养饮料": "Nutrient Drink",
+"营养饮料·HP": "Vitamin · HP",
+"营养饮料·攻击": "Nutrient Drink · Attack",
+"营养饮料·特攻": "Energy Drink · Sp. Atk",
+"营养饮料·特防": "Zinc",
+"营养饮料·速度": "Vitamin · Speed",
+"营养饮料·防御": "Nutrient Drink · Defense",
+"蓝": "Blue",
+"蓝闪": "Blue Shiny",
+"薄荷": "Mint",
+"虫 · 变化": "Bug · Status",
+"虫 · 物理": "Bug · Physical",
+"虫咬伤害": "Bug Bite damage",
+"虽然会使自己陷入昏厥，但是能够大幅降低对手的攻击和特攻": "Sharply lowers the target's Attack and Sp. Atk, though the user faints",
+"蛋孵化了！": "The egg hatched!",
+"蜜汁苹果": "Syrupy Apple",
+"蜷缩身体显得很小，从而大幅提高自己的闪避率": "Curls up to look small, sharply raising evasion",
+"融合": "Fusion",
+"融合招": "Fusion move",
+"血量降到 25% 以下时自动吃掉，回复最大 HP 的 25%（吃完隔 8 秒才吃下一个；比回血招晚触发，留着保命）": "Auto-eaten when HP drops below 25%, restoring 25% of max HP (next one only after 8 s; triggers later than healing moves, keep it as a lifesaver)",
+"被动: ": "Passive: ",
+"被围住了": "Surrounded",
+"被白雾包围了！": "Shrouded in white mist!",
+"被神秘的帷幕包围了！": "Surrounded by a mysterious veil!",
+"装作低头认错的样子，用凌乱的头发进行突刺。攻击必定会命中": "Pretends to apologize, then thrusts with messy hair. Never misses",
+"装哭流泪。使对手不知所措，从而大幅降低对手的特防": "Cries fakely, sharply lowering the foe's Sp. Def",
+"要不要先玩 2 分钟教学关？会用超极巨化的巴大蝶（绿毛虫进化到底的样子）把走位、技能开关、抓宠、商店、撤离都走一遍；抓到的宝可梦会留下。这个存档只问这一次。": "Play a 2-minute tutorial first? You'll use a Gigantamax Butterfree (Caterpie's final evolution) to walk through movement, skill toggles, catching pets, the shop and Extract; Pokémon you catch are kept. This save is asked only once.",
+"觉醒之石": "Awakening Stone",
+"解锁": "Unlock",
+"解锁隐藏特性": "Unlock Hidden Ability",
+"解除主要异常（麻痹 / 中毒 / 睡眠 / 冰冻 / 灼伤），不回血（不影响混乱）；买树果更划算（树果 20 点、自动吃）": "Cures major status (paralysis / poison / sleep / freeze / burn), restores no HP (confusion unaffected); Berries are better value (Berry 20 pts, eaten automatically)",
+"认真": "Serious",
+"让同伴听舒适的铃音，从而治愈我方全员的异常状态": "Soothes the team with a gentle bell, curing all status conditions",
+"让同伴闻沁人心脾的香气，从而治愈我方全员的异常状态": "Lets allies smell a refreshing scent, curing the whole party's status conditions",
+"让在睡眠状态下的对手做恶梦，每回合会缓缓减少HP": "Gives a nightmare to a sleeping foe, slowly draining HP each turn",
+"让多龙梅西亚进行２次攻击。如果对手有２只宝可梦，则对它们各进行１次攻击": "Dreepy attacks twice. If the foe has two Pokémon, attacks each once",
+"让对手听古老之歌，打动对手的内心进行攻击。有时会让对手陷入睡眠状态": "Plays an ancient song to move the foe's heart. May put the foe to sleep",
+"让对手听摩擦金属般讨厌的声音。大幅降低对手的特防": "Makes the foe hear an awful metal-scraping sound. Harshly lowers its Sp. Def",
+"让对手听舒适、美妙的歌声，从而陷入睡眠状态": "Sings a soothing, lovely song that puts the target to sleep",
+"让对手听舒适的笛声，从而陷入睡眠状态": "Plays a soothing flute melody to put the foe to sleep",
+"让对手掉落于地裂的裂缝中进行攻击。只要命中就会一击昏厥": "Drops the foe into a fissure. One-hit KO if it hits",
+"让对手无法逃走。对手被固定后，每回合都会降低防御和特防": "Prevents the foe from escaping. While trapped, its Defense and Sp. Def drop every turn",
+"让对手陷入剧毒状态。随着回合的推进，中毒伤害会增加": "Badly poisons the foe. Poison damage grows each turn",
+"让强大的电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态": "Covers the body in powerful electricity and slams into the foe. May paralyze the foe",
+"让意念的能量覆盖全身，撞向对手进行攻击。会提高自己的防御": "Covers the body in psychic energy and rams the target. Raises own Defense",
+"让水覆盖全身后撞向对手。自己也会受到不少伤害": "Covers the body in water and rams the target. The user takes considerable recoil",
+"让火焰覆盖全身猛撞向对手。自己也会受到不小的伤害。有时会让对手陷入灼伤状态": "Covers the body in flames and slams into the foe. The user takes considerable recoil. May burn the foe",
+"让火焰覆盖全身，振翅攻击对手。有时会提高自己的特攻": "Cloaks itself in flame and strikes with its wings. May raise the user's Sp. Atk",
+"让火焰覆盖全身，攻击对手。积蓄力量来提高自己的速度": "Covers the body in flames to attack. Builds power to raise the user's Speed",
+"让火焰覆盖全身，猛撞向对手进行攻击。有时会让对手陷入灼伤状态": "Cloaks itself in flame and crashes into the foe. May burn the foe",
+"让电流覆盖全身，撞向对手进行攻击。自己也会受到少许伤害": "Covers the body in electricity and slams into the foe. The user takes a little recoil",
+"让电流覆盖全身，猛撞向对手进行攻击。有时会让对手陷入麻痹状态": "Covers the body in electricity and slams into the foe. May paralyze the foe",
+"让细胞再生，从而回复自己最大ＨＰ的一半": "Regenerates cells to restore half of max HP",
+"让自己的头爆炸，来攻击周围的一切。自己也会受到伤害": "Explodes its own head to attack everything around it. The user also takes damage",
+"让身体一下子长大，从而提高攻击和特攻": "Suddenly grows its body to raise Attack and Sp. Atk",
+"让身体放松变得轻盈，以便高速移动。大幅提高自己的速度": "Relaxes the body to be lighter for high-speed movement. Sharply raises Speed",
+"让身体高速旋转并撞击对手。速度比对手越慢，威力越大": "Spins at high speed into the foe. Slower than the foe means more power",
+"记忆蘑菇": "Memory Mushroom",
+"设下甲壳陷阱。如果对手使出物理招式，陷阱就会爆炸并给予对手伤害": "Sets a shell trap. If the foe uses a physical move, it explodes and damages the foe",
+"设置": "Settings",
+"诅咒之符": "Cursed Charm",
+"谋划诡计，激活头脑。大幅提高自己的特攻": "Plots a scheme and stimulates the brain. Sharply raises Sp. Atk",
+"豪华": "Deluxe",
+"贫民窟": "Slums",
+"购买 Enter": "Buy (Enter)",
+"起名": "Name It",
+"起点": "Start",
+"起雾了！": "Fog rolled in!",
+"超极巨": "Gigantamax",
+"超极巨化": "Gigantamax",
+"超级": "Mega",
+"超级进化": "Mega Evolution",
+"跳起后用膝盖撞对手进行攻击。如果撞偏则自己会受到伤害": "Jumps up and knees the foe. If it misses, the user takes damage",
+"跳过 SKIP (Esc)": "Skip SKIP (Esc)",
+"跳过，直接出发": "Skip, go now",
+"转动齿轮，不仅提高自己的攻击，还会大幅提高速度": "Spins gears to raise Attack and sharply raise Speed",
+"轻功": "Agility",
+"轻巧地攻击对手。自己没有携带道具时，会给予较大的伤害": "Attacks nimbly. Deals more damage if the user holds no item",
+"轻巧地跳起神秘而又美丽的舞蹈。提高自己的特攻、特防和速度": "Dances a mystical, beautiful dance. Raises Sp. Atk, Sp. Def, and Speed",
+"较快": "Fast",
+"较慢": "Slower",
+"辅助多重镜": "Support Multi Lens",
+"边变形边凶暴地落下，并引发起古老的大爆炸。若针对到弱点，威力会进一步": "Falls ferociously while transforming, triggering an ancient great explosion. Power rises further if it hits a weakness",
+"边变形边高速奔走，并以未知的电击贯穿对手。若针对到弱点，威力会进一步": "Transforms and dashes at high speed, piercing the target with unknown electricity. Hitting a weakness boosts power further",
+"迅猛无比的电击。必定能够先制攻击，击中对方的要害。": "A blindingly fast bolt of electricity. Always strikes first and hits a vital spot.",
+"迅速撞向对手进行攻击。必定能够先制攻击": "Slams into the foe quickly. Always strikes first",
+"返回": "Back",
+"返回抓宠（Esc）": "Back to Catching (Esc)",
+"返回标题": "Back to title",
+"还没学会瞬间移动": "Teleport not learned yet",
+"还没有招式。": "No moves yet.",
+"还能进化的时候防御、特防 ×1.5（进化到底就没用了）": "While it can still evolve: Defense, Sp. Def ×1.5 (useless once fully evolved)",
+"这一局的目标：活过 5 分钟就能撤离、去新地区（4:30 会来头目，打倒它或等它走）。招式会自动放，你只管走位躲怪。右上角「商店」能买药和精灵球。": "This run's goal: survive 5 minutes to Extract and head to a new region (a boss arrives at 4:30; defeat it or wait for it to leave). Moves fire automatically; just dodge the monsters. The Shop at the top right sells potions and Poké Balls.",
+"这一页没有能买的": "Nothing to buy on this page",
+"这只宝可梦学不了这个技能机器（或还没捕获）；未扣款。": "This Pokémon can't learn this TM (or isn't caught yet); no Points spent.",
+"这只宝可梦暂时不能上场，请先捕获或选择已准备好的宝可梦": "This Pokémon can't enter battle yet. Catch it or pick a ready Pokémon first",
+"这只宝可梦还没开放上场。": "This Pokémon isn't available for battle yet.",
+"这只宝可梦还没开放上场，这里只显示图鉴资料。": "This Pokémon isn't playable yet; only Pokédex data is shown.",
+"这只宝可梦还没有可带入的初始招。": "This Pokémon has no starting moves to bring yet.",
+"这只宠物扔出去的所有球，捕获率再乘一个倍率：1 级 ×1.2 / 2 级 ×1.5 / 3 级 ×2.0（和球、异常状态的加成叠乘）": "Multiplies the catch rate of every ball this pet throws: Lv. 1 ×1.2 / Lv. 2 ×1.5 / Lv. 3 ×2.0 (stacks multiplicatively with ball and status bonuses)",
+"这只本作还没做好，暂时只能在图鉴里看": "This one isn't ready in this game yet; view only in the Pokédex for now",
+"这招暂时还没做，开局不会带上。": "This move isn't made yet and won't be brought into a run.",
+"这次没抓到也没关系：正式开局里稀有宝可梦还会出现，按 Esc 暂停就能扔球。": "No worries if you missed: rare Pokémon will appear in the real run too; press Esc to pause and throw a ball.",
+"这次没能捕获": "Catch failed this time",
+"这种球已经用完了": "This ball type is used up",
+"进化": "Evolve",
+"进化契机": "Evolution Trigger",
+"进化演出不可用，暂时保留原形态": "Evolution animation unavailable; keeping the current form for now",
+"进化道具": "Evolution items",
+"进化：": "Evolves:",
+"进化：不进化": "Evolution: don't evolve",
+"进攻多重镜": "Offense Multi-Lens",
+"进行先制攻击，使对手畏缩。要在出场后立刻使出才能成功": "Attacks first to make the foe flinch. Only works right after entering battle",
+"连同身体转起巨大的锤子进行攻击。这个招式无法连续使出２次": "Spins its whole body with a giant hammer to attack. Can't be used twice in a row",
+"连续睡上２回合。回复自己的全部ＨＰ以及治愈所有异常状态": "Sleeps for 2 turns. Restores all HP and cures all status conditions",
+"连续３次踢对手进行攻击。每踢中一次，威力就会提高": "Kicks the target 3 times in a row. Power rises with each hit",
+"退出": "Quit",
+"退出游戏": "Quit Game",
+"选中的宝可梦": "Selected Pokémon",
+"选中的宠物": "Selected Pet",
+"选为首发": "Set as lead",
+"选好上场的宝可梦和目的地，再出发。": "Choose your Pokémon and destination, then depart.",
+"选择地图": "Select Map",
+"选择换掉哪一招": "Pick a move to replace",
+"通关": "Cleared",
+"通关过": "Cleared before",
+"通用": "General",
+"通过反复击打对手，使自己的拳头慢慢变硬。打中对手攻击就会提高": "Hardens the fist by repeatedly hitting the target. Raises Attack on hit",
+"通过异次元洞，突然出现在对手的侧面进行攻击。还可以无视守住和看穿等招式": "Appears suddenly at the foe's side through a dimensional hole. Ignores Protect and Detect",
+"通过往腿上增加负荷，以激烈的旋转给予对手伤害。自己的速度会大幅降低": "Loads weight onto the legs and spins violently to hit the target. Sharply lowers the user's Speed",
+"通过快速移动来制造分身，扰乱对手，从而提高闪避率": "Moves fast to make doubles that confuse the foe, raising evasion",
+"通过操控磁场，会提高特性为正电和负电的宝可梦的防御和特防": "Manipulates magnetic fields to raise the Defense and Sp. Def of Pokémon with Plus or Minus",
+"通过旋转来攻击对手。可以摆脱绑紧、紧束、寄生种子等招式。还能提高自己的速度": "Attacks by spinning. Frees the user from Bind, Wrap, Leech Seed, etc. Raises Speed",
+"通过旋转来攻击对手。可以摆脱绑紧、紧束、寄生种子等招式。还能让对手陷入中毒状态": "Spins to attack the foe. Frees the user from Bind, Wrap, Leech Seed, etc. Also poisons the foe",
+"通过点穴让身体舒筋活络。大幅提高某１项能力": "Presses pressure points to loosen the body. Sharply raises one stat",
+"通过细胞的变化进行液化，从而大幅提高自己的防御": "Liquefies the body through cell changes to sharply raise Defense",
+"通过装饰，大幅提高对方的攻击和特攻": "Decorates the foe, sharply raising its Attack and Sp. Atk",
+"通过震耳欲聋的爆炸声产生的破坏力，攻击自己周围所有的宝可梦": "Attacks all Pokémon around the user with the destructive power of a deafening blast",
+"速": "Spd",
+"速度": "Speed",
+"速度（原作属性）": "Speed (original stat)",
+"道场": "Dojo",
+"遗传招": "Egg Move",
+"邀请对手参加万圣夜。使对手被追加幽灵属性": "Invites the target to Halloween. Adds Ghost type to the target",
+"都市": "City",
+"酸酸苹果": "Tart Apple",
+"释放出巨大的火焰。受到巨大的闪电影响时，招式威力会提高": "Unleashes a giant flame. Power rises when affected by a huge bolt of lightning",
+"释放出巨大的闪电。受到巨大的火焰影响时，招式威力会提高": "Unleashes huge lightning. Power rises if affected by great flames",
+"释放出扭曲时间般的强大力量攻击对手。下一回合自己将无法动弹": "Unleashes a power that warps time to attack the foe. Can't move next turn",
+"释放出骇人的杀气，一边威慑一边撞击对手。有时会使对手畏缩": "Releases fearsome killing intent and rams the target to intimidate. May cause flinching",
+"释放耀眼的光芒进行攻击。有时会降低对手的特防": "Releases a dazzling light to attack. May lower the foe's Sp. Def",
+"重力变强了！": "Gravity intensified!",
+"野生宝可梦": "Wild Pokémon",
+"野生宝可梦出闪光的几率每层 +40%（20 层 ×9，约 110 只出一只；本作改：原版 1 层就 ×8，我们一局刷的怪多得多）。越买越贵：第 1 层 300 点，每层多 100": "Wild Shiny chance +40% per stack (20 stacks ×9, about 1 in 110; changed here: the original is ×8 at 1 stack, but we spawn far more monsters per run). Gets pricier: stack 1 costs 300 pts, +100 per stack",
+"野生宝可梦带隐藏特性的几率 ×2^(1+层数)（原版特性护符；1 层 ×4）": "Wild Pokémon Hidden Ability chance ×2^(1+level) (original Ability Charm; Lv. 1 ×4)",
+"野生宝可梦来了": "Wild Pokémon appeared",
+"野生宝可梦涌来": "Wild Pokémon swarm",
+"野生宝可梦突袭": "Wild Pokémon Ambush",
+"野生宝可梦袭来": "Wild Pokémon incoming",
+"金": "Gold",
+"金属膜": "Metal Coat",
+"银粉": "Silver Powder",
+"锐利鸟嘴": "Sharp Beak",
+"镜片": "Lens",
+"镜片（给选中的宠物买，每种最多买到 3 级，越往后越贵；闪光开局 / 融合闪光还能再往上加，最高 9 级——想要更高就去刷闪光）：多重镜让单体招同时波及更多目标；捕捉镜提高这只扔球的捕获率。": "Lens (buy for the selected pet; up to Lv. 3 each, pricier later; Shiny starts / fused Shiny can go higher, up to Lv. 9, so farm Shinies): Multi-Lens makes single-target moves hit more targets; Catch Lens raises this pet's ball catch rate.",
+"长出巨大的藤蔓，播撒种子进行攻击。种子每回合都会吸取对手的HP": "Grows giant vines and scatters seeds. The seeds drain the foe's HP every turn",
+"闪光几率": "Shiny rate",
+"闪光开局另加等级：金闪 +1 / 蓝闪 +2 / 红闪 +3（融合时两只的加级相加，最高 9 级；买只能到 3 级，再高靠刷闪光）": "Shiny starts add levels: Gold +1 / Blue +2 / Red +3 (on fusion the two Pokémon's bonuses add up, max 9 levels; buying only reaches 3, beyond that grind Shinies)",
+"闪光系统本作未实现。": "The Shiny system is not implemented in this game.",
+"闪光血量": "Shiny HP",
+"闪光：关": "Shiny: Off",
+"闪避": "Evasion",
+"防": "Def",
+"防住对手攻击的同时，削减接触到自己的对手的体力": "Blocks the attack while damaging opponents that touch the user",
+"防住对手攻击的同时，自己变为防御姿态。能够降低所接触到的对手的攻击": "Blocks the foe's attack and takes a defensive stance. Lowers the Attack of foes that touch it",
+"防住对手攻击的同时，让接触到自己的对手中毒": "Blocks the foe's attack while poisoning foes that make contact",
+"防御": "Defense",
+"阿尔宙斯": "Arceus",
+"降低最近一个敌人的命中 1 级（最低 -6 级，整场保留），不造成直接伤害。": "Lowers the nearest enemy's accuracy by 1 stage (min -6, kept for the whole battle); deals no direct damage.",
+"降低身边一圈敌人的攻击 1 级（每个敌人各自判定、最低 -6 级，整场保留）。": "Lowers nearby enemies' Attack by 1 stage (each enemy judged separately, min -6, kept for the whole battle).",
+"降低身边一圈敌人的速度 2 级（每个敌人各自判定、最低 -6 级，整场保留）。": "Lowers the Speed of nearby enemies by 2 stages (each enemy rolls separately, min -6, kept for the whole run).",
+"降低身边一圈敌人的防御 1 级（每个敌人各自判定、最低 -6 级，整场保留）。": "Lowers Defense of enemies in the surrounding ring by 1 stage (judged per enemy, min -6, lasts the whole run).",
+"降到地面，使身体休息。回复自己最大ＨＰ的一半": "Lands on the ground to rest. Restores half the user's max HP",
+"随机": "Random",
+"随着唱歌会放出很多气球。受到此招式攻击时，灼伤会被治愈": "Sings and releases many balloons. Cures burns if the user is hit by this move",
+"隐藏特性": "Hidden Ability",
+"集中精神出拳。在招式使出前若受到攻击则会失败": "Focuses and punches. Fails if hit before the move executes",
+"集中精神，下次攻击必定会击中要害": "Concentrates so the next attack always lands a critical hit",
+"雨": "Rain",
+"雪": "Snow",
+"雪地森林": "Snowy Forest",
+"雷之石": "Thunder Stone",
+"雾": "Fog",
+"霏欧纳": "Phione",
+"静心凝神，从而提高自己的特攻和特防": "Calms the mind to raise Sp. Atk and Sp. Def",
+"音量": "Volume",
+"顽皮": "Naughty",
+"颠倒对手身上的所有能力变化，变成和原来相反的状态": "Reverses all of the foe's stat changes to their opposites",
+"飞出叶片，切斩对手进行攻击。容易击中要害": "Flies leaves out to slash the foe. High critical-hit ratio",
+"马虎": "Careless",
+"高草丛": "Tall Grass",
+"麻痹": "Paralysis",
+"黑奇石": "Black Augurite",
+"黑带": "Black Belt",
+"黑色眼镜": "Black Glasses",
+"默认": "Default",
+"鼓起冲劲，治愈自己的异常状态，同时提高自己的特攻和特防": "Rouses itself, curing its status condition and raising Sp. Atk and Sp. Def",
+"龙之牙": "Dragon Fang",
+"（一直有效）": "(Always active)",
+"（不画圈）": "(no circle)",
+"（关）": "(Off)",
+"（品红圈 = 真实伤害范围）": "(Magenta ring = true damage range)",
+"（地区）": "(Region)",
+"（存档损坏）": "(save corrupted)",
+"（开）[P]": "(On) [P]",
+"（招式栏满了，先取下一招）": "(Move slots full; remove a move first)",
+"（新地区，以后可以直接选）": "(new region, selectable directly later)",
+"（新）": "(New)",
+"（暂名）": "(Tentative name)",
+"（本作暂无效果）": "(No effect in this game)",
+"（没买经验护符）": "(No Exp. Charm bought)",
+"（缺图）": "(missing art)",
+"（隐藏）": "(Hidden)",
+"（非敌人来源）": "(not an enemy source)",
+"，开局带着": ", brought at start",
+"，没有空槽没带上（可以在这里「带上」）": ", no empty slot so not equipped (you can \"Equip\" it here)",
+"；进化时不会学新招。": "; no new move learned on evolution."
+},
+"templates": [
+[
+"特殊进化（给「%s」用，靠进化道具进化：石头 / 联系绳 / 进化契机（原作要亲密度 / 会某招 / 特殊条件的）；买了离开商店后播进化；普通 30 点 / 稀有 100 点，进化后新形态记进图鉴）",
+"Special evolution (for “%s”; evolves via evolution items: stones / Link Cable / catalysts (originally requiring Friendship / a specific move / special conditions); evolution plays after you leave the shop when bought; 30 pts common / 100 pts rare; the new form is recorded in the Pokédex)"
+],
+[
+"勾了：局里升级只学计划里的招，并自动顶掉不在计划里的招；别的招不弹窗直接跳过（记忆蘑菇能找回）。一个都不勾 = 照旧每次问。已勾 %d/4。",
+"Checked: in-run level-ups only learn moves in the plan and auto-replace moves not in it; other moves are skipped with no prompt (Memory Mushroom can recover them). None checked = ask every time as before. Checked %d/4."
+],
+[
+"技能机器（买给「%s」，买一次永久拥有；开局最多带 %d 个招，开局招和机器一起算，点一下带上 / 取下；有空位时买了就带上）",
+"TMs (buy for \"%s\", buy once to keep forever; up to %d moves at start, starting moves and TMs count together; click to equip / unequip; equipped when bought if a slot is free)"
+],
+[
+"记忆蘑菇：想起没带着的招——到现在等级为止能学的招、这一局被换掉的招、城镇用技能机器学过的招；买一个恢复一招，%d 点。",
+"Memory Mushroom: recall moves you aren't carrying: moves learnable up to your current level, moves swapped out this run, and TM-learned moves from Town; each purchase restores one move, %d Points."
+],
+[
+"每层 +10%%：普通回血按原一般治疗取整；伤药只加固定回复分支，不乘百分比分支 · 已买 %d/%d · %d 点/层",
+"+10%% per level: normal healing rounds as the original; Potions only add the flat branch, not the percent branch · Bought %d/%d · %d Pts/level"
+],
+[
+"生蛋：在格子里点第二只亲代（抓到过、不是神兽）；孵出来是「%s」这一系最前面那只 · 右键或 Esc 取消",
+"Breed: click the second parent in the grid (caught before, not Legendary); the hatchling is the first in the \"%s\" line · right-click or Esc to cancel"
+],
+[
+"马上升 %d 级（糖果罐 %d 层）。以后开局也多这些级。糖果加的等级不会让野怪变强，靠它拉开等级差。",
+"Instantly +%d levels (Rare Candy jar %d stacks). Future runs also start with these extra levels. Candy levels don't strengthen wild monsters, so use them to widen the level gap."
+],
+[
+"属性按 1 级计算；个体值 0、性格中性。第六项是原作速度属性，本作移速 %s 米/秒、攻速 %s。",
+"Stats are calculated at Lv. 1; IVs 0, neutral Nature. The sixth stat is the original Speed stat; in this game move speed is %s m/s, attack speed %s."
+],
+[
+"开局会的招里没有能打人的（%s），当首发打不动怪，所以暂时不能出发；先用它的进化前 / 进化后形态吧",
+"None of the starting moves can deal damage (%s); it can't carry the fight as lead, so it can't depart yet; use its pre-evolution / evolution first"
+],
+[
+"树果：买了就带着，条件到了自动吃，不用点（每种最多带 %d 个，本局有效；画面右边会显示还剩几个）。",
+"Berries: equip when bought; eaten automatically when the condition is met (max %d each, this run only; remaining count shown on the right)."
+],
+[
+"RIBBON 飘带刀光 %d° 半径 %.1f；品红线 = 真实砍击范围；主角朝 +Z（画面下方）",
+"RIBBON streamer slash arc %d° radius %.1f; magenta line = actual slash range; hero faces +Z (screen bottom)"
+],
+[
+"【改版】救急：血低于 %d%% 时自动放，%.1f 秒内什么都伤不到你，冷却 %d 秒。效果：%s",
+"[Modified] Emergency: auto-triggers below %d%% HP, nothing can hurt you for %.1f s, cooldown %d s. Effect: %s"
+],
+[
+"天降拳风：左 半径 1.5 / 右 半径 3.0，品红圈 = 真实伤害范围；砸中在 %.2f 秒",
+"Sky Fist wind: left radius 1.5 / right radius 3.0, magenta circle = actual damage range; slam lands at %.2f s"
+],
+[
+"存档读不出来（%s），已停止写入，原档不动。每天的备份在 %s，可以拿一份改名成 %s 换回来。",
+"Save could not be read (%s); writing stopped, original untouched. Daily backup is at %s; rename a copy to %s to restore."
+],
+[
+"已为「%s」买下「%s」×1（共 %d 颗，开局 +%d 级），花费 %d 点，现有点数 %d。",
+"Bought \"%s\" ×1 for \"%s\" (%d total, +%d starting levels), cost %d Pts, now %d Pts."
+],
+[
+"已买下「%s」，花费 %d 点，现有点数 %d；离开商店（继续游戏）后 %s 会进化成 %s。",
+"Bought \"%s\" for %d pts, now %d pts; after leaving the shop (resume), %s will evolve into %s."
+],
+[
+"已购买「%s」×%d 个（实际补入 %d，现有 %d/%d），花费 %d 点，现有点数 %d。",
+"Bought \"%s\" ×%d (actually added %d, now %d/%d), cost %d pts, now %d pts."
+],
+[
+"这招 PP 够高，冷却已经是最短（%.1f 秒），买 PP 提升剂也不会更快，所以不卖。",
+"This move's PP is high enough and its cooldown is already minimal (%.1f s); PP Up wouldn't make it faster, so it isn't sold."
+],
+[
+"【改版】光环：攻击圈里的每只怪%s，每只只降一次。带着就生效、不用放；技能栏里关掉就停。",
+"【Revamped】 Aura: every monster in the attack ring is %s, once each. Works while equipped, no casting; turn it off in the skill bar to stop."
+],
+[
+"这招 PP +20%%（每个），PP 越高冷却越短：现在 PP %d、冷却 %.1f 秒",
+"This move PP +20%% (each); higher PP means shorter cooldown: now PP %d, cooldown %.1f s"
+],
+[
+"糖果不够：解锁要 %d 颗，现在 %d 颗（抓到同一系的宝可梦、带它打满好感都给糖果）",
+"Not enough Candy: unlocking needs %d, you have %d (catching Pokémon of the same line, or maxing their friendship in a run, gives Candy)"
+],
+[
+"%s → %s · %d 点（买了立刻变身，这一局一直保持；再进化会变回普通形态）%s",
+"%s → %s · %d Points (transforms instantly when bought and stays for this run; evolving again reverts to normal form)%s"
+],
+[
+"【改版】常驻减伤：受到的物理、特殊伤害都 ×%.1f。带着就生效、不用放；关掉就失效。",
+"[Modified] Passive damage reduction: physical and special damage taken ×%.1f. Active while equipped, no need to use; off when disabled."
+],
+[
+"已购买并使用「%s」，回复 %d 点并解除了主要异常，花费 %d 点，现有点数 %d。",
+"Bought and used \"%s\": restored %d HP and cured major status, cost %d Pts, now %d Pts."
+],
+[
+"性格换成「%s」，下一局开局按它算六维；这一系抓到过 %d 种性格，点一下或按 N 换",
+"Nature changed to \"%s\"; next run starts with stats calculated by it. This line has caught %d Natures; click or press N to change"
+],
+[
+"已买下「%s」×1（带着 %d/%d，会自动吃），花费 %d 点，现有点数 %d。",
+"Bought “%s” ×1 (holding %d/%d, eaten automatically), cost %d pts, %d pts left."
+],
+[
+"已为「%s」买下「技能机器·%s」（%s档）%s；花费 %d 点，现有点数 %d。",
+"Bought \"TM · %s\" (%s tier) for \"%s\" %s; cost %d pts, now %d pts."
+],
+[
+"已给「%s」这一系带上「%s」（现在 %d 个），花费 %d 点，现有点数 %d。",
+"Gave \"%s\" to the \"%s\" line (now %d), cost %d pts, now %d pts."
+],
+[
+"总受伤 %d · 受击 %d 次 · 治疗总量 %d · 周围敌人最多 %d 只",
+"Total damage %d · Hits taken %d · Total healing %d · Max nearby enemies %d"
+],
+[
+"%s · %s · %s　威力 %s　命中 %s　PP %d　冷却 %.1f 秒",
+"%s · %s · %s　Power %s　Acc %s　PP %d　Cooldown %.1f s"
+],
+[
+"选融合对象：在格子里点一只抓到过的（不能选「%s」自己）· 右键或 Esc 取消",
+"Pick a fusion partner: click a caught Pokémon in the grid (not \"%s\" itself) · right-click or Esc to cancel"
+],
+[
+"剑气 %d 道，长 %.1f 米；品红框 = 真实命中范围（长 × 1.2 米）",
+"%d sword waves, %.1f m long; magenta frame = actual hit area (length × 1.2 m)"
+],
+[
+"%s t=%.2f（正上方看，画面下方 = 主角正前 +Z，画面右 = +X）",
+"%s t=%.2f (top-down; screen bottom = player front +Z, screen right = +X)"
+],
+[
+"已为「%s」喝下「%s」：努力值 %d/%d，花费 %d 点，现有点数 %d。",
+"Drank \"%s\" for \"%s\": EVs %d/%d, cost %d Points, Points now %d."
+],
+[
+"【改版】常驻减伤：受到的%s伤害 ×%.1f。带着就生效、不用放；关掉就失效。",
+"【Revamped】 Passive guard: %s damage taken ×%.1f. Works while equipped, no casting; off = disabled."
+],
+[
+"护身金币：击杀点数 / 金珠 ×%.1f（买了 %d 层，这局用 %d 层）",
+"Amulet Coin: kill points / Nuggets ×%.1f (bought %d stacks, %d used this run)"
+],
+[
+"- %s：%d（%d%%），%d 次，单次最高 %d，平均等级 %.1f%s",
+"- %s: %d (%d%%), %d hits, max hit %d, avg level %.1f%s"
+],
+[
+"管理招式: 点一下带上、再点取下（最多带 %d 个），点右边 PP 加 PP",
+"Manage moves: click to equip, click again to unequip (max %d); click PP on the right to add PP"
+],
+[
+"为「%s」买：开局每颗 +1 级 · %d 点/颗 · 已买 %d/%d 颗",
+"For \"%s\": +1 level per stack at start · %d pts each · Bought %d/%d"
+],
+[
+"为「%s」买：%s 努力值 +10 · %d 点/颗 · 现在 %d/%d",
+"Buy for “%s”: %s EVs +10 · %d pts each · now %d/%d"
+],
+[
+"共 %d 个地区；当前开放 %d 个（新地区先用平原的地面，素材到了再换）",
+"%d regions total; %d currently open (new regions use Plains ground for now until assets arrive)"
+],
+[
+"【改版】救急：血低于 %d%% 时自动放，放完冷却 %d 秒。效果：%s",
+"【Revamped】 Emergency: auto-casts below %d%% HP, then %d s cooldown. Effect: %s"
+],
+[
+"融合：%s + %s（外观 / 经验曲线用前者，特性用后者，六维取平均）",
+"Fusion: %s + %s (first for appearance / EXP curve, second for Ability, average of base stats)"
+],
+[
+"为「%s」这一系买（进化前后都算）：%s；%s · 现在 %d/%d 级",
+"For the \"%s\" line (pre- and post-evolutions count): %s; %s · Now %d/%d lv"
+],
+[
+"已为「%s」买下「%s」第 %d 级，花费 %d 点，现有点数 %d。",
+"For “%s”: bought “%s” Lv. %d, cost %d pts, %d pts left."
+],
+[
+"已购买并使用「%s」，解除了主要异常，花费 %d 点，现有点数 %d。",
+"Bought and used “%s”; major status cured, cost %d pts, %d pts left."
+],
+[
+"已购买并使用「%s」，回复 %d 点，花费 %d 点，现有点数 %d。",
+"Bought and used \"%s\", restored %d, cost %d Points, Points now %d."
+],
+[
+"现在不能恢复「%s」（已经带着了 / 不是技能机器学过的招）；未扣款。",
+"Can't restore \"%s\" right now (already equipped / not a TM-learned move); not charged."
+],
+[
+"## 被削弱（敌人的降能力招，共 %d 次命中，最多降到 -2 级）",
+"## Weakened (enemy stat-lowering moves, %d hits total, down to -2 at most)"
+],
+[
+"为「%s」这一系买：%s · 现在 %d/%d 个 · %d 点/个",
+"Buying for the \"%s\" line: %s · now %d/%d · %d Points each"
+],
+[
+"招式槽满了（最多 %d 个）：先点一个带着的招取下，再带上「%s」。",
+"Move slots full (max %d): unequip one first, then equip \"%s\"."
+],
+[
+"招式槽满了（最多 %d 个）：先点一个带着的招取下，再带上；未扣款。",
+"Move slots are full (max %d): click an equipped move to remove it first, then equip; not charged."
+],
+[
+"战斗报告 · %s · 撑了 %s · 等级 %d · 击杀 %d",
+"Battle report · %s · survived %s · Lv. %d · kills %d"
+],
+[
+"生了一颗「%s」的蛋！打死 %d 只怪就孵出来（剩 %d 块蛋糕）",
+"Laid a \"%s\" Egg! Defeat %d monsters to hatch it (%d cakes left)"
+],
+[
+"- %s %s%s%s -%d → 剩 %d 血（周围 %d 只）",
+"- %s %s%s%s -%d → %d HP left (%d nearby)"
+],
+[
+"【改版】自己的%s。带着就生效一次、整局保持，不叠层，不会反复放。",
+"【Revamped】 Your own %s. Applies once when equipped and lasts the whole run; doesn't stack or recast."
+],
+[
+"离开「%s」，去哪里？（场上的怪留在这里；等级、宠物、道具都带走）",
+"Leave \"%s\". Where to? (Monsters stay here; levels, pets, and items come with you)"
+],
+[
+"「%s」当前没有效果（HP 已满或没有可解除的主要异常）；未扣款。",
+"\"%s\" has no effect right now (HP full or no major status to cure); not charged."
+],
+[
+"吃下记忆蘑菇，想起了「%s」%s，花费 %d 点，现有点数 %d。",
+"Ate a Memory Mushroom and remembered \"%s\" %s; cost %d pts, now %d pts."
+],
+[
+"被动解锁 %d 系 · 个体值全满 %d 系 · 最爱 %d 只",
+"Passives unlocked: %d lines · Perfect IVs: %d lines · Favorites: %d"
+],
+[
+"减速 %d%% → %d%%；持续 %.1f → %.1f 秒",
+"Slow %d%% → %d%%; lasts %.1f → %.1f s"
+],
+[
+"最后一击：%s%s%s -%d（剩 %d 血，周围 %d 只）",
+"Final blow: %s%s%s -%d (%d HP left, %d nearby)"
+],
+[
+"打怪攒了 %d 点，已经存进存档（回到选宠页能买糖果、道具）。",
+"Earned %d Pts from monsters, saved to your file (buy Candy and items from pet select)."
+],
+[
+"每层 +%d%% 经验 · 已买 %d/%d · %d 点/层",
+"+%d%% EXP per level · Bought %d/%d · %d Pts/level"
+],
+[
+"神奇糖果：升到 Lv%d 了（以后开局也多 1 颗糖的等级）。",
+"Rare Candy: Reached Lv%d (the level that gives +1 Candy at the start of later runs)."
+],
+[
+"剑气 %d 道，长 %.1f 米（品红框 = 真实命中范围）",
+"%d sword aura(s), %.1f m long (magenta box = actual hit range)"
+],
+[
+"总受伤 %d · 受击 %d 次 · 周围敌人最多 %d 只",
+"Total damage %d · Hits taken %d · Max nearby enemies %d"
+],
+[
+"野怪约 Lv%d（刚进去 1 分钟再低 5 级）　天气：%s",
+"Wild Pokémon approx. Lv%d (5 lower in the first minute)　Weather: %s"
+],
+[
+"「%s」还没抓到过，选一只抓到过的（右键或 Esc 取消）",
+"\"%s\" has never been caught. Pick one you've caught (right-click or Esc to cancel)"
+],
+[
+"点数不足：「%s」需要 %d 点，现有 %d 点；未扣款。",
+"Not enough Points: \"%s\" needs %d, you have %d; no Points spent."
+],
+[
+"每份 %d 个 · %d 点/份 · 本局现有 %d/%d",
+"%d per pack · %d pts/pack · Now %d/%d this run"
+],
+[
+"%s 可以进化成哪一个？（把鼠标移到选项上看能力和招式）",
+"Which should %s evolve into? (Hover an option to see stats and moves)"
+],
+[
+"敌人从 %d 级开始：更难，但每只给的点数 / 经验更多",
+"Enemies start at Lv %d: harder, but each gives more Points / EXP"
+],
+[
+"先在图鉴里选一只已捕获的宝可梦，再买「%s」；未扣款。",
+"First pick a caught Pokémon in the Pokédex, then buy “%s”; no charge."
+],
+[
+"闪光：%d 种（金 %d · 蓝 %d · 红 %d）",
+"Shiny: %d species (Gold %d · Blue %d · Red %d)"
+],
+[
+"%s刚才那只就是你的绿毛虫进化到底、再超极巨化的样子。",
+"%sThat Caterpie was your Caterpie, fully evolved and then Gigantamax-ed."
+],
+[
+"PP 提升剂 %d 点（这一系共用，%d/%d）：%s",
+"PP Up %d Pts (shared by this line, %d/%d): %s"
+],
+[
+"- %s 起：受伤 %d，%d 次，周围敌人峰值 %d",
+"- From %s: took %d damage, %d times, peak nearby enemies %d"
+],
+[
+"【改版】开局放一次、整局保持（只扣一次血）。效果：%s",
+"[Revised] Applied once at the start and kept all run (costs HP only once). Effect: %s"
+],
+[
+"【改版】中了异常就自动放，冷却 %d 秒。效果：%s",
+"[Revamp] Auto-triggers when afflicted with a status; %d s cooldown. Effect: %s"
+],
+[
+"已购买「%s」×1，花费 %d 点，现有点数 %d。",
+"Bought “%s” ×1, cost %d pts, %d pts left."
+],
+[
+"好了：出发后学「%s」（招式满了会问你换掉哪一招）。",
+"Done: will learn \"%s\" after departing (asks which move to replace if moves are full)."
+],
+[
+"【改版】持续 %d 秒、冷却 %d 秒。效果：%s",
+"[Revamp] Lasts %d s, %d s cooldown. Effect: %s"
+],
+[
+"伤害 %.1f → %.1f；范围 +0.12 米",
+"Damage %.1f → %.1f; range +0.12 m"
+],
+[
+"已毕业（%d 分钟），无限模式撑到 %d:%02d",
+"Graduated (%d min), lasted %d:%02d in Endless Mode"
+],
+[
+"- %s %s·%s：%s %+d → %d 级",
+"- %s %s·%s: %s %+d → %d Lv."
+],
+[
+"要恢复「%s」，招式槽满了：选一个现在的招换掉。",
+"To restore “%s”, your move slots are full: pick a current move to replace."
+],
+[
+"「%s」在本作已接战斗的招里没有能学的技能机器。",
+"\"%s\" has no TM-learnable move among the moves currently implemented in combat."
+],
+[
+"这只宝可梦的「%s」已达上限 %d 颗；未扣款。",
+"This Pokémon's \"%s\" is at the cap of %d; not charged."
+],
+[
+"只能在局内战斗的商店暂停时使用「%s」；未扣款。",
+"\"%s\" can only be used while the in-run shop is paused in battle; no Points spent."
+],
+[
+"只能在局内战斗的商店暂停时购买「%s」；未扣款。",
+"\"%s\" can only be bought while the in-run battle shop is paused; not charged."
+],
+[
+"捡到蛋糕！现在有 %d 块（回选宠页可以生蛋）",
+"Found cake! You now have %d (make eggs on the pet select page)"
+],
+[
+"没学「%s」（不在学招计划里，记忆蘑菇能找回）",
+"Didn't learn \"%s\" (not in the move plan; Memory Mushroom can recover it)"
+],
+[
+"这一系只抓到过「%s」性格；抓到别的性格就能换",
+"This line has only caught the \"%s\" Nature; catch another Nature to switch"
+],
+[
+"%s：最大血量 +%d%%，镜片 +%d 级",
+"%s: Max HP +%d%%, Lens +%d Lv."
+],
+[
+"这只宝可梦的这一项努力值已经 %d；未扣款。",
+"This Pokémon's EVs in this stat are already %d; no charge."
+],
+[
+"击杀 %d · 总点数 %d · 本局 %d",
+"KOs %d · Total Points %d · This run %d"
+],
+[
+"%s · %d 点/个 · 现有 %d/%d",
+"%s · %d Pts each · Owned %d/%d"
+],
+[
+"%s 的「%s」发动了，周围敌人的攻击降低！",
+"%s's \"%s\" activated, lowering nearby enemies' Attack!"
+],
+[
+"瞄准「%s」：左键放圈，右键 / 取消键退出",
+"Aiming \"%s\": left-click to place a ring, right-click / cancel to exit"
+],
+[
+"%s · 已买 %d/%d · %d 点/层",
+"%s · Bought %d/%d · %d pts/stack"
+],
+[
+"%s（%s，这一局一直保持；再进化会变回去）",
+"%s (%s, kept for this run; reverts if evolved again)"
+],
+[
+"种族值 %s · 属性 %s · 特性 %s",
+"Base Stats %s · Type %s · Ability %s"
+],
+[
+"图鉴：抓到 %d / %d（%.1f%%）",
+"Pokédex: caught %d / %d (%.1f%%)"
+],
+[
+"没生成：蛋糕不够，或者已经有 %d 颗蛋了",
+"Not hatched: not enough cake, or you already have %d egg(s)"
+],
+[
+"威力 %s · 命中 %s · PP %d",
+"Power %s · Acc %s · PP %d"
+],
+[
+"第 %d / %d 页 · 筛选 %d 只",
+"Page %d / %d · %d filtered"
+],
+[
+"%s档 · %d 点（买一次永久拥有）%s",
+"%s tier · %d Pts (buy once, keep forever)%s"
+],
+[
+"已学满 %d 招，要用「%s」替换哪一招？",
+"Already know %d moves. Replace which one with \"%s\"?"
+],
+[
+"，再买一个 PP %d、冷却 %.1f 秒",
+", buy another: PP %d, cooldown %.1f s"
+],
+[
+"剑气 %d 道，长 %.1f 米（不画框）",
+"%d sword waves, %.1f m long (no frame)"
+],
+[
+"撑过 %d 分钟，毕业了！（已记一次通关）",
+"Survived %d minutes and graduated! (1 clear recorded)"
+],
+[
+"；进化后会学：%s（招满了会问你换不换）。",
+"; after evolving it will learn: %s (asks whether to replace if moves are full)."
+],
+[
+"%s → %s · %d 点（%s）%s",
+"%s → %s · %d pts (%s)%s"
+],
+[
+"%s 的「%s」吸收了攻击，回复了体力！",
+"%s's “%s” absorbed the attack and restored HP!"
+],
+[
+"属性：%s　性格：%s　HP %d/%d",
+"Stats: %s　Nature: %s　HP %d/%d"
+],
+[
+"%s 的「%s」吸收了攻击，%s提高了！",
+"%s's \"%s\" absorbed the attack, raising %s!"
+],
+[
+"%s 的心情变了：%s大幅提高，%s降低",
+"%s's mood changed: %s rose sharply, %s fell"
+],
+[
+"稀有宠物出现了：%s（Esc 暂停去抓）",
+"A rare Pokémon appeared: %s (Esc to pause and catch)"
+],
+[
+"天降拳风 ×%d，半径 %.1f 米%s",
+"Sky Uppercut ×%d, radius %.1f m%s"
+],
+[
+"闪光宠物出现了：%s（Esc 暂停去抓）",
+"A Shiny appeared: %s (Esc to pause and catch)"
+],
+[
+"学会「%s」，换掉了「%s」（学招计划）",
+"Learned \"%s\", replacing \"%s\" (move plan)"
+],
+[
+"「%s」已经带满 %d 个了；未扣款。",
+"“%s” already holding the max of %d; no charge."
+],
+[
+"这次抓到：%s，下一局就能选它们出发。",
+"Caught this time: %s. You can pick them to depart next run."
+],
+[
+"%s 的「%s」发动了，你的攻击降低！",
+"%s's \"%s\" activated, lowering your Attack!"
+],
+[
+"%s 的「%s」发动了，攻击提到最大！",
+"%s's \"%s\" activated, maxing its Attack!"
+],
+[
+"「%s」已经到 %d 级了；未扣款。",
+"“%s” is already Lv. %d; no charge."
+],
+[
+"神兽出现了：%s（Esc 暂停去抓）",
+"A Legendary appeared: %s (Esc to pause and catch it)"
+],
+[
+"「%s」库存已达上限 %d；未扣款。",
+"\"%s\" stock is at the cap of %d; not charged."
+],
+[
+"身后的 %d 只宝可梦被传送到了面前",
+"%d Pokémon behind you were teleported in front of you"
+],
+[
+" · 买了就带上，换下开局招「%s」",
+" · Buy to equip; replaces starting move \"%s\""
+],
+[
+"%s 的「%s」发动了，能力没有降低",
+"%s's \"%s\" activated, but no stats were lowered"
+],
+[
+"个体值（%s 这一系抓到过的最好值）",
+"IVs (best caught in the %s line)"
+],
+[
+"%s属性招式威力 +20%%（每个）",
+"%s-type moves +20%% power (each)"
+],
+[
+"开局把「%s」留在家里，腾出一个槽。",
+"Leaves \"%s\" at home, freeing a slot."
+],
+[
+"%s 的特性把「%s」反弹了回去！",
+"%s's Ability reflected “%s” back!"
+],
+[
+"「%s」已带满 %d 个；未扣款。",
+"“%s” already holding %d; no charge."
+],
+[
+"给「%s」起名（最多 12 个字）",
+"Nickname “%s” (max 12 characters)"
+],
+[
+"%s 磨砺了精神，下一招必定会心！",
+"%s sharpened its focus; its next move will be a critical hit!"
+],
+[
+"伤害招多打 %d 个，伤害 ×%s",
+"Damaging moves hit %d more target(s), damage ×%s"
+],
+[
+"重抽这三张（还剩 %d 次）· R",
+"Reroll these three (%d left) · R"
+],
+[
+"%s 的「%s」发动了，速度提高！",
+"%s's \"%s\" activated, raising Speed!"
+],
+[
+"×%.2f（最远约 %.1f 米）",
+"×%.2f (up to ~%.1f m)"
+],
+[
+"宝可梦：#%04d %s · %s",
+"Pokémon: #%04d %s · %s"
+],
+[
+"%s 的「神奇守护」让攻击没有效果",
+"%s's Wonder Guard made the attack ineffective"
+],
+[
+"「%s」只能在城镇商店买；未扣款。",
+"\"%s\" is only sold in the Town shop; not charged."
+],
+[
+"本局点数：%d · 点数余额：%d",
+"Run Points: %d · Point balance: %d"
+],
+[
+"%s 的「%s」治好了异常状态！",
+"%s's “%s” cured its status condition!"
+],
+[
+"只能在城镇购买「%s」；未扣款。",
+"“%s” can only be bought in Town; no charge."
+],
+[
+"　PP %d　冷却 %.1f 秒",
+"　PP %d　Cooldown %.1f s"
+],
+[
+"图鉴新增：%s（进化后算已捕获）",
+"Pokédex added: %s (counts as caught after evolving)"
+],
+[
+"瞬间移动还在冷却（%.1f 秒）",
+"Teleport is on cooldown (%.1f s)"
+],
+[
+"%s 的「%s」：%s 下降了",
+"%s's “%s”: %s fell"
+],
+[
+"「%s」用完了，可以在下面买。",
+"“%s” ran out; you can buy more below."
+],
+[
+"招式：现在的招全部保留（%s）",
+"Moves: all current moves kept (%s)"
+],
+[
+"%s 削减体力，攻击大幅提升！",
+"%s cut its own HP and sharply raised its Attack!"
+],
+[
+"%s 扎下了根，持续回复体力！",
+"%s took root and is restoring HP!"
+],
+[
+"%s的蛋 · 击杀 %d/%d",
+"%s's Egg · KOs %d/%d"
+],
+[
+"已用 %d 颗 · 点数 %d",
+"Used %d · Points %d"
+],
+[
+"最大血量　开局 Lv%d：%d",
+"Max HP　Start Lv%d: %d"
+],
+[
+"%s 削减体力，诅咒了 %s！",
+"%s cut its own HP and laid a curse on %s!"
+],
+[
+"%s 的「%s」让%s提高了！",
+"%s's \"%s\" raised %s!"
+],
+[
+"×%.2f（最高 ×%.2f）",
+"×%.2f (max ×%.2f)"
+],
+[
+"开局不再带「技能机器·%s」。",
+"No longer bringing \"TM · %s\" at start."
+],
+[
+"神奇糖果 +1 级（%d 点）",
+"Rare Candy +1 level (%d Pts)"
+],
+[
+"%s 吃下复活种子，站起来了！",
+"%s ate a Revival Seed and got back up!"
+],
+[
+"%s 的「%s」让攻击没有效果",
+"%s's \"%s\" made the attack ineffective"
+],
+[
+"「%s」已达层数上限；未扣款。",
+"\"%s\" is at max stacks; not charged."
+],
+[
+"开局会带上「技能机器·%s」。",
+"Starts the run with \"TM · %s\"."
+],
+[
+"补给站 · 下一站「%s」%s",
+"Supply Stop · Next stop \"%s\" %s"
+],
+[
+"%s 因为大闹一番而混乱了！",
+"%s became confused due to fatigue!"
+],
+[
+"%s 的「%s」布下了%s！",
+"%s's “%s” set up %s!"
+],
+[
+"异常解除，%d 秒内不会再中",
+"Status cleared; can't be afflicted again for %d s"
+],
+[
+"## 时间线（每 %d 秒）",
+"## Timeline (every %d s)"
+],
+[
+"%s 把异常转移给了 %s！",
+"%s passed its status condition to %s!"
+],
+[
+"%s 的特性变成了「%s」！",
+"%s's Ability became \"%s\"!"
+],
+[
+"混乱中的自己撞了上来 -%d",
+"Hurt itself in confusion -%d"
+],
+[
+"%d / %d · 占 %d",
+"%d / %d · %d share"
+],
+[
+"%s 的「%s」不受威吓影响",
+"%s's \"%s\" is unaffected by Intimidate"
+],
+[
+"%s 被场地保护着，没有效果",
+"%s is protected by the terrain; no effect"
+],
+[
+"点数 %d · 已捕获 %d",
+"Points %d · Caught %d"
+],
+[
+"%s 和 %s 分担了痛楚！",
+"%s and %s shared the pain!"
+],
+[
+"%s 的「%s」吸收了火焰！",
+"%s's \"%s\" absorbed the fire!"
+],
+[
+"共 %d 只；选一只查看左栏",
+"%d total; pick one to view the left column"
+],
+[
+"（买 %d + 闪光 %d）",
+"(Bought %d + Shiny %d)"
+],
+[
+"%s %d%%（%d 次）",
+"%s %d%% (%d times)"
+],
+[
+"%s 要进化成 %s 吗？",
+"Evolve %s into %s?"
+],
+[
+"点数 %d · 本局 %d",
+"Points %d · This run %d"
+],
+[
+"×%d（约 %.2f%%）",
+"×%d (about %.2f%%)"
+],
+[
+"融合：%s（特性用后者的）",
+"Fusion: %s (uses the latter's Ability)"
+],
+[
+"「%s」尚未开放；未扣款。",
+"\"%s\" is not available yet; no Points spent."
+],
+[
+"购买失败（%s），未扣款。",
+"Purchase failed (%s); no Points spent."
+],
+[
+" · 撤离 %d:%02d",
+" · Extract %d:%02d"
+],
+[
+"%s 的「%s」被封住了！",
+"%s's \"%s\" was sealed!"
+],
+[
+"好感满了：物种糖果 +%d",
+"Max affection: species Candy +%d"
+],
+[
+"%s 的「%s」发动了！",
+"%s's “%s” activated!"
+],
+[
+"%s 蓄力了 %d 次！",
+"%s charged up %d times!"
+],
+[
+"下一局和「%s」融合出发",
+"Next run: set out fused with “%s”"
+],
+[
+"解锁了被动「%s」：%s",
+"Unlocked Passive “%s”: %s"
+],
+[
+"%s 的护盾挡住了攻击！",
+"%s's shield blocked the attack!"
+],
+[
+"%s 靠气势头带撑住了！",
+"%s endured the hit!"
+],
+[
+"暂缓（%d 级内不再问）",
+"Later (won't ask again for %d levels)"
+],
+[
+"躲着也被「%s」打中了！",
+"Hit by \"%s\" even while hiding!"
+],
+[
+"## 最后 %d 次受击",
+"## Last %d hits taken"
+],
+[
+"%s 和对手同归于尽了！",
+"%s took its foe down with it!"
+],
+[
+"%s 的能力变化颠倒了！",
+"%s's stat changes were inverted!"
+],
+[
+"- %s：%d，%d 次",
+"- %s: %d, %d hits"
+],
+[
+"盾 · 还能挡 %d 次",
+"Shield · %d blocks left"
+],
+[
+"%s 想和对手同归于尽！",
+"%s wants to take the foe down with it!"
+],
+[
+"%s 睡着了，体力全满！",
+"%s fell asleep and became healthy!"
+],
+[
+"■ 个体值 %d/186",
+"■ IVs %d/186"
+],
+[
+"融合的%s进化成了%s！",
+"The fused %s evolved into %s!"
+],
+[
+" · 下一级 %d 点",
+" · Next Lv. %d pts"
+],
+[
+"%d 点/个 · %s",
+"%d pts each · %s"
+],
+[
+"%s 在脚下撒了%s！",
+"%s scattered %s at its feet!"
+],
+[
+"怪 %d · %d 帧",
+"Monsters %d · %d frames"
+],
+[
+"第 %d 波 · %s",
+"Wave %d · %s"
+],
+[
+"购买并使用（%d 点）",
+"Buy and use (%d pts)"
+],
+[
+"%d 只的图鉴没能保存",
+"%d Pokédex entries could not be saved"
+],
+[
+"%d 级 → %d 级",
+"Lv %d → Lv %d"
+],
+[
+"%s 的气势被打散了！",
+"%s's momentum was broken!"
+],
+[
+"恢复「%s」，%d 点",
+"Recovered \"%s\", %d points"
+],
+[
+"第 %d/%d 页 ▶",
+"Page %d/%d ▶"
+],
+[
+"%s · %d 点/个",
+"%s · %d Pts each"
+],
+[
+"%s 进化成了 %s！",
+"%s evolved into %s!"
+],
+[
+"特性（融合后用%s的）",
+"Ability (fused uses %s's)"
+],
+[
+"解锁被动（%d 糖果）",
+"Unlock Passive (%d Candy)"
+],
+[
+"%s 变成了%s属性！",
+"%s became %s type!"
+],
+[
+"原作：亲密度 ≥ %d",
+"Original: Friendship ≥ %d"
+],
+[
+"特性：%s —— %s",
+"Ability: %s —— %s"
+],
+[
+"记忆蘑菇·恢复「%s」",
+"Memory Mushroom · Restore \"%s\""
+],
+[
+"%s 提高了会心率！",
+"%s is getting pumped!"
+],
+[
+"Lv.%d 的怪起手",
+"Lv.%d monster opener"
+],
+[
+"经验 %d / %d",
+"EXP %d / %d"
+],
+[
+"%s 被%s困住了！",
+"%s was trapped by %s!"
+],
+[
+"　射程 %.1f 米",
+"　Range %.1f m"
+],
+[
+"融合：%s + %s",
+"Fusion: %s + %s"
+],
+[
+"%s 吞下了蓄的力！",
+"%s swallowed the stockpiled power!"
+],
+[
+"%s 对%s没有效果",
+"%s: no effect on %s"
+],
+[
+"%s 被封住了回复！",
+"%s was blocked from healing!"
+],
+[
+"变化招多打 %d 个",
+"Status moves hit %d more"
+],
+[
+"%s 多了%s属性！",
+"%s gained the %s type!"
+],
+[
+"%s 开始做恶梦了！",
+"%s started having a nightmare!"
+],
+[
+"%s 被种下了种子！",
+"%s was seeded!"
+],
+[
+"捡到%s：+%d 点",
+"Picked up %s: +%d pts"
+],
+[
+"%s 打起了哈欠！",
+"%s let out a Yawn!"
+],
+[
+"%s 浮在了空中！",
+"%s floated in the air!"
+],
+[
+"%s从混乱中清醒了",
+"%s snapped out of confusion"
+],
+[
+"开局带上「%s」。",
+"Start the run with “%s”."
+],
+[
+"生蛋（蛋糕 %d）",
+"Make egg (cake %d)"
+],
+[
+"%s 拼尽了全力！",
+"%s gave it all it had!"
+],
+[
+"%s 的特性变了！",
+"%s's Ability changed!"
+],
+[
+"到顶了（%d 级）",
+"Maxed out (Lv %d)"
+],
+[
+"携带道具 · %s",
+"Held item · %s"
+],
+[
+"看蛋（%d/%d）",
+"View Egg (%d/%d)"
+],
+[
+"%s %s%d 级",
+"%s %sLv. %d"
+],
+[
+"%s 摔到地上了！",
+"%s was slammed to the ground!"
+],
+[
+"%s 许下了愿望…",
+"%s made a wish..."
+],
+[
+"头目 %s 来了！",
+"Boss %s has arrived!"
+],
+[
+"来到了「%s」%s",
+"Arrived at \"%s\"%s"
+],
+[
+"（替换了「%s」）",
+"(Replaced \"%s\")"
+],
+[
+"%s 回复了体力！",
+"%s restored HP!"
+],
+[
+"%s 撑起了护盾！",
+"%s raised a shield!"
+],
+[
+"%s 锁定了目标！",
+"%s took aim!"
+],
+[
+"已经会「%s」了。",
+"Already knows \"%s\"."
+],
+[
+"特性：%s（%s）",
+"Ability: %s (%s)"
+],
+[
+"（还剩 %d 秒）",
+"(%d s left)"
+],
+[
+"%s 充满了电！",
+"%s became charged with electricity!"
+],
+[
+"%s 正在蓄力…",
+"%s is charging up…"
+],
+[
+"■ 种族值 %d",
+"■ Base stats %d"
+],
+[
+"已捕获 %d 只",
+"%d caught"
+],
+[
+"没改成（%s）。",
+"Not changed (%s)."
+],
+[
+"遗传招 %s%s",
+"Egg Move %s%s"
+],
+[
+"%s 已经%s了",
+"%s is already %s"
+],
+[
+"%s的异常解除了",
+"%s's status condition was cured"
+],
+[
+"击败头目 %s！",
+"Boss %s defeated!"
+],
+[
+"已有 %d/%d",
+"Have %d/%d"
+],
+[
+"确认（%d 点）",
+"Confirm (%d Points)"
+],
+[
+"%s（不加不减）",
+"%s (no change)"
+],
+[
+"升级！Lv %d",
+"Level up! Lv. %d"
+],
+[
+"挣脱了 %d 只",
+"Broke free from %d"
+],
+[
+"被动「%s」%s",
+"Passive \"%s\"%s"
+],
+[
+"PP提升剂·%s",
+"PP Up · %s"
+],
+[
+"原作：会「%s」",
+"Original: knows \"%s\""
+],
+[
+"正在进化：%s…",
+"Evolving: %s…"
+],
+[
+"购买（%d 点）",
+"Buy (%d pts)"
+],
+[
+"且会%s属性招",
+"And will %s-type moves"
+],
+[
+"存档 %d%s",
+"Save %d%s"
+],
+[
+"性格 %s%s",
+"Nature %s%s"
+],
+[
+"现在 %d 级",
+"Now Lv. %d"
+],
+[
+"通关 %d 次",
+"Cleared %d times"
+],
+[
+" · %s闪光",
+" · %s Shiny"
+],
+[
+"%s 没有效果",
+"It doesn't affect %s"
+],
+[
+"原作：会 %s",
+"Original: will %s"
+],
+[
+"学会了 %s！",
+"Learned %s!"
+],
+[
+"成长速度：%s",
+"Growth rate: %s"
+],
+[
+"第 %d 世代",
+"Gen %d"
+],
+[
+"（%+d 级）",
+"(%+d Lv)"
+],
+[
+"%s %s了！",
+"%s %s!"
+],
+[
+"%s 被识破了",
+"%s was identified"
+],
+[
+"吃下%s：%s",
+"Ate %s: %s"
+],
+[
+"宝可梦 #%d",
+"Pokémon #%d"
+],
+[
+"技能机器·%s",
+"TM · %s"
+],
+[
+"要恢复「%s」",
+"Restore \"%s\""
+],
+[
+"%s 挺住了！",
+"%s hung on!"
+],
+[
+"%s（未开放）",
+"%s (not available)"
+],
+[
+"回复 %d 点",
+"Restore %d"
+],
+[
+"已吃 %d 颗",
+"Eaten: %d"
+],
+[
+"捕获率 ×%s",
+"Catch rate ×%s"
+],
+[
+"进化道具·%s",
+"Evolution Item · %s"
+],
+[
+"　威力 %s",
+"　Power %s"
+],
+[
+"开局招·%s",
+"Starter move·%s"
+],
+[
+"起名「%s」",
+"Name it “%s”"
+],
+[
+"捕获率：%s",
+"Catch rate: %s"
+],
+[
+"（%d 秒）",
+"(%d s)"
+],
+[
+"%s 离开了",
+"%s left"
+],
+[
+"　状态：%s",
+"　Status: %s"
+],
+[
+"换掉「%s」",
+"Replace \"%s\""
+],
+[
+"　命中 %s",
+"　Accuracy %s"
+],
+[
+"反伤（%s）",
+"Recoil (%s)"
+],
+[
+"目的地：%s",
+"Destination: %s"
+],
+[
+"变成：%s",
+"Becomes: %s"
+],
+[
+"点数 %d",
+"Points %d"
+],
+[
+"合计 %d",
+"Total %d"
+],
+[
+"等级 %d",
+"Lv %d"
+],
+[
+"融合：%s",
+"Fusion: %s"
+],
+[
+"%s解冻了",
+"%s thawed out"
+],
+[
+"威力 %d",
+"Power %d"
+],
+[
+"被动：%s",
+"Passive: %s"
+],
+[
+"%s醒了",
+"%s woke up"
+],
+[
+"%s：开",
+"%s: On"
+],
+[
+"第%d代",
+"Gen %d"
+],
+[
+"%d 点",
+"%d pts"
+],
+[
+"融合%s",
+"Fuse %s"
+]
+]
+}
