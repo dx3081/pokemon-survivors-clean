@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvooywbase3vd"
+path="res://.godot/imported/PRSFX- Autotomize2.wav-bfe2bfde7c5367bbcd69e69c9f21007d.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Autotomize2.wav"
+dest_files=["res://.godot/imported/PRSFX- Autotomize2.wav-bfe2bfde7c5367bbcd69e69c9f21007d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

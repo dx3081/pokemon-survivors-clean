@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dml7n7rkt240h"
+path="res://.godot/imported/PRSFX- Aura Sphere1.wav-f5d51d685794267c972b765cea474c2b.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Aura Sphere1.wav"
+dest_files=["res://.godot/imported/PRSFX- Aura Sphere1.wav-f5d51d685794267c972b765cea474c2b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

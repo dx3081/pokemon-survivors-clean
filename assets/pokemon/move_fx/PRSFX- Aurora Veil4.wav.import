@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnhl2no222mi6"
+path="res://.godot/imported/PRSFX- Aurora Veil4.wav-832fb5f110b435370052e03e5233418a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Aurora Veil4.wav"
+dest_files=["res://.godot/imported/PRSFX- Aurora Veil4.wav-832fb5f110b435370052e03e5233418a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

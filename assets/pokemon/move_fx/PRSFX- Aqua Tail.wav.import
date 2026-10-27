@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5qd7xg7p4gi1"
+path="res://.godot/imported/PRSFX- Aqua Tail.wav-b2c25ed22404801d161643b01c5d2d19.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Aqua Tail.wav"
+dest_files=["res://.godot/imported/PRSFX- Aqua Tail.wav-b2c25ed22404801d161643b01c5d2d19.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

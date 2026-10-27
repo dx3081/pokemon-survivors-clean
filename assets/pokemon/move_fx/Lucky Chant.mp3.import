@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://djaodqyhu2oke"
+path="res://.godot/imported/Lucky Chant.mp3-4242ddefe01189afe56736f45fd1213f.mp3str"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/Lucky Chant.mp3"
+dest_files=["res://.godot/imported/Lucky Chant.mp3-4242ddefe01189afe56736f45fd1213f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

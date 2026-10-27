@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://br1sfohe8epp7"
+path="res://.godot/imported/GEN8- Electricity1.wav-b5c81bca26098b6b978416bee80a6f32.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/GEN8- Electricity1.wav"
+dest_files=["res://.godot/imported/GEN8- Electricity1.wav-b5c81bca26098b6b978416bee80a6f32.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

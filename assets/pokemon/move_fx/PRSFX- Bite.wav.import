@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bq34vbqms2d6m"
+path="res://.godot/imported/PRSFX- Bite.wav-e4e676ed34e712e4047625f67110f4a9.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Bite.wav"
+dest_files=["res://.godot/imported/PRSFX- Bite.wav-e4e676ed34e712e4047625f67110f4a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

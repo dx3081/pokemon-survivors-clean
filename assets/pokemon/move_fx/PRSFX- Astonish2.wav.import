@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://samfhxrs4typ"
+path="res://.godot/imported/PRSFX- Astonish2.wav-501f97d7399e6eb4463ad96004fe4d4c.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Astonish2.wav"
+dest_files=["res://.godot/imported/PRSFX- Astonish2.wav-501f97d7399e6eb4463ad96004fe4d4c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

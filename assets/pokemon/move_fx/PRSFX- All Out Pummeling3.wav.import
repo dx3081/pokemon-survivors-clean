@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcg2bdnshkyua"
+path="res://.godot/imported/PRSFX- All Out Pummeling3.wav-22a27aa46c8b13e616eb185958cc6782.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- All Out Pummeling3.wav"
+dest_files=["res://.godot/imported/PRSFX- All Out Pummeling3.wav-22a27aa46c8b13e616eb185958cc6782.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ykmpkner14lh"
+path="res://.godot/imported/PRSFX- Attack Order2.wav-3afc62f5774c067a006bdbc63570a401.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Attack Order2.wav"
+dest_files=["res://.godot/imported/PRSFX- Attack Order2.wav-3afc62f5774c067a006bdbc63570a401.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

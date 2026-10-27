@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dy084tat7yu51"
+path="res://.godot/imported/PRSFX- Blast Burn.wav-6b5d12a286d7c559868023a9c338a1cd.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Blast Burn.wav"
+dest_files=["res://.godot/imported/PRSFX- Blast Burn.wav-6b5d12a286d7c559868023a9c338a1cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
