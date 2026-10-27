@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtfxyc0qdi0vl"
+path="res://.godot/imported/PRSFX- Harden.wav-d528f1e659d06b88d18b91aa162cd349.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Harden.wav"
+dest_files=["res://.godot/imported/PRSFX- Harden.wav-d528f1e659d06b88d18b91aa162cd349.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

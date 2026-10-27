@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqqbctukgxwqi"
+path="res://.godot/imported/PRSFX- Cotton Guard.wav-0007d69ce2fb2e3887f7f6d69c23e250.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Cotton Guard.wav"
+dest_files=["res://.godot/imported/PRSFX- Cotton Guard.wav-0007d69ce2fb2e3887f7f6d69c23e250.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

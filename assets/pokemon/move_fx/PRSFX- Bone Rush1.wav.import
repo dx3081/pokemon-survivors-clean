@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chir70sp0b25q"
+path="res://.godot/imported/PRSFX- Bone Rush1.wav-5429da53d62db8904b88e5c2074c87f1.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Bone Rush1.wav"
+dest_files=["res://.godot/imported/PRSFX- Bone Rush1.wav-5429da53d62db8904b88e5c2074c87f1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

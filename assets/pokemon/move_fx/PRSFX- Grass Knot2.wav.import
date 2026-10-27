@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcbkn66qmk2ta"
+path="res://.godot/imported/PRSFX- Grass Knot2.wav-6d2218a11c2672c841f18034a50dadd7.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Grass Knot2.wav"
+dest_files=["res://.godot/imported/PRSFX- Grass Knot2.wav-6d2218a11c2672c841f18034a50dadd7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

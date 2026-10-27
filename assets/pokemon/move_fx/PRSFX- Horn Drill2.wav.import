@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co323b7dyx8be"
+path="res://.godot/imported/PRSFX- Horn Drill2.wav-424ba2572a453426c49fcd65c0c8b86a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Horn Drill2.wav"
+dest_files=["res://.godot/imported/PRSFX- Horn Drill2.wav-424ba2572a453426c49fcd65c0c8b86a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

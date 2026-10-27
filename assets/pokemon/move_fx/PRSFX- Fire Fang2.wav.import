@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://h8omhdtbsmrw"
+path="res://.godot/imported/PRSFX- Fire Fang2.wav-c29b2e242f3c29af5e4f1ac19a5e077a.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Fire Fang2.wav"
+dest_files=["res://.godot/imported/PRSFX- Fire Fang2.wav-c29b2e242f3c29af5e4f1ac19a5e077a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

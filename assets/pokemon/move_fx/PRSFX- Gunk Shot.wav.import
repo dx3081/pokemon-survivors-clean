@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bg88nwj8jv43n"
+path="res://.godot/imported/PRSFX- Gunk Shot.wav-049b3c9fe0970c6023ed790797b364f5.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Gunk Shot.wav"
+dest_files=["res://.godot/imported/PRSFX- Gunk Shot.wav-049b3c9fe0970c6023ed790797b364f5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

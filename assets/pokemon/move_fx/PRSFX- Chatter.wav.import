@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://t07nrjs0lneq"
+path="res://.godot/imported/PRSFX- Chatter.wav-324805849b7f4d1537c18170e1f90656.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Chatter.wav"
+dest_files=["res://.godot/imported/PRSFX- Chatter.wav-324805849b7f4d1537c18170e1f90656.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

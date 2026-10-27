@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gsggsc4nmng5"
+path="res://.godot/imported/PRSFX- Foul Play1.wav-fca462e7c7af53030fd7c39228056877.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Foul Play1.wav"
+dest_files=["res://.godot/imported/PRSFX- Foul Play1.wav-fca462e7c7af53030fd7c39228056877.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

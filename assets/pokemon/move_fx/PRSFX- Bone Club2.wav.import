@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vy1eqt1d5683"
+path="res://.godot/imported/PRSFX- Bone Club2.wav-471986e46d7eede19fe0c0d5b253328d.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Bone Club2.wav"
+dest_files=["res://.godot/imported/PRSFX- Bone Club2.wav-471986e46d7eede19fe0c0d5b253328d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://u82xym7lp8nu"
+path="res://.godot/imported/PRSFX- Drain Punch2.wav-bb6522c62659f86401fdce08c2a14dfe.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Drain Punch2.wav"
+dest_files=["res://.godot/imported/PRSFX- Drain Punch2.wav-bb6522c62659f86401fdce08c2a14dfe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

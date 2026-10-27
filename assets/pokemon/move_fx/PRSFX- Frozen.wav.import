@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cggbhxrfib14w"
+path="res://.godot/imported/PRSFX- Frozen.wav-35037b45defb093e91867cf57f232ad3.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Frozen.wav"
+dest_files=["res://.godot/imported/PRSFX- Frozen.wav-35037b45defb093e91867cf57f232ad3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

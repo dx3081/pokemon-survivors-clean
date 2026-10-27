@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qh0p4xmp0qtr"
+path="res://.godot/imported/PRSFX- Covet1.wav-95b4c2ca82d4edf490c5e1c7132b26ff.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Covet1.wav"
+dest_files=["res://.godot/imported/PRSFX- Covet1.wav-95b4c2ca82d4edf490c5e1c7132b26ff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmfq1dsq7ybs7"
+path="res://.godot/imported/PRSFX- Hi Jump Kick1.wav-f56c94ac012887aae9977cb79499a6dd.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Hi Jump Kick1.wav"
+dest_files=["res://.godot/imported/PRSFX- Hi Jump Kick1.wav-f56c94ac012887aae9977cb79499a6dd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

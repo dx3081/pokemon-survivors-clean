@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://da55ac7v31yor"
+path="res://.godot/imported/PRSFX- Brave Bird1.wav-84d81d0f7771d9aba000048009387508.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Brave Bird1.wav"
+dest_files=["res://.godot/imported/PRSFX- Brave Bird1.wav-84d81d0f7771d9aba000048009387508.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

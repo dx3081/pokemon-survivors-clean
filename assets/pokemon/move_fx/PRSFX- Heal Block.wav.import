@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvfqj5s07lsmv"
+path="res://.godot/imported/PRSFX- Heal Block.wav-01c25ac1de3c4edcc419e8e775cbea36.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Heal Block.wav"
+dest_files=["res://.godot/imported/PRSFX- Heal Block.wav-01c25ac1de3c4edcc419e8e775cbea36.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

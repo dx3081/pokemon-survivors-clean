@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6imsnil2wpv8"
+path="res://.godot/imported/PRSFX- Ember.wav-353b78119f62a13ead924123635fd685.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Ember.wav"
+dest_files=["res://.godot/imported/PRSFX- Ember.wav-353b78119f62a13ead924123635fd685.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

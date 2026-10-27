@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jmylcwqkvkrv"
+path="res://.godot/imported/PRSFX- Dynamic Punch2.wav-a25843d6dbdde9cd3fc6a52a7ecd9273.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Dynamic Punch2.wav"
+dest_files=["res://.godot/imported/PRSFX- Dynamic Punch2.wav-a25843d6dbdde9cd3fc6a52a7ecd9273.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

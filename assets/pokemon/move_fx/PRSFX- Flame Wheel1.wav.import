@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drvrjcd3x0odq"
+path="res://.godot/imported/PRSFX- Flame Wheel1.wav-aa0735c446a959d3e753bd362610c0cf.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Flame Wheel1.wav"
+dest_files=["res://.godot/imported/PRSFX- Flame Wheel1.wav-aa0735c446a959d3e753bd362610c0cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

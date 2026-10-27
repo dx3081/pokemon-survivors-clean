@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bv4u3c6ntcgv5"
+path="res://.godot/imported/PRSFX- Boomburst.wav-f927425562a92e5457c12b2ece0d6956.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Boomburst.wav"
+dest_files=["res://.godot/imported/PRSFX- Boomburst.wav-f927425562a92e5457c12b2ece0d6956.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

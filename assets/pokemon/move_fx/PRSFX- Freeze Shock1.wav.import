@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dne36fpu8xy2l"
+path="res://.godot/imported/PRSFX- Freeze Shock1.wav-62bc658f9f9db02e88ff79723b9bc0cd.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Freeze Shock1.wav"
+dest_files=["res://.godot/imported/PRSFX- Freeze Shock1.wav-62bc658f9f9db02e88ff79723b9bc0cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdxj11qqmnsvx"
+path="res://.godot/imported/PRSFX- Flower Shield.wav-e7b18e2da1c980f21d6ea58926ff51f0.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Flower Shield.wav"
+dest_files=["res://.godot/imported/PRSFX- Flower Shield.wav-e7b18e2da1c980f21d6ea58926ff51f0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

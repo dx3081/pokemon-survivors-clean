@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5rxtj8jtakte"
+path="res://.godot/imported/PRSFX- Haze.wav-897cae09f5bc3ebcc33e4bef698559c1.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Haze.wav"
+dest_files=["res://.godot/imported/PRSFX- Haze.wav-897cae09f5bc3ebcc33e4bef698559c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

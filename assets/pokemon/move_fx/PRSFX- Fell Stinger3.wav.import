@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cilwhixupnuvf"
+path="res://.godot/imported/PRSFX- Fell Stinger3.wav-a817579a2cd826333d0e2c171c5aa190.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Fell Stinger3.wav"
+dest_files=["res://.godot/imported/PRSFX- Fell Stinger3.wav-a817579a2cd826333d0e2c171c5aa190.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

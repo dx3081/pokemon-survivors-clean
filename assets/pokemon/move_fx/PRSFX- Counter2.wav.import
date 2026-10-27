@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ben2btgwt3b3t"
+path="res://.godot/imported/PRSFX- Counter2.wav-57ed69df81983401ae6680cb3e551812.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Counter2.wav"
+dest_files=["res://.godot/imported/PRSFX- Counter2.wav-57ed69df81983401ae6680cb3e551812.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

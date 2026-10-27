@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://oh64fetthfs5"
+path="res://.godot/imported/PRSFX- Energy Ball1.wav-45f942c9e27b8aa326ae24b4544939fa.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Energy Ball1.wav"
+dest_files=["res://.godot/imported/PRSFX- Energy Ball1.wav-45f942c9e27b8aa326ae24b4544939fa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

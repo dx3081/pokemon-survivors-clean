@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqgaden555o6l"
+path="res://.godot/imported/PRSFX- Crafty Shield.wav-690646c4845274272832f5210726fc00.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Crafty Shield.wav"
+dest_files=["res://.godot/imported/PRSFX- Crafty Shield.wav-690646c4845274272832f5210726fc00.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdap2sxheve7v"
+path="res://.godot/imported/PRSFX- Cosmic Power.wav-e6a7d122f8acba2a2b183a2b53446f4d.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Cosmic Power.wav"
+dest_files=["res://.godot/imported/PRSFX- Cosmic Power.wav-e6a7d122f8acba2a2b183a2b53446f4d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

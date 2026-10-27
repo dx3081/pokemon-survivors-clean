@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b72ju31egilj2"
+path="res://.godot/imported/PRSFX- Blaze Kick2.wav-fda7235af3d47556f9a8c96d3f2ff58e.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Blaze Kick2.wav"
+dest_files=["res://.godot/imported/PRSFX- Blaze Kick2.wav-fda7235af3d47556f9a8c96d3f2ff58e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b810rmcoiff4w"
+path="res://.godot/imported/PRSFX- Dark Pulse2.wav-36136d64b2c4cb7c6b2a2518d6e75743.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Dark Pulse2.wav"
+dest_files=["res://.godot/imported/PRSFX- Dark Pulse2.wav-36136d64b2c4cb7c6b2a2518d6e75743.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

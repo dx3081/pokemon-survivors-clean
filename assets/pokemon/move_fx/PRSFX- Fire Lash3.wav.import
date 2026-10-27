@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7l7w4or6jfkc"
+path="res://.godot/imported/PRSFX- Fire Lash3.wav-a57d7647f5a3d21a96f6a80447576dd8.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Fire Lash3.wav"
+dest_files=["res://.godot/imported/PRSFX- Fire Lash3.wav-a57d7647f5a3d21a96f6a80447576dd8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

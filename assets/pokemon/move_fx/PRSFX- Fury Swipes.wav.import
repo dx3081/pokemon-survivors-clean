@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5xu0ao232s1q"
+path="res://.godot/imported/PRSFX- Fury Swipes.wav-6e7d007647465961b7f681de0106c4c7.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Fury Swipes.wav"
+dest_files=["res://.godot/imported/PRSFX- Fury Swipes.wav-6e7d007647465961b7f681de0106c4c7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

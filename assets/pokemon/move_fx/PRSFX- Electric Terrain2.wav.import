@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bq4ffwtga1uw2"
+path="res://.godot/imported/PRSFX- Electric Terrain2.wav-5efd1c3238e0ee974c38d8f55b6e5470.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Electric Terrain2.wav"
+dest_files=["res://.godot/imported/PRSFX- Electric Terrain2.wav-5efd1c3238e0ee974c38d8f55b6e5470.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

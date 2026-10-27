@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pg80dqec6qvy"
+path="res://.godot/imported/PRSFX- Head Charge.wav-656bd5071068131b7aa08b3ede6f3e8b.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Head Charge.wav"
+dest_files=["res://.godot/imported/PRSFX- Head Charge.wav-656bd5071068131b7aa08b3ede6f3e8b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

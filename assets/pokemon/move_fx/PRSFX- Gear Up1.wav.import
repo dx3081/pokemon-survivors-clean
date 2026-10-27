@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jv64jmv3i2gb"
+path="res://.godot/imported/PRSFX- Gear Up1.wav-e9a748a79aba89c70a3be0d0454d2962.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- Gear Up1.wav"
+dest_files=["res://.godot/imported/PRSFX- Gear Up1.wav-e9a748a79aba89c70a3be0d0454d2962.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

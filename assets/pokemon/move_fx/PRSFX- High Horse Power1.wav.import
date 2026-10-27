@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://r72xp82ehov6"
+path="res://.godot/imported/PRSFX- High Horse Power1.wav-d3c574f7c3b8f79d5decdc2ff44a296f.sample"
+
+[deps]
+
+source_file="res://assets/pokemon/move_fx/PRSFX- High Horse Power1.wav"
+dest_files=["res://.godot/imported/PRSFX- High Horse Power1.wav-d3c574f7c3b8f79d5decdc2ff44a296f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
