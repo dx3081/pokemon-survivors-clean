@@ -1,0 +1,90 @@
+
+hakelong.png
+size: 332,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gongji
+  rotate: false
+  xy: 289, 93
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+pingshi
+  rotate: false
+  xy: 289, 43
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+qiu
+  rotate: true
+  xy: 162, 1
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+shengli
+  rotate: true
+  xy: 176, 19
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+shenti1
+  rotate: false
+  xy: 1, 1
+  size: 59, 140
+  orig: 59, 140
+  offset: 0, 0
+  index: -1
+shenti2
+  rotate: false
+  xy: 62, 76
+  size: 128, 65
+  orig: 128, 65
+  offset: 0, 0
+  index: -1
+shenti3
+  rotate: false
+  xy: 62, 25
+  size: 112, 49
+  orig: 112, 49
+  offset: 0, 0
+  index: -1
+shouji
+  rotate: true
+  xy: 226, 19
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: -1
+weiba
+  rotate: false
+  xy: 192, 63
+  size: 95, 78
+  orig: 95, 78
+  offset: 0, 0
+  index: -1
+y_erduo
+  rotate: true
+  xy: 276, 17
+  size: 24, 53
+  orig: 24, 53
+  offset: 0, 0
+  index: -1
+yinying
+  rotate: false
+  xy: 62, 1
+  size: 58, 22
+  orig: 58, 22
+  offset: 0, 0
+  index: -1
+z_erduo
+  rotate: true
+  xy: 122, 2
+  size: 21, 38
+  orig: 21, 38
+  offset: 0, 0
+  index: -1
